@@ -61,7 +61,7 @@
                   <h1 id="Heading1">Gestionnaire des resources humaines</h1></div>
             </div>
             <div id="wb_btn_connexionm">
-               <a href="./../administrator/update_pass.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
+               <a href="./grhpass_.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
             <div id="wb_txtphys">
                <div id="wb_uid1"><span id="wb_uid2">ler dans l'au - dela . j ai couler les larmes mais Nous tes amis </span></div>
                <div id="wb_uid3"><span id="wb_uid4">nous prions ALLAH de te pardonner tes manquements de </span></div>
@@ -74,7 +74,7 @@
             <div id="wb_Text3">
                <span id="wb_uid12">Prénom:</span></div>
             <div id="wb_btn_connexionp">
-               <a href="./../administrator/update_email.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
+               <a href="./grhemail.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
             <div id="wb_Text4">
                <span id="wb_uid14">Email:</span></div>
             <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
@@ -155,7 +155,7 @@
                <option value="Services">Services</option>
             </select>
             <div id="wb_Text5">
-               <span id="wb_uid15">Gestion de Base de données:</span></div>
+               <span id="wb_uid15">Gestion du personnel:</span></div>
          </div>
          <div id="wb_Breadcrumb2">
             <ul id="Breadcrumb2">

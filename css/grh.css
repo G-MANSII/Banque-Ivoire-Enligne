@@ -272,13 +272,13 @@ body {
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
 #combogrh {
-   background-color: #FFFFFF;
+   background-color: #FF7F50;
    background-image: none;
-   border: 1px #FF7F50 solid;
+   border: 1px #1E90FF solid;
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
-   color: #000000;
+   color: #FFFFFF;
    font-family: Arial;
    font-size: 21px;
    font-weight: normal;
@@ -649,11 +649,11 @@ body {
 }
 #wb_Text5 {
    height: 24px;
-   left: 443px;
+   left: 514px;
    position: absolute;
    text-align: left;
    top: 505px;
-   width: 295px;
+   width: 215px;
    z-index: 13;
 }
 #wb_uid6 {
