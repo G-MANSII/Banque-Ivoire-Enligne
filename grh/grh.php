@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Administrateur</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -34,7 +34,7 @@
       {
          $('#jQueryDatePicker1_input').attr('value',$(this).val());
       });
-      $("#NavigationBar1 .navbar a").hover(function()
+      $("#Nav .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
             return;
@@ -55,10 +55,10 @@
       <div id="zone">
          <div id="frminsc">
             <div id="Layer1">
+               <hr id="Line2">
+               <hr id="Line1">
                <div id="wb_Heading1">
                   <h1 id="Heading1">Gestionnaire des resources humaines</h1></div>
-               <hr id="Line1">
-               <hr id="Line2">
             </div>
             <div id="wb_btn_connexionm">
                <a href="./../administrator/update_pass.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
@@ -75,38 +75,93 @@
                <span id="wb_uid12">Prénom:</span></div>
             <div id="wb_btn_connexionp">
                <a href="./../administrator/update_email.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
-            <div id="wb_Shape1">
-               <a href="./../incription/insmoral.php"><div id="Shape1"><div id="Shape1_text"><span id="wb_uid14"><strong>Gestionnaire</strong></span></div></div></a></div>
             <div id="wb_Text4">
-               <span id="wb_uid15">Email:</span></div>
+               <span id="wb_uid14">Email:</span></div>
             <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
             <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
             <div id="jQueryDatePicker1">
             </div>
+            <script>                        
+                        function selectgrh() {
+                           var eID = document.getElementById("combogrh");
+                           var colorVal = eID.options[eID.selectedIndex].value;
+                           var colortxt = eID.options[eID.selectedIndex].text;
+                        
+                          if (colorVal=="Agences") {
+                                       window.location.href="../administrator/conf/Agences.php" ;
+                                       } else if (colorVal=="Categoriedeposte"){ 
+                                       window.location.href="../administrator/conf/Categorie_de_poste.php";
+                                       } else if (colorVal=="Congés"){ 
+                                       window.location.href="../administrator/conf/Congés.php";
+                                       } else if (colorVal=="Contrats"){ 
+                                       window.location.href="../administrator/conf/Contrats.php";
+                                       } else if (colorVal=="Fonctions"){ 
+                                       window.location.href="../administrator/conf/Fonctions.php";
+                                       } else if (colorVal=="Formations"){ 
+                                       window.location.href="../administrator/conf/Formations.php";
+                                       } else if (colorVal=="Pays"){ 
+                                       window.location.href="../administrator/conf/Pays.php";
+                                       } else if (colorVal=="Postes"){ 
+                                       window.location.href="../administrator/conf/Postes.php";
+                                       } else if (colorVal=="Promotions"){ 
+                                       window.location.href="../administrator/conf/Promotions.php";
+                                       } else if (colorVal=="Services"){ 
+                                       window.location.href="../administrator/conf/Services.php";
+                                       } else if (colorVal=="Typedecontrats"){ 
+                                       window.location.href="../administrator/conf/Type_de_contrats.php";
+                                       } else if (colorVal=="Villes"){ 
+                                       window.location.href="../administrator/conf/Villes.php";
+                                       } 
+                        }
+                                 
+            </script>
+            <select name="Combogrh" size="1" id="combogrh" onchange="selectgrh()">
+               <option value="Absences">Absences</option>
+               <option value="Certificats">Certificats</option>
+               <option value="Conges">Conges</option>
+               <option>Contrats</option>
+               <option>Documents</option>
+               <option>Domiciliations</option>
+               <option>Emplois</option>
+               <option>Employes</option>
+               <option>Etats</option>
+               <option>Feries</option>
+               <option>Filiations</option>
+               <option>Fonctions</option>
+               <option>Formations</option>
+               <option>Motifs</option>
+               <option>Permissions</option>
+               <option>Postes</option>
+               <option>Primes</option>
+               <option>Promotions</option>
+               <option>Services</option>
+            </select>
+            <div id="wb_Text5">
+               <span id="wb_uid15">Gestion de Base de données:</span></div>
          </div>
          <div id="wb_Breadcrumb2">
             <ul id="Breadcrumb2">
                <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li class="active"><i class="fa fa-users">&nbsp;</i>GRH</li>
+               <li><a href="./../administrator/admin.php" title="inscription"><i class="fa fa-laptop">&nbsp;</i>Administrateur</a></li>
             </ul>
          </div>
          <div id="Layer2">
             <div id="wb_Shape2">
-               <img src="../images/img0054.png" id="Shape2" alt=""></div>
+               <img src="../images/img0034.png" id="Shape2" alt=""></div>
             <label for="" id="Label2">Comptes</label>
             <div id="wb_Text1">
                <span id="wb_uid16">Lodin:</span></div>
          </div>
       </div>
-      <div id="divhead">
+      <div id="Div">
          <div id="head">
             <div id="wb_band">
                <img src="../images/img0001.png" id="band" alt="Banque Ivoire Online" title="Banque Ivoire Online"></div>
             <input type="text" id="edit_reche" name="search" value="" placeholder="Recherche...">
             <div id="wb_icosear">
-               <a href="./../index1.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
+               <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid17"><span id="wb_uid18"><a href="./../index1.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid17"><span id="wb_uid18"><a href="./../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
@@ -116,7 +171,7 @@
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>
          </div>
-         <div id="NavigationBar1">
+         <div id="Nav">
             <ul class="navbar">
                <li><a href="./../index.php"><img alt="Acceuil" title="Acceuil" src="../images/img0003_over.png"><span><img alt="Acceuil" title="Acceuil" src="../images/img0003.png"></span></a></li>
                <li><a href="./../comptes/"><img alt="Comptes" title="Comptes" src="../images/img0027_over.png"><span><img alt="Comptes" title="Comptes" src="../images/img0027.png"></span></a></li>

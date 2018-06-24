@@ -11,14 +11,13 @@
       $("#jQueryTabs1 .ui-tabs-nav, #jQueryTabs1 .ui-tabs-nav > *")
          .removeClass("ui-corner-all ui-corner-top")
          .addClass("ui-corner-bottom");
-      $("#menu .navbar a").hover(function()
+      $("#Nav .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
             return;
-         $("img", this).stop().animate({top:"-30px"},{queue:false,duration:500});
+         $(this).children("span").stop().fadeTo(500, 0);
       }, function()
       {
-         $("img", this).stop().animate({top:"0px"},{queue:false,duration:500});
+         $(this).children("span").stop().fadeTo(500, 1);
       })
-      $("#menu").affix({offset:{top: $("#menu").offset().top}});
    });

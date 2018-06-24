@@ -349,7 +349,7 @@ body {
    color: #0000FF;
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -488,28 +488,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -722,7 +722,7 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 62px;
+   top: 60px;
    width: 970px;
    z-index: 51;
 }
@@ -795,14 +795,6 @@ body {
    width: 969px;
    z-index: 50;
 }
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 38;
-}
 #wb_uid10 {
    height: 16px;
    left: 0px;
@@ -849,6 +841,23 @@ body {
    width: 150px;
    z-index: 20;
 }
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 53;
+}
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 38;
+}
 #wb_txtacc {
    height: 23px;
    left: 319px;
@@ -858,23 +867,14 @@ body {
    width: 350px;
    z-index: 35;
 }
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 53;
-}
 #zone {
    border-color: #000000;
    border-style: solid;
    border-width: 1px;
-   height: 677px;
+   height: 675px;
    left: 0px;
    position: absolute;
-   top: 280px;
+   top: 300px;
    width: 970px;
    z-index: 47;
 }
@@ -890,7 +890,7 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 969px;
+   top: 987px;
    width: 968px;
    z-index: 46;
 }

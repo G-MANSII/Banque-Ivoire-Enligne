@@ -19,7 +19,7 @@ body {
    background-image: none;
    border: 1px #CCCCCC solid;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -158,28 +158,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -268,7 +268,16 @@ body {
    width: 190px;
    z-index: 1;
 }
-#NavigationBar1 {
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 20;
+}
+#Nav {
    height: 42px;
    left: 0px;
    position: absolute;
@@ -285,15 +294,6 @@ body {
    width: 350px;
    z-index: 5;
 }
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 20;
-}
 #zone {
    border-color: #000000;
    border-style: solid;
@@ -301,7 +301,7 @@ body {
    height: 138px;
    left: 0px;
    position: absolute;
-   top: 280px;
+   top: 300px;
    width: 968px;
    z-index: 17;
 }
@@ -317,7 +317,7 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 430px;
+   top: 450px;
    width: 968px;
    z-index: 16;
 }

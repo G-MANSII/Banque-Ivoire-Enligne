@@ -571,7 +571,7 @@ body {
    text-align: center;
    vertical-align: middle;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -710,28 +710,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -1043,14 +1043,6 @@ body {
    width: 342px;
    z-index: 22;
 }
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 69;
-}
 #Editbox33 {
    height: 26px;
    left: 620px;
@@ -1145,6 +1137,15 @@ body {
    font-family: Arial;
    font-size: 15px;
 }
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 85;
+}
 #Editbox27 {
    height: 26px;
    left: 49px;
@@ -1153,6 +1154,14 @@ body {
    top: 49px;
    width: 230px;
    z-index: 27;
+}
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 69;
 }
 #wb_uid16 {
    height: 22px;
@@ -1169,15 +1178,6 @@ body {
    top: 149px;
    width: 350px;
    z-index: 66;
-}
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 85;
 }
 #Editbox28 {
    height: 26px;
@@ -1200,7 +1200,7 @@ body {
    height: 1230px;
    left: 0px;
    position: absolute;
-   top: 280px;
+   top: 300px;
    width: 990px;
    z-index: 78;
 }
@@ -1216,7 +1216,7 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1522px;
+   top: 1542px;
    width: 968px;
    z-index: 77;
 }

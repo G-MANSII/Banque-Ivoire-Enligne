@@ -346,7 +346,7 @@ body {
    text-align: left;
    white-space: nowrap;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -485,28 +485,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -722,14 +722,6 @@ body {
    width: 190px;
    z-index: 31;
 }
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 38;
-}
 #wb_TEXT {
    height: 24px;
    left: 145px;
@@ -747,6 +739,15 @@ body {
    width: 637px;
    z-index: 27;
 }
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 54;
+}
 #Button1 {
    height: 25px;
    left: 323px;
@@ -754,6 +755,14 @@ body {
    top: 260px;
    width: 96px;
    z-index: 25;
+}
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 38;
 }
 #wb_txtacc {
    height: 23px;
@@ -764,15 +773,6 @@ body {
    width: 350px;
    z-index: 35;
 }
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 54;
-}
 #zone {
    border-color: #000000;
    border-style: solid;
@@ -780,7 +780,7 @@ body {
    height: 564px;
    left: 0px;
    position: absolute;
-   top: 280px;
+   top: 300px;
    width: 970px;
    z-index: 47;
 }
@@ -796,7 +796,7 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 856px;
+   top: 876px;
    width: 968px;
    z-index: 46;
 }

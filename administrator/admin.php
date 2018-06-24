@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Administrateur</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -34,7 +34,7 @@
       {
          $('#jQueryDatePicker1_input').attr('value',$(this).val());
       });
-      $("#NavigationBar1 .navbar a").hover(function()
+      $("#Nav .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
             return;
@@ -81,40 +81,41 @@
             <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
             <div id="jQueryDatePicker1">
             </div>
-            <script>            
-            function selectAdmin() {
-               var eID = document.getElementById("comboadmin");
-               var colorVal = eID.options[eID.selectedIndex].value;
-               var colortxt = eID.options[eID.selectedIndex].text;
-            
-              if (colorVal=="Agences") {
-                           window.location.href="../administrator/conf/Agences.php" ;
-                           } else if (colorVal=="Categoriedeposte"){ 
-                           window.location.href="../administrator/conf/Categorie_de_poste.php";
-                           } else if (colorVal=="Congés"){ 
-                           window.location.href="../administrator/conf/Congés.php";
-                           } else if (colorVal=="Contrats"){ 
-                           window.location.href="../administrator/conf/Contrats.php";
-                           } else if (colorVal=="Fonctions"){ 
-                           window.location.href="../administrator/conf/Fonctions.php";
-                           } else if (colorVal=="Formations"){ 
-                           window.location.href="../administrator/conf/Formations.php";
-                           } else if (colorVal=="Pays"){ 
-                           window.location.href="../administrator/conf/Pays.php";
-                           } else if (colorVal=="Postes"){ 
-                           window.location.href="../administrator/conf/Postes.php";
-                           } else if (colorVal=="Promotions"){ 
-                           window.location.href="../administrator/conf/Promotions.php";
-                           } else if (colorVal=="Services"){ 
-                           window.location.href="../administrator/conf/Services.php";
-                           } else if (colorVal=="Typedecontrats"){ 
-                           window.location.href="../administrator/conf/Type_de_contrats.php";
-                           } else if (colorVal=="Villes"){ 
-                           window.location.href="../administrator/conf/Villes.php";
-                           } 
-            }
-                     
-            </script><select name="Comboadmin" size="1" id="comboadmin" onchange="selectAdmin()">
+            <script>                        
+                        function selectAdmin() {
+                           var eID = document.getElementById("comboadmin");
+                           var colorVal = eID.options[eID.selectedIndex].value;
+                           var colortxt = eID.options[eID.selectedIndex].text;
+                        
+                          if (colorVal=="Agences") {
+                                       window.location.href="../administrator/conf/Agences.php" ;
+                                       } else if (colorVal=="Categoriedeposte"){ 
+                                       window.location.href="../administrator/conf/Categorie_de_poste.php";
+                                       } else if (colorVal=="Congés"){ 
+                                       window.location.href="../administrator/conf/Congés.php";
+                                       } else if (colorVal=="Contrats"){ 
+                                       window.location.href="../administrator/conf/Contrats.php";
+                                       } else if (colorVal=="Fonctions"){ 
+                                       window.location.href="../administrator/conf/Fonctions.php";
+                                       } else if (colorVal=="Formations"){ 
+                                       window.location.href="../administrator/conf/Formations.php";
+                                       } else if (colorVal=="Pays"){ 
+                                       window.location.href="../administrator/conf/Pays.php";
+                                       } else if (colorVal=="Postes"){ 
+                                       window.location.href="../administrator/conf/Postes.php";
+                                       } else if (colorVal=="Promotions"){ 
+                                       window.location.href="../administrator/conf/Promotions.php";
+                                       } else if (colorVal=="Services"){ 
+                                       window.location.href="../administrator/conf/Services.php";
+                                       } else if (colorVal=="Typedecontrats"){ 
+                                       window.location.href="../administrator/conf/Type_de_contrats.php";
+                                       } else if (colorVal=="Villes"){ 
+                                       window.location.href="../administrator/conf/Villes.php";
+                                       } 
+                        }
+                                 
+            </script>
+            <select name="Comboadmin" size="1" id="comboadmin" onchange="selectAdmin()">
                <option value="Agences">Agences</option>
                <option value="Categoriedeposte">Categorie de poste</option>
                <option value="Congés">Congés</option>
@@ -125,7 +126,8 @@
                <option value="Postes">Postes</option>
                <option value="Promotions">Promotions</option>
                <option value="Services">Services</option>
-               <option value="Typedecontrats">Type 
+               <option value="Type
+decontrats">Type 
 de contrats</option>
                <option value="Villes">Villes</option>
             </select>
@@ -146,15 +148,15 @@ de contrats</option>
                <span id="wb_uid16">Lodin:</span></div>
          </div>
       </div>
-      <div id="divhead">
+      <div id="Div">
          <div id="head">
             <div id="wb_band">
                <img src="../images/img0001.png" id="band" alt="Banque Ivoire Online" title="Banque Ivoire Online"></div>
             <input type="text" id="edit_reche" name="search" value="" placeholder="Recherche...">
             <div id="wb_icosear">
-               <a href="./../index1.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
+               <a href="./conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid17"><span id="wb_uid18"><a href="./../index1.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid17"><span id="wb_uid18"><a href="./conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
@@ -164,7 +166,7 @@ de contrats</option>
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>
          </div>
-         <div id="NavigationBar1">
+         <div id="Nav">
             <ul class="navbar">
                <li><a href="./../index.php"><img alt="Acceuil" title="Acceuil" src="../images/img0003_over.png"><span><img alt="Acceuil" title="Acceuil" src="../images/img0003.png"></span></a></li>
                <li><a href="./../comptes/"><img alt="Comptes" title="Comptes" src="../images/img0027_over.png"><span><img alt="Comptes" title="Comptes" src="../images/img0027.png"></span></a></li>
