@@ -488,11 +488,11 @@ body {
 }
 #Label2 {
    height: 21px;
-   left: 739px;
+   left: 670px;
    line-height: 21px;
    position: absolute;
    top: 2px;
-   width: 222px;
+   width: 291px;
    z-index: 18;
 }
 #wb_uid1 {
@@ -547,7 +547,7 @@ body {
 }
 #Shape2 {
    height: 32px;
-   width: 310px;
+   width: 370px;
 }
 #wb_Text2 {
    height: 24px;
@@ -849,10 +849,10 @@ body {
 }
 #wb_Shape2 {
    height: 32px;
-   left: 659px;
+   left: 599px;
    position: absolute;
    top: 0px;
-   width: 310px;
+   width: 370px;
    z-index: 17;
 }
 #wb_Breadcrumb2 {

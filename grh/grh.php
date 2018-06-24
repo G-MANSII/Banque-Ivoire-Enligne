@@ -61,7 +61,7 @@
                   <h1 id="Heading1">Gestionnaire des resources humaines</h1></div>
             </div>
             <div id="wb_btn_connexionm">
-               <a href="./grhpass_.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
+               <a href="./grh_email.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
             <div id="wb_txtphys">
                <div id="wb_uid1"><span id="wb_uid2">ler dans l'au - dela . j ai couler les larmes mais Nous tes amis </span></div>
                <div id="wb_uid3"><span id="wb_uid4">nous prions ALLAH de te pardonner tes manquements de </span></div>
@@ -74,7 +74,7 @@
             <div id="wb_Text3">
                <span id="wb_uid12">Prénom:</span></div>
             <div id="wb_btn_connexionp">
-               <a href="./grhemail.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
+               <a href="./grh_pass.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
             <div id="wb_Text4">
                <span id="wb_uid14">Email:</span></div>
             <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
@@ -160,13 +160,13 @@
          <div id="wb_Breadcrumb2">
             <ul id="Breadcrumb2">
                <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./../administrator/admin.php" title="inscription"><i class="fa fa-laptop">&nbsp;</i>Administrateur</a></li>
+               <li class="active"><i class="fa fa-simplybuilt">&nbsp;</i>Gestion des resources humaines</li>
             </ul>
          </div>
          <div id="Layer2">
             <div id="wb_Shape2">
                <img src="../images/img0034.png" id="Shape2" alt=""></div>
-            <label for="" id="Label2">Comptes</label>
+            <label for="" id="Label2">Gestionnaire des resources humaines</label>
             <div id="wb_Text1">
                <span id="wb_uid16">Lodin:</span></div>
          </div>
