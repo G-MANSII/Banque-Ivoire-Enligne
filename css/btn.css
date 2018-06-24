@@ -14,19 +14,6 @@ body {
    margin: 0;
    text-align: center;
 }
-#head {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px transparent solid;
-}
-#newmenu {
-   -moz-box-shadow: 0px 0px 1px #A9A9A9;
-   -webkit-box-shadow: 0px 0px 1px #A9A9A9;
-   background-color: #1E90FF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-   box-shadow: 0px 0px 1px #A9A9A9;
-}
 #foot {
    background-color: #808080;
    background-image: none;
@@ -160,13 +147,15 @@ body {
    color: #0000FF;
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
-#logo {
-   border: 0px #000000 solid;
-   height: 100%;
-   left: 0;
-   padding: 0px 0px 0px 0px;
-   top: 0;
-   width: 100%;
+#divhead {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#head {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px transparent solid;
 }
 #band {
    border-width: 0;
@@ -289,38 +278,41 @@ body {
    text-align: center;
    white-space: nowrap;
 }
-#menu ul.navbar {
+#logo {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#NavigationBar1 ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#menu ul.navbar li {
+#NavigationBar1 ul.navbar li {
    float: left;
-   height: 30px;
+   height: 42px;
    margin: 0 0px 0 0;
-   overflow: hidden;
-   width: 135px;
+   width: 161px;
 }
-#menu ul.navbar li a {
+#NavigationBar1 ul.navbar li a {
    display: block;
    position: relative;
 }
-#menu ul.navbar li a img {
+#NavigationBar1 ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#menu.affix {
-   left: 50%  !important;
-   margin-left: -475px;
-   position: fixed  !important;
-   top: 0  !important;
-}
-#wb_uid1 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 15px;
+#NavigationBar1 ul.navbar li span {
+   display: block;
+   height: 42px;
+   position: absolute;
+   width: 161px;
+   z-index: 2;
 }
 #head {
    height: 204px;
@@ -329,23 +321,14 @@ body {
    text-align: left;
    top: 0px;
    width: 968px;
-   z-index: 8;
+   z-index: 7;
 }
-#wb_Text1 {
+#wb_uid1 {
    height: 24px;
-   left: 206px;
-   position: absolute;
-   text-align: left;
-   top: 430px;
-   width: 250px;
-   z-index: 13;
-}
-#wb_uid2 {
-   height: 22px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 350px;
+   width: 250px;
 }
 #wb_band {
    height: 100px;
@@ -355,19 +338,19 @@ body {
    width: 470px;
    z-index: 0;
 }
-#wb_e {
-   height: 48px;
-   left: 386px;
+#wb_uid2 {
+   color: #808080;
+   font-family: Arial;
+   font-size: 21px;
+}
+#wb_Text1 {
+   height: 24px;
+   left: 205px;
    position: absolute;
    text-align: left;
-   top: 610px;
+   top: 150px;
    width: 250px;
-   z-index: 14;
-}
-#wb_uid3 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
+   z-index: 21;
 }
 #wb_icolocal {
    height: 23px;
@@ -387,24 +370,33 @@ body {
    width: 18px;
    z-index: 2;
 }
-#wb_uid4 {
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 21px;
-}
-#newmenu_Container {
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   text-align: left;
-   width: 968px;
-}
-#wb_uid5 {
+#wb_uid3 {
    height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
    width: 250px;
+}
+#wb_e {
+   height: 48px;
+   left: 385px;
+   position: absolute;
+   text-align: left;
+   top: 330px;
+   width: 250px;
+   z-index: 22;
+}
+#wb_uid4 {
+   color: #808080;
+   font-family: Arial;
+   font-size: 21px;
+}
+#wb_uid5 {
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
 }
 #wb_local {
    height: 17px;
@@ -416,16 +408,9 @@ body {
    z-index: 3;
 }
 #wb_uid6 {
-   color: #808080;
+   color: #D3D3D3;
    font-family: Arial;
-   font-size: 21px;
-}
-#wb_uid7 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 250px;
+   font-size: 15px;
 }
 #wb_logo {
    height: 200px;
@@ -435,14 +420,21 @@ body {
    width: 240px;
    z-index: 6;
 }
+#wb_uid7 {
+   height: 22px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 350px;
+}
 #band {
    height: 100px;
    width: 470px;
 }
 #wb_uid8 {
-   color: #808080;
+   color: #D3D3D3;
    font-family: Arial;
-   font-size: 21px;
+   font-size: 19px;
 }
 #edit_reche {
    height: 19px;
@@ -453,29 +445,57 @@ body {
    width: 190px;
    z-index: 1;
 }
-#newmenu {
-   height: 50px;
+#NavigationBar1 {
+   height: 42px;
    left: 0px;
    position: absolute;
-   text-align: center;
-   top: 220px;
-   width: 968px;
-   z-index: 9;
+   top: 215px;
+   width: 969px;
+   z-index: 8;
 }
 #Button1 {
    height: 50px;
-   left: 416px;
+   left: 415px;
    position: absolute;
-   top: 660px;
+   top: 380px;
    width: 150px;
-   z-index: 11;
+   z-index: 19;
+}
+#wb_txtacc {
+   height: 23px;
+   left: 319px;
+   position: absolute;
+   text-align: center;
+   top: 149px;
+   width: 350px;
+   z-index: 5;
+}
+#divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 27;
 }
 #Button2 {
    height: 50px;
-   left: 276px;
+   left: 275px;
    position: absolute;
-   top: 950px;
+   top: 670px;
    width: 150px;
+   z-index: 25;
+}
+#zone {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   height: 720px;
+   left: 0px;
+   position: absolute;
+   top: 280px;
+   width: 968px;
    z-index: 17;
 }
 #foot_Container {
@@ -490,55 +510,36 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1010px;
+   top: 1012px;
    width: 968px;
-   z-index: 10;
-}
-#wb_txtacc {
-   height: 23px;
-   left: 319px;
-   position: absolute;
-   text-align: center;
-   top: 149px;
-   width: 350px;
-   z-index: 5;
+   z-index: 16;
 }
 #Button3 {
    height: 50px;
-   left: 492px;
+   left: 491px;
    position: absolute;
-   top: 950px;
+   top: 670px;
    width: 150px;
-   z-index: 16;
+   z-index: 24;
 }
 #wb_Shape2 {
    height: 50px;
-   left: 256px;
+   left: 255px;
    position: absolute;
-   top: 470px;
+   top: 190px;
    width: 150px;
-   z-index: 12;
+   z-index: 20;
 }
 #Button4 {
    height: 50px;
-   left: 706px;
+   left: 705px;
    position: absolute;
-   top: 950px;
+   top: 670px;
    width: 168px;
-   z-index: 15;
-}
-#menu {
-   height: 30px;
-   left: 9px;
-   position: absolute;
-   top: 9px;
-   width: 950px;
-   z-index: 7;
+   z-index: 23;
 }
 #wb_uid0 {
-   height: 16px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 185px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
 }

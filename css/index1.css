@@ -14,19 +14,6 @@ body {
    margin: 0;
    text-align: center;
 }
-#head {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px transparent solid;
-}
-#newmenu {
-   -moz-box-shadow: 0px 0px 1px #A9A9A9;
-   -webkit-box-shadow: 0px 0px 1px #A9A9A9;
-   background-color: #1E90FF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-   box-shadow: 0px 0px 1px #A9A9A9;
-}
 #foot {
    background-color: #808080;
    background-image: none;
@@ -236,13 +223,15 @@ body {
    background-color: transparent;
    background-image: none;
 }
-#logo {
-   border: 0px #000000 solid;
-   height: 100%;
-   left: 0;
-   padding: 0px 0px 0px 0px;
-   top: 0;
-   width: 100%;
+#divhead {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#head {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px transparent solid;
 }
 #band {
    border-width: 0;
@@ -365,61 +354,41 @@ body {
    text-align: center;
    white-space: nowrap;
 }
-#menu ul.navbar {
+#logo {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#NavigationBar1 ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#menu ul.navbar li {
+#NavigationBar1 ul.navbar li {
    float: left;
-   height: 30px;
+   height: 42px;
    margin: 0 0px 0 0;
-   overflow: hidden;
-   width: 135px;
+   width: 161px;
 }
-#menu ul.navbar li a {
+#NavigationBar1 ul.navbar li a {
    display: block;
    position: relative;
 }
-#menu ul.navbar li a img {
+#NavigationBar1 ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#menu.affix {
-   left: 50%  !important;
-   margin-left: -475px;
-   position: fixed  !important;
-   top: 0  !important;
-}
-#Line1a {
-   height: 8px;
-   left: 109px;
+#NavigationBar1 ul.navbar li span {
+   display: block;
+   height: 42px;
    position: absolute;
-   top: 19px;
-   width: 428px;
-   z-index: 18;
-}
-#wb_Muha3 {
-   height: 260px;
-   left: 9px;
-   position: absolute;
-   top: 44px;
-   width: 520px;
-   z-index: 13;
-}
-#wb_uid19 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 950px;
-}
-#wb_uid1 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 15px;
+   width: 161px;
+   z-index: 2;
 }
 #head {
    height: 204px;
@@ -428,7 +397,41 @@ body {
    text-align: left;
    top: 0px;
    width: 968px;
-   z-index: 19;
+   z-index: 18;
+}
+#Line1a {
+   height: 8px;
+   left: 109px;
+   position: absolute;
+   top: 19px;
+   width: 428px;
+   z-index: 10;
+}
+#wb_Muha3 {
+   height: 260px;
+   left: 9px;
+   position: absolute;
+   top: 44px;
+   width: 520px;
+   z-index: 5;
+}
+#wb_uid19 {
+   height: 24px;
+   left: 0px;
+   position: absolute;
+   top: 48px;
+   width: 950px;
+}
+#wb_uid1 {
+   display: none;
+}
+#wb_band {
+   height: 100px;
+   left: 259px;
+   position: absolute;
+   top: 39px;
+   width: 470px;
+   z-index: 11;
 }
 #wb_Text1 {
    height: 192px;
@@ -437,27 +440,10 @@ body {
    text-align: left;
    top: 79px;
    width: 390px;
-   z-index: 15;
+   z-index: 7;
 }
 #wb_uid2 {
-   height: 22px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 350px;
-}
-#wb_band {
-   height: 100px;
-   left: 259px;
-   position: absolute;
-   top: 39px;
-   width: 470px;
-   z-index: 0;
-}
-#wb_uid3 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
+   display: none;
 }
 #wb_icolocal {
    height: 23px;
@@ -466,7 +452,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 4;
+   z-index: 15;
 }
 #wb_icosear {
    height: 18px;
@@ -475,7 +461,12 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 2;
+   z-index: 13;
+}
+#wb_uid3 {
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
 }
 #Line2e {
    height: 8px;
@@ -483,34 +474,12 @@ body {
    position: absolute;
    top: 89px;
    width: 428px;
-   z-index: 16;
+   z-index: 8;
 }
 #wb_uid4 {
-   display: none;
-}
-#newmenu_Container {
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   text-align: left;
-   width: 968px;
-}
-#wb_Headi {
-   height: 40px;
-   left: 29px;
-   position: absolute;
-   text-align: center;
-   top: 39px;
-   width: 580px;
-   z-index: 17;
-}
-#wb_uid50 {
-   color: #808080;
+   color: #FFFFFF;
    font-family: Arial;
-   font-size: 21px;
-}
-#wb_uid5 {
-   display: none;
+   font-size: 19px;
 }
 #wb_local {
    height: 17px;
@@ -519,14 +488,35 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 3;
+   z-index: 14;
 }
-#wb_uid51 {
+#wb_Headi {
+   height: 40px;
+   left: 29px;
+   position: absolute;
+   text-align: center;
+   top: 39px;
+   width: 580px;
+   z-index: 9;
+}
+#wb_uid50 {
+   color: #808080;
+   font-family: Arial;
+   font-size: 21px;
+}
+#wb_uid5 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 144px;
-   width: 390px;
+   top: 0px;
+   width: 250px;
+}
+#wb_uid51 {
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
 }
 #wb_uid40 {
    color: #808080;
@@ -540,39 +530,53 @@ body {
    position: absolute;
    top: 44px;
    width: 192px;
-   z-index: 14;
+   z-index: 6;
 }
 #divcenter {
    height: 368px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 970px;
+   top: 690px;
    width: 968px;
-   z-index: 25;
+   z-index: 33;
 }
 #wb_txt_pkoi {
    height: 242px;
    left: 10px;
    position: absolute;
    text-align: center;
-   top: 700px;
+   top: 420px;
    width: 950px;
-   z-index: 24;
+   z-index: 32;
 }
 #wb_uid6 {
-   display: none;
-}
-#wb_uid52 {
    color: #808080;
    font-family: Arial;
    font-size: 21px;
+}
+#wb_logo {
+   height: 200px;
+   left: 9px;
+   position: absolute;
+   top: 4px;
+   width: 240px;
+   z-index: 17;
+}
+#wb_uid52 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 15px;
+}
+#band {
+   height: 100px;
+   width: 470px;
 }
 #wb_uid41 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 24px;
+   top: 72px;
    width: 390px;
 }
 #wb_uid30 {
@@ -581,28 +585,27 @@ body {
    font-size: 21px;
 }
 #wb_uid7 {
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 19px;
-}
-#wb_logo {
-   height: 200px;
-   left: 9px;
-   position: absolute;
-   top: 4px;
-   width: 240px;
-   z-index: 6;
-}
-#band {
-   height: 100px;
-   width: 470px;
-}
-#wb_uid53 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 168px;
-   width: 390px;
+   top: 24px;
+   width: 250px;
+}
+#wb_uid53 {
+   height: 22px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 350px;
+}
+#edit_reche {
+   height: 19px;
+   left: 729px;
+   line-height: 19px;
+   position: absolute;
+   top: 159px;
+   width: 190px;
+   z-index: 12;
 }
 #wb_uid42 {
    color: #808080;
@@ -613,7 +616,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 144px;
+   top: 192px;
    width: 950px;
 }
 #wb_uid20 {
@@ -622,9 +625,9 @@ body {
    font-size: 21px;
 }
 #wb_uid8 {
-   color: #FFFFFF;
+   color: #808080;
    font-family: Arial;
-   font-size: 19px;
+   font-size: 21px;
 }
 #wb_btn_inscriptiacei {
    height: 50px;
@@ -632,27 +635,26 @@ body {
    position: absolute;
    top: 71px;
    width: 150px;
-   z-index: 9;
-}
-#edit_reche {
-   height: 19px;
-   left: 729px;
-   line-height: 19px;
-   position: absolute;
-   top: 159px;
-   width: 190px;
    z-index: 1;
 }
+#NavigationBar1 {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 19;
+}
 #wb_uid54 {
-   color: #808080;
+   color: #D3D3D3;
    font-family: Arial;
-   font-size: 21px;
+   font-size: 19px;
 }
 #wb_uid43 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 48px;
+   top: 96px;
    width: 390px;
 }
 #wb_uid32 {
@@ -664,7 +666,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 24px;
+   top: 72px;
    width: 950px;
 }
 #wb_uid10 {
@@ -679,15 +681,6 @@ body {
    top: 0px;
    width: 250px;
 }
-#newmenu {
-   height: 50px;
-   left: 0px;
-   position: absolute;
-   text-align: center;
-   top: 220px;
-   width: 968px;
-   z-index: 20;
-}
 #wb_uid44 {
    color: #808080;
    font-family: Arial;
@@ -697,13 +690,20 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 168px;
+   top: 216px;
    width: 950px;
 }
 #wb_uid22 {
    color: #808080;
    font-family: Arial;
    font-size: 21px;
+}
+#wb_uid11 {
+   height: 24px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 265px;
 }
 #wb_txtpass {
    height: 24px;
@@ -712,20 +712,13 @@ body {
    text-align: center;
    top: 259px;
    width: 250px;
-   z-index: 11;
-}
-#wb_uid11 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 24px;
-   width: 250px;
+   z-index: 3;
 }
 #wb_uid45 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 72px;
+   top: 120px;
    width: 390px;
 }
 #wb_uid34 {
@@ -737,8 +730,13 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 48px;
+   top: 96px;
    width: 950px;
+}
+#wb_uid12 {
+   color: #808080;
+   font-family: Arial;
+   font-size: 21px;
 }
 #wb_txtins {
    height: 48px;
@@ -747,30 +745,25 @@ body {
    text-align: center;
    top: 8px;
    width: 265px;
-   z-index: 12;
-}
-#wb_uid12 {
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
+   z-index: 4;
 }
 #divhg {
    height: 308px;
    left: 700px;
    position: absolute;
    text-align: left;
-   top: 280px;
+   top: 0px;
    width: 268px;
-   z-index: 23;
+   z-index: 31;
 }
 #txt_pk {
    height: 108px;
    left: 12.3711%;
    position: absolute;
    text-align: left;
-   top: 590px;
+   top: 310px;
    width: 668px;
-   z-index: 26;
+   z-index: 34;
 }
 #wb_uid46 {
    color: #808080;
@@ -781,8 +774,8 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 192px;
-   width: 950px;
+   top: 0px;
+   width: 390px;
 }
 #wb_uid24 {
    color: #808080;
@@ -793,14 +786,14 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 0px;
-   width: 250px;
+   top: 24px;
+   width: 265px;
 }
 #wb_uid47 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 96px;
+   top: 144px;
    width: 390px;
 }
 #wb_uid36 {
@@ -812,7 +805,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 72px;
+   top: 120px;
    width: 950px;
 }
 #wb_uid14 {
@@ -829,8 +822,8 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 216px;
-   width: 950px;
+   top: 24px;
+   width: 390px;
 }
 #wb_uid26 {
    color: #808080;
@@ -842,7 +835,7 @@ body {
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 265px;
+   width: 950px;
 }
 #wb_btn_connexacei {
    height: 50px;
@@ -850,13 +843,31 @@ body {
    position: absolute;
    top: 188px;
    width: 150px;
-   z-index: 8;
+   z-index: 0;
+}
+#wb_txtacc {
+   height: 23px;
+   left: 319px;
+   position: absolute;
+   text-align: center;
+   top: 149px;
+   width: 350px;
+   z-index: 16;
+}
+#divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 36;
 }
 #wb_uid49 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 120px;
+   top: 168px;
    width: 390px;
 }
 #wb_uid38 {
@@ -868,7 +879,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 96px;
+   top: 144px;
    width: 950px;
 }
 #wb_uid16 {
@@ -883,7 +894,18 @@ body {
    text-align: center;
    top: 129px;
    width: 250px;
-   z-index: 10;
+   z-index: 2;
+}
+#zone {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   height: 1060px;
+   left: 0px;
+   position: absolute;
+   top: 280px;
+   width: 970px;
+   z-index: 28;
 }
 #foot_Container {
    margin-left: auto;
@@ -897,24 +919,15 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1350px;
+   top: 1352px;
    width: 968px;
-   z-index: 21;
-}
-#wb_txtacc {
-   height: 23px;
-   left: 319px;
-   position: absolute;
-   text-align: center;
-   top: 149px;
-   width: 350px;
-   z-index: 5;
+   z-index: 27;
 }
 #wb_uid39 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 48px;
    width: 390px;
 }
 #wb_uid28 {
@@ -927,13 +940,13 @@ body {
    left: 0px;
    position: absolute;
    top: 24px;
-   width: 265px;
+   width: 950px;
 }
 #wb_uid29 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 120px;
+   top: 168px;
    width: 950px;
 }
 #wb_uid18 {
@@ -941,26 +954,14 @@ body {
    font-family: Arial;
    font-size: 21px;
 }
+#wb_uid0 {
+   display: none;
+}
 #Slider {
    height: 310px;
    left: 0px;
    position: absolute;
-   top: 280px;
-   width: 700px;
-   z-index: 22;
-}
-#menu {
-   height: 30px;
-   left: 9px;
-   position: absolute;
-   top: 9px;
-   width: 950px;
-   z-index: 7;
-}
-#wb_uid0 {
-   height: 16px;
-   left: 0px;
-   position: absolute;
    top: 0px;
-   width: 185px;
+   width: 700px;
+   z-index: 30;
 }

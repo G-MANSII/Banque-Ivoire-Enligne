@@ -14,19 +14,6 @@ body {
    margin: 0;
    text-align: center;
 }
-#head {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px transparent solid;
-}
-#newmenu {
-   -moz-box-shadow: 0px 0px 1px #A9A9A9;
-   -webkit-box-shadow: 0px 0px 1px #A9A9A9;
-   background-color: #1E90FF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-   box-shadow: 0px 0px 1px #A9A9A9;
-}
 #foot {
    background-color: #808080;
    background-image: none;
@@ -584,13 +571,15 @@ body {
    text-align: center;
    vertical-align: middle;
 }
-#logo {
-   border: 0px #000000 solid;
-   height: 100%;
-   left: 0;
-   padding: 0px 0px 0px 0px;
-   top: 0;
-   width: 100%;
+#divhead {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#head {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px transparent solid;
 }
 #band {
    border-width: 0;
@@ -713,38 +702,41 @@ body {
    text-align: center;
    white-space: nowrap;
 }
-#menu ul.navbar {
+#logo {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#NavigationBar1 ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#menu ul.navbar li {
+#NavigationBar1 ul.navbar li {
    float: left;
-   height: 30px;
+   height: 42px;
    margin: 0 0px 0 0;
-   overflow: hidden;
-   width: 135px;
+   width: 161px;
 }
-#menu ul.navbar li a {
+#NavigationBar1 ul.navbar li a {
    display: block;
    position: relative;
 }
-#menu ul.navbar li a img {
+#NavigationBar1 ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#menu.affix {
-   left: 50%  !important;
-   margin-left: -475px;
-   position: fixed  !important;
-   top: 0  !important;
-}
-#wb_uid1 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 15px;
+#NavigationBar1 ul.navbar li span {
+   display: block;
+   height: 42px;
+   position: absolute;
+   width: 161px;
+   z-index: 2;
 }
 #head {
    height: 204px;
@@ -753,7 +745,20 @@ body {
    text-align: left;
    top: 0px;
    width: 968px;
-   z-index: 69;
+   z-index: 68;
+}
+#wb_uid1 {
+   color: #808080;
+   font-family: Arial;
+   font-size: 21px;
+}
+#wb_band {
+   height: 100px;
+   left: 259px;
+   position: absolute;
+   top: 39px;
+   width: 470px;
+   z-index: 61;
 }
 #wb_Text1 {
    height: 24px;
@@ -762,51 +767,14 @@ body {
    text-align: left;
    top: 95px;
    width: 60px;
-   z-index: 29;
+   z-index: 21;
 }
 #wb_uid2 {
-   height: 22px;
+   height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 350px;
-}
-#wb_band {
-   height: 100px;
-   left: 259px;
-   position: absolute;
-   top: 39px;
-   width: 470px;
-   z-index: 0;
-}
-#RadioButton1 {
-   left: 220px;
-   position: absolute;
-   top: 26px;
-   z-index: 15;
-}
-#wb_Text2 {
-   height: 24px;
-   left: 9px;
-   position: absolute;
-   text-align: left;
-   top: 24px;
-   width: 201px;
-   z-index: 14;
-}
-#Label4 {
-   height: 26px;
-   left: 98px;
-   line-height: 26px;
-   position: absolute;
-   top: 79px;
-   width: 764px;
-   z-index: 10;
-}
-#wb_uid3 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
+   width: 249px;
 }
 #wb_icolocal {
    height: 23px;
@@ -815,7 +783,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 4;
+   z-index: 65;
 }
 #wb_icosear {
    height: 18px;
@@ -824,6 +792,35 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
+   z-index: 63;
+}
+#RadioButton1 {
+   left: 220px;
+   position: absolute;
+   top: 26px;
+   z-index: 7;
+}
+#wb_Text2 {
+   height: 24px;
+   left: 9px;
+   position: absolute;
+   text-align: left;
+   top: 24px;
+   width: 201px;
+   z-index: 6;
+}
+#wb_uid3 {
+   color: #808080;
+   font-family: Arial;
+   font-size: 21px;
+}
+#Label4 {
+   height: 26px;
+   left: 98px;
+   line-height: 26px;
+   position: absolute;
+   top: 79px;
+   width: 764px;
    z-index: 2;
 }
 #Shape3 {
@@ -837,13 +834,13 @@ body {
    position: absolute;
    top: 88px;
    width: 764px;
-   z-index: 37;
+   z-index: 29;
 }
 #RadioButton2 {
    left: 343px;
    position: absolute;
    top: 22px;
-   z-index: 17;
+   z-index: 9;
 }
 #wb_Text3 {
    height: 24px;
@@ -852,14 +849,14 @@ body {
    text-align: left;
    top: 24px;
    width: 70px;
-   z-index: 16;
+   z-index: 8;
 }
 #wb_uid4 {
    height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 249px;
+   width: 60px;
 }
 #edtpass {
    height: 26px;
@@ -868,52 +865,7 @@ body {
    position: absolute;
    top: 129px;
    width: 230px;
-   z-index: 8;
-}
-#newmenu_Container {
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   text-align: left;
-   width: 968px;
-}
-#RadioButton3 {
-   left: 510px;
-   position: absolute;
-   top: 24px;
-   z-index: 19;
-}
-#wb_Text4 {
-   height: 24px;
-   left: 373px;
-   position: absolute;
-   text-align: left;
-   top: 22px;
-   width: 110px;
-   z-index: 18;
-}
-#Label6 {
-   height: 26px;
-   left: 60px;
-   line-height: 26px;
-   position: absolute;
-   top: 30px;
-   width: 764px;
-   z-index: 33;
-}
-#wb_uid5 {
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
-}
-#wb_linklogoub {
-   height: 24px;
-   left: 195px;
-   position: absolute;
-   text-align: center;
-   top: 191px;
-   width: 249px;
-   z-index: 11;
+   z-index: 0;
 }
 #wb_local {
    height: 17px;
@@ -922,6 +874,44 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
+   z-index: 64;
+}
+#RadioButton3 {
+   left: 510px;
+   position: absolute;
+   top: 24px;
+   z-index: 11;
+}
+#wb_Text4 {
+   height: 24px;
+   left: 373px;
+   position: absolute;
+   text-align: left;
+   top: 22px;
+   width: 110px;
+   z-index: 10;
+}
+#wb_uid5 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+}
+#Label6 {
+   height: 26px;
+   left: 60px;
+   line-height: 26px;
+   position: absolute;
+   top: 30px;
+   width: 764px;
+   z-index: 25;
+}
+#wb_linklogoub {
+   height: 24px;
+   left: 195px;
+   position: absolute;
+   text-align: center;
+   top: 191px;
+   width: 249px;
    z-index: 3;
 }
 #wb_Text5 {
@@ -931,7 +921,14 @@ body {
    text-align: left;
    top: 24px;
    width: 70px;
-   z-index: 20;
+   z-index: 12;
+}
+#wb_uid6 {
+   height: 24px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 201px;
 }
 #Editbox30 {
    height: 26px;
@@ -940,7 +937,7 @@ body {
    position: absolute;
    top: 385px;
    width: 230px;
-   z-index: 26;
+   z-index: 18;
 }
 #Label7 {
    height: 26px;
@@ -949,7 +946,7 @@ body {
    position: absolute;
    top: 15px;
    width: 764px;
-   z-index: 24;
+   z-index: 16;
 }
 #Layer11 {
    height: 615px;
@@ -958,22 +955,27 @@ body {
    text-align: left;
    top: 100px;
    width: 932px;
-   z-index: 34;
+   z-index: 26;
 }
 #jQueryTabs1 {
    height: 760px;
    left: 0px;
    position: absolute;
-   top: 740px;
+   top: 460px;
    width: 960px;
-   z-index: 73;
+   z-index: 81;
 }
-#wb_uid6 {
-   height: 24px;
-   left: 0px;
+#wb_logo {
+   height: 200px;
+   left: 9px;
    position: absolute;
-   top: 0px;
-   width: 249px;
+   top: 4px;
+   width: 240px;
+   z-index: 67;
+}
+#band {
+   height: 100px;
+   width: 470px;
 }
 #Label8 {
    height: 21px;
@@ -982,7 +984,12 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 68;
+   z-index: 60;
+}
+#wb_uid7 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
 }
 #Layer12 {
    height: 110px;
@@ -991,7 +998,7 @@ body {
    text-align: left;
    top: 145px;
    width: 910px;
-   z-index: 31;
+   z-index: 23;
 }
 #Editbox31 {
    height: 26px;
@@ -1000,49 +1007,7 @@ body {
    position: absolute;
    top: 435px;
    width: 230px;
-   z-index: 27;
-}
-#wb_uid7 {
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
-}
-#wb_logo {
-   height: 200px;
-   left: 9px;
-   position: absolute;
-   top: 4px;
-   width: 240px;
-   z-index: 6;
-}
-#band {
-   height: 100px;
-   width: 470px;
-}
-#Layer13 {
-   height: 32px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 690px;
-   width: 969px;
-   z-index: 75;
-}
-#Editbox32 {
-   height: 26px;
-   left: 509px;
-   line-height: 26px;
-   position: absolute;
-   top: 89px;
-   width: 342px;
-   z-index: 30;
-}
-#wb_uid8 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 60px;
+   z-index: 19;
 }
 #edit_reche {
    height: 19px;
@@ -1051,7 +1016,40 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 1;
+   z-index: 62;
+}
+#Layer13 {
+   height: 32px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 410px;
+   width: 969px;
+   z-index: 83;
+}
+#wb_uid8 {
+   height: 24px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 70px;
+}
+#Editbox32 {
+   height: 26px;
+   left: 509px;
+   line-height: 26px;
+   position: absolute;
+   top: 89px;
+   width: 342px;
+   z-index: 22;
+}
+#NavigationBar1 {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 69;
 }
 #Editbox33 {
    height: 26px;
@@ -1060,28 +1058,19 @@ body {
    position: absolute;
    top: 16px;
    width: 260px;
-   z-index: 21;
+   z-index: 13;
 }
 #wb_uid10 {
    height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 201px;
+   width: 110px;
 }
 #wb_uid9 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
-}
-#newmenu {
-   height: 50px;
-   left: 0px;
-   position: absolute;
-   text-align: center;
-   top: 220px;
-   width: 968px;
-   z-index: 70;
 }
 #Editbox34 {
    height: 26px;
@@ -1090,7 +1079,7 @@ body {
    position: absolute;
    top: 60px;
    width: 307px;
-   z-index: 22;
+   z-index: 14;
 }
 #wb_uid11 {
    color: #000000;
@@ -1104,7 +1093,7 @@ body {
    position: absolute;
    top: 129px;
    width: 230px;
-   z-index: 9;
+   z-index: 1;
 }
 #wb_uid12 {
    height: 24px;
@@ -1123,9 +1112,16 @@ body {
    left: 20px;
    position: absolute;
    text-align: left;
-   top: 300px;
+   top: 20px;
    width: 968px;
-   z-index: 72;
+   z-index: 80;
+}
+#wb_uid14 {
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
 }
 #Layer9 {
    height: 239px;
@@ -1134,7 +1130,7 @@ body {
    text-align: left;
    top: 52px;
    width: 673px;
-   z-index: 36;
+   z-index: 28;
 }
 #btnvalide {
    height: 50px;
@@ -1142,14 +1138,12 @@ body {
    position: absolute;
    top: 525px;
    width: 150px;
-   z-index: 32;
+   z-index: 24;
 }
-#wb_uid14 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 110px;
+#wb_uid15 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 15px;
 }
 #Editbox27 {
    height: 26px;
@@ -1158,19 +1152,32 @@ body {
    position: absolute;
    top: 49px;
    width: 230px;
-   z-index: 35;
-}
-#wb_uid15 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
+   z-index: 27;
 }
 #wb_uid16 {
-   height: 24px;
+   height: 22px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 70px;
+   width: 350px;
+}
+#wb_txtacc {
+   height: 23px;
+   left: 319px;
+   position: absolute;
+   text-align: center;
+   top: 149px;
+   width: 350px;
+   z-index: 66;
+}
+#divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 85;
 }
 #Editbox28 {
    height: 26px;
@@ -1179,12 +1186,23 @@ body {
    position: absolute;
    top: 375px;
    width: 230px;
-   z-index: 23;
+   z-index: 15;
 }
 #jquerytabs1-page-0 {
    height: 720px;
    overflow: auto;
    padding: 0;
+}
+#zone {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   height: 1230px;
+   left: 0px;
+   position: absolute;
+   top: 280px;
+   width: 990px;
+   z-index: 78;
 }
 #foot_Container {
    margin-left: auto;
@@ -1198,36 +1216,27 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1520px;
+   top: 1522px;
    width: 968px;
-   z-index: 71;
+   z-index: 77;
 }
-#wb_txtacc {
-   height: 23px;
-   left: 319px;
-   position: absolute;
-   text-align: center;
-   top: 149px;
-   width: 350px;
-   z-index: 5;
+#wb_uid17 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 19px;
 }
 #wb_Breadcrumb2 {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 660px;
+   top: 380px;
    width: 970px;
-   z-index: 74;
+   z-index: 82;
 }
 #jquerytabs1-page-1 {
    height: 720px;
    overflow: auto;
    padding: 0;
-}
-#wb_uid17 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
 }
 #Combobox1 {
    height: 36px;
@@ -1235,7 +1244,7 @@ body {
    position: absolute;
    top: 89px;
    width: 90px;
-   z-index: 28;
+   z-index: 20;
 }
 #Editbox29 {
    height: 26px;
@@ -1244,7 +1253,7 @@ body {
    position: absolute;
    top: 89px;
    width: 230px;
-   z-index: 25;
+   z-index: 17;
 }
 #btnconnexion {
    height: 50px;
@@ -1252,7 +1261,7 @@ body {
    position: absolute;
    top: 229px;
    width: 150px;
-   z-index: 13;
+   z-index: 5;
 }
 #wb_Shape3 {
    height: 32px;
@@ -1260,7 +1269,7 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 67;
+   z-index: 59;
 }
 #jquerytabs1-page-2 {
    height: 720px;
@@ -1274,20 +1283,12 @@ body {
    text-align: center;
    top: 191px;
    width: 249px;
-   z-index: 12;
-}
-#menu {
-   height: 30px;
-   left: 9px;
-   position: absolute;
-   top: 9px;
-   width: 950px;
-   z-index: 7;
+   z-index: 4;
 }
 #wb_uid0 {
-   height: 16px;
+   height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 185px;
+   width: 249px;
 }

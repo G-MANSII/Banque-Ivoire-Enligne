@@ -14,19 +14,6 @@ body {
    margin: 0;
    text-align: center;
 }
-#head {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px transparent solid;
-}
-#newmenu {
-   -moz-box-shadow: 0px 0px 1px #A9A9A9;
-   -webkit-box-shadow: 0px 0px 1px #A9A9A9;
-   background-color: #1E90FF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-   box-shadow: 0px 0px 1px #A9A9A9;
-}
 #foot {
    background-color: #808080;
    background-image: none;
@@ -236,13 +223,15 @@ body {
    font-size: 21px;
    font-weight: normal;
 }
-#logo {
-   border: 0px #000000 solid;
-   height: 100%;
-   left: 0;
-   padding: 0px 0px 0px 0px;
-   top: 0;
-   width: 100%;
+#divhead {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#head {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px transparent solid;
 }
 #band {
    border-width: 0;
@@ -365,47 +354,48 @@ body {
    text-align: center;
    white-space: nowrap;
 }
-#menu ul.navbar {
+#logo {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#NavigationBar1 ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#menu ul.navbar li {
+#NavigationBar1 ul.navbar li {
    float: left;
-   height: 30px;
+   height: 42px;
    margin: 0 0px 0 0;
-   overflow: hidden;
-   width: 135px;
+   width: 161px;
 }
-#menu ul.navbar li a {
+#NavigationBar1 ul.navbar li a {
    display: block;
    position: relative;
 }
-#menu ul.navbar li a img {
+#NavigationBar1 ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#menu.affix {
-   left: 50%  !important;
-   margin-left: -475px;
-   position: fixed  !important;
-   top: 0  !important;
-}
-#Label2 {
-   height: 26px;
-   left: 98px;
-   line-height: 26px;
+#NavigationBar1 ul.navbar li span {
+   display: block;
+   height: 42px;
    position: absolute;
-   top: 79px;
-   width: 764px;
-   z-index: 11;
+   width: 161px;
+   z-index: 2;
 }
 #wb_uid1 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 15px;
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
 }
 #head {
    height: 204px;
@@ -414,7 +404,29 @@ body {
    text-align: left;
    top: 0px;
    width: 968px;
-   z-index: 20;
+   z-index: 19;
+}
+#Label2 {
+   height: 26px;
+   left: 98px;
+   line-height: 26px;
+   position: absolute;
+   top: 79px;
+   width: 764px;
+   z-index: 3;
+}
+#wb_uid2 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 15px;
+}
+#wb_band {
+   height: 100px;
+   left: 259px;
+   position: absolute;
+   top: 39px;
+   width: 470px;
+   z-index: 12;
 }
 #Label3 {
    height: 21px;
@@ -423,31 +435,14 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 16;
+   z-index: 8;
 }
-#wb_uid2 {
+#wb_uid3 {
    height: 22px;
    left: 0px;
    position: absolute;
    top: 0px;
    width: 350px;
-}
-#wb_band {
-   height: 100px;
-   left: 259px;
-   position: absolute;
-   top: 39px;
-   width: 470px;
-   z-index: 0;
-}
-#Shape2 {
-   height: 32px;
-   width: 310px;
-}
-#wb_uid3 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
 }
 #wb_icolocal {
    height: 23px;
@@ -456,7 +451,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 4;
+   z-index: 16;
 }
 #wb_icosear {
    height: 18px;
@@ -465,28 +460,16 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 2;
+   z-index: 14;
+}
+#Shape2 {
+   height: 32px;
+   width: 310px;
 }
 #wb_uid4 {
-   color: #FFFFFF;
+   color: #D3D3D3;
    font-family: Arial;
-   font-size: 21px;
-}
-#newmenu_Container {
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   text-align: left;
-   width: 968px;
-}
-#Layer1 {
-   height: 318px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 310px;
-   width: 968px;
-   z-index: 24;
+   font-size: 19px;
 }
 #wb_local {
    height: 17px;
@@ -495,16 +478,25 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 3;
+   z-index: 15;
+}
+#Layer1 {
+   height: 318px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 30px;
+   width: 968px;
+   z-index: 32;
 }
 #Layer2 {
    height: 32px;
    left: 1px;
    position: absolute;
    text-align: left;
-   top: 320px;
+   top: 40px;
    width: 969px;
-   z-index: 25;
+   z-index: 33;
 }
 #wb_logo {
    height: 200px;
@@ -512,7 +504,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 6;
+   z-index: 18;
 }
 #band {
    height: 100px;
@@ -525,16 +517,15 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 1;
+   z-index: 13;
 }
-#newmenu {
-   height: 50px;
+#NavigationBar1 {
+   height: 42px;
    left: 0px;
    position: absolute;
-   text-align: center;
-   top: 220px;
-   width: 968px;
-   z-index: 21;
+   top: 215px;
+   width: 969px;
+   z-index: 20;
 }
 #wb_Form1 {
    height: 99px;
@@ -542,7 +533,7 @@ body {
    position: absolute;
    top: 165px;
    width: 347px;
-   z-index: 14;
+   z-index: 6;
 }
 #Button1 {
    height: 25px;
@@ -550,15 +541,44 @@ body {
    position: absolute;
    top: 55px;
    width: 96px;
-   z-index: 10;
+   z-index: 2;
+}
+#wb_txtacc {
+   height: 23px;
+   left: 319px;
+   position: absolute;
+   text-align: center;
+   top: 149px;
+   width: 350px;
+   z-index: 17;
+}
+#divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 36;
 }
 #wb_Shape1 {
    height: 50px;
    left: 240px;
    position: absolute;
-   top: 550px;
+   top: 270px;
    width: 150px;
-   z-index: 26;
+   z-index: 34;
+}
+#zone {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   height: 350px;
+   left: 0px;
+   position: absolute;
+   top: 280px;
+   width: 970px;
+   z-index: 29;
 }
 #foot_Container {
    margin-left: auto;
@@ -572,18 +592,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 640px;
+   top: 642px;
    width: 968px;
-   z-index: 22;
-}
-#wb_txtacc {
-   height: 23px;
-   left: 319px;
-   position: absolute;
-   text-align: center;
-   top: 149px;
-   width: 350px;
-   z-index: 5;
+   z-index: 28;
 }
 #wb_Shape2 {
    height: 32px;
@@ -591,7 +602,7 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 15;
+   z-index: 7;
 }
 #Combobox1 {
    height: 36px;
@@ -599,7 +610,7 @@ body {
    position: absolute;
    top: 129px;
    width: 240px;
-   z-index: 13;
+   z-index: 5;
 }
 #btnconnexion {
    height: 50px;
@@ -607,15 +618,20 @@ body {
    position: absolute;
    top: 229px;
    width: 150px;
-   z-index: 12;
+   z-index: 4;
 }
 #wb_Breadcrumb2 {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 280px;
+   top: 0px;
    width: 970px;
-   z-index: 23;
+   z-index: 31;
+}
+#wb_uid0 {
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
 }
 #Combobox2 {
    height: 36px;
@@ -623,7 +639,7 @@ body {
    position: absolute;
    top: 14px;
    width: 200px;
-   z-index: 9;
+   z-index: 1;
 }
 #Label1 {
    height: 26px;
@@ -632,20 +648,5 @@ body {
    position: absolute;
    top: 14px;
    width: 101px;
-   z-index: 8;
-}
-#menu {
-   height: 30px;
-   left: 9px;
-   position: absolute;
-   top: 9px;
-   width: 950px;
-   z-index: 7;
-}
-#wb_uid0 {
-   height: 16px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 185px;
+   z-index: 0;
 }

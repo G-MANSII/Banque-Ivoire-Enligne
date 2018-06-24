@@ -14,38 +14,10 @@ body {
    margin: 0;
    text-align: center;
 }
-#head {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px transparent solid;
-}
-#newmenu {
-   -moz-box-shadow: 0px 0px 1px #A9A9A9;
-   -webkit-box-shadow: 0px 0px 1px #A9A9A9;
-   background-color: #1E90FF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-   box-shadow: 0px 0px 1px #A9A9A9;
-}
 #foot {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
-}
-#Label2 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #CCCCCC solid;
-   -moz-border-radius: 4px;
-   -webkit-border-radius: 4px;
-   border-radius: 4px;
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
 }
 #Breadcrumb2 {
    background-color: transparent;
@@ -81,93 +53,6 @@ body {
    font-size: 16px;
    width: 18px;
 }
-.ui-widget {
-   font-size: 1em  !important;
-}
-#jQueryTabs1 {
-   padding: 4px 4px 4px 4px;
-}
-#jQueryTabs1 .ui-tabs-nav {
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   padding: 4px 4px 0px 4px;
-}
-#jQueryTabs1 .ui-tabs-nav li {
-   font-family: Arial;
-   font-style: normal;
-   font-weight: normal;
-   margin: 0px 2px -1px 0px;
-}
-#jQueryTabs1 .ui-tabs-nav li a {
-   padding: 8px 10px 8px 10px;
-}
-#jQueryTabs1 .ui-tabs-panel {
-   overflow: auto;
-}
-#jQueryTabs1 .ui-tabs-nav {
-   bottom: 0;
-   left: 0;
-   padding: 0px 4px 4px 4px;
-   position: absolute  !important;
-   right: 0;
-}
-#jQueryTabs1 .ui-tabs-nav li {
-   border-bottom-width: 1px;
-   border-top: none;
-   margin-bottom: 1px  !important;
-   margin-top: -2px  !important;
-}
-#jQueryTabs1,
-#jQueryTabs1 .ui-corner-all,
-#jQueryTabs1 .ui-corner-top {
-   -moz-border-top-left-radius: 1px;
-   -moz-border-top-right-radius: 1px;
-   -webkit-border-top-left-radius: 1px;
-   -webkit-border-top-right-radius: 1px;
-   border-top-left-radius: 1px;
-   border-top-right-radius: 1px;
-}
-#jQueryTabs1,
-#jQueryTabs1 .ui-corner-all,
-#jQueryTabs1 .ui-corner-bottom {
-   -moz-border-bottom-left-radius: 1px;
-   -moz-border-bottom-right-radius: 1px;
-   -webkit-border-bottom-left-radius: 1px;
-   -webkit-border-bottom-right-radius: 1px;
-   border-bottom-left-radius: 1px;
-   border-bottom-right-radius: 1px;
-}
-#jQueryTabs1 .ui-helper-reset {
-   line-height: 24px;
-}
-#Layer1 {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-}
-#Editbox1 {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px #FF7F50 solid;
-   -moz-border-radius: 4px;
-   -webkit-border-radius: 4px;
-   border-radius: 4px;
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
-}
-#Editbox1:focus {
-   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
-   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
-   border-color: #1E90FF;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
-   outline: 0;
-}
 #Layer2 {
    background-color: #F5F5F5;
    background-image: none;
@@ -193,21 +78,6 @@ body {
    border-color: #1E90FF;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    outline: 0;
-}
-#Label1 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #CCCCCC solid;
-   -moz-border-radius: 4px;
-   -webkit-border-radius: 4px;
-   border-radius: 4px;
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
 }
 #Label4 {
    background-color: transparent;
@@ -421,10 +291,6 @@ body {
    text-align: left;
    white-space: nowrap;
 }
-#Layer5 {
-   background-color: transparent;
-   background-image: none;
-}
 #Editbox4 {
    background-color: #FFFFFF;
    background-image: none;
@@ -483,13 +349,15 @@ body {
    color: #0000FF;
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
-#logo {
-   border: 0px #000000 solid;
-   height: 100%;
-   left: 0;
-   padding: 0px 0px 0px 0px;
-   top: 0;
-   width: 100%;
+#divhead {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#head {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px transparent solid;
 }
 #band {
    border-width: 0;
@@ -612,56 +480,41 @@ body {
    text-align: center;
    white-space: nowrap;
 }
-#menu ul.navbar {
+#logo {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#NavigationBar1 ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#menu ul.navbar li {
+#NavigationBar1 ul.navbar li {
    float: left;
-   height: 30px;
+   height: 42px;
    margin: 0 0px 0 0;
-   overflow: hidden;
-   width: 135px;
+   width: 161px;
 }
-#menu ul.navbar li a {
+#NavigationBar1 ul.navbar li a {
    display: block;
    position: relative;
 }
-#menu ul.navbar li a img {
+#NavigationBar1 ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#menu.affix {
-   left: 50%  !important;
-   margin-left: -475px;
-   position: fixed  !important;
-   top: 0  !important;
-}
-#Editbox1 {
-   height: 26px;
-   left: 49px;
-   line-height: 26px;
+#NavigationBar1 ul.navbar li span {
+   display: block;
+   height: 42px;
    position: absolute;
-   top: 49px;
-   width: 230px;
-   z-index: 30;
-}
-#Label2 {
-   height: 26px;
-   left: 62px;
-   line-height: 26px;
-   position: absolute;
-   top: 13px;
-   width: 764px;
-   z-index: 28;
-}
-#wb_uid1 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 15px;
+   width: 161px;
+   z-index: 2;
 }
 #head {
    height: 204px;
@@ -670,7 +523,20 @@ body {
    text-align: left;
    top: 0px;
    width: 968px;
-   z-index: 64;
+   z-index: 37;
+}
+#wb_uid1 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+}
+#wb_band {
+   height: 100px;
+   left: 259px;
+   position: absolute;
+   top: 39px;
+   width: 470px;
+   z-index: 30;
 }
 #Label3 {
    height: 21px;
@@ -679,7 +545,14 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 63;
+   z-index: 29;
+}
+#wb_uid2 {
+   height: 24px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 201px;
 }
 #wb_Text1 {
    height: 24px;
@@ -688,7 +561,7 @@ body {
    text-align: left;
    top: 95px;
    width: 60px;
-   z-index: 23;
+   z-index: 15;
 }
 #Editbox2 {
    height: 26px;
@@ -697,22 +570,25 @@ body {
    position: absolute;
    top: 89px;
    width: 230px;
-   z-index: 19;
+   z-index: 11;
 }
-#wb_uid2 {
-   height: 22px;
-   left: 0px;
+#wb_icolocal {
+   height: 23px;
+   left: 899px;
    position: absolute;
-   top: 0px;
-   width: 350px;
+   text-align: center;
+   top: 9px;
+   width: 30px;
+   z-index: 34;
 }
-#wb_band {
-   height: 100px;
-   left: 259px;
+#wb_icosear {
+   height: 18px;
+   left: 899px;
    position: absolute;
-   top: 39px;
-   width: 470px;
-   z-index: 0;
+   text-align: center;
+   top: 159px;
+   width: 18px;
+   z-index: 32;
 }
 #Shape2 {
    height: 32px;
@@ -722,7 +598,12 @@ body {
    left: 220px;
    position: absolute;
    top: 26px;
-   z-index: 9;
+   z-index: 1;
+}
+#wb_uid3 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
 }
 #wb_Text2 {
    height: 24px;
@@ -731,7 +612,7 @@ body {
    text-align: left;
    top: 24px;
    width: 201px;
-   z-index: 8;
+   z-index: 0;
 }
 #Editbox3 {
    height: 26px;
@@ -740,7 +621,7 @@ body {
    position: absolute;
    top: 89px;
    width: 342px;
-   z-index: 24;
+   z-index: 16;
 }
 #Label4 {
    height: 26px;
@@ -749,30 +630,7 @@ body {
    position: absolute;
    top: 15px;
    width: 764px;
-   z-index: 18;
-}
-#wb_uid3 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
-}
-#wb_icolocal {
-   height: 23px;
-   left: 899px;
-   position: absolute;
-   text-align: center;
-   top: 9px;
-   width: 30px;
-   z-index: 4;
-}
-#wb_icosear {
-   height: 18px;
-   left: 899px;
-   position: absolute;
-   text-align: center;
-   top: 159px;
-   width: 18px;
-   z-index: 2;
+   z-index: 10;
 }
 #Editbox4 {
    height: 26px;
@@ -781,13 +639,20 @@ body {
    position: absolute;
    top: 60px;
    width: 307px;
-   z-index: 16;
+   z-index: 8;
 }
 #RadioButton2 {
    left: 343px;
    position: absolute;
    top: 22px;
-   z-index: 11;
+   z-index: 3;
+}
+#wb_uid4 {
+   height: 24px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 70px;
 }
 #wb_Text3 {
    height: 24px;
@@ -796,50 +661,7 @@ body {
    text-align: left;
    top: 24px;
    width: 70px;
-   z-index: 10;
-}
-#wb_uid4 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 60px;
-}
-#newmenu_Container {
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   text-align: left;
-   width: 968px;
-}
-#Layer1 {
-   height: 239px;
-   left: 15px;
-   position: absolute;
-   text-align: left;
-   top: 2px;
-   width: 673px;
-   z-index: 31;
-}
-#RadioButton3 {
-   left: 510px;
-   position: absolute;
-   top: 24px;
-   z-index: 13;
-}
-#wb_Text4 {
-   height: 24px;
-   left: 373px;
-   position: absolute;
-   text-align: left;
-   top: 22px;
-   width: 110px;
-   z-index: 12;
-}
-#wb_uid5 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
+   z-index: 2;
 }
 #wb_local {
    height: 17px;
@@ -848,7 +670,27 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 3;
+   z-index: 33;
+}
+#RadioButton3 {
+   left: 510px;
+   position: absolute;
+   top: 24px;
+   z-index: 5;
+}
+#wb_Text4 {
+   height: 24px;
+   left: 373px;
+   position: absolute;
+   text-align: left;
+   top: 22px;
+   width: 110px;
+   z-index: 4;
+}
+#wb_uid5 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
 }
 #wb_Text5 {
    height: 24px;
@@ -857,14 +699,14 @@ body {
    text-align: left;
    top: 24px;
    width: 70px;
-   z-index: 14;
+   z-index: 6;
 }
 #wb_uid6 {
    height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 201px;
+   width: 110px;
 }
 #Editbox6 {
    height: 26px;
@@ -873,24 +715,28 @@ body {
    position: absolute;
    top: 385px;
    width: 230px;
-   z-index: 20;
+   z-index: 12;
 }
 #Layer2 {
    height: 615px;
-   left: 19px;
+   left: 240px;
    position: absolute;
    text-align: left;
-   top: 61px;
+   top: 50px;
    width: 932px;
-   z-index: 29;
+   z-index: 50;
 }
-#jQueryTabs1 {
-   height: 760px;
-   left: 0px;
+#wb_logo {
+   height: 200px;
+   left: 9px;
    position: absolute;
-   top: 342px;
-   width: 960px;
-   z-index: 68;
+   top: 4px;
+   width: 240px;
+   z-index: 36;
+}
+#band {
+   height: 100px;
+   width: 470px;
 }
 #wb_uid7 {
    color: #000000;
@@ -904,7 +750,7 @@ body {
    text-align: left;
    top: 145px;
    width: 910px;
-   z-index: 25;
+   z-index: 17;
 }
 #Editbox7 {
    height: 26px;
@@ -913,44 +759,7 @@ body {
    position: absolute;
    top: 435px;
    width: 230px;
-   z-index: 21;
-}
-#wb_logo {
-   height: 200px;
-   left: 9px;
-   position: absolute;
-   top: 4px;
-   width: 240px;
-   z-index: 6;
-}
-#band {
-   height: 100px;
-   width: 470px;
-}
-#Layer4 {
-   height: 32px;
-   left: 1px;
-   position: absolute;
-   text-align: left;
-   top: 310px;
-   width: 969px;
-   z-index: 69;
-}
-#Editbox8 {
-   height: 26px;
-   left: 620px;
-   line-height: 26px;
-   position: absolute;
-   top: 16px;
-   width: 260px;
-   z-index: 15;
-}
-#wb_uid8 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 70px;
+   z-index: 13;
 }
 #edit_reche {
    height: 19px;
@@ -959,54 +768,69 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 1;
+   z-index: 31;
 }
-#wb_uid10 {
-   height: 24px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 110px;
-}
-#wb_uid9 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-}
-#Layer5 {
-   height: 75px;
+#Layer4 {
+   height: 32px;
    left: 1px;
    position: absolute;
    text-align: left;
-   top: 402px;
-   width: 910px;
-   z-index: 27;
+   top: 30px;
+   width: 969px;
+   z-index: 51;
 }
-#newmenu {
-   height: 50px;
-   left: 0px;
+#Editbox8 {
+   height: 26px;
+   left: 620px;
+   line-height: 26px;
    position: absolute;
-   text-align: center;
-   top: 220px;
-   width: 968px;
-   z-index: 65;
+   top: 16px;
+   width: 260px;
+   z-index: 7;
 }
-#wb_uid11 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-}
-#wb_uid12 {
+#wb_uid8 {
    height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
    width: 70px;
 }
-#wb_uid13 {
+#NavigationBar1 {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 38;
+}
+#wb_uid10 {
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
+}
+#wb_uid9 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
+}
+#wb_uid11 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 15px;
+}
+#wb_uid12 {
+   height: 22px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 350px;
+}
+#wb_uid13 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 19px;
 }
 #jd {
    height: 26px;
@@ -1015,7 +839,7 @@ body {
    position: absolute;
    top: 375px;
    width: 230px;
-   z-index: 17;
+   z-index: 9;
 }
 #btnvalide {
    height: 50px;
@@ -1023,12 +847,36 @@ body {
    position: absolute;
    top: 557px;
    width: 150px;
-   z-index: 26;
+   z-index: 18;
 }
-#jquerytabs1-page-0 {
-   height: 720px;
-   overflow: auto;
-   padding: 0;
+#wb_txtacc {
+   height: 23px;
+   left: 319px;
+   position: absolute;
+   text-align: center;
+   top: 149px;
+   width: 350px;
+   z-index: 35;
+}
+#divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 53;
+}
+#zone {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   height: 665px;
+   left: 0px;
+   position: absolute;
+   top: 280px;
+   width: 1172px;
+   z-index: 47;
 }
 #foot_Container {
    margin-left: auto;
@@ -1042,18 +890,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1122px;
+   top: 957px;
    width: 968px;
-   z-index: 66;
-}
-#wb_txtacc {
-   height: 23px;
-   left: 319px;
-   position: absolute;
-   text-align: center;
-   top: 149px;
-   width: 350px;
-   z-index: 5;
+   z-index: 46;
 }
 #wb_Shape2 {
    height: 32px;
@@ -1061,12 +900,7 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 62;
-}
-#jquerytabs1-page-1 {
-   height: 720px;
-   overflow: auto;
-   padding: 0;
+   z-index: 28;
 }
 #Combobox1 {
    height: 36px;
@@ -1074,42 +908,20 @@ body {
    position: absolute;
    top: 89px;
    width: 90px;
-   z-index: 22;
+   z-index: 14;
 }
 #wb_Breadcrumb2 {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 280px;
+   top: 0px;
    width: 970px;
-   z-index: 67;
-}
-#Label1 {
-   height: 26px;
-   left: 53px;
-   line-height: 26px;
-   position: absolute;
-   top: 4px;
-   width: 764px;
-   z-index: 32;
-}
-#jquerytabs1-page-2 {
-   height: 720px;
-   overflow: auto;
-   padding: 0;
-}
-#menu {
-   height: 30px;
-   left: 9px;
-   position: absolute;
-   top: 9px;
-   width: 950px;
-   z-index: 7;
+   z-index: 49;
 }
 #wb_uid0 {
-   height: 16px;
+   height: 24px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 185px;
+   width: 60px;
 }
