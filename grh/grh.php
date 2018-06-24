@@ -81,60 +81,78 @@
             <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
             <div id="jQueryDatePicker1">
             </div>
-            <script>                        
-                        function selectgrh() {
-                           var eID = document.getElementById("combogrh");
-                           var colorVal = eID.options[eID.selectedIndex].value;
-                           var colortxt = eID.options[eID.selectedIndex].text;
+            <script>                                    
+                                    function selectgrh() {
+                                       var eID = document.getElementById("combogrh");
+                                       var colorVal = eID.options[eID.selectedIndex].value;
+                                       var colortxt = eID.options[eID.selectedIndex].text;
+                                    
+                                     if (colorVal=="Absences") {
+                                                               window.location.href="../grh/conf/Absences.php" ;
+                                                               } else if (colorVal=="Certificats"){ 
+                                                               window.location.href="../grh/conf/Certificats.php";
+                                                               
+                         } else if (colorVal=="Conges"){ 
+                                                               window.location.href="../grh/conf/Conges.php";
+                         } else if (colorVal=="Contrats"){ 
+                                                               window.location.href="../grh/conf/Contrats.php";
                         
-                          if (colorVal=="Agences") {
-                                       window.location.href="../administrator/conf/Agences.php" ;
-                                       } else if (colorVal=="Categoriedeposte"){ 
-                                       window.location.href="../administrator/conf/Categorie_de_poste.php";
-                                       } else if (colorVal=="Congés"){ 
-                                       window.location.href="../administrator/conf/Congés.php";
-                                       } else if (colorVal=="Contrats"){ 
-                                       window.location.href="../administrator/conf/Contrats.php";
-                                       } else if (colorVal=="Fonctions"){ 
-                                       window.location.href="../administrator/conf/Fonctions.php";
-                                       } else if (colorVal=="Formations"){ 
-                                       window.location.href="../administrator/conf/Formations.php";
-                                       } else if (colorVal=="Pays"){ 
-                                       window.location.href="../administrator/conf/Pays.php";
-                                       } else if (colorVal=="Postes"){ 
-                                       window.location.href="../administrator/conf/Postes.php";
-                                       } else if (colorVal=="Promotions"){ 
-                                       window.location.href="../administrator/conf/Promotions.php";
-                                       } else if (colorVal=="Services"){ 
-                                       window.location.href="../administrator/conf/Services.php";
-                                       } else if (colorVal=="Typedecontrats"){ 
-                                       window.location.href="../administrator/conf/Type_de_contrats.php";
-                                       } else if (colorVal=="Villes"){ 
-                                       window.location.href="../administrator/conf/Villes.php";
-                                       } 
-                        }
-                                 
+                         } else if (colorVal=="Documents"){ 
+                                                               window.location.href="../grh/conf/Documents.php";
+                         } else if (colorVal=="Domiciliations"){ 
+                                                               window.location.href="../grh/conf/Domiciliations.php";
+                         } else if (colorVal=="Emplois"){ 
+                                                               window.location.href="../grh/conf/Emplois.php";
+                         } else if (colorVal=="Employes"){ 
+                                                               window.location.href="../grh/conf/Employes.php";
+                         } else if (colorVal=="Etats"){ 
+                                                               window.location.href="../grh/conf/Etats.php";
+                         } else if (colorVal=="Feries"){ 
+                                                               window.location.href="../grh/conf/Feries.php";
+                         } else if (colorVal=="Filiations"){ 
+                                                               window.location.href="../grh/conf/Filiations.php";
+                         } else if (colorVal=="Fonctions"){ 
+                                                               window.location.href="../grh/conf/Fonctions.php";
+                         } else if (colorVal=="Formations"){ 
+                                                               window.location.href="../grh/conf/Formations.php";
+                         } else if (colorVal=="Motifs"){ 
+                                                               window.location.href="../grh/conf/Motifs.php";
+                         } else if (colorVal=="Permissions"){ 
+                                                               window.location.href="../grh/conf/Permissions.php";
+                         } else if (colorVal=="Postes"){ 
+                                                               window.location.href="../grh/conf/Postes.php";
+                         } else if (colorVal=="Primes"){ 
+                                                               window.location.href="../grh/conf/Primes.php";
+                         } else if (colorVal=="Promotions"){ 
+                                                               window.location.href="../grh/conf/Promotions.php";
+                         } else if (colorVal=="Services"){ 
+                                                               window.location.href="../grh/conf/Services.php";
+                         }
+                                                        
+                         }
+                                             
+                        
             </script>
             <select name="Combogrh" size="1" id="combogrh" onchange="selectgrh()">
                <option value="Absences">Absences</option>
                <option value="Certificats">Certificats</option>
                <option value="Conges">Conges</option>
-               <option>Contrats</option>
-               <option>Documents</option>
-               <option>Domiciliations</option>
-               <option>Emplois</option>
-               <option>Employes</option>
-               <option>Etats</option>
-               <option>Feries</option>
-               <option>Filiations</option>
-               <option>Fonctions</option>
-               <option>Formations</option>
-               <option>Motifs</option>
-               <option>Permissions</option>
-               <option>Postes</option>
-               <option>Primes</option>
-               <option>Promotions</option>
-               <option>Services</option>
+               <option value="Contrats">Contrats</option>
+               <option value="Documents">Documents</option>
+               <option value="Domiciliations">Domiciliations</option>
+               <option value="Emplois">Emplois</option>
+               <option value="Employes">Employes</option>
+               <option value="Etats">Etats</option>
+               <option value="Feries">Feries</option>
+               <option value="Filiations">Filiations</option>
+               <option value="Fonctions">Fonctions</option>
+               <option value="Formations">Formations</option>
+               <option value="Motifs">Motifs</option>
+               <option value="Permissions">Permissions</option>
+               <option value="Postes">Postes</option>
+               <option value="Primes">Primes</option>
+               <option value="Promotions">Promotions</option>
+               <option value="Services">Services</option>
             </select>
             <div id="wb_Text5">
                <span id="wb_uid15">Gestion de Base de données:</span></div>

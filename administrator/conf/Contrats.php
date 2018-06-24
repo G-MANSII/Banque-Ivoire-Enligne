@@ -37,12 +37,12 @@
       <div id="zone">
          <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
             <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-            <label for="" id="Label2">Base de données - Agences</label>
+            <label for="" id="Label2">Base de données - Contrats</label>
             <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
             <div id="Layer3">
                <hr id="Line2">
                <div id="wb_Heading1">
-                  <h1 id="Heading1">Liste des Agences existantes</h1></div>
+                  <h1 id="Heading1">Liste des Contrats existants</h1></div>
                <hr id="Line1">
             </div>
             <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
@@ -122,13 +122,13 @@
                <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
                <li><a href="" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
                <li><a href="./../admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-               <li><a href="./Agences.php" title="agences"><i class="fa fa-map-pin">&nbsp;</i>Agence</a></li>
+               <li class="active"><i class="fa fa-sticky-note-o">&nbsp;</i>Contrats</li>
             </ul>
          </div>
          <div id="Layer2">
             <div id="wb_Shape2">
                <img src="../../images/img0050.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Agences</label>
+            <label for="" id="Label3">Contrats</label>
          </div>
          <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
       </div>

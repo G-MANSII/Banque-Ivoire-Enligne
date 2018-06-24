@@ -700,7 +700,7 @@ body {
    height: 470px;
    left: 12px;
    position: absolute;
-   top: 520px;
+   top: 529px;
    width: 945px;
    z-index: 10;
 }
@@ -736,11 +736,11 @@ body {
 }
 #Layer3 {
    height: 108px;
-   left: 7.732%;
+   left: 25.567%;
    position: absolute;
    text-align: left;
    top: 389px;
-   width: 796px;
+   width: 475px;
    z-index: 6;
 }
 #edit_reche {
@@ -913,11 +913,11 @@ body {
 }
 #Line1 {
    height: 8px;
-   left: 196px;
+   left: 23px;
    position: absolute;
    top: 19px;
    width: 428px;
-   z-index: 1;
+   z-index: 2;
 }
 #wb_uid48 {
    height: 16px;
@@ -963,7 +963,7 @@ body {
 }
 #Line2 {
    height: 8px;
-   left: 196px;
+   left: 23px;
    position: absolute;
    top: 89px;
    width: 428px;
@@ -1106,10 +1106,10 @@ body {
 }
 #wb_Heading1 {
    height: 40px;
-   left: 79px;
+   left: 12px;
    position: absolute;
    text-align: center;
-   top: 34px;
-   width: 662px;
-   z-index: 2;
+   top: 40px;
+   width: 451px;
+   z-index: 1;
 }
