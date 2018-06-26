@@ -90,7 +90,6 @@
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">
             <li class="active"><i class="fa fa-home">&nbsp;</i>Acceuil</li>
-            <li><a href="./incription/inscription.html" title="inscription"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
          </ul>
       </div>
       <div id="Layer1">
