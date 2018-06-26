@@ -44,11 +44,10 @@
       </div>
       <div id="Layer2">
          <div id="Layer3">
-            <label for="" id="Label4">Identification morale </label>
             <div id="wb_Text7">
                <div id="wb_uid0"><span id="wb_uid1">Titre: </span></div>
             </div>
-            <select name="titre" size="1" id="Combobox3" tabindex="0" autofocus="">
+            <select name="titresociete" size="1" id="Combobox3" tabindex="0">
                <option value="SA">SA</option>
                <option value="SARL">SARL</option>
                <option value="SAS">SAS</option>
@@ -76,7 +75,7 @@
          <input type="submit" id="btnvalide" name="valide" value="Validé">
          <hr id="Line1">
          <div id="Layer5">
-            <select name="titre" size="1" id="Combobox4" tabindex="0" autofocus="">
+            <select name="agence" size="1" id="Combobox4" tabindex="0" autofocus="">
             </select>
             <input type="text" id="Editbox34" name="precision" value="" tabindex="1" placeholder="Pr&#233;cision*">
             <div id="wb_Text11">
@@ -101,7 +100,7 @@
                <div id="wb_uid16"><span id="wb_uid17"><strong><u>Identification compte</u></strong></span></div>
             </div>
          </div>
-         <div id="Layer1">
+         <div id="Layer1" title="titrepiece">
             <div id="wb_Text6">
                <div id="wb_uid18"><span id="wb_uid19">Titre: </span></div>
             </div>
@@ -112,8 +111,8 @@
                <option value="dr">Dr.*</option>
                <option value="prof">Prof.*</option>
             </select>
-            <input type="text" id="Editbox2" name="edtnam" value="" tabindex="1" placeholder="Nom*">
-            <input type="text" id="Editbox3" name="edtprenom" value="" tabindex="2" placeholder="Pr&#233;nom*">
+            <input type="text" id="Editbox2" name="nom" value="" tabindex="1" placeholder="Nom*">
+            <input type="text" id="Editbox3" name="prenom" value="" tabindex="2" placeholder="Pr&#233;nom*">
             <input type="radio" id="RadioButton2" name="Name" value="on" required="">
             <div id="wb_Text3">
                <div id="wb_uid20"><span id="wb_uid21">CNI</span></div>
@@ -127,7 +126,7 @@
                <div id="wb_uid24"><span id="wb_uid25">Autre</span></div>
             </div>
             <input type="text" id="pieceautre" name="edtnam" value="" tabindex="1" placeholder="Titre*">
-            <input type="text" id="Editbox4" name="edtnam" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
+            <input type="text" id="Editbox4" name="numeropiece" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
             <div id="wb_Text2">
                <div id="wb_uid26"><span id="wb_uid27">Mode identification:</span></div>
             </div>
@@ -141,7 +140,7 @@
             <div id="wb_Text1">
                <div id="wb_uid28"><span id="wb_uid29">Sexe: </span></div>
             </div>
-            <select name="titre" size="1" id="Combobox2" tabindex="0" autofocus="">
+            <select name="sexe" size="1" id="Combobox2" tabindex="0" autofocus="">
                <option value="M">M</option>
                <option value="F">F</option>
             </select>

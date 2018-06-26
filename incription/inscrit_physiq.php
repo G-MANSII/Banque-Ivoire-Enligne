@@ -39,9 +39,9 @@
          <hr id="Line5">
          <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="Layer5">
-            <select name="titre" size="1" id="Combobox4" tabindex="0">
+            <select name="titreagence" size="1" id="Combobox4" tabindex="0">
             </select>
-            <input type="text" id="Editbox34" name="precision" value="" tabindex="1" placeholder="Pr&#233;cision*">
+            <input type="text" id="Editbox34" name="precisioncompt" value="" tabindex="1" placeholder="Pr&#233;cision*">
             <div id="wb_Text11">
                <div id="wb_uid0"><span id="wb_uid1">Autre</span></div>
             </div>
@@ -92,8 +92,8 @@
             <div id="wb_Text5">
                <div id="wb_uid20"><span id="wb_uid21">Autre</span></div>
             </div>
-            <input type="text" id="pieceautre" name="edtnam" value="" tabindex="1" placeholder="Titre*">
-            <input type="text" id="Editbox4" name="edtnam" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
+            <input type="text" id="pieceautre" name="titrpiece" value="" tabindex="1" placeholder="Titre*">
+            <input type="text" id="Editbox4" name="numeropiece" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
             <div id="wb_Text2">
                <div id="wb_uid22"><span id="wb_uid23">Mode identification:</span></div>
             </div>
@@ -107,7 +107,7 @@
             <div id="wb_Text1">
                <div id="wb_uid24"><span id="wb_uid25">Sexe: </span></div>
             </div>
-            <select name="titre" size="1" id="Combobox2" tabindex="0" autofocus="">
+            <select name="sexe" size="1" id="Combobox2" tabindex="0" autofocus="">
                <option value="M">M</option>
                <option value="F">F</option>
             </select>
@@ -119,10 +119,10 @@
             <div id="wb_Text18">
                <div id="wb_uid28"><span id="wb_uid29">Situation matrimoniale: </span></div>
             </div>
-            <select name="titre" size="1" id="Combobox5" tabindex="0" autofocus="">
+            <select name="matrimoniale" size="1" id="Combobox5" tabindex="0" autofocus="">
             </select>
             <input type="file" id="FileUpload1" name="FileUpload1">
-            <input type="text" id="Editbox23" name="conjoint" value="" tabindex="2" placeholder="Conjoint">
+            <input type="text" id="Editbox23" name="conjoint" value="" tabindex="2" placeholder="Conjoint(e)">
             <input type="text" id="Editbox35" name="ville" value="" tabindex="1" placeholder="Ville de r&#233;sidence*">
          </div>
       </div>
