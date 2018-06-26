@@ -111,7 +111,10 @@
                                        window.location.href="../administrator/conf/Type_de_contrats.php";
                                        } else if (colorVal=="Villes"){ 
                                        window.location.href="../administrator/conf/Villes.php";
-                                       } 
+                                        
+                                        } else if (colorVal=="GRH"){ 
+                                                   window.location.href="../administrator/conf/grhassign.php";
+                                         } 
                         }
                                  
             </script>
@@ -122,6 +125,7 @@
                <option value="Contrats">Contrats</option>
                <option value="Fonctions">Fonctions</option>
                <option value="Formations">Formations</option>
+               <option value="GRH">GRH</option>
                <option value="Pays">Pays</option>
                <option value="Postes">Postes</option>
                <option value="Promotions">Promotions</option>

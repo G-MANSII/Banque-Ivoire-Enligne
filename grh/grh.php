@@ -128,6 +128,9 @@
                          } else if (colorVal=="Services"){ 
                                                                window.location.href="../grh/conf/Services.php";
                          }
+             else if (colorVal=="Gestionnaires"){ 
+                                                   window.location.href="../grh/conf/Gestionnaires.php";
+                                         } 
                                                         
                          }
                                              
