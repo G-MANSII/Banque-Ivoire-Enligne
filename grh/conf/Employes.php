@@ -34,103 +34,101 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-            <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-            <label for="" id="Label2">Base de données - Employes</label>
-            <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
-            <div id="Layer3">
-               <hr id="Line2">
-               <div id="wb_Heading1">
-                  <h1 id="Heading1">Liste Employes</h1></div>
-               <hr id="Line1">
-            </div>
-            <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
-            <input type="submit" id="Button1" name="modifier" value="Modifier">
-            <input type="submit" id="Button2" name="suppri" value="Supprimer">
-            <table id="Table1">
-               <tr>
-                  <td class="cell0"><span id="wb_uid0"> </span></td>
-                  <td class="cell0"><span id="wb_uid1"> </span></td>
-                  <td class="cell0"><span id="wb_uid2"> </span></td>
-                  <td class="cell0"><span id="wb_uid3"> </span></td>
-                  <td class="cell0"><span id="wb_uid4"> </span></td>
-                  <td class="cell1"><span id="wb_uid5"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid6"> </span></td>
-                  <td class="cell0"><span id="wb_uid7"> </span></td>
-                  <td class="cell0"><span id="wb_uid8"> </span></td>
-                  <td class="cell0"><span id="wb_uid9"> </span></td>
-                  <td class="cell0"><span id="wb_uid10"> </span></td>
-                  <td class="cell1"><span id="wb_uid11"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid12"> </span></td>
-                  <td class="cell0"><span id="wb_uid13"> </span></td>
-                  <td class="cell0"><span id="wb_uid14"> </span></td>
-                  <td class="cell0"><span id="wb_uid15"> </span></td>
-                  <td class="cell0"><span id="wb_uid16"> </span></td>
-                  <td class="cell1"><span id="wb_uid17"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid18"> </span></td>
-                  <td class="cell0"><span id="wb_uid19"> </span></td>
-                  <td class="cell0"><span id="wb_uid20"> </span></td>
-                  <td class="cell0"><span id="wb_uid21"> </span></td>
-                  <td class="cell0"><span id="wb_uid22"> </span></td>
-                  <td class="cell1"><span id="wb_uid23"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell2"><span id="wb_uid24"> </span></td>
-                  <td class="cell2"><span id="wb_uid25"> </span></td>
-                  <td class="cell2"><span id="wb_uid26"> </span></td>
-                  <td class="cell2"><span id="wb_uid27"> </span></td>
-                  <td class="cell2"><span id="wb_uid28"> </span></td>
-                  <td class="cell3"><span id="wb_uid29"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid30"> </span></td>
-                  <td class="cell0"><span id="wb_uid31"> </span></td>
-                  <td class="cell0"><span id="wb_uid32"> </span></td>
-                  <td class="cell0"><span id="wb_uid33"> </span></td>
-                  <td class="cell0"><span id="wb_uid34"> </span></td>
-                  <td class="cell1"><span id="wb_uid35"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid36"> </span></td>
-                  <td class="cell0"><span id="wb_uid37"> </span></td>
-                  <td class="cell0"><span id="wb_uid38"> </span></td>
-                  <td class="cell0"><span id="wb_uid39"> </span></td>
-                  <td class="cell0"><span id="wb_uid40"> </span></td>
-                  <td class="cell1"><span id="wb_uid41"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell4"><span id="wb_uid42"> </span></td>
-                  <td class="cell4"><span id="wb_uid43"> </span></td>
-                  <td class="cell4"><span id="wb_uid44"> </span></td>
-                  <td class="cell4"><span id="wb_uid45"> </span></td>
-                  <td class="cell4"><span id="wb_uid46"> </span></td>
-                  <td class="cell5"><span id="wb_uid47"> </span></td>
-               </tr>
-            </table>
-            <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-            <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
-            <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
-         </form>
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./../grh.php" title="Gestions des resources humaines"><i class="fa fa-database">&nbsp;</i>Gestions des resources humaines</a></li>
-               <li><a href="./../grh.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-               <li class="active"><i class="fa fa-odnoklassniki">&nbsp;</i>Employes</li>
-            </ul>
+      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+         <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
+         <label for="" id="Label2">Base de données - Employes</label>
+         <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
+         <div id="Layer3">
+            <hr id="Line2">
+            <div id="wb_Heading1">
+               <h1 id="Heading1">Liste Employes</h1></div>
+            <hr id="Line1">
          </div>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../../images/img0085.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Employes</label>
-         </div>
+         <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
+         <input type="submit" id="Button1" name="modifier" value="Modifier">
+         <input type="submit" id="Button2" name="suppri" value="Supprimer">
+         <table id="Table1">
+            <tr>
+               <td class="cell0"><span id="wb_uid0"> </span></td>
+               <td class="cell0"><span id="wb_uid1"> </span></td>
+               <td class="cell0"><span id="wb_uid2"> </span></td>
+               <td class="cell0"><span id="wb_uid3"> </span></td>
+               <td class="cell0"><span id="wb_uid4"> </span></td>
+               <td class="cell1"><span id="wb_uid5"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid6"> </span></td>
+               <td class="cell0"><span id="wb_uid7"> </span></td>
+               <td class="cell0"><span id="wb_uid8"> </span></td>
+               <td class="cell0"><span id="wb_uid9"> </span></td>
+               <td class="cell0"><span id="wb_uid10"> </span></td>
+               <td class="cell1"><span id="wb_uid11"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid12"> </span></td>
+               <td class="cell0"><span id="wb_uid13"> </span></td>
+               <td class="cell0"><span id="wb_uid14"> </span></td>
+               <td class="cell0"><span id="wb_uid15"> </span></td>
+               <td class="cell0"><span id="wb_uid16"> </span></td>
+               <td class="cell1"><span id="wb_uid17"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid18"> </span></td>
+               <td class="cell0"><span id="wb_uid19"> </span></td>
+               <td class="cell0"><span id="wb_uid20"> </span></td>
+               <td class="cell0"><span id="wb_uid21"> </span></td>
+               <td class="cell0"><span id="wb_uid22"> </span></td>
+               <td class="cell1"><span id="wb_uid23"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell2"><span id="wb_uid24"> </span></td>
+               <td class="cell2"><span id="wb_uid25"> </span></td>
+               <td class="cell2"><span id="wb_uid26"> </span></td>
+               <td class="cell2"><span id="wb_uid27"> </span></td>
+               <td class="cell2"><span id="wb_uid28"> </span></td>
+               <td class="cell3"><span id="wb_uid29"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid30"> </span></td>
+               <td class="cell0"><span id="wb_uid31"> </span></td>
+               <td class="cell0"><span id="wb_uid32"> </span></td>
+               <td class="cell0"><span id="wb_uid33"> </span></td>
+               <td class="cell0"><span id="wb_uid34"> </span></td>
+               <td class="cell1"><span id="wb_uid35"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid36"> </span></td>
+               <td class="cell0"><span id="wb_uid37"> </span></td>
+               <td class="cell0"><span id="wb_uid38"> </span></td>
+               <td class="cell0"><span id="wb_uid39"> </span></td>
+               <td class="cell0"><span id="wb_uid40"> </span></td>
+               <td class="cell1"><span id="wb_uid41"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell4"><span id="wb_uid42"> </span></td>
+               <td class="cell4"><span id="wb_uid43"> </span></td>
+               <td class="cell4"><span id="wb_uid44"> </span></td>
+               <td class="cell4"><span id="wb_uid45"> </span></td>
+               <td class="cell4"><span id="wb_uid46"> </span></td>
+               <td class="cell5"><span id="wb_uid47"> </span></td>
+            </tr>
+         </table>
+         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
+         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
+         <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+      </form>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li><a href="./../grh.php" title="Gestions des resources humaines"><i class="fa fa-database">&nbsp;</i>Gestions des resources humaines</a></li>
+            <li><a href="./../grh.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
+            <li class="active"><i class="fa fa-odnoklassniki">&nbsp;</i>Employes</li>
+         </ul>
+      </div>
+      <div id="Layer2">
+         <div id="wb_Shape2">
+            <img src="../../images/img0085.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Employes</label>
       </div>
       <div id="Div">
          <div id="head">

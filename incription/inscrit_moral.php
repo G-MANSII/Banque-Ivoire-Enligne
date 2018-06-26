@@ -11,8 +11,9 @@
 <link href="../logo.png" rel="apple-touch-icon" sizes="500x380">
 <link href="../css/font-awesome.min.css" rel="stylesheet">
 <link href="../css/BIO_V1.css" rel="stylesheet">
-<link href="../css/insmoral.css" rel="stylesheet">
+<link href="../css/inscrit_moral.css" rel="stylesheet">
 <script src="../java-script/jquery-2.2.4.min.js"></script>
+<script src="../java-script/wwb11.min.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -38,31 +39,71 @@
          <ul id="Breadcrumb2">
             <li><a href="./../administrator/conf/Categorie_de_poste.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
             <li><a href="./insphys.php" title="&lt;x"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
-            <li class="active"><i class="fa fa-address-card">&nbsp;</i> Client moral</li>
+            <li><a href="./insmoral.php"><i class="fa fa-address-card">&nbsp;</i> Client moral</a></li>
          </ul>
       </div>
       <div id="Layer2">
-         <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="Layer3">
-            <div id="wb_Text2">
-               <div id="wb_uid0"><span id="wb_uid1">Mode identification:</span></div>
+            <label for="" id="Label4">Identification morale </label>
+            <div id="wb_Text7">
+               <div id="wb_uid0"><span id="wb_uid1">Titre: </span></div>
             </div>
-            <input type="radio" id="RadioButton1" name="Name" value="on" checked="" autofocus="">
-            <div id="wb_Text3">
-               <div id="wb_uid2"><span id="wb_uid3">CNI</span></div>
+            <select name="titre" size="1" id="Combobox3" tabindex="0" autofocus="">
+               <option value="SA">SA</option>
+               <option value="SARL">SARL</option>
+               <option value="SAS">SAS</option>
+               <option value="SNC">SNC</option>
+            </select>
+            <input type="text" id="Editbox8" name="raisonsocial" value="" tabindex="1" placeholder="Raison sociale*">
+            <input type="date" id="Editbox12" name="datecreation" value="" tabindex="5" placeholder="Date de cr&#233;ation*">
+            <div id="wb_Text8">
+               <div id="wb_uid2"><span id="wb_uid3">Régistre de commerce&nbsp;:</span></div>
             </div>
-            <input type="radio" id="RadioButton2" name="Name" value="on" required="">
-            <div id="wb_Text4">
-               <div id="wb_uid4"><span id="wb_uid5">Passeport</span></div>
+            <input type="text" id="Editbox13" name="numregist" value="" tabindex="1" placeholder="N&#176; *">
+            <input type="tel" id="Editbox14" name="telmoral1" value="" tabindex="1" placeholder="T&#233;l&#233;phone 1*">
+            <input type="tel" id="Editbox15" name="telmoral2" value="" tabindex="1" placeholder="T&#233;l&#233;phone 2">
+            <input type="tel" id="Editbox16" name="fixmoral" value="" tabindex="1" placeholder="Fix">
+            <input type="tel" id="Editbox17" name="fax" value="" tabindex="1" placeholder="Fax">
+            <input type="text" id="Editbox18" name="adresssiege" value="" tabindex="8" placeholder="Adresse postale">
+            <input type="text" id="Editbox19" name="siegesocial" value="" tabindex="8" placeholder="Si&#232;ge social*">
+            <input type="email" id="Editbox20" name="emailmoral" value="" tabindex="8" placeholder="Email*">
+            <input type="text" id="Editbox21" name="siteweb" value="" tabindex="8" placeholder="Site web">
+            <div id="wb_Text10">
+               <div id="wb_uid4"><span id="wb_uid5"><strong><u>Identification morale </u></strong></span></div>
             </div>
-            <input type="radio" id="RadioButton3" name="Name" value="on">
-            <div id="wb_Text5">
+         </div>
+         <hr id="Line5">
+         <input type="submit" id="btnvalide" name="valide" value="Validé">
+         <hr id="Line1">
+         <div id="Layer5">
+            <select name="titre" size="1" id="Combobox4" tabindex="0" autofocus="">
+            </select>
+            <input type="text" id="Editbox34" name="precision" value="" tabindex="1" placeholder="Pr&#233;cision*">
+            <div id="wb_Text11">
                <div id="wb_uid6"><span id="wb_uid7">Autre</span></div>
             </div>
-            <input type="text" id="Editbox8" name="edtnam" value="" tabindex="1" placeholder="Titre*">
-            <input type="text" id="Editbox4" name="edtnam" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
+            <input type="radio" id="RadioButton4" onmousedown="ShowObject('Editbox34', 1);return false;" name="Name1" value="on">
+            <div id="wb_Text12">
+               <div id="wb_uid8"><span id="wb_uid9">Epargne</span></div>
+            </div>
+            <input type="radio" id="RadioButton5" name="Name1" value="on" required="">
+            <div id="wb_Text13">
+               <div id="wb_uid10"><span id="wb_uid11">Courant</span></div>
+            </div>
+            <input type="radio" id="RadioButton6" name="Name1" value="on">
+            <div id="wb_Text14">
+               <div id="wb_uid12"><span id="wb_uid13">Type de compte:</span></div>
+            </div>
+            <div id="wb_Text15">
+               <div id="wb_uid14"><span id="wb_uid15">Agence d'ouverture:</span></div>
+            </div>
+            <div id="wb_Text17">
+               <div id="wb_uid16"><span id="wb_uid17"><strong><u>Identification compte</u></strong></span></div>
+            </div>
+         </div>
+         <div id="Layer1">
             <div id="wb_Text6">
-               <div id="wb_uid8"><span id="wb_uid9">Titre: </span></div>
+               <div id="wb_uid18"><span id="wb_uid19">Titre: </span></div>
             </div>
             <select name="titre" size="1" id="Combobox1" tabindex="0" autofocus="">
                <option value="M.">M.*</option>
@@ -73,28 +114,53 @@
             </select>
             <input type="text" id="Editbox2" name="edtnam" value="" tabindex="1" placeholder="Nom*">
             <input type="text" id="Editbox3" name="edtprenom" value="" tabindex="2" placeholder="Pr&#233;nom*">
-            <label for="" id="Label4">Identification client - Informations personnelles</label>
+            <input type="radio" id="RadioButton2" name="Name" value="on" required="">
+            <div id="wb_Text3">
+               <div id="wb_uid20"><span id="wb_uid21">CNI</span></div>
+            </div>
+            <input type="radio" id="RadioButton1" name="Name" value="on">
+            <input type="radio" id="RadioButton3" onmousedown="ShowObject('pieceautre', 1);return false;" name="Name" value="on">
+            <div id="wb_Text4">
+               <div id="wb_uid22"><span id="wb_uid23">Passeport</span></div>
+            </div>
+            <div id="wb_Text5">
+               <div id="wb_uid24"><span id="wb_uid25">Autre</span></div>
+            </div>
+            <input type="text" id="pieceautre" name="edtnam" value="" tabindex="1" placeholder="Titre*">
+            <input type="text" id="Editbox4" name="edtnam" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
+            <div id="wb_Text2">
+               <div id="wb_uid26"><span id="wb_uid27">Mode identification:</span></div>
+            </div>
             <input type="date" id="Editbox1" name="naissance" value="" tabindex="5" placeholder="Date de naissance*">
             <input type="text" id="Editbox5" name="lieu" value="" tabindex="7" placeholder="Lieu de naissance*">
-            <select name="titre" size="1" id="Combobox2" tabindex="0" autofocus="">
-               <option value="M">M</option>
-               <option value="F">F</option>
-            </select>
-            <div id="wb_Text1">
-               <div id="wb_uid10"><span id="wb_uid11">Sexe: </span></div>
-            </div>
             <input type="text" id="Editbox6" name="adresspost" value="" tabindex="8" placeholder="Adresse postale">
             <input type="text" id="Editbox7" name="profession" value="" tabindex="1" placeholder="Profession*">
             <input type="tel" id="Editbox9" name="tel1" value="" tabindex="1" placeholder="T&#233;l&#233;phone 1*">
             <input type="tel" id="Editbox10" name="tel2" value="" tabindex="1" placeholder="T&#233;l&#233;phone 2">
             <input type="tel" id="Editbox11" name="fix" value="" tabindex="1" placeholder="Fix">
+            <div id="wb_Text1">
+               <div id="wb_uid28"><span id="wb_uid29">Sexe: </span></div>
+            </div>
+            <select name="titre" size="1" id="Combobox2" tabindex="0" autofocus="">
+               <option value="M">M</option>
+               <option value="F">F</option>
+            </select>
+            <input type="text" id="Editbox22" name="nationalite" value="" tabindex="1" placeholder="Nationalit&#233;*">
+            <input type="text" id="Editbox36" name="pays" value="" tabindex="1" placeholder="Pays de r&#233;sidence*">
+            <div id="wb_Text16">
+               <div id="wb_uid30"><span id="wb_uid31"><strong><u>Identification client - Informations personnelles </u></strong></span></div>
+            </div>
+         </div>
+         <div id="wb_Text9">
+            <div id="wb_uid32"><span id="wb_uid33">Tous les champs doivent être correctement remplis sous penne d'être rejeté.</span></div>
          </div>
       </div>
       <div id="Layer4">
          <div id="wb_Shape2">
-            <img src="../images/img0023.png" id="Shape2" alt=""></div>
+            <img src="../images/img0105.png" id="Shape2" alt=""></div>
          <label for="" id="Label3">Ouverture de compte</label>
       </div>
+      <input type="text" id="Editbox35" name="ville" value="" tabindex="1" placeholder="Ville de r&#233;sidence*">
       <div id="Div">
          <div id="head">
             <div id="wb_band">
@@ -103,12 +169,12 @@
             <div id="wb_icosear">
                <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid12"><span id="wb_uid13"><a href="./../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid34"><span id="wb_uid35"><a href="./../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid14"><span id="wb_uid15"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid36"><span id="wb_uid37"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>

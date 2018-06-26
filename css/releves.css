@@ -19,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Layer1 {
    background-color: #FFFFFF;
@@ -543,18 +545,18 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 70px;
+   top: 350px;
    width: 968px;
-   z-index: 35;
+   z-index: 33;
 }
 #Layer2 {
    height: 32px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 969px;
-   z-index: 37;
+   z-index: 35;
 }
 #wb_logo {
    height: 200px;
@@ -610,7 +612,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 39;
+   z-index: 36;
 }
 #Line2 {
    height: 8px;
@@ -637,31 +639,20 @@ body {
    width: 350px;
    z-index: 21;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 610px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 33;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 338px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 902px;
-   width: 968px;
+   top: 890px;
+   width: 970px;
    z-index: 32;
 }
 #wb_Shape2 {
@@ -676,9 +667,9 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 36;
+   z-index: 34;
 }
 #btnconnexion {
    height: 50px;

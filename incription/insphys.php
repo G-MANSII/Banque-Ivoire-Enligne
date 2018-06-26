@@ -34,57 +34,55 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../administrator/conf/Categorie_de_poste.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./inscription.html" title="&lt;x"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
-               <li class="active"><i class="fa fa-address-card-o">&nbsp;</i> Client physique</li>
-            </ul>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li><a href="./../administrator/conf/Categorie_de_poste.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li><a href="./inscription.html" title="&lt;x"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
+            <li class="active"><i class="fa fa-address-card-o">&nbsp;</i> Client physique</li>
+         </ul>
+      </div>
+      <div id="Layer4">
+         <div id="wb_Shape2">
+            <img src="../images/img0014.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Ouverture de compte</label>
+      </div>
+      <div id="Layer2">
+         <input type="text" id="jd" name="eee" value="" placeholder="1">
+         <label for="" id="Label4">Identification client - Informations personnelles</label>
+         <input type="text" id="Editbox2" name="edtnam" value="" tabindex="1" placeholder="Nom*">
+         <input type="text" id="Editbox6" name="eee" value="" placeholder="1">
+         <input type="text" id="Editbox7" name="eee" value="" placeholder="1">
+         <select name="titre" size="1" id="Combobox1" tabindex="0" autofocus="">
+            <option value="M.">M.*</option>
+            <option value="mme">Mme*</option>
+            <option value="mlle">Mlle*</option>
+            <option value="dr">Dr.*</option>
+            <option value="prof">Prof.*</option>
+         </select>
+         <div id="wb_Text1">
+            <div id="wb_uid0"><span id="wb_uid1">Titre: </span></div>
          </div>
-         <div id="Layer4">
-            <div id="wb_Shape2">
-               <img src="../images/img0014.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Ouverture de compte</label>
-         </div>
-         <div id="Layer2">
-            <input type="text" id="jd" name="eee" value="" placeholder="1">
-            <label for="" id="Label4">Identification client - Informations personnelles</label>
-            <input type="text" id="Editbox2" name="edtnam" value="" tabindex="1" placeholder="Nom*">
-            <input type="text" id="Editbox6" name="eee" value="" placeholder="1">
-            <input type="text" id="Editbox7" name="eee" value="" placeholder="1">
-            <select name="titre" size="1" id="Combobox1" tabindex="0" autofocus="">
-               <option value="M.">M.*</option>
-               <option value="mme">Mme*</option>
-               <option value="mlle">Mlle*</option>
-               <option value="dr">Dr.*</option>
-               <option value="prof">Prof.*</option>
-            </select>
-            <div id="wb_Text1">
-               <div id="wb_uid0"><span id="wb_uid1">Titre: </span></div>
+         <input type="text" id="Editbox3" name="edtprenom" value="" tabindex="2" placeholder="Pr&#233;nom*">
+         <div id="Layer3">
+            <div id="wb_Text2">
+               <div id="wb_uid2"><span id="wb_uid3">Mode identification:</span></div>
             </div>
-            <input type="text" id="Editbox3" name="edtprenom" value="" tabindex="2" placeholder="Pr&#233;nom*">
-            <div id="Layer3">
-               <div id="wb_Text2">
-                  <div id="wb_uid2"><span id="wb_uid3">Mode identification:</span></div>
-               </div>
-               <input type="radio" id="RadioButton1" name="Name" value="on" checked="" autofocus="">
-               <div id="wb_Text3">
-                  <div id="wb_uid4"><span id="wb_uid5">CNI</span></div>
-               </div>
-               <input type="radio" id="RadioButton2" name="Name" value="on" required="">
-               <div id="wb_Text4">
-                  <div id="wb_uid6"><span id="wb_uid7">Passeport</span></div>
-               </div>
-               <input type="radio" id="RadioButton3" name="Name" value="on">
-               <div id="wb_Text5">
-                  <div id="wb_uid8"><span id="wb_uid9">Autre</span></div>
-               </div>
-               <input type="text" id="Editbox8" name="edtnam" value="" tabindex="1" placeholder="Titre*">
-               <input type="text" id="Editbox4" name="edtnam" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
+            <input type="radio" id="RadioButton1" name="Name" value="on" checked="" autofocus="">
+            <div id="wb_Text3">
+               <div id="wb_uid4"><span id="wb_uid5">CNI</span></div>
             </div>
-            <input type="submit" id="btnvalide" name="valide" value="Validé">
+            <input type="radio" id="RadioButton2" name="Name" value="on" required="">
+            <div id="wb_Text4">
+               <div id="wb_uid6"><span id="wb_uid7">Passeport</span></div>
+            </div>
+            <input type="radio" id="RadioButton3" name="Name" value="on">
+            <div id="wb_Text5">
+               <div id="wb_uid8"><span id="wb_uid9">Autre</span></div>
+            </div>
+            <input type="text" id="Editbox8" name="edtnam" value="" tabindex="1" placeholder="Titre*">
+            <input type="text" id="Editbox4" name="edtnam" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
          </div>
+         <input type="submit" id="btnvalide" name="valide" value="Validé">
       </div>
       <div id="Div">
          <div id="head">

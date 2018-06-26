@@ -34,28 +34,26 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-            <input type="password" id="edtpass" name="editpass" value="" tabindex="2" placeholder="Nouveau mot de passe*">
-            <input type="text" id="edtlogin" name="edtemail" value="" tabindex="1" placeholder="email/login*">
-            <label for="" id="Label2">Changement de mot de passe</label>
-            <input type="submit" id="btnconnexion" name="btnmaj" value="Changer">
-            <input type="password" id="Editbox1" name="editpass" value="" tabindex="3" placeholder="Confirmer mot de passe*">
-            <div id="wb_Text1">
-               <span id="wb_uid0">Email oublié&nbsp;? <a href="./../contact/contact.php">Contacter nous</a>.</span></div>
-         </form>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../images/img0072.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Changer de mot de passe</label>
-         </div>
-         <div id="wb_Breadcrumb1">
-            <ul id="Breadcrumb1">
-               <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./profil.php" title="Profil"><i class="fa fa-address-card">&nbsp;</i>Profil</a></li>
-               <li class="active"><i class="fa fa-lock">&nbsp;</i>Changer mot de passe</li>
-            </ul>
-         </div>
+      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+         <input type="password" id="edtpass" name="editpass" value="" tabindex="2" placeholder="Nouveau mot de passe*">
+         <input type="text" id="edtlogin" name="edtemail" value="" tabindex="1" placeholder="email/login*">
+         <label for="" id="Label2">Changement de mot de passe</label>
+         <input type="submit" id="btnconnexion" name="btnmaj" value="Changer">
+         <input type="password" id="Editbox1" name="editpass" value="" tabindex="3" placeholder="Confirmer mot de passe*">
+         <div id="wb_Text1">
+            <span id="wb_uid0">Email oublié&nbsp;? <a href="./../contact/contact.php">Contacter nous</a>.</span></div>
+      </form>
+      <div id="Layer2">
+         <div id="wb_Shape2">
+            <img src="../images/img0072.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Changer de mot de passe</label>
+      </div>
+      <div id="wb_Breadcrumb1">
+         <ul id="Breadcrumb1">
+            <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li><a href="./profil.php" title="Profil"><i class="fa fa-address-card">&nbsp;</i>Profil</a></li>
+            <li class="active"><i class="fa fa-lock">&nbsp;</i>Changer mot de passe</li>
+         </ul>
       </div>
       <div id="Div">
          <div id="head">

@@ -49,70 +49,68 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <div id="Slider">
-            <img class="image" src="images/logo.png" alt="" title="">
-            <img class="image" src="images/im-B000672_hp-billboard_965x325.FINAL.ReachforGreat_new.jpg" id="wb_uid0" alt="" title="">
-            <img class="image" src="images/OFFR.png" id="wb_uid1" alt="" title="">
-            <img class="image" src="images/Prize.jpg" id="wb_uid2" alt="" title="">
+      <div id="Slider">
+         <img class="image" src="images/logo.png" alt="" title="">
+         <img class="image" src="images/im-B000672_hp-billboard_965x325.FINAL.ReachforGreat_new.jpg" id="wb_uid0" alt="" title="">
+         <img class="image" src="images/OFFR.png" id="wb_uid1" alt="" title="">
+         <img class="image" src="images/Prize.jpg" id="wb_uid2" alt="" title="">
+      </div>
+      <div id="divhg">
+         <div id="wb_btn_connexacei">
+            <a href="./connexion/connexion.html"><div id="btn_connexacei"><div id="btn_connexacei_text"><span id="wb_uid3"><strong>Connexion</strong></span></div></div></a></div>
+         <div id="wb_btn_inscriptiacei">
+            <a href="./incription/inscription.html"><div id="btn_inscriptiacei"><div id="btn_inscriptiacei_text"><span id="wb_uid4"><strong>Inscription</strong></span></div></div></a></div>
+         <div id="wb_txt_AC">
+            <div id="wb_uid5"><span id="wb_uid6">Connectez vous et gérez </span></div>
+            <div id="wb_uid7"><span id="wb_uid8">votre compte&nbsp;!</span></div>
          </div>
-         <div id="divhg">
-            <div id="wb_btn_connexacei">
-               <a href="./connexion/connexion.html"><div id="btn_connexacei"><div id="btn_connexacei_text"><span id="wb_uid3"><strong>Connexion</strong></span></div></div></a></div>
-            <div id="wb_btn_inscriptiacei">
-               <a href="./incription/inscription.html"><div id="btn_inscriptiacei"><div id="btn_inscriptiacei_text"><span id="wb_uid4"><strong>Inscription</strong></span></div></div></a></div>
-            <div id="wb_txt_AC">
-               <div id="wb_uid5"><span id="wb_uid6">Connectez vous et gérez </span></div>
-               <div id="wb_uid7"><span id="wb_uid8">votre compte&nbsp;!</span></div>
-            </div>
-            <div id="wb_txtpass">
-               <div id="wb_uid9"><span id="wb_uid10">Mot de passe oublier&nbsp;?</span></div>
-            </div>
-            <div id="wb_txtins">
-               <div id="wb_uid11"><span id="wb_uid12">Vous avez pas de compte&nbsp;? </span></div>
-               <div id="wb_uid13"><span id="wb_uid14">Creer en 1 min&nbsp;!</span></div>
-            </div>
+         <div id="wb_txtpass">
+            <div id="wb_uid9"><span id="wb_uid10">Mot de passe oublier&nbsp;?</span></div>
          </div>
-         <div id="divcenter">
-            <div id="wb_Muha3">
-               <img src="images/M ali 2.jpg" id="Muha3" alt=""></div>
-            <label for="" id="lba">Le compte Epargne</label>
-            <div id="wb_Text1">
-               <div id="wb_uid15"><span id="wb_uid16">En 1967, trois ans après avoir remporté </span></div>
-               <div id="wb_uid17"><span id="wb_uid18">le championnat des poids lourds, il est </span></div>
-               <div id="wb_uid19"><span id="wb_uid20">critiqué pour son refus d'être enrôlé dans </span></div>
-               <div id="wb_uid21"><span id="wb_uid22">l'armée américaine p mondial et de sa </span></div>
-               <div id="wb_uid23"><span id="wb_uid24">licence de boxe. Il ne combat plus </span></div>
-               <div id="wb_uid25"><span id="wb_uid26">pendant près de quatre ans, jusqu'à ce </span></div>
-               <div id="wb_uid27"><span id="wb_uid28">que son appel soit finalement reçu par la </span></div>
-               <div id="wb_uid29"><span id="wb_uid30">cour suprême américaine.</span></div>
-            </div>
+         <div id="wb_txtins">
+            <div id="wb_uid11"><span id="wb_uid12">Vous avez pas de compte&nbsp;? </span></div>
+            <div id="wb_uid13"><span id="wb_uid14">Creer en 1 min&nbsp;!</span></div>
          </div>
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li class="active"><i class="fa fa-home">&nbsp;</i>Acceuil</li>
-               <li><a href="./incription/inscription.html" title="inscription"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
-            </ul>
+      </div>
+      <div id="divcenter">
+         <div id="wb_Muha3">
+            <img src="images/M ali 2.jpg" id="Muha3" alt=""></div>
+         <label for="" id="lba">Le compte Epargne</label>
+         <div id="wb_Text1">
+            <div id="wb_uid15"><span id="wb_uid16">En 1967, trois ans après avoir remporté </span></div>
+            <div id="wb_uid17"><span id="wb_uid18">le championnat des poids lourds, il est </span></div>
+            <div id="wb_uid19"><span id="wb_uid20">critiqué pour son refus d'être enrôlé dans </span></div>
+            <div id="wb_uid21"><span id="wb_uid22">l'armée américaine p mondial et de sa </span></div>
+            <div id="wb_uid23"><span id="wb_uid24">licence de boxe. Il ne combat plus </span></div>
+            <div id="wb_uid25"><span id="wb_uid26">pendant près de quatre ans, jusqu'à ce </span></div>
+            <div id="wb_uid27"><span id="wb_uid28">que son appel soit finalement reçu par la </span></div>
+            <div id="wb_uid29"><span id="wb_uid30">cour suprême américaine.</span></div>
          </div>
-         <div id="Layer1">
-            <div id="txt_pk">
-               <hr id="Line2e">
-               <div id="wb_Headi">
-                  <h1 id="Headi">POURQUOI NOUS COISIR ?</h1></div>
-               <hr id="Line1a">
-            </div>
-            <div id="wb_txt_pkoi">
-               <div id="wb_uid31"><span id="wb_uid32">Banks are supposed to be respected institutions. But what really matters to us, is being respectful. At </span></div>
-               <div id="wb_uid33"><span id="wb_uid34">Santander Bank, we want you to prosper. That’s why we treat you and your money with respect. From </span></div>
-               <div id="wb_uid35"><span id="wb_uid36">how we talk and listen, to how we act and how we care for the person behind the account number. </span></div>
-               <div id="wb_uid37"><span id="wb_uid38">And it’s not just about the big stuff. Every little interaction and connection matters. Because it all adds </span></div>
-               <div id="wb_uid39"><span id="wb_uid40">up to something great.</span></div>
-               <div id="wb_uid41"><span id="wb_uid42">Banks are supposed to be respected institutions. But what really matters to us, is being respectful. At </span></div>
-               <div id="wb_uid43"><span id="wb_uid44">Santander Bank, we want you to prosper. That’s why we treat you and your money with respect. From </span></div>
-               <div id="wb_uid45"><span id="wb_uid46">how we talk and listen, to how we act and how we care for the person behind the account number. </span></div>
-               <div id="wb_uid47"><span id="wb_uid48">And it’s not just about the big stuff. Every little interaction and connection matters. Because it all adds </span></div>
-               <div id="wb_uid49"><span id="wb_uid50">up to something great.</span></div>
-            </div>
+      </div>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li class="active"><i class="fa fa-home">&nbsp;</i>Acceuil</li>
+            <li><a href="./incription/inscription.html" title="inscription"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
+         </ul>
+      </div>
+      <div id="Layer1">
+         <div id="txt_pk">
+            <hr id="Line2e">
+            <div id="wb_Headi">
+               <h1 id="Headi">POURQUOI NOUS COISIR ?</h1></div>
+            <hr id="Line1a">
+         </div>
+         <div id="wb_txt_pkoi">
+            <div id="wb_uid31"><span id="wb_uid32">Banks are supposed to be respected institutions. But what really matters to us, is being respectful. At </span></div>
+            <div id="wb_uid33"><span id="wb_uid34">Santander Bank, we want you to prosper. That’s why we treat you and your money with respect. From </span></div>
+            <div id="wb_uid35"><span id="wb_uid36">how we talk and listen, to how we act and how we care for the person behind the account number. </span></div>
+            <div id="wb_uid37"><span id="wb_uid38">And it’s not just about the big stuff. Every little interaction and connection matters. Because it all adds </span></div>
+            <div id="wb_uid39"><span id="wb_uid40">up to something great.</span></div>
+            <div id="wb_uid41"><span id="wb_uid42">Banks are supposed to be respected institutions. But what really matters to us, is being respectful. At </span></div>
+            <div id="wb_uid43"><span id="wb_uid44">Santander Bank, we want you to prosper. That’s why we treat you and your money with respect. From </span></div>
+            <div id="wb_uid45"><span id="wb_uid46">how we talk and listen, to how we act and how we care for the person behind the account number. </span></div>
+            <div id="wb_uid47"><span id="wb_uid48">And it’s not just about the big stuff. Every little interaction and connection matters. Because it all adds </span></div>
+            <div id="wb_uid49"><span id="wb_uid50">up to something great.</span></div>
          </div>
       </div>
       <div id="Div">

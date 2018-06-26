@@ -19,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Breadcrumb2 {
    background-color: #FFFFFF;
@@ -348,18 +350,18 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 968px;
-   z-index: 23;
+   z-index: 21;
 }
 #Layer2 {
    height: 32px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 40px;
+   top: 320px;
    width: 969px;
-   z-index: 24;
+   z-index: 22;
 }
 #wb_logo {
    height: 200px;
@@ -389,7 +391,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 26;
+   z-index: 23;
 }
 #Nav {
    height: 42px;
@@ -408,31 +410,20 @@ body {
    width: 350px;
    z-index: 8;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 870px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 20;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 338px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1162px;
-   width: 968px;
+   top: 1150px;
+   width: 970px;
    z-index: 19;
 }
 #wb_Shape2 {
@@ -447,9 +438,9 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 22;
+   z-index: 20;
 }
 #wb_uid0 {
    height: 16px;

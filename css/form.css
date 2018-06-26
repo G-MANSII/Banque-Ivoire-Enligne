@@ -19,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Layer8 {
    background-color: #FFFFFF;
@@ -1010,9 +1012,9 @@ body {
    height: 760px;
    left: 0px;
    position: absolute;
-   top: 460px;
+   top: 740px;
    width: 960px;
-   z-index: 82;
+   z-index: 80;
 }
 #wb_logo {
    height: 200px;
@@ -1071,16 +1073,16 @@ body {
    height: 471px;
    text-align: left;
    width: 674px;
-   z-index: 85;
+   z-index: 83;
 }
 #Layer13 {
    height: 32px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 410px;
+   top: 690px;
    width: 969px;
-   z-index: 84;
+   z-index: 82;
 }
 #wb_uid8 {
    height: 24px;
@@ -1159,9 +1161,9 @@ body {
    left: 20px;
    position: absolute;
    text-align: left;
-   top: 20px;
+   top: 300px;
    width: 968px;
-   z-index: 81;
+   z-index: 79;
 }
 #wb_uid14 {
    height: 16px;
@@ -1199,7 +1201,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 87;
+   z-index: 84;
 }
 #Button1 {
    height: 50px;
@@ -1256,31 +1258,20 @@ body {
    overflow: auto;
    padding: 0;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 1230px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 990px;
-   z-index: 79;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 338px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1522px;
-   width: 968px;
+   top: 1510px;
+   width: 970px;
    z-index: 78;
 }
 #wb_uid17 {
@@ -1292,9 +1283,9 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 380px;
+   top: 660px;
    width: 970px;
-   z-index: 83;
+   z-index: 81;
 }
 #jquerytabs1-page-1 {
    height: 720px;

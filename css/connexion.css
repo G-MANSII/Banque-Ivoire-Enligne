@@ -19,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Label2 {
    background-color: transparent;
@@ -463,9 +465,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 968px;
-   z-index: 28;
+   z-index: 26;
 }
 #wb_uid6 {
    height: 22px;
@@ -479,9 +481,9 @@ body {
    left: 1px;
    position: absolute;
    text-align: left;
-   top: 40px;
+   top: 320px;
    width: 969px;
-   z-index: 29;
+   z-index: 27;
 }
 #wb_logo {
    height: 200px;
@@ -525,7 +527,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 31;
+   z-index: 28;
 }
 #Nav {
    height: 42px;
@@ -544,31 +546,20 @@ body {
    width: 350px;
    z-index: 13;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 350px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 25;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 338px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 642px;
-   width: 968px;
+   top: 630px;
+   width: 970px;
    z-index: 24;
 }
 #wb_Shape2 {
@@ -591,9 +582,9 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 27;
+   z-index: 25;
 }
 #wb_link_passoub {
    height: 24px;

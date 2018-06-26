@@ -19,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Slider .image {
    border-width: 0;
@@ -549,9 +551,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 345px;
+   top: 625px;
    width: 968px;
-   z-index: 39;
+   z-index: 37;
 }
 #wb_uid5 {
    height: 24px;
@@ -595,9 +597,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 740px;
+   top: 1020px;
    width: 968px;
-   z-index: 37;
+   z-index: 35;
 }
 #wb_uid6 {
    color: #808080;
@@ -793,9 +795,9 @@ body {
    left: 700px;
    position: absolute;
    text-align: left;
-   top: 35px;
+   top: 315px;
    width: 268px;
-   z-index: 36;
+   z-index: 34;
 }
 #wb_uid46 {
    color: #808080;
@@ -861,7 +863,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 41;
+   z-index: 38;
 }
 #wb_uid48 {
    color: #808080;
@@ -945,31 +947,20 @@ body {
    width: 250px;
    z-index: 2;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 1110px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 33;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 338px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1402px;
-   width: 968px;
+   top: 1390px;
+   width: 970px;
    z-index: 32;
 }
 #wb_uid39 {
@@ -983,9 +974,9 @@ body {
    height: 28px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 968px;
-   z-index: 38;
+   z-index: 36;
 }
 #wb_uid28 {
    color: #808080;
@@ -1018,7 +1009,7 @@ body {
    height: 310px;
    left: 0px;
    position: absolute;
-   top: 35px;
+   top: 315px;
    width: 700px;
-   z-index: 35;
+   z-index: 33;
 }

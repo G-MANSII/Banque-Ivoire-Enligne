@@ -34,21 +34,19 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./../connexion/connexion.html" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>Connexion</a></li>
-            </ul>
-         </div>
-         <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-            <label for="" id="Label2">Bienvenue dans le menu de gestion de votre compte</label>
-         </form>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../images/img0095.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Profil</label>
-         </div>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li><a href="./../connexion/connexion.html" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>Connexion</a></li>
+         </ul>
+      </div>
+      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+         <label for="" id="Label2">Bienvenue dans le menu de gestion de votre compte</label>
+      </form>
+      <div id="Layer2">
+         <div id="wb_Shape2">
+            <img src="../images/img0095.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Profil</label>
       </div>
       <div id="Div">
          <div id="head">

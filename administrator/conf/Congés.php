@@ -67,112 +67,110 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-            <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-            <label for="" id="Label2">Base de données - Congés</label>
-            <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
-            <div id="Layer3">
-               <hr id="Line2">
-               <div id="wb_Heading1">
-                  <h1 id="Heading1">Liste des Congés existants</h1></div>
-               <hr id="Line1">
-            </div>
-            <input type="submit" id="Button2" name="suppri" value="Supprimer">
-            <table id="Table1">
-               <tr>
-                  <td class="cell0"><span id="wb_uid0"> </span></td>
-                  <td class="cell0"><span id="wb_uid1"> </span></td>
-                  <td class="cell0"><span id="wb_uid2"> </span></td>
-                  <td class="cell0"><span id="wb_uid3"> </span></td>
-                  <td class="cell0"><span id="wb_uid4"> </span></td>
-                  <td class="cell1"><span id="wb_uid5"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid6"> </span></td>
-                  <td class="cell0"><span id="wb_uid7"> </span></td>
-                  <td class="cell0"><span id="wb_uid8"> </span></td>
-                  <td class="cell0"><span id="wb_uid9"> </span></td>
-                  <td class="cell0"><span id="wb_uid10"> </span></td>
-                  <td class="cell1"><span id="wb_uid11"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid12"> </span></td>
-                  <td class="cell0"><span id="wb_uid13"> </span></td>
-                  <td class="cell0"><span id="wb_uid14"> </span></td>
-                  <td class="cell0"><span id="wb_uid15"> </span></td>
-                  <td class="cell0"><span id="wb_uid16"> </span></td>
-                  <td class="cell1"><span id="wb_uid17"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid18"> </span></td>
-                  <td class="cell0"><span id="wb_uid19"> </span></td>
-                  <td class="cell0"><span id="wb_uid20"> </span></td>
-                  <td class="cell0"><span id="wb_uid21"> </span></td>
-                  <td class="cell0"><span id="wb_uid22"> </span></td>
-                  <td class="cell1"><span id="wb_uid23"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell2"><span id="wb_uid24"> </span></td>
-                  <td class="cell2"><span id="wb_uid25"> </span></td>
-                  <td class="cell2"><span id="wb_uid26"> </span></td>
-                  <td class="cell2"><span id="wb_uid27"> </span></td>
-                  <td class="cell2"><span id="wb_uid28"> </span></td>
-                  <td class="cell3"><span id="wb_uid29"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid30"> </span></td>
-                  <td class="cell0"><span id="wb_uid31"> </span></td>
-                  <td class="cell0"><span id="wb_uid32"> </span></td>
-                  <td class="cell0"><span id="wb_uid33"> </span></td>
-                  <td class="cell0"><span id="wb_uid34"> </span></td>
-                  <td class="cell1"><span id="wb_uid35"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell0"><span id="wb_uid36"> </span></td>
-                  <td class="cell0"><span id="wb_uid37"> </span></td>
-                  <td class="cell0"><span id="wb_uid38"> </span></td>
-                  <td class="cell0"><span id="wb_uid39"> </span></td>
-                  <td class="cell0"><span id="wb_uid40"> </span></td>
-                  <td class="cell1"><span id="wb_uid41"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell4"><span id="wb_uid42"> </span></td>
-                  <td class="cell4"><span id="wb_uid43"> </span></td>
-                  <td class="cell4"><span id="wb_uid44"> </span></td>
-                  <td class="cell4"><span id="wb_uid45"> </span></td>
-                  <td class="cell4"><span id="wb_uid46"> </span></td>
-                  <td class="cell5"><span id="wb_uid47"> </span></td>
-               </tr>
-            </table>
-            <input type="date" id="Editbox1" name="datedeb" value="" tabindex="2" placeholder="Date de b&#233;but">
-            <input type="date" id="Editbox2" name="datefin" value="" tabindex="3" placeholder="Date de b&#233;but">
-            <div id="wb_btn_connexionp">
-               <a href="./../update_email.php" onclick="$('#modal').dialog('open');return false;"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid48"><strong>Modifier</strong></span></div></div></a></div>
-         </form>
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
-               <li><a href="./../admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-               <li class="active"><i class="fa fa-street-view">&nbsp;</i>Cong&#233;s</li>
-            </ul>
+      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+         <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
+         <label for="" id="Label2">Base de données - Congés</label>
+         <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
+         <div id="Layer3">
+            <hr id="Line2">
+            <div id="wb_Heading1">
+               <h1 id="Heading1">Liste des Congés existants</h1></div>
+            <hr id="Line1">
          </div>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../../images/img0048.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Congés</label>
-         </div>
-         <form name="frmmodifier" method="post" action="" enctype="text/plain" id="modal" title="modal">
-            <input type="text" id="Editbox5" name="Nom" value="" tabindex="1" placeholder="Nom">
-            <input type="date" id="Editbox6" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
-            <input type="text" id="Editbox7" name="Adresse" value="" tabindex="1" placeholder="adresse">
-            <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
-            <input type="tel" id="Editbox9" name="numero" value="" tabindex="1" placeholder="Numero">
-            <input type="submit" id="Button4" onclick="$('#modal').dialog('close');return false;" name="Mise à jour" value="Mise à jour">
-            <a id="modal-close"> </a>
-         </form>
+         <input type="submit" id="Button2" name="suppri" value="Supprimer">
+         <table id="Table1">
+            <tr>
+               <td class="cell0"><span id="wb_uid0"> </span></td>
+               <td class="cell0"><span id="wb_uid1"> </span></td>
+               <td class="cell0"><span id="wb_uid2"> </span></td>
+               <td class="cell0"><span id="wb_uid3"> </span></td>
+               <td class="cell0"><span id="wb_uid4"> </span></td>
+               <td class="cell1"><span id="wb_uid5"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid6"> </span></td>
+               <td class="cell0"><span id="wb_uid7"> </span></td>
+               <td class="cell0"><span id="wb_uid8"> </span></td>
+               <td class="cell0"><span id="wb_uid9"> </span></td>
+               <td class="cell0"><span id="wb_uid10"> </span></td>
+               <td class="cell1"><span id="wb_uid11"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid12"> </span></td>
+               <td class="cell0"><span id="wb_uid13"> </span></td>
+               <td class="cell0"><span id="wb_uid14"> </span></td>
+               <td class="cell0"><span id="wb_uid15"> </span></td>
+               <td class="cell0"><span id="wb_uid16"> </span></td>
+               <td class="cell1"><span id="wb_uid17"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid18"> </span></td>
+               <td class="cell0"><span id="wb_uid19"> </span></td>
+               <td class="cell0"><span id="wb_uid20"> </span></td>
+               <td class="cell0"><span id="wb_uid21"> </span></td>
+               <td class="cell0"><span id="wb_uid22"> </span></td>
+               <td class="cell1"><span id="wb_uid23"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell2"><span id="wb_uid24"> </span></td>
+               <td class="cell2"><span id="wb_uid25"> </span></td>
+               <td class="cell2"><span id="wb_uid26"> </span></td>
+               <td class="cell2"><span id="wb_uid27"> </span></td>
+               <td class="cell2"><span id="wb_uid28"> </span></td>
+               <td class="cell3"><span id="wb_uid29"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid30"> </span></td>
+               <td class="cell0"><span id="wb_uid31"> </span></td>
+               <td class="cell0"><span id="wb_uid32"> </span></td>
+               <td class="cell0"><span id="wb_uid33"> </span></td>
+               <td class="cell0"><span id="wb_uid34"> </span></td>
+               <td class="cell1"><span id="wb_uid35"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell0"><span id="wb_uid36"> </span></td>
+               <td class="cell0"><span id="wb_uid37"> </span></td>
+               <td class="cell0"><span id="wb_uid38"> </span></td>
+               <td class="cell0"><span id="wb_uid39"> </span></td>
+               <td class="cell0"><span id="wb_uid40"> </span></td>
+               <td class="cell1"><span id="wb_uid41"> </span></td>
+            </tr>
+            <tr>
+               <td class="cell4"><span id="wb_uid42"> </span></td>
+               <td class="cell4"><span id="wb_uid43"> </span></td>
+               <td class="cell4"><span id="wb_uid44"> </span></td>
+               <td class="cell4"><span id="wb_uid45"> </span></td>
+               <td class="cell4"><span id="wb_uid46"> </span></td>
+               <td class="cell5"><span id="wb_uid47"> </span></td>
+            </tr>
+         </table>
+         <input type="date" id="Editbox1" name="datedeb" value="" tabindex="2" placeholder="Date de b&#233;but">
+         <input type="date" id="Editbox2" name="datefin" value="" tabindex="3" placeholder="Date de b&#233;but">
+         <div id="wb_btn_connexionp">
+            <a href="./../update_email.php" onclick="$('#modal').dialog('open');return false;"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid48"><strong>Modifier</strong></span></div></div></a></div>
+      </form>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li><a href="" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
+            <li><a href="./../admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
+            <li class="active"><i class="fa fa-street-view">&nbsp;</i>Cong&#233;s</li>
+         </ul>
       </div>
+      <div id="Layer2">
+         <div id="wb_Shape2">
+            <img src="../../images/img0048.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Congés</label>
+      </div>
+      <form name="frmmodifier" method="post" action="" enctype="text/plain" id="modal" title="modal">
+         <input type="text" id="Editbox5" name="Nom" value="" tabindex="1" placeholder="Nom">
+         <input type="date" id="Editbox6" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+         <input type="text" id="Editbox7" name="Adresse" value="" tabindex="1" placeholder="adresse">
+         <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
+         <input type="tel" id="Editbox9" name="numero" value="" tabindex="1" placeholder="Numero">
+         <input type="submit" id="Button4" onclick="$('#modal').dialog('close');return false;" name="Mise à jour" value="Mise à jour">
+         <a id="modal-close"> </a>
+      </form>
       <div id="Div">
          <div id="head">
             <div id="wb_band">

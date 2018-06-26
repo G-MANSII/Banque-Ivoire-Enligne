@@ -19,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Layer1 {
    background-color: #FFFFFF;
@@ -531,9 +533,9 @@ body {
    left: 365px;
    line-height: 26px;
    position: absolute;
-   top: 150px;
+   top: 430px;
    width: 230px;
-   z-index: 40;
+   z-index: 38;
 }
 #wb_uid19 {
    color: #000000;
@@ -667,9 +669,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 968px;
-   z-index: 37;
+   z-index: 35;
 }
 #wb_uid51 {
    color: #D3D3D3;
@@ -681,9 +683,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 969px;
-   z-index: 39;
+   z-index: 37;
 }
 #wb_uid40 {
    color: #000000;
@@ -934,7 +936,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 42;
+   z-index: 39;
 }
 #wb_uid37 {
    color: #000000;
@@ -1018,31 +1020,20 @@ body {
    width: 150px;
    z-index: 9;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 1120px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 35;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 338px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1412px;
-   width: 968px;
+   top: 1400px;
+   width: 970px;
    z-index: 34;
 }
 #wb_Shape2 {
@@ -1057,9 +1048,9 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 38;
+   z-index: 36;
 }
 #wb_uid39 {
    color: #000000;

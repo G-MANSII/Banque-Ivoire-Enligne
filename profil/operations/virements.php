@@ -34,37 +34,35 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-            <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-            <input type="submit" id="btnconnexion" name="Validé" value="Validé">
-            <div id="Layer3">
-               <hr id="Line2">
-               <div id="wb_Heading1">
-                  <h1 id="Heading1">Virements</h1></div>
-               <hr id="Line1">
-            </div>
-            <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
-            <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-            <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
-            <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
-            <div id="wb_Text1">
-               <span id="wb_uid0">Entrer les informations concernants le bénéficiaire.</span></div>
-            <label for="" id="Label2">Effectuer vos Virements. Tous les champs sont obligatoires.</label>
-         </form>
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./../profil.php" title="Profil"><i class="fa fa-address-card">&nbsp;</i>Profil</a></li>
-               <li><a href="./../profil.php" title="Op&#233;rations"><i class="fa fa-sitemap">&nbsp;</i>Op&#233;rations</a></li>
-               <li class="active"><i class="fa fa-random">&nbsp;</i>Virements</li>
-            </ul>
+      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+         <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
+         <input type="submit" id="btnconnexion" name="Validé" value="Validé">
+         <div id="Layer3">
+            <hr id="Line2">
+            <div id="wb_Heading1">
+               <h1 id="Heading1">Virements</h1></div>
+            <hr id="Line1">
          </div>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../../images/img0074.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Virements</label>
-         </div>
+         <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
+         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
+         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
+         <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+         <div id="wb_Text1">
+            <span id="wb_uid0">Entrer les informations concernants le bénéficiaire.</span></div>
+         <label for="" id="Label2">Effectuer vos Virements. Tous les champs sont obligatoires.</label>
+      </form>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li><a href="./../profil.php" title="Profil"><i class="fa fa-address-card">&nbsp;</i>Profil</a></li>
+            <li><a href="./../profil.php" title="Op&#233;rations"><i class="fa fa-sitemap">&nbsp;</i>Op&#233;rations</a></li>
+            <li class="active"><i class="fa fa-random">&nbsp;</i>Virements</li>
+         </ul>
+      </div>
+      <div id="Layer2">
+         <div id="wb_Shape2">
+            <img src="../../images/img0074.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Virements</label>
       </div>
       <div id="Div">
          <div id="head">

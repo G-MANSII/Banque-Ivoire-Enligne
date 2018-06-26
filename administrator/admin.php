@@ -52,105 +52,103 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="zone">
-         <div id="frminsc">
-            <div id="Layer1">
-               <hr id="Line2">
-               <div id="wb_Heading1">
-                  <h1 id="Heading1">Administrateur</h1></div>
-               <hr id="Line1">
-            </div>
-            <div id="wb_btn_connexionm">
-               <a href="./update_pass.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
-            <div id="wb_txtphys">
-               <div id="wb_uid1"><span id="wb_uid2">ler dans l'au - dela . j ai couler les larmes mais Nous tes amis </span></div>
-               <div id="wb_uid3"><span id="wb_uid4">nous prions ALLAH de te pardonner tes manquements de </span></div>
-               <div id="wb_uid5"><span id="wb_uid6">t'accorder l'un des Paradis que nous avions etudiez ce jour. </span></div>
-               <div id="wb_uid7"><span id="wb_uid8">QU'ALLAH T ACCORDE SON PARADIS ETERNEL POUR </span></div>
-               <div id="wb_uid9"><span id="wb_uid10">L'ETERNITE. RIP</span></div>
-            </div>
-            <div id="wb_Text2">
-               <span id="wb_uid11">Nom:</span></div>
-            <div id="wb_Text3">
-               <span id="wb_uid12">Prénom:</span></div>
-            <div id="wb_btn_connexionp">
-               <a href="./update_email.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
-            <div id="wb_Text4">
-               <span id="wb_uid14">Email:</span></div>
-            <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
-            <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
-            <div id="jQueryDatePicker1">
-            </div>
-            <script>                        
-                        function selectAdmin() {
-                           var eID = document.getElementById("comboadmin");
-                           var colorVal = eID.options[eID.selectedIndex].value;
-                           var colortxt = eID.options[eID.selectedIndex].text;
-                        
-                          if (colorVal=="Agences") {
-                                       window.location.href="../administrator/conf/Agences.php" ;
-                                       } else if (colorVal=="Categoriedeposte"){ 
-                                       window.location.href="../administrator/conf/Categorie_de_poste.php";
-                                       } else if (colorVal=="Congés"){ 
-                                       window.location.href="../administrator/conf/Congés.php";
-                                       } else if (colorVal=="Contrats"){ 
-                                       window.location.href="../administrator/conf/Contrats.php";
-                                       } else if (colorVal=="Fonctions"){ 
-                                       window.location.href="../administrator/conf/Fonctions.php";
-                                       } else if (colorVal=="Formations"){ 
-                                       window.location.href="../administrator/conf/Formations.php";
-                                       } else if (colorVal=="Pays"){ 
-                                       window.location.href="../administrator/conf/Pays.php";
-                                       } else if (colorVal=="Postes"){ 
-                                       window.location.href="../administrator/conf/Postes.php";
-                                       } else if (colorVal=="Promotions"){ 
-                                       window.location.href="../administrator/conf/Promotions.php";
-                                       } else if (colorVal=="Services"){ 
-                                       window.location.href="../administrator/conf/Services.php";
-                                       } else if (colorVal=="Typedecontrats"){ 
-                                       window.location.href="../administrator/conf/Type_de_contrats.php";
-                                       } else if (colorVal=="Villes"){ 
-                                       window.location.href="../administrator/conf/Villes.php";
-                                        
-                                        } else if (colorVal=="GRH"){ 
-                                                   window.location.href="../administrator/conf/grhassign.php";
-                                         } 
-                        }
-                                 
-            </script>
-            <select name="Comboadmin" size="1" id="comboadmin" onchange="selectAdmin()">
-               <option value="Agences">Agences</option>
-               <option value="Categoriedeposte">Categorie de poste</option>
-               <option value="Congés">Congés</option>
-               <option value="Contrats">Contrats</option>
-               <option value="Fonctions">Fonctions</option>
-               <option value="Formations">Formations</option>
-               <option value="GRH">GRH</option>
-               <option value="Pays">Pays</option>
-               <option value="Postes">Postes</option>
-               <option value="Promotions">Promotions</option>
-               <option value="Services">Services</option>
-               <option value="Type
+      <div id="frminsc">
+         <div id="Layer1">
+            <hr id="Line2">
+            <div id="wb_Heading1">
+               <h1 id="Heading1">Administrateur</h1></div>
+            <hr id="Line1">
+         </div>
+         <div id="wb_btn_connexionm">
+            <a href="./update_pass.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
+         <div id="wb_txtphys">
+            <div id="wb_uid1"><span id="wb_uid2">ler dans l'au - dela . j ai couler les larmes mais Nous tes amis </span></div>
+            <div id="wb_uid3"><span id="wb_uid4">nous prions ALLAH de te pardonner tes manquements de </span></div>
+            <div id="wb_uid5"><span id="wb_uid6">t'accorder l'un des Paradis que nous avions etudiez ce jour. </span></div>
+            <div id="wb_uid7"><span id="wb_uid8">QU'ALLAH T ACCORDE SON PARADIS ETERNEL POUR </span></div>
+            <div id="wb_uid9"><span id="wb_uid10">L'ETERNITE. RIP</span></div>
+         </div>
+         <div id="wb_Text2">
+            <span id="wb_uid11">Nom:</span></div>
+         <div id="wb_Text3">
+            <span id="wb_uid12">Prénom:</span></div>
+         <div id="wb_btn_connexionp">
+            <a href="./update_email.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
+         <div id="wb_Text4">
+            <span id="wb_uid14">Email:</span></div>
+         <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
+         <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
+         <div id="jQueryDatePicker1">
+         </div>
+         <script>                     
+                     function selectAdmin() {
+                        var eID = document.getElementById("comboadmin");
+                        var colorVal = eID.options[eID.selectedIndex].value;
+                        var colortxt = eID.options[eID.selectedIndex].text;
+                     
+                       if (colorVal=="Agences") {
+                                    window.location.href="../administrator/conf/Agences.php" ;
+                                    } else if (colorVal=="Categoriedeposte"){ 
+                                    window.location.href="../administrator/conf/Categorie_de_poste.php";
+                                    } else if (colorVal=="Congés"){ 
+                                    window.location.href="../administrator/conf/Congés.php";
+                                    } else if (colorVal=="Contrats"){ 
+                                    window.location.href="../administrator/conf/Contrats.php";
+                                    } else if (colorVal=="Fonctions"){ 
+                                    window.location.href="../administrator/conf/Fonctions.php";
+                                    } else if (colorVal=="Formations"){ 
+                                    window.location.href="../administrator/conf/Formations.php";
+                                    } else if (colorVal=="Pays"){ 
+                                    window.location.href="../administrator/conf/Pays.php";
+                                    } else if (colorVal=="Postes"){ 
+                                    window.location.href="../administrator/conf/Postes.php";
+                                    } else if (colorVal=="Promotions"){ 
+                                    window.location.href="../administrator/conf/Promotions.php";
+                                    } else if (colorVal=="Services"){ 
+                                    window.location.href="../administrator/conf/Services.php";
+                                    } else if (colorVal=="Typedecontrats"){ 
+                                    window.location.href="../administrator/conf/Type_de_contrats.php";
+                                    } else if (colorVal=="Villes"){ 
+                                    window.location.href="../administrator/conf/Villes.php";
+                                     
+                                     } else if (colorVal=="GRH"){ 
+                                                window.location.href="../administrator/conf/grhassign.php";
+                                      } 
+                     }
+                              
+         </script>
+         <select name="Comboadmin" size="1" id="comboadmin" onchange="selectAdmin()">
+            <option value="Agences">Agences</option>
+            <option value="Categoriedeposte">Categorie de poste</option>
+            <option value="Congés">Congés</option>
+            <option value="Contrats">Contrats</option>
+            <option value="Fonctions">Fonctions</option>
+            <option value="Formations">Formations</option>
+            <option value="GRH">GRH</option>
+            <option value="Pays">Pays</option>
+            <option value="Postes">Postes</option>
+            <option value="Promotions">Promotions</option>
+            <option value="Services">Services</option>
+            <option value="Type
 decontrats">Type 
 de contrats</option>
-               <option value="Villes">Villes</option>
-            </select>
-            <div id="wb_Text5">
-               <span id="wb_uid15">Gestion de Base de données:</span></div>
-         </div>
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li class="active"><i class="fa fa-laptop">&nbsp;</i>Administrateur</li>
-            </ul>
-         </div>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../images/img0031.png" id="Shape2" alt=""></div>
-            <label for="" id="Label2">Comptes</label>
-            <div id="wb_Text1">
-               <span id="wb_uid16">Lodin:</span></div>
-         </div>
+            <option value="Villes">Villes</option>
+         </select>
+         <div id="wb_Text5">
+            <span id="wb_uid15">Gestion de Base de données:</span></div>
+      </div>
+      <div id="wb_Breadcrumb2">
+         <ul id="Breadcrumb2">
+            <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+            <li class="active"><i class="fa fa-laptop">&nbsp;</i>Administrateur</li>
+         </ul>
+      </div>
+      <div id="Layer2">
+         <div id="wb_Shape2">
+            <img src="../images/img0031.png" id="Shape2" alt=""></div>
+         <label for="" id="Label2">Comptes</label>
+         <div id="wb_Text1">
+            <span id="wb_uid16">Lodin:</span></div>
       </div>
       <div id="Div">
          <div id="head">
