@@ -19,7 +19,7 @@
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">
             <li><a href="./../administrator/conf/Categorie_de_poste.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-            <li><a href="./inscription.html" title="&lt;x"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
+            <li><a href="./../incription/inscription.html" title="&lt;x"><i class="fa fa-inbox">&nbsp;</i>Inscription</a></li>
             <li class="active"><i class="fa fa-address-card-o">&nbsp;</i> Client physique</li>
          </ul>
       </div>
