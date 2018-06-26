@@ -1735,6 +1735,7 @@ body {
    line-height: 26px;
    position: absolute;
    top: 331px;
+   visibility: hidden;
    width: 260px;
    z-index: 37;
 }
