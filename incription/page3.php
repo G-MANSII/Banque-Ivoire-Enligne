@@ -38,7 +38,6 @@
       <div id="Layer2">
          <hr id="Line5">
          <input type="submit" id="btnvalide" name="valide" value="Validé">
-         <hr id="Line1">
          <div id="Layer5">
             <select name="titre" size="1" id="Combobox4" tabindex="0" autofocus="">
             </select>
@@ -138,6 +137,8 @@
       <select name="titre" size="1" id="Combobox5" tabindex="0" autofocus="">
       </select>
       <input type="text" id="Editbox23" name="conjoint" value="" tabindex="2" placeholder="Conjoint">
+      <div id="Layer3">
+      </div>
       <div id="Div">
          <div id="head">
             <div id="wb_band">

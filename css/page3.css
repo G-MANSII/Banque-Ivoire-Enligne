@@ -482,13 +482,6 @@ body {
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    outline: 0;
 }
-#Line1 {
-   background-color: #1E90FF;
-   border-width: 0;
-   color: #1E90FF;
-   margin: 0;
-   padding: 0;
-}
 #Editbox34 {
    background-color: #FFFFFF;
    background-image: none;
@@ -742,6 +735,20 @@ body {
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    outline: 0;
 }
+#Layer3 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#FileUpload1 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #A9A9A9 solid;
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+}
 #Div {
    background-color: #FFFFFF;
    background-image: none;
@@ -916,7 +923,7 @@ body {
    text-align: left;
    top: 0px;
    width: 967px;
-   z-index: 87;
+   z-index: 86;
 }
 #Editbox1 {
    height: 26px;
@@ -943,7 +950,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 80;
+   z-index: 79;
 }
 #Label3 {
    height: 21px;
@@ -952,7 +959,7 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 43;
+   z-index: 42;
 }
 #wb_Text1 {
    height: 24px;
@@ -994,7 +1001,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 84;
+   z-index: 83;
 }
 #wb_icosear {
    height: 18px;
@@ -1003,7 +1010,7 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 82;
+   z-index: 81;
 }
 #Combobox5 {
    height: 36px;
@@ -1011,7 +1018,7 @@ body {
    position: absolute;
    top: 574px;
    width: 160px;
-   z-index: 102;
+   z-index: 101;
 }
 #Shape2 {
    height: 32px;
@@ -1084,7 +1091,7 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 83;
+   z-index: 82;
 }
 #Editbox5 {
    height: 26px;
@@ -1117,7 +1124,7 @@ body {
    text-align: left;
    top: 29px;
    width: 940px;
-   z-index: 40;
+   z-index: 39;
 }
 #wb_uid5 {
    color: #000000;
@@ -1156,13 +1163,13 @@ body {
    z-index: 3;
 }
 #Layer2 {
-   height: 2064px;
+   height: 1339px;
    left: 0px;
    position: absolute;
    text-align: left;
    top: 341px;
    width: 970px;
-   z-index: 97;
+   z-index: 96;
 }
 #wb_logo {
    height: 200px;
@@ -1170,7 +1177,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 86;
+   z-index: 85;
 }
 #wb_uid30 {
    height: 16px;
@@ -1182,6 +1189,15 @@ body {
 #band {
    height: 100px;
    width: 470px;
+}
+#Layer3 {
+   height: 117px;
+   left: 770px;
+   position: absolute;
+   text-align: left;
+   top: 411px;
+   width: 133px;
+   z-index: 103;
 }
 #Editbox7 {
    height: 26px;
@@ -1224,7 +1240,7 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 81;
+   z-index: 80;
 }
 #Layer4 {
    height: 32px;
@@ -1233,7 +1249,7 @@ body {
    text-align: left;
    top: 310px;
    width: 969px;
-   z-index: 98;
+   z-index: 97;
 }
 #Editbox10 {
    height: 26px;
@@ -1317,12 +1333,12 @@ body {
 }
 #Layer5 {
    height: 298px;
-   left: 10px;
+   left: 15px;
    position: absolute;
    text-align: left;
-   top: 1652px;
+   top: 929px;
    width: 940px;
-   z-index: 39;
+   z-index: 38;
 }
 #wb_uid33 {
    color: #D3D3D3;
@@ -1336,16 +1352,16 @@ body {
    position: absolute;
    top: 574px;
    width: 270px;
-   z-index: 103;
+   z-index: 102;
 }
 #wb_Text9 {
    height: 46px;
-   left: 65px;
+   left: 60px;
    position: absolute;
    text-align: left;
-   top: 1950px;
+   top: 1259px;
    width: 675px;
-   z-index: 41;
+   z-index: 40;
 }
 #wb_uid22 {
    height: 24px;
@@ -1385,7 +1401,7 @@ body {
    position: absolute;
    top: 840px;
    width: 230px;
-   z-index: 99;
+   z-index: 98;
 }
 #wb_uid23 {
    color: #000000;
@@ -1469,19 +1485,11 @@ body {
    width: 160px;
    z-index: 8;
 }
-#Line1 {
-   height: 8px;
-   left: 103px;
-   position: absolute;
-   top: 1622px;
-   width: 765px;
-   z-index: 38;
-}
 #btnvalide {
    height: 50px;
-   left: 800px;
+   left: 790px;
    position: absolute;
-   top: 1979px;
+   top: 1249px;
    width: 150px;
    z-index: 37;
 }
@@ -1521,7 +1529,7 @@ body {
    position: absolute;
    top: 215px;
    width: 969px;
-   z-index: 88;
+   z-index: 87;
 }
 #wb_txtacc {
    height: 23px;
@@ -1530,7 +1538,7 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 85;
+   z-index: 84;
 }
 #wb_uid27 {
    color: #000000;
@@ -1565,9 +1573,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 2405px;
+   top: 1680px;
    width: 970px;
-   z-index: 96;
+   z-index: 95;
 }
 #wb_uid28 {
    height: 23px;
@@ -1582,7 +1590,7 @@ body {
    position: absolute;
    top: 280px;
    width: 970px;
-   z-index: 100;
+   z-index: 99;
 }
 #wb_Shape2 {
    height: 32px;
@@ -1590,7 +1598,7 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 42;
+   z-index: 41;
 }
 #wb_uid17 {
    color: #000000;
@@ -1626,7 +1634,7 @@ body {
    text-align: left;
    top: 581px;
    width: 205px;
-   z-index: 101;
+   z-index: 100;
 }
 #Combobox2 {
    height: 36px;
