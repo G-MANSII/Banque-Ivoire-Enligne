@@ -744,6 +744,28 @@ body {
    font-size: 19px;
    font-weight: normal;
 }
+#Editbox8 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #FF7F50 solid;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   vertical-align: middle;
+}
+#Editbox8:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
 #Div {
    background-color: #FFFFFF;
    background-image: none;
@@ -1228,6 +1250,15 @@ body {
    width: 190px;
    z-index: 90;
 }
+#Editbox8 {
+   height: 26px;
+   left: 565px;
+   line-height: 26px;
+   position: absolute;
+   top: 1211px;
+   width: 230px;
+   z-index: 109;
+}
 #Layer4 {
    height: 32px;
    left: 1px;
@@ -1495,7 +1526,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 109;
+   z-index: 110;
 }
 #wb_uid26 {
    height: 24px;

@@ -138,6 +138,7 @@
             <li class="active"><i class="fa fa-address-card-o">&nbsp;</i> Client physique</li>
          </ul>
       </div>
+      <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
       <div id="Div">
          <div id="head">
             <div id="wb_band">
