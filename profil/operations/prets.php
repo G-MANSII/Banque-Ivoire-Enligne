@@ -42,7 +42,7 @@
             <div id="Layer3">
                <hr id="Line2">
                <div id="wb_Heading1">
-                  <h1 id="Heading1">Virements</h1></div>
+                  <h1 id="Heading1">Prêts</h1></div>
                <hr id="Line1">
             </div>
             <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
