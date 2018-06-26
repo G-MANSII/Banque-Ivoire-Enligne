@@ -147,6 +147,7 @@
                <option value="Filiations">Filiations</option>
                <option value="Fonctions">Fonctions</option>
                <option value="Formations">Formations</option>
+               <option value="Gestionnaires">Gestionnaires</option>
                <option value="Motifs">Motifs</option>
                <option value="Permissions">Permissions</option>
                <option value="Postes">Postes</option>

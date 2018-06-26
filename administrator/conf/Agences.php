@@ -9,13 +9,46 @@
 <meta name="generator" content="CCS - Computer Consulting Services">
 <link href="../../logo.ico" rel="shortcut icon" type="image/x-icon">
 <link href="../../logo.png" rel="apple-touch-icon" sizes="500x380">
+<link href="../../css/excite-bike/jquery-ui.min.css" rel="stylesheet">
 <link href="../../css/font-awesome.min.css" rel="stylesheet">
 <link href="../../css/BIO_V1.css" rel="stylesheet">
 <link href="../../css/Agences.css" rel="stylesheet">
 <script src="../../java-script/jquery-1.12.4.min.js"></script>
+<script src="../../java-script/jquery.ui.core.min.js"></script>
+<script src="../../java-script/jquery.ui.widget.min.js"></script>
+<script src="../../java-script/jquery.ui.mouse.min.js"></script>
+<script src="../../java-script/jquery.ui.button.min.js"></script>
+<script src="../../java-script/jquery.ui.draggable.min.js"></script>
+<script src="../../java-script/jquery.ui.position.min.js"></script>
+<script src="../../java-script/jquery.ui.resizable.min.js"></script>
+<script src="../../java-script/jquery.ui.dialog.min.js"></script>
+<script src="../../java-script/jquery.ui.effect.min.js"></script>
+<script src="../../java-script/jquery.ui.effect-drop.min.js"></script>
+<script src="../../java-script/wwb11.min.js"></script>
 <script>   
    $(document).ready(function()
    {
+      var modalOpts =
+      {
+         modal: true,
+         width: 968,
+         height: 269,
+         position: { my: 'center', at: 'center', of: window },
+         resizable: false,
+         draggable: false,
+         closeOnEscape: true,
+         show: {effect: 'drop', direction: 'up'},
+         hide: {effect: 'drop', direction: 'up'},
+         autoOpen: true
+      };
+      $("#modal").dialog(modalOpts);
+      $('.ui-dialog-titlebar').hide();
+      $('.ui-dialog').removeClass('ui-corner-all');
+      $('#modal').css({'padding':'0','height':'269px'});
+      $("#modal-close").click( function()
+      {
+         $("#modal").dialog('close');
+      });
       $("#Nav .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
@@ -46,7 +79,6 @@
                <hr id="Line1">
             </div>
             <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
-            <input type="submit" id="Button1" name="modifier" value="Modifier">
             <input type="submit" id="Button2" name="suppri" value="Supprimer">
             <table id="Table1">
                <tr>
@@ -115,7 +147,9 @@
                </tr>
             </table>
             <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-            <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
+            <input type="tel" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
+            <div id="wb_btn_connexionp">
+               <a href="./../update_email.php" onclick="$('#modal').dialog('open');return false;"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid48"><strong>Modifier</strong></span></div></div></a></div>
          </form>
          <div id="wb_Breadcrumb2">
             <ul id="Breadcrumb2">
@@ -130,7 +164,16 @@
                <img src="../../images/img0076.png" id="Shape2" alt=""></div>
             <label for="" id="Label3">Agences</label>
          </div>
-         <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+         <input type="date" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+         <form name="frmmodifier" method="post" action="" enctype="text/plain" id="modal" title="modal">
+            <input type="text" id="Editbox5" name="Nom" value="" tabindex="1" placeholder="Nom">
+            <input type="date" id="Editbox6" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+            <input type="text" id="Editbox7" name="Adresse" value="" tabindex="1" placeholder="adresse">
+            <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
+            <input type="tel" id="Editbox9" name="numero" value="" tabindex="1" placeholder="Numero">
+            <input type="submit" id="Button4" onclick="$('#modal').dialog('close');return false;" name="Mise à jour" value="Mise à jour">
+            <a id="modal-close"> </a>
+         </form>
       </div>
       <div id="Div">
          <div id="head">
@@ -140,12 +183,12 @@
             <div id="wb_icosear">
                <a href="./Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid48"><span id="wb_uid49"><a href="./Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid49"><span id="wb_uid50"><a href="./Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid50"><span id="wb_uid51"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid51"><span id="wb_uid52"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>

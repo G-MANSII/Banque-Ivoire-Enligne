@@ -55,7 +55,7 @@
                <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
                <li><a href="./../profil.php" title="Profil"><i class="fa fa-address-card">&nbsp;</i>Profil</a></li>
                <li><a href="./../profil.php" title="Op&#233;rations"><i class="fa fa-sitemap">&nbsp;</i>Op&#233;rations</a></li>
-               <li><a href="./virements.php" title="Virements"><i class="fa fa-random">&nbsp;</i>Virements</a></li>
+               <li class="active"><i class="fa fa-random">&nbsp;</i>Rel&#233;v&#233;</li>
             </ul>
          </div>
          <div id="Layer2">

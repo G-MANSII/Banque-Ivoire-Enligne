@@ -5,7 +5,8 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
+   background-image: url(../images/edit_pass_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -154,7 +155,7 @@ body {
    white-space: nowrap;
 }
 #Breadcrumb1 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px #C0C0C0 solid;
    font-family: Arial;
@@ -367,7 +368,7 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 968px;
+   width: 967px;
    z-index: 15;
 }
 #Editbox1 {
@@ -572,7 +573,7 @@ body {
    width: 968px;
 }
 #foot {
-   height: 198px;
+   height: 338px;
    left: 0px;
    position: absolute;
    text-align: center;

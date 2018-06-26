@@ -19,6 +19,14 @@
 <script src="../java-script/jquery.ui.mouse.min.js"></script>
 <script src="../java-script/jquery.ui.sortable.min.js"></script>
 <script src="../java-script/jquery.ui.tabs.min.js"></script>
+<script src="../java-script/jquery.ui.button.min.js"></script>
+<script src="../java-script/jquery.ui.draggable.min.js"></script>
+<script src="../java-script/jquery.ui.position.min.js"></script>
+<script src="../java-script/jquery.ui.resizable.min.js"></script>
+<script src="../java-script/jquery.ui.dialog.min.js"></script>
+<script src="../java-script/jquery.ui.effect.min.js"></script>
+<script src="../java-script/jquery.ui.effect-drop.min.js"></script>
+<script src="../java-script/wwb11.min.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -32,6 +40,27 @@
       $("#jQueryTabs1 .ui-tabs-nav, #jQueryTabs1 .ui-tabs-nav > *")
          .removeClass("ui-corner-all ui-corner-top")
          .addClass("ui-corner-bottom");
+      var modalOpts =
+      {
+         modal: true,
+         width: 674,
+         height: 471,
+         position: { my: 'center', at: 'center', of: window },
+         resizable: false,
+         draggable: false,
+         closeOnEscape: true,
+         show: {effect: 'drop', direction: 'up'},
+         hide: {effect: 'drop', direction: 'up'},
+         autoOpen: true
+      };
+      $("#modal").dialog(modalOpts);
+      $('.ui-dialog-titlebar').hide();
+      $('.ui-dialog').removeClass('ui-corner-all');
+      $('#modal').css({'padding':'0','height':'471px'});
+      $("#modal-close").click( function()
+      {
+         $("#modal").dialog('close');
+      });
       $("#Nav .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
@@ -61,7 +90,7 @@
             <div id="wb_link_passoub">
                <div id="wb_uid2"><span id="wb_uid3"><a href="./form.html">Mot de passe oublié&nbsp;?</a></span></div>
             </div>
-            <input type="submit" id="btnconnexion" name="btnconnexion" value="Connexion">
+            <input type="submit" id="btnconnexion" onclick="$('#modal').dialog('open');return false;" name="btnconnexion" value="Connexion">
          </form>
          <form name="frminscription" method="post" action="mailto:yourname@yourdomain.com" enctype="text/plain" id="frminsc">
             <div id="jQueryTabs1">
@@ -133,6 +162,10 @@
                <img src="../images/img0013.png" id="Shape3" alt=""></div>
             <label for="" id="Label8">Ouverture de compte</label>
          </div>
+         <form name="frmmodifier" method="post" action="" enctype="text/plain" id="modal" title="modal">
+            <input type="submit" id="Button1" onclick="$('#modal').dialog('close');return false;" name="btnconnexion" value="Connexion">
+            <a id="modal-close"> </a>
+         </form>
       </div>
       <div id="Div">
          <div id="head">

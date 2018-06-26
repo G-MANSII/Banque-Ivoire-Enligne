@@ -5,7 +5,8 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
+   background-image: url(../images/form_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -571,6 +572,54 @@ body {
    text-align: center;
    vertical-align: middle;
 }
+#modal {
+   -moz-border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-border-radius: 6px;
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+.ui-dialog {
+   border-width: 0;
+   overflow: visible;
+   padding: 0;
+}
+.ui-widget-content {
+   border-width: 0;
+   padding: 0;
+}
+#modal-close {
+   background: url('../images/layer_close.png') top left no-repeat;
+   cursor: pointer;
+   height: 32px;
+   position: absolute;
+   right: -16px;
+   top: -16px;
+   width: 32px;
+   z-index: 999;
+}
+#Button1 {
+   background-color: #D2691E;
+   background-image: none;
+   border: 0px #245580 solid;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: bold;
+}
+#Button1:hover {
+   -moz-transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
+   -webkit-transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
+   background-color: #CD853F;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+   color: #0000FF;
+   transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
+}
 #Div {
    background-color: #FFFFFF;
    background-image: none;
@@ -744,8 +793,8 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 968px;
-   z-index: 68;
+   width: 967px;
+   z-index: 69;
 }
 #wb_uid1 {
    color: #808080;
@@ -758,7 +807,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 61;
+   z-index: 62;
 }
 #wb_Text1 {
    height: 24px;
@@ -783,7 +832,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 65;
+   z-index: 66;
 }
 #wb_icosear {
    height: 18px;
@@ -792,7 +841,7 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 63;
+   z-index: 64;
 }
 #RadioButton1 {
    left: 220px;
@@ -874,7 +923,7 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 64;
+   z-index: 65;
 }
 #RadioButton3 {
    left: 510px;
@@ -963,7 +1012,7 @@ body {
    position: absolute;
    top: 460px;
    width: 960px;
-   z-index: 81;
+   z-index: 82;
 }
 #wb_logo {
    height: 200px;
@@ -971,7 +1020,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 67;
+   z-index: 68;
 }
 #band {
    height: 100px;
@@ -1016,7 +1065,13 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 62;
+   z-index: 63;
+}
+#modal {
+   height: 471px;
+   text-align: left;
+   width: 674px;
+   z-index: 85;
 }
 #Layer13 {
    height: 32px;
@@ -1025,7 +1080,7 @@ body {
    text-align: left;
    top: 410px;
    width: 969px;
-   z-index: 83;
+   z-index: 84;
 }
 #wb_uid8 {
    height: 24px;
@@ -1106,7 +1161,7 @@ body {
    text-align: left;
    top: 20px;
    width: 968px;
-   z-index: 80;
+   z-index: 81;
 }
 #wb_uid14 {
    height: 16px;
@@ -1144,7 +1199,15 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 85;
+   z-index: 87;
+}
+#Button1 {
+   height: 50px;
+   left: 354px;
+   position: absolute;
+   top: 181px;
+   width: 150px;
+   z-index: 61;
 }
 #Editbox27 {
    height: 26px;
@@ -1161,7 +1224,7 @@ body {
    position: absolute;
    top: 215px;
    width: 969px;
-   z-index: 69;
+   z-index: 70;
 }
 #wb_uid16 {
    height: 22px;
@@ -1177,7 +1240,7 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 66;
+   z-index: 67;
 }
 #Editbox28 {
    height: 26px;
@@ -1202,7 +1265,7 @@ body {
    position: absolute;
    top: 280px;
    width: 990px;
-   z-index: 78;
+   z-index: 79;
 }
 #foot_Container {
    margin-left: auto;
@@ -1212,13 +1275,13 @@ body {
    width: 968px;
 }
 #foot {
-   height: 198px;
+   height: 338px;
    left: 0px;
    position: absolute;
    text-align: center;
    top: 1522px;
    width: 968px;
-   z-index: 77;
+   z-index: 78;
 }
 #wb_uid17 {
    color: #D3D3D3;
@@ -1231,7 +1294,7 @@ body {
    position: absolute;
    top: 380px;
    width: 970px;
-   z-index: 82;
+   z-index: 83;
 }
 #jquerytabs1-page-1 {
    height: 720px;
