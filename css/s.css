@@ -14,3 +14,42 @@ body {
    margin: 0;
    text-align: center;
 }
+#Combobox1 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -moz-box-sizing: border-box;
+   -webkit-border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+}
+#Combobox1:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Html1 {
+   height: 133px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 460px;
+   z-index: 0;
+}
+#Combobox1 {
+   height: 36px;
+   left: 90px;
+   position: absolute;
+   top: 180px;
+   width: 90px;
+   z-index: 1;
+}

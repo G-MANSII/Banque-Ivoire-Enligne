@@ -5,8 +5,7 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #C0C0C0;
-   background-image: url(../images/profil_bkgrnd.png);
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -19,83 +18,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
 }
-#Breadcrumb2 {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px #C0C0C0 solid;
-   font-family: Arial;
-   font-size: 0;
-   font-weight: normal;
-   list-style: none;
-   padding: 8px 15px 8px 15px;
-}
-#Breadcrumb2 > li {
-   display: inline-block;
-   font-size: 16px;
-}
-#Breadcrumb2 a {
-   color: #D2691E;
-   text-decoration: none;
-}
-#Breadcrumb2 a:hover {
-   color: #23527C;
-   text-decoration: underline;
-}
-#Breadcrumb2 > .active {
-   color: #777777;
-}
-#Breadcrumb2 > li + li:before {
-   color: #D2691E;
-   content: ">";
-   padding: 0 5px;
-}
-#Breadcrumb2 li i {
-   font-size: 16px;
-   width: 18px;
-}
-#Layer1 {
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-}
-#Label2 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #CCCCCC solid;
-   -moz-border-radius: 4px;
-   -webkit-border-radius: 4px;
-   border-radius: 4px;
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
-}
-#Layer2 {
-   background-color: #1E90FF;
-   background-image: none;
-}
-#Shape2 {
-   border-width: 0;
-}
-#Label3 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #CCCCCC solid;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 17px;
-   font-weight: normal;
-   padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
-}
-#Div {
+#divhead {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -234,28 +158,28 @@ body {
    top: 0;
    width: 100%;
 }
-#Nav ul.navbar {
+#NavigationBar1 ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#Nav ul.navbar li {
+#NavigationBar1 ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#Nav ul.navbar li a {
+#NavigationBar1 ul.navbar li a {
    display: block;
    position: relative;
 }
-#Nav ul.navbar li a img {
+#NavigationBar1 ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#Nav ul.navbar li span {
+#NavigationBar1 ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -273,17 +197,8 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 967px;
-   z-index: 10;
-}
-#Label2 {
-   height: 26px;
-   left: 234px;
-   line-height: 26px;
-   position: absolute;
-   top: 59px;
-   width: 493px;
-   z-index: 0;
+   width: 968px;
+   z-index: 7;
 }
 #wb_uid2 {
    height: 22px;
@@ -298,16 +213,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 3;
-}
-#Label3 {
-   height: 21px;
-   left: 739px;
-   line-height: 21px;
-   position: absolute;
-   top: 2px;
-   width: 222px;
-   z-index: 2;
+   z-index: 0;
 }
 #wb_uid3 {
    color: #D3D3D3;
@@ -321,7 +227,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 7;
+   z-index: 4;
 }
 #wb_icosear {
    height: 18px;
@@ -330,11 +236,7 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 5;
-}
-#Shape2 {
-   height: 32px;
-   width: 310px;
+   z-index: 2;
 }
 #wb_local {
    height: 17px;
@@ -343,25 +245,7 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 6;
-}
-#Layer1 {
-   height: 838px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 310px;
-   width: 968px;
-   z-index: 21;
-}
-#Layer2 {
-   height: 32px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 320px;
-   width: 969px;
-   z-index: 22;
+   z-index: 3;
 }
 #wb_logo {
    height: 200px;
@@ -369,7 +253,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 9;
+   z-index: 6;
 }
 #band {
    height: 100px;
@@ -382,24 +266,15 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 4;
+   z-index: 1;
 }
-#Div {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 23;
-}
-#Nav {
+#NavigationBar1 {
    height: 42px;
    left: 0px;
    position: absolute;
    top: 215px;
    width: 969px;
-   z-index: 11;
+   z-index: 8;
 }
 #wb_txtacc {
    height: 23px;
@@ -408,39 +283,43 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 8;
+   z-index: 5;
+}
+#divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 20;
+}
+#zone {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   height: 138px;
+   left: 0px;
+   position: absolute;
+   top: 280px;
+   width: 968px;
+   z-index: 17;
 }
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 970px;
+   width: 968px;
 }
 #foot {
-   height: 360px;
+   height: 198px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1150px;
-   width: 970px;
-   z-index: 19;
-}
-#wb_Shape2 {
-   height: 32px;
-   left: 659px;
-   position: absolute;
-   top: 0px;
-   width: 310px;
-   z-index: 1;
-}
-#wb_Breadcrumb2 {
-   height: 30px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 20;
+   top: 430px;
+   width: 968px;
+   z-index: 16;
 }
 #wb_uid0 {
    height: 16px;

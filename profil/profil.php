@@ -1,9 +1,16 @@
+<?php 
+   if($_SESSION["id"]){
+      echo "ok";
+   }else{
+      header("location:../connexion/connexion.php");
+   }
+?>
 <!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Profil</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<title>Profil | Banque Ivoirienne En Ligne</title>
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -16,7 +23,7 @@
 <script>   
    $(document).ready(function()
    {
-      $("#Nav .navbar a").hover(function()
+      $("#NavigationBar1 .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
             return;
@@ -34,29 +41,17 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="wb_Breadcrumb2">
-         <ul id="Breadcrumb2">
-            <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-            <li><a href="./../connexion/connexion.html" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>Connexion</a></li>
-         </ul>
+      <div id="zone">
       </div>
-      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-         <label for="" id="Label2">Bienvenue dans le menu de gestion de votre compte</label>
-      </form>
-      <div id="Layer2">
-         <div id="wb_Shape2">
-            <img src="../images/img0095.png" id="Shape2" alt=""></div>
-         <label for="" id="Label3">Profil</label>
-      </div>
-      <div id="Div">
+      <div id="divhead">
          <div id="head">
             <div id="wb_band">
                <img src="../images/img0001.png" id="band" alt="Banque Ivoire Online" title="Banque Ivoire Online"></div>
             <input type="text" id="edit_reche" name="search" value="" placeholder="Recherche...">
             <div id="wb_icosear">
-               <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
+               <a href="./../index1.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid0"><span id="wb_uid1"><a href="./../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid0"><span id="wb_uid1"><a href="./../index1.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
@@ -66,7 +61,7 @@
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>
          </div>
-         <div id="Nav">
+         <div id="NavigationBar1">
             <ul class="navbar">
                <li><a href="./../index.php"><img alt="Acceuil" title="Acceuil" src="../images/img0003_over.png"><span><img alt="Acceuil" title="Acceuil" src="../images/img0003.png"></span></a></li>
                <li><a href="./../comptes/"><img alt="Comptes" title="Comptes" src="../images/img0027_over.png"><span><img alt="Comptes" title="Comptes" src="../images/img0027.png"></span></a></li>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Administrateur</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -34,7 +34,7 @@
       {
          $('#jQueryDatePicker1_input').attr('value',$(this).val());
       });
-      $("#Nav .navbar a").hover(function()
+      $("#NavigationBar1 .navbar a").hover(function()
       {
          if ($(this).hasClass('active'))
             return;
@@ -52,136 +52,61 @@
          <div id="foot_Container">
          </div>
       </div>
-      <div id="frminsc">
-         <div id="Layer1">
-            <hr id="Line2">
-            <hr id="Line1">
-            <div id="wb_Heading1">
-               <h1 id="Heading1">Gestionnaire des resources humaines</h1></div>
+      <div id="zone">
+         <div id="frminsc">
+            <div id="Layer1">
+               <div id="wb_Heading1">
+                  <h1 id="Heading1">Gestionnaire des resources humaines</h1></div>
+               <hr id="Line1">
+               <hr id="Line2">
+            </div>
+            <div id="wb_btn_connexionm">
+               <a href="./../administrator/update_pass.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
+            <div id="wb_txtphys">
+               <div id="wb_uid1"><span id="wb_uid2">ler dans l'au - dela . j ai couler les larmes mais Nous tes amis </span></div>
+               <div id="wb_uid3"><span id="wb_uid4">nous prions ALLAH de te pardonner tes manquements de </span></div>
+               <div id="wb_uid5"><span id="wb_uid6">t'accorder l'un des Paradis que nous avions etudiez ce jour. </span></div>
+               <div id="wb_uid7"><span id="wb_uid8">QU'ALLAH T ACCORDE SON PARADIS ETERNEL POUR </span></div>
+               <div id="wb_uid9"><span id="wb_uid10">L'ETERNITE. RIP</span></div>
+            </div>
+            <div id="wb_Text2">
+               <span id="wb_uid11">Nom:</span></div>
+            <div id="wb_Text3">
+               <span id="wb_uid12">Prénom:</span></div>
+            <div id="wb_btn_connexionp">
+               <a href="./../administrator/update_email.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
+            <div id="wb_Shape1">
+               <a href="./../incription/insmoral.php"><div id="Shape1"><div id="Shape1_text"><span id="wb_uid14"><strong>Gestionnaire</strong></span></div></div></a></div>
+            <div id="wb_Text4">
+               <span id="wb_uid15">Email:</span></div>
+            <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
+            <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
+            <div id="jQueryDatePicker1">
+            </div>
          </div>
-         <div id="wb_btn_connexionm">
-            <a href="./grh_email.php"><div id="btn_connexionm"><div id="btn_connexionm_text"><span id="wb_uid0"><strong>Change passe</strong></span></div></div></a></div>
-         <div id="wb_txtphys">
-            <div id="wb_uid1"><span id="wb_uid2">ler dans l'au - dela . j ai couler les larmes mais Nous tes amis </span></div>
-            <div id="wb_uid3"><span id="wb_uid4">nous prions ALLAH de te pardonner tes manquements de </span></div>
-            <div id="wb_uid5"><span id="wb_uid6">t'accorder l'un des Paradis que nous avions etudiez ce jour. </span></div>
-            <div id="wb_uid7"><span id="wb_uid8">QU'ALLAH T ACCORDE SON PARADIS ETERNEL POUR </span></div>
-            <div id="wb_uid9"><span id="wb_uid10">L'ETERNITE. RIP</span></div>
+         <div id="wb_Breadcrumb2">
+            <ul id="Breadcrumb2">
+               <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
+               <li class="active"><i class="fa fa-users">&nbsp;</i>GRH</li>
+            </ul>
          </div>
-         <div id="wb_Text2">
-            <span id="wb_uid11">Nom:</span></div>
-         <div id="wb_Text3">
-            <span id="wb_uid12">Prénom:</span></div>
-         <div id="wb_btn_connexionp">
-            <a href="./grh_pass.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
-         <div id="wb_Text4">
-            <span id="wb_uid14">Email:</span></div>
-         <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
-         <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
-         <div id="jQueryDatePicker1">
+         <div id="Layer2">
+            <div id="wb_Shape2">
+               <img src="../images/img0054.png" id="Shape2" alt=""></div>
+            <label for="" id="Label2">Comptes</label>
+            <div id="wb_Text1">
+               <span id="wb_uid16">Login:</span></div>
          </div>
-         <script>                                 
-                                 function selectgrh() {
-                                    var eID = document.getElementById("combogrh");
-                                    var colorVal = eID.options[eID.selectedIndex].value;
-                                    var colortxt = eID.options[eID.selectedIndex].text;
-                                 
-                                  if (colorVal=="Absences") {
-                                                            window.location.href="../grh/conf/Absences.php" ;
-                                                            } else if (colorVal=="Certificats"){ 
-                                                            window.location.href="../grh/conf/Certificats.php";
-                                                            
-                      } else if (colorVal=="Conges"){ 
-                                                            window.location.href="../grh/conf/Conges.php";
-                      } else if (colorVal=="Contrats"){ 
-                                                            window.location.href="../grh/conf/Contrats.php";
-                     
-                      } else if (colorVal=="Documents"){ 
-                                                            window.location.href="../grh/conf/Documents.php";
-                      } else if (colorVal=="Domiciliations"){ 
-                                                            window.location.href="../grh/conf/Domiciliations.php";
-                      } else if (colorVal=="Emplois"){ 
-                                                            window.location.href="../grh/conf/Emplois.php";
-                      } else if (colorVal=="Employes"){ 
-                                                            window.location.href="../grh/conf/Employes.php";
-                      } else if (colorVal=="Etats"){ 
-                                                            window.location.href="../grh/conf/Etats.php";
-                      } else if (colorVal=="Feries"){ 
-                                                            window.location.href="../grh/conf/Feries.php";
-                      } else if (colorVal=="Filiations"){ 
-                                                            window.location.href="../grh/conf/Filiations.php";
-                      } else if (colorVal=="Fonctions"){ 
-                                                            window.location.href="../grh/conf/Fonctions.php";
-                      } else if (colorVal=="Formations"){ 
-                                                            window.location.href="../grh/conf/Formations.php";
-                      } else if (colorVal=="Motifs"){ 
-                                                            window.location.href="../grh/conf/Motifs.php";
-                      } else if (colorVal=="Permissions"){ 
-                                                            window.location.href="../grh/conf/Permissions.php";
-                      } else if (colorVal=="Postes"){ 
-                                                            window.location.href="../grh/conf/Postes.php";
-                      } else if (colorVal=="Primes"){ 
-                                                            window.location.href="../grh/conf/Primes.php";
-                      } else if (colorVal=="Promotions"){ 
-                                                            window.location.href="../grh/conf/Promotions.php";
-                      } else if (colorVal=="Services"){ 
-                                                            window.location.href="../grh/conf/Services.php";
-                      }
-          else if (colorVal=="Gestionnaires"){ 
-                                                window.location.href="../grh/conf/Gestionnaires.php";
-                                      } 
-                                                     
-                      }
-                                          
-                     
-         </script>
-         <select name="Combogrh" size="1" id="combogrh" onchange="selectgrh()">
-            <option value="Absences">Absences</option>
-            <option value="Certificats">Certificats</option>
-            <option value="Conges">Conges</option>
-            <option value="Contrats">Contrats</option>
-            <option value="Documents">Documents</option>
-            <option value="Domiciliations">Domiciliations</option>
-            <option value="Emplois">Emplois</option>
-            <option value="Employes">Employes</option>
-            <option value="Etats">Etats</option>
-            <option value="Feries">Feries</option>
-            <option value="Filiations">Filiations</option>
-            <option value="Fonctions">Fonctions</option>
-            <option value="Formations">Formations</option>
-            <option value="Gestionnaires">Gestionnaires</option>
-            <option value="Motifs">Motifs</option>
-            <option value="Permissions">Permissions</option>
-            <option value="Postes">Postes</option>
-            <option value="Primes">Primes</option>
-            <option value="Promotions">Promotions</option>
-            <option value="Services">Services</option>
-         </select>
-         <div id="wb_Text5">
-            <span id="wb_uid15">Gestion du personnel:</span></div>
       </div>
-      <div id="wb_Breadcrumb2">
-         <ul id="Breadcrumb2">
-            <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-            <li class="active"><i class="fa fa-simplybuilt">&nbsp;</i>Gestion des resources humaines</li>
-         </ul>
-      </div>
-      <div id="Layer2">
-         <div id="wb_Shape2">
-            <img src="../images/img0034.png" id="Shape2" alt=""></div>
-         <label for="" id="Label2">Gestionnaire des resources humaines</label>
-         <div id="wb_Text1">
-            <span id="wb_uid16">Lodin:</span></div>
-      </div>
-      <div id="Div">
+      <div id="divhead">
          <div id="head">
             <div id="wb_band">
                <img src="../images/img0001.png" id="band" alt="Banque Ivoire Online" title="Banque Ivoire Online"></div>
             <input type="text" id="edit_reche" name="search" value="" placeholder="Recherche...">
             <div id="wb_icosear">
-               <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
+               <a href="./../index1.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid17"><span id="wb_uid18"><a href="./../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid17"><span id="wb_uid18"><a href="./../index1.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
@@ -191,7 +116,7 @@
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>
          </div>
-         <div id="Nav">
+         <div id="NavigationBar1">
             <ul class="navbar">
                <li><a href="./../index.php"><img alt="Acceuil" title="Acceuil" src="../images/img0003_over.png"><span><img alt="Acceuil" title="Acceuil" src="../images/img0003.png"></span></a></li>
                <li><a href="./../comptes/"><img alt="Comptes" title="Comptes" src="../images/img0027_over.png"><span><img alt="Comptes" title="Comptes" src="../images/img0027.png"></span></a></li>
