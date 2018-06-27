@@ -4,7 +4,7 @@
    if(!empty($_POST["btnAjouter"]) || $_POST["btnAjouter"] =="Ajouter" ){
       if(!empty($_POST["nom"]) && !empty($_POST["date"]) &&
          !empty($_POST["adress"]) && !empty($_POST["email"]) && !empty($_POST["numero"])
-      ){
+      ){ 
 
          $nom = htmlspecialchars(trim($_POST["nom"]));
          $date = htmlspecialchars(trim($_POST["date"]));
