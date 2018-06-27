@@ -122,6 +122,24 @@
                <td class="cell0"><span id="wb_uid4"> </span></td>
                <td class="cell1"><span id="wb_uid5"> </span></td>
             </tr>
+            <?php 
+                     $sql2 = "SELECT * FROM sbrhtb013 ";
+                     $query2 = $bd->query($sql2);
+                     $i=0;
+                     while($row = $query2->fetch()){
+                        $color = $i%2==0 ? "#1E90FF": "#D2691E";
+                        $i = $i+1;
+                        echo "<tr style='background-color:$color'>";
+                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['libelleagence']." </span></td>";
+                        echo "<td class='cell1'><span style='color:white' id='wb_uid4'>".$row['date_creation']." </span></td>";
+                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['adresse']." </span></td>";
+                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['numero']." </span></td>";
+                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['email']." </span></td>";
+                        echo "<td class='cell2'><span  style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white'  href='modAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-edit'></i></a></span></td>";
+                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white' href='supAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-trash'></i></a></span></td>";
+                        echo "</tr>";
+                     }
+                   ?>
             <tr>
                <td class="cell0"><span id="wb_uid6"> </span></td>
                <td class="cell0"><span id="wb_uid7"> </span></td>
