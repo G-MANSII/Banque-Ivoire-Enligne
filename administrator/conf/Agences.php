@@ -67,70 +67,6 @@
          <div id="foot_Container">
          </div>
       </div>
-<<<<<<< HEAD
-      <div id="zone">
-         <form name="Layer1" method="post" action=""  id="Layer1">
-            <input type="text" id="edtlogin" name="nom" value="" tabindex="1" placeholder="Nom agence">
-            <label for="" id="Label2">Base de données - Agences</label>
-            <input type="submit" id="btnconnexion" name="btnAjouter" value="Ajouter">nom
-            <div id="Layer3">
-               <table id="Table1">
-                  <tr>
-                     <td class="cell0"><span id="wb_uid0">Nom agence </span></td>
-                     <td class="cell1"><span id="wb_uid1">Date de creation </span></td>
-                     <td class="cell0"><span id="wb_uid2">Adresse </span></td>
-                     <td class="cell0"><span id="wb_uid3">Numero </span></td>
-                     <td class="cell2"><span id="wb_uid4">Email </span></td>
-                     <td class="cell0"><span id="wb_uid3">Mod </span></td>
-                     <td class="cell2"><span id="wb_uid4">Sup</span></td>
-                  </tr>
-                  <?php 
-                     $sql2 = "SELECT * FROM sbrhtb013 ";
-                     $query2 = $bd->query($sql2);
-                     $i=0;
-                     while($row = $query2->fetch()){
-                        $color = $i%2==0 ? "#1E90FF": "#D2691E";
-                        $i = $i+1;
-                        echo "<tr style='background-color:$color'>";
-                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['libelleagence']." </span></td>";
-                        echo "<td class='cell1'><span style='color:white' id='wb_uid4'>".$row['date_creation']." </span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['adresse']." </span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['numero']." </span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['email']." </span></td>";
-                        echo "<td class='cell2'><span  style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white'  href='modAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-edit'></i></a></span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white' href='supAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-trash'></i></a></span></td>";
-                        echo "</tr>";
-                     }
-                   ?>
-                 
-               </table>
-            </div>
-            <div id="txt_pk">
-               <hr id="Line2e">
-               <div id="wb_Headi">
-                  <h1 id="Headi">Liste des Agences existantes</h1></div>
-               <hr id="Line1a">
-            </div>
-            <input type="submit" id="Button1" name="btnmodif" value="Modifier">
-            <input type="submit" id="Button2" name="btnsuppr" value="Supprimer">
-            <input type="date" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date cr&#233;ation">
-            <input type="text" id="Editbox2" name="adress" value="" tabindex="1" placeholder="Adresse">
-            <input type="number" id="Editbox3" min="1"  max="100" name="numero" value="" tabindex="1" placeholder="Numero">
-            <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-         </form>
-         <div id="wb_Breadcrumb2">
-            <ul id="Breadcrumb2">
-               <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-               <li><a href="./../admin.php" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
-               <li><a href="./../admin.php" title="Config"><i class="fa fa-sticky-note">&nbsp;</i>Config</a></li>
-               <li class="active"><i class="fa fa-renren">&nbsp;</i>Agences</li>
-            </ul>
-         </div>
-         <div id="Layer2">
-            <div id="wb_Shape2">
-               <img src="../../images/img0034.png" id="Shape2" alt=""></div>
-            <label for="" id="Label3">Administration</label>
-=======
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
          <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
          <label for="" id="Label2">Base de données - Agences</label>
@@ -140,7 +76,6 @@
             <div id="wb_Heading1">
                <h1 id="Heading1">Liste des Agences existantes</h1></div>
             <hr id="Line1">
->>>>>>> f336b5ced1f3f3af2f0e29c387cd011da8ba4e79
          </div>
          <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
          <input type="submit" id="Button2" name="suppri" value="Supprimer">
