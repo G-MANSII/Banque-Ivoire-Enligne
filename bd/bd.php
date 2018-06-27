@@ -2,8 +2,8 @@
 	//constantes
 	define("HOST","localhost");
 	define("DB","banque");
-	define("USER","root");
-	define("PASS","");
+	define("USER","admin");
+	define("PASS","admin");
 
 	try{
 		$bd = new PDO("mysql:host=".HOST.";dbname=".DB,USER,PASS);
