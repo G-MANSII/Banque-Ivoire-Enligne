@@ -5,7 +5,8 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
+   background-image: url(../images/contact_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -18,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #wb_Form1 {
    background-color: transparent;
@@ -282,7 +285,7 @@ body {
    vertical-align: middle;
 }
 #Breadcrumb2 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px #C0C0C0 solid;
    font-family: Arial;
@@ -346,7 +349,7 @@ body {
    text-align: left;
    white-space: nowrap;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -485,28 +488,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -526,8 +529,8 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 968px;
-   z-index: 37;
+   width: 967px;
+   z-index: 38;
 }
 #Combobox3 {
    height: 36px;
@@ -566,7 +569,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 30;
+   z-index: 31;
 }
 #Editbox2 {
    height: 26px;
@@ -600,7 +603,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 34;
+   z-index: 35;
 }
 #wb_icosear {
    height: 18px;
@@ -609,7 +612,7 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 32;
+   z-index: 33;
 }
 #Shape2 {
    height: 32px;
@@ -654,7 +657,7 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 33;
+   z-index: 34;
 }
 #Label6 {
    height: 26px;
@@ -666,22 +669,22 @@ body {
    z-index: 23;
 }
 #Layer1 {
-   height: 488px;
+   height: 578px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 968px;
-   z-index: 49;
+   z-index: 48;
 }
 #Layer2 {
    height: 32px;
    left: 1px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 969px;
-   z-index: 51;
+   z-index: 50;
 }
 #Z {
    height: 26px;
@@ -698,7 +701,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 36;
+   z-index: 37;
 }
 #band {
    height: 100px;
@@ -711,7 +714,7 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 29;
+   z-index: 30;
 }
 #edit_reche {
    height: 19px;
@@ -720,32 +723,33 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 31;
-}
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 38;
+   z-index: 32;
 }
 #wb_TEXT {
    height: 24px;
-   left: 145px;
+   left: 144px;
    position: absolute;
    text-align: left;
-   top: 540px;
+   top: 499px;
    width: 680px;
-   z-index: 52;
+   z-index: 28;
 }
 #wb_Form1 {
    height: 310px;
-   left: 212px;
+   left: 187px;
    position: absolute;
-   top: 139px;
-   width: 637px;
+   top: 130px;
+   width: 532px;
    z-index: 27;
+}
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 51;
 }
 #Button1 {
    height: 25px;
@@ -755,6 +759,14 @@ body {
    width: 96px;
    z-index: 25;
 }
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 39;
+}
 #wb_txtacc {
    height: 23px;
    left: 319px;
@@ -762,43 +774,23 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 35;
-}
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 54;
-}
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 564px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 47;
+   z-index: 36;
 }
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 198px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 856px;
-   width: 968px;
-   z-index: 46;
+   top: 890px;
+   width: 970px;
+   z-index: 47;
 }
 #wb_Shape2 {
    height: 32px;
@@ -806,15 +798,15 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 28;
+   z-index: 29;
 }
 #wb_Breadcrumb2 {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 50;
+   z-index: 49;
 }
 #Combobox1 {
    height: 36px;

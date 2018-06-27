@@ -5,7 +5,8 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
+   background-image: url(../images/admin_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -18,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #frminsc {
    background-color: #FFFFFF;
@@ -141,7 +144,7 @@ body {
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
 #Breadcrumb2 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px #C0C0C0 solid;
    font-family: Arial;
@@ -272,7 +275,7 @@ body {
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
 #comboadmin {
-   background-color: #D2691E;
+   background-color: #FF7F50;
    background-image: none;
    border: 1px #FF7F50 solid;
    -moz-box-sizing: border-box;
@@ -281,7 +284,7 @@ body {
    color: #FFFFFF;
    font-family: Arial;
    font-size: 21px;
-   font-weight: bold;
+   font-weight: normal;
    padding: 4px 4px 4px 4px;
 }
 #comboadmin:focus {
@@ -303,7 +306,7 @@ body {
    text-align: left;
    white-space: nowrap;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -442,28 +445,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -483,7 +486,7 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 968px;
+   width: 967px;
    z-index: 27;
 }
 #Label2 {
@@ -551,10 +554,10 @@ body {
 }
 #wb_Text2 {
    height: 24px;
-   left: 114px;
+   left: 124px;
    position: absolute;
    text-align: left;
-   top: 175px;
+   top: 179px;
    width: 70px;
    z-index: 6;
 }
@@ -575,10 +578,10 @@ body {
 }
 #wb_Text3 {
    height: 24px;
-   left: 85px;
+   left: 95px;
    position: absolute;
    text-align: left;
-   top: 219px;
+   top: 229px;
    width: 109px;
    z-index: 7;
 }
@@ -598,10 +601,10 @@ body {
 }
 #wb_Text4 {
    height: 24px;
-   left: 99px;
+   left: 119px;
    position: absolute;
    text-align: left;
-   top: 268px;
+   top: 279px;
    width: 80px;
    z-index: 9;
 }
@@ -626,26 +629,26 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 70px;
+   top: 350px;
    width: 968px;
-   z-index: 39;
+   z-index: 37;
 }
 #Layer2 {
    height: 32px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 29px;
+   top: 309px;
    width: 969px;
-   z-index: 41;
+   z-index: 39;
 }
 #wb_Text5 {
    height: 24px;
-   left: 424px;
+   left: 443px;
    position: absolute;
    text-align: left;
-   top: 501px;
-   width: 305px;
+   top: 505px;
+   width: 295px;
    z-index: 13;
 }
 #wb_uid6 {
@@ -688,24 +691,16 @@ body {
 }
 #comboadmin {
    height: 36px;
-   left: 711px;
+   left: 729px;
    position: absolute;
-   top: 495px;
-   width: 220px;
+   top: 499px;
+   width: 191px;
    z-index: 12;
 }
 #wb_uid8 {
    color: #808080;
    font-family: Arial;
    font-size: 21px;
-}
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 28;
 }
 #wb_uid10 {
    color: #808080;
@@ -753,9 +748,9 @@ body {
 }
 #wb_btn_connexionm {
    height: 50px;
-   left: 229px;
+   left: 239px;
    position: absolute;
-   top: 488px;
+   top: 492px;
    width: 150px;
    z-index: 4;
 }
@@ -766,6 +761,15 @@ body {
    top: 19px;
    width: 428px;
    z-index: 2;
+}
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 40;
 }
 #wb_uid15 {
    color: #000000;
@@ -789,6 +793,14 @@ body {
    width: 428px;
    z-index: 0;
 }
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 28;
+}
 #wb_txtacc {
    height: 23px;
    left: 319px;
@@ -798,46 +810,26 @@ body {
    width: 350px;
    z-index: 25;
 }
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 43;
-}
 #wb_uid16 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
 }
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 649px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 37;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 198px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 941px;
-   width: 968px;
+   top: 929px;
+   width: 970px;
    z-index: 36;
 }
 #wb_uid17 {
@@ -859,15 +851,15 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 40;
+   z-index: 38;
 }
 #wb_btn_connexionp {
    height: 50px;
-   left: 44px;
+   left: 59px;
    position: absolute;
-   top: 488px;
+   top: 492px;
    width: 150px;
    z-index: 8;
 }

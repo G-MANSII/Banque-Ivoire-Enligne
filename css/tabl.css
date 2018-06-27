@@ -1,0 +1,172 @@
+div#container {
+   margin: 0 auto 0 auto;
+   position: relative;
+   text-align: left;
+   width: 970px;
+}
+body {
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Table1 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   border-collapse: separate;
+   border-spacing: 1px;
+}
+#Table1 td {
+   padding: 0px 0px 0px 0px;
+}
+#Table1 td div {
+   white-space: nowrap;
+}
+#Table1 .cell0 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   height: 48.68%;
+   text-align: left;
+   vertical-align: top;
+   width: 25.36%;
+}
+#Table1 .cell1 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   height: 48.68%;
+   text-align: left;
+   vertical-align: top;
+}
+#Table1 .cell2 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   height: 48.94%;
+   text-align: left;
+   vertical-align: top;
+}
+#Table1 .cell3 {
+   background-color: #A0522D;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   height: 48.94%;
+   text-align: left;
+   vertical-align: top;
+}
+.ui-widget {
+   font-size: 1em  !important;
+}
+#jQueryTabs1 {
+   padding: 4px 4px 4px 4px;
+}
+#jQueryTabs1 .ui-tabs-nav {
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   padding: 4px 4px 0px 4px;
+}
+#jQueryTabs1 .ui-tabs-nav li {
+   font-family: Arial;
+   font-style: normal;
+   font-weight: normal;
+   margin: 0px 2px -1px 0px;
+}
+#jQueryTabs1 .ui-tabs-nav li a {
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs1 .ui-tabs-panel {
+   overflow: auto;
+}
+#jQueryTabs1 .ui-tabs-nav {
+   bottom: 0;
+   left: 0;
+   padding: 0px 4px 4px 4px;
+   position: absolute  !important;
+   right: 0;
+}
+#jQueryTabs1 .ui-tabs-nav li {
+   border-bottom-width: 1px;
+   border-top: none;
+   margin-bottom: 1px  !important;
+   margin-top: -2px  !important;
+}
+#jQueryTabs1,
+#jQueryTabs1 .ui-corner-all,
+#jQueryTabs1 .ui-corner-top {
+   -moz-border-top-left-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#jQueryTabs1,
+#jQueryTabs1 .ui-corner-all,
+#jQueryTabs1 .ui-corner-bottom {
+   -moz-border-bottom-left-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   -webkit-border-bottom-left-radius: 6px;
+   -webkit-border-bottom-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 6px;
+}
+#jQueryTabs1 .ui-helper-reset {
+   line-height: 24px;
+}
+#wb_uid1 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_uid2 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_uid3 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#jQueryTabs1 {
+   height: 98px;
+   left: 150px;
+   position: absolute;
+   top: 610px;
+   width: 172px;
+   z-index: 1;
+}
+#Table1 {
+   height: 378px;
+   left: 70px;
+   position: absolute;
+   top: 140px;
+   width: 560px;
+   z-index: 0;
+}
+#jquerytabs1-page-0 {
+   height: 58px;
+   overflow: auto;
+   padding: 0;
+}
+#jquerytabs1-page-1 {
+   height: 58px;
+   overflow: auto;
+   padding: 0;
+}
+#wb_uid0 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}

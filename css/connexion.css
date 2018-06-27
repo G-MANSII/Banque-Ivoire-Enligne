@@ -5,7 +5,8 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
+   background-image: url(../images/connexion_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -18,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #Label2 {
    background-color: transparent;
@@ -35,7 +38,7 @@ body {
    vertical-align: middle;
 }
 #Breadcrumb2 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px #C0C0C0 solid;
    font-family: Arial;
@@ -177,7 +180,7 @@ body {
    color: #0000FF;
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
-#divhead {
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -316,28 +319,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -350,7 +353,7 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 968px;
+   width: 967px;
    z-index: 15;
 }
 #wb_uid1 {
@@ -450,7 +453,7 @@ body {
 }
 #wb_linklogoub {
    height: 24px;
-   left: 195px;
+   left: 205px;
    position: absolute;
    text-align: center;
    top: 191px;
@@ -462,9 +465,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 30px;
+   top: 310px;
    width: 968px;
-   z-index: 28;
+   z-index: 26;
 }
 #wb_uid6 {
    height: 22px;
@@ -478,9 +481,9 @@ body {
    left: 1px;
    position: absolute;
    text-align: left;
-   top: 40px;
+   top: 320px;
    width: 969px;
-   z-index: 29;
+   z-index: 27;
 }
 #wb_logo {
    height: 200px;
@@ -508,14 +511,6 @@ body {
    width: 190px;
    z-index: 9;
 }
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 16;
-}
 #edtlogin {
    height: 26px;
    left: 209px;
@@ -524,6 +519,23 @@ body {
    top: 129px;
    width: 230px;
    z-index: 1;
+}
+#Div {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 28;
+}
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 16;
 }
 #wb_txtacc {
    height: 23px;
@@ -534,40 +546,20 @@ body {
    width: 350px;
    z-index: 13;
 }
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 31;
-}
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 350px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 25;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 198px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 642px;
-   width: 968px;
+   top: 630px;
+   width: 970px;
    z-index: 24;
 }
 #wb_Shape2 {
@@ -590,13 +582,13 @@ body {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 27;
+   z-index: 25;
 }
 #wb_link_passoub {
    height: 24px;
-   left: 525px;
+   left: 505px;
    position: absolute;
    text-align: center;
    top: 191px;

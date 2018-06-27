@@ -5,7 +5,8 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
+   background-image: url(../images/grh_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -18,6 +19,8 @@ body {
    background-color: #808080;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #frminsc {
    background-color: #FFFFFF;
@@ -141,7 +144,7 @@ body {
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
 #Breadcrumb2 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px #C0C0C0 solid;
    font-family: Arial;
@@ -229,42 +232,6 @@ body {
    text-align: left;
    white-space: nowrap;
 }
-#Shape1 {
-   background-color: #D2691E;
-   background-image: none;
-   border: 0px #245580 solid;
-   height: 50px;
-   top: 0px;
-   width: 150px;
-}
-#Shape1:hover {
-   background-color: #D2691E;
-   background-image: none;
-   border: 0px #CD853F solid;
-}
-#Shape1_text {
-   height: 35px;
-   left: 1px;
-   overflow: hidden;
-   position: absolute;
-   text-align: center;
-   top: 14px;
-   width: 148px;
-}
-#Shape1:hover span {
-   color: #0000FF  !important;
-}
-#Shape1 span:hover {
-   color: #0000FF  !important;
-}
-#Shape1:hover {
-   -moz-transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
-   -webkit-transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
-   background-color: #CD853F;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-   color: #0000FF;
-   transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
-}
 #wb_Text4 {
    background-color: transparent;
    background-image: none;
@@ -307,7 +274,39 @@ body {
    color: #0000FF;
    transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
-#divhead {
+#combogrh {
+   background-color: #FF7F50;
+   background-image: none;
+   border: 1px #1E90FF solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+}
+#combogrh:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#wb_Text5 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text5 div {
+   text-align: left;
+   white-space: nowrap;
+}
+#Div {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -446,28 +445,28 @@ body {
    top: 0;
    width: 100%;
 }
-#NavigationBar1 ul.navbar {
+#Nav ul.navbar {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#NavigationBar1 ul.navbar li {
+#Nav ul.navbar li {
    float: left;
    height: 42px;
    margin: 0 0px 0 0;
    width: 161px;
 }
-#NavigationBar1 ul.navbar li a {
+#Nav ul.navbar li a {
    display: block;
    position: relative;
 }
-#NavigationBar1 ul.navbar li a img {
+#Nav ul.navbar li a img {
    border-width: 0;
    left: 0;
    position: absolute;
    z-index: 1;
 }
-#NavigationBar1 ul.navbar li span {
+#Nav ul.navbar li span {
    display: block;
    height: 42px;
    position: absolute;
@@ -487,17 +486,17 @@ body {
    position: absolute;
    text-align: left;
    top: 0px;
-   width: 968px;
-   z-index: 26;
+   width: 967px;
+   z-index: 27;
 }
 #Label2 {
    height: 21px;
-   left: 739px;
+   left: 670px;
    line-height: 21px;
    position: absolute;
    top: 2px;
-   width: 222px;
-   z-index: 17;
+   width: 291px;
+   z-index: 18;
 }
 #wb_uid1 {
    height: 24px;
@@ -512,7 +511,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 19;
+   z-index: 20;
 }
 #wb_Text1 {
    height: 24px;
@@ -521,7 +520,7 @@ body {
    text-align: left;
    top: 4px;
    width: 109px;
-   z-index: 18;
+   z-index: 19;
 }
 #jQueryDatePicker1_input {
    display: none;
@@ -538,7 +537,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 23;
+   z-index: 24;
 }
 #wb_icosear {
    height: 18px;
@@ -547,15 +546,15 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 21;
+   z-index: 22;
 }
 #Shape2 {
    height: 32px;
-   width: 310px;
+   width: 370px;
 }
 #wb_Text2 {
    height: 24px;
-   left: 129px;
+   left: 124px;
    position: absolute;
    text-align: left;
    top: 179px;
@@ -571,18 +570,18 @@ body {
 }
 #jQueryDatePicker1 {
    height: 180px;
-   left: 722px;
+   left: 729px;
    position: absolute;
-   top: 136px;
+   top: 158px;
    width: 220px;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_Text3 {
    height: 24px;
-   left: 99px;
+   left: 95px;
    position: absolute;
    text-align: left;
-   top: 199px;
+   top: 229px;
    width: 109px;
    z-index: 7;
 }
@@ -598,16 +597,24 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 22;
+   z-index: 23;
+}
+#combogrh {
+   height: 36px;
+   left: 729px;
+   position: absolute;
+   top: 499px;
+   width: 191px;
+   z-index: 12;
 }
 #wb_Text4 {
    height: 24px;
-   left: 129px;
+   left: 119px;
    position: absolute;
    text-align: left;
-   top: 229px;
+   top: 279px;
    width: 80px;
-   z-index: 10;
+   z-index: 9;
 }
 #wb_uid5 {
    height: 24px;
@@ -618,11 +625,11 @@ body {
 }
 #Layer1 {
    height: 108px;
-   left: 4.1237%;
+   left: 19.7938%;
    position: absolute;
    text-align: left;
-   top: 19px;
-   width: 750px;
+   top: 28px;
+   width: 586px;
    z-index: 3;
 }
 #frminsc {
@@ -630,18 +637,27 @@ body {
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 70px;
+   top: 350px;
    width: 968px;
-   z-index: 38;
+   z-index: 37;
 }
 #Layer2 {
    height: 32px;
    left: 0px;
    position: absolute;
    text-align: left;
-   top: 29px;
+   top: 309px;
    width: 969px;
-   z-index: 40;
+   z-index: 39;
+}
+#wb_Text5 {
+   height: 24px;
+   left: 514px;
+   position: absolute;
+   text-align: left;
+   top: 505px;
+   width: 215px;
+   z-index: 13;
 }
 #wb_uid6 {
    color: #808080;
@@ -654,7 +670,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 25;
+   z-index: 26;
 }
 #band {
    height: 100px;
@@ -679,20 +695,12 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 20;
+   z-index: 21;
 }
 #wb_uid8 {
    color: #808080;
    font-family: Arial;
    font-size: 21px;
-}
-#NavigationBar1 {
-   height: 42px;
-   left: 0px;
-   position: absolute;
-   top: 215px;
-   width: 969px;
-   z-index: 27;
 }
 #wb_uid10 {
    color: #808080;
@@ -723,7 +731,7 @@ body {
    left: 194px;
    position: absolute;
    text-align: center;
-   top: 338px;
+   top: 359px;
    width: 580px;
    z-index: 5;
 }
@@ -733,33 +741,35 @@ body {
    font-size: 19px;
 }
 #wb_uid14 {
-   color: #FFFFFF;
+   color: #000000;
    font-family: Arial;
-   font-size: 19px;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_btn_connexionm {
    height: 50px;
-   left: 409px;
+   left: 239px;
    position: absolute;
-   top: 488px;
+   top: 492px;
    width: 150px;
    z-index: 4;
 }
 #Line1 {
    height: 8px;
-   left: 161px;
+   left: 79px;
    position: absolute;
-   top: 20px;
+   top: 19px;
    width: 428px;
    z-index: 1;
 }
-#Button1 {
-   height: 50px;
-   left: 809px;
+#Div {
+   height: 278px;
+   left: 0px;
    position: absolute;
-   top: 8px;
-   width: 150px;
-   z-index: 11;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 40;
 }
 #wb_uid15 {
    color: #000000;
@@ -767,13 +777,29 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
+#Button1 {
+   height: 50px;
+   left: 809px;
+   position: absolute;
+   top: 8px;
+   width: 150px;
+   z-index: 10;
+}
 #Line2 {
    height: 8px;
-   left: 160px;
+   left: 79px;
    position: absolute;
-   top: 90px;
+   top: 89px;
    width: 428px;
-   z-index: 2;
+   z-index: 0;
+}
+#Nav {
+   height: 42px;
+   left: 0px;
+   position: absolute;
+   top: 215px;
+   width: 969px;
+   z-index: 28;
 }
 #wb_txtacc {
    height: 23px;
@@ -782,16 +808,7 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 24;
-}
-#divhead {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 42;
+   z-index: 25;
 }
 #wb_uid16 {
    color: #000000;
@@ -799,40 +816,21 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
-#wb_Shape1 {
-   height: 50px;
-   left: 589px;
-   position: absolute;
-   top: 488px;
-   width: 150px;
-   z-index: 9;
-}
-#zone {
-   border-color: #000000;
-   border-style: solid;
-   border-width: 1px;
-   height: 649px;
-   left: 0px;
-   position: absolute;
-   top: 280px;
-   width: 970px;
-   z-index: 36;
-}
 #foot_Container {
    margin-left: auto;
    margin-right: auto;
    position: relative;
    text-align: left;
-   width: 968px;
+   width: 970px;
 }
 #foot {
-   height: 198px;
+   height: 360px;
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 941px;
-   width: 968px;
-   z-index: 35;
+   top: 929px;
+   width: 970px;
+   z-index: 36;
 }
 #wb_uid17 {
    height: 16px;
@@ -843,25 +841,25 @@ body {
 }
 #wb_Shape2 {
    height: 32px;
-   left: 659px;
+   left: 599px;
    position: absolute;
    top: 0px;
-   width: 310px;
-   z-index: 16;
+   width: 370px;
+   z-index: 17;
 }
 #wb_Breadcrumb2 {
    height: 30px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 280px;
    width: 970px;
-   z-index: 39;
+   z-index: 38;
 }
 #wb_btn_connexionp {
    height: 50px;
-   left: 229px;
+   left: 59px;
    position: absolute;
-   top: 488px;
+   top: 492px;
    width: 150px;
    z-index: 8;
 }
@@ -877,10 +875,10 @@ body {
 }
 #wb_Heading1 {
    height: 40px;
-   left: 13px;
+   left: 0px;
    position: absolute;
    text-align: center;
-   top: 40px;
-   width: 670px;
-   z-index: 0;
+   top: 34px;
+   width: 586px;
+   z-index: 2;
 }
