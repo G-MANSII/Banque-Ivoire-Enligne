@@ -3,7 +3,7 @@
 	define("HOST","localhost");
 	define("DB","banque");
 	define("USER","root");
-	define("PASS","root");
+	define("PASS","");
 
 	try{
 		$bd = new PDO("mysql:host=".HOST.";dbname=".DB,USER,PASS);
