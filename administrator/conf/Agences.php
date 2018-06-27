@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php 
    require_once("../../bd/bd.php");
 
@@ -33,8 +32,6 @@
    }
 
 ?>
-=======
->>>>>>> 744d302ffc8dd657f0686e862688c154f5bd3a5f
 <!doctype html>
 <html lang="fr">
 <head>
