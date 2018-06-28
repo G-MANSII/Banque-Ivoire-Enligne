@@ -88,7 +88,6 @@
             </div>
          </div>
          <hr id="Line5">
-         <input type="submit" id="btnvalide" name="valide" value="Validé">
          <hr id="Line1">
          <div id="Layer5">
             <select name="agence" size="1" id="Combobox4" tabindex="0">
@@ -166,8 +165,52 @@
                <div id="wb_uid30"><span id="wb_uid31"><strong><u>Identification client - Informations personnelles </u></strong></span></div>
             </div>
          </div>
+         <div id="Layer6">
+            <div id="wb_Text21">
+               <div id="wb_uid32"><span id="wb_uid33">Pièces d'identification:</span></div>
+            </div>
+            <div id="wb_Text23">
+               <div id="wb_uid34"><span id="wb_uid35"><strong><u>Documents à fournir</u></strong></span></div>
+            </div>
+            <input type="file" id="FileUpload2" name="FileUpload1">
+            <input type="file" id="FileUpload1" name="FileUpload1">
+            <div id="wb_Text18">
+               <div id="wb_uid36"><span id="wb_uid37">Facture SODECI ou CIE:</span></div>
+            </div>
+            <div id="wb_Text19">
+               <div id="wb_uid38"><span id="wb_uid39">Plan de localisation:</span></div>
+            </div>
+            <input type="file" id="FileUpload3" name="FileUpload1">
+            <input type="file" id="FileUpload4" name="FileUpload1">
+            <div id="wb_Text30">
+               <div id="wb_uid40"><span id="wb_uid41">Régistre de commerce</span></div>
+            </div>
+            <input type="file" id="FileUpload5" name="FileUpload1">
+            <div id="wb_Text20">
+               <div id="wb_uid42"><span id="wb_uid43">Document de la Sociéte</span></div>
+            </div>
+            <input type="file" id="FileUpload6" name="FileUpload1">
+            <div id="wb_Text31">
+               <div id="wb_uid44"><span id="wb_uid45">Autre document legislatif</span></div>
+            </div>
+         </div>
+         <div id="Layer7">
+            <div id="wb_Text29">
+               <div id="wb_uid46"><span id="wb_uid47"><strong><u>Informations de connexion</u></strong></span></div>
+            </div>
+            <input type="text" id="Editbox25" name="login" value="" tabindex="2" placeholder="Login*">
+            <input type="password" id="Editbox24" name="motdepasse" value="" tabindex="2" placeholder="Mot de passe*">
+            <input type="password" id="Editbox26" name="motdepassconfirmer" value="" tabindex="2" placeholder="Confirmer mot de passe*">
+            <div id="wb_Text24">
+               <span id="wb_uid48">Choisir un login. Minimum 4 caractères.</span></div>
+            <div id="wb_Text25">
+               <span id="wb_uid49">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
+         </div>
+         <hr id="Line2">
+         <hr id="Line3">
+         <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="wb_Text9">
-            <div id="wb_uid32"><span id="wb_uid33">Tous les champs doivent être correctement remplis sous penne d'être rejeté.</span></div>
+            <div id="wb_uid50"><span id="wb_uid51">Tous les champs doivent être correctement remplis sous penne d'être rejeté.</span></div>
          </div>
       </div>
       <div id="Layer4">
@@ -184,12 +227,12 @@
             <div id="wb_icosear">
                <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid34"><span id="wb_uid35"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid52"><span id="wb_uid53"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid36"><span id="wb_uid37"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid54"><span id="wb_uid55"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>
