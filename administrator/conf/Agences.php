@@ -94,6 +94,15 @@
       })
    });
 </script>
+<style type="text/css">
+   #Table1{
+      border-collapse: collapse;
+      border: 1px solid gray;
+   }
+   #Table1 tr{
+      border: 1px solid gray;
+   }
+</style>
 </head>
 <body>
    <div id="container">
@@ -115,13 +124,13 @@
          <input type="submit" id="Button2" name="suppri" value="Supprimer">
          <table id="Table1">
             <tr>
-               <td class="cell0"><span id="wb_uid0">nom de l'agence </span></td>
-               <td class="cell0"><span id="wb_uid1">Date de creation </span></td>
-               <td class="cell0"><span id="wb_uid2">Adresse </span></td>
-               <td class="cell0"><span id="wb_uid3">Numero </span></td>
-               <td class="cell0"><span id="wb_uid4">Email </span></td>
-               <td class="cell1"><span id="wb_uid5">mod </span></td>
-               <td class="cell1"><span id="wb_uid5">sup </span></td>
+               <td class=""><span id="wb_uid0">nom de l'agence </span></td>
+               <td class=""><span id="wb_uid1">Date de creation </span></td>
+               <td class=""><span id="wb_uid2">Adresse </span></td>
+               <td class=""><span id="wb_uid3">Numero </span></td>
+               <td class=""><span id="wb_uid4">Email </span></td>
+               <td class=""><span id="wb_uid5">mod </span></td>
+               <td class=""><span id="wb_uid5">sup </span></td>
             </tr>
             <?php 
                      $sql2 = "SELECT * FROM sbrhtb013 ";
@@ -131,72 +140,17 @@
                         $color = $i%2==0 ? "#1E90FF": "#D2691E";
                         $i = $i+1;
                         echo "<tr style='background-color:$color'>";
-                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['libelleagence']." </span></td>";
+                        echo "<td class=''><span style='color:white' id='wb_uid4'>".$row['libelleagence']." </span></td>";
                         echo "<td class='cell1'><span style='color:white' id='wb_uid4'>".$row['date_creation']." </span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['adresse']." </span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['numero']." </span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'>".$row['email']." </span></td>";
-                        echo "<td class='cell2'><span  style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white'  href='modAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-edit'></i></a></span></td>";
-                        echo "<td class='cell2'><span style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white' href='supAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-trash'></i></a></span></td>";
+                        echo "<td class=''><span style='color:white' id='wb_uid4'>".$row['adresse']." </span></td>";
+                        echo "<td class=''><span style='color:white' id='wb_uid4'>".$row['numero']." </span></td>";
+                        echo "<td class=''><span style='color:white' id='wb_uid4'>".$row['email']." </span></td>";
+                        echo "<td class=''><span  style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white'  href='modAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-edit'></i></a></span></td>";
+                        echo "<td class=''><span style='color:white' id='wb_uid4'><a style='text-decoration:none;color:white' href='supAg.php?id={$row['id_agence']}'>&nbsp;&nbsp;<i class='fa fa-trash'></i></a></span></td>";
                         echo "</tr>";
                      }
                    ?>
-            <tr>
-               <td class="cell0"><span id="wb_uid6"> </span></td>
-               <td class="cell0"><span id="wb_uid7"> </span></td>
-               <td class="cell0"><span id="wb_uid8"> </span></td>
-               <td class="cell0"><span id="wb_uid9"> </span></td>
-               <td class="cell0"><span id="wb_uid10"> </span></td>
-               <td class="cell1"><span id="wb_uid11"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid12"> </span></td>
-               <td class="cell0"><span id="wb_uid13"> </span></td>
-               <td class="cell0"><span id="wb_uid14"> </span></td>
-               <td class="cell0"><span id="wb_uid15"> </span></td>
-               <td class="cell0"><span id="wb_uid16"> </span></td>
-               <td class="cell1"><span id="wb_uid17"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid18"> </span></td>
-               <td class="cell0"><span id="wb_uid19"> </span></td>
-               <td class="cell0"><span id="wb_uid20"> </span></td>
-               <td class="cell0"><span id="wb_uid21"> </span></td>
-               <td class="cell0"><span id="wb_uid22"> </span></td>
-               <td class="cell1"><span id="wb_uid23"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell2"><span id="wb_uid24"> </span></td>
-               <td class="cell2"><span id="wb_uid25"> </span></td>
-               <td class="cell2"><span id="wb_uid26"> </span></td>
-               <td class="cell2"><span id="wb_uid27"> </span></td>
-               <td class="cell2"><span id="wb_uid28"> </span></td>
-               <td class="cell3"><span id="wb_uid29"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
-               <td class="cell0"><span id="wb_uid32"> </span></td>
-               <td class="cell0"><span id="wb_uid33"> </span></td>
-               <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid36"> </span></td>
-               <td class="cell0"><span id="wb_uid37"> </span></td>
-               <td class="cell0"><span id="wb_uid38"> </span></td>
-               <td class="cell0"><span id="wb_uid39"> </span></td>
-               <td class="cell0"><span id="wb_uid40"> </span></td>
-               <td class="cell1"><span id="wb_uid41"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell4"><span id="wb_uid42"> </span></td>
-               <td class="cell4"><span id="wb_uid43"> </span></td>
-               <td class="cell4"><span id="wb_uid44"> </span></td>
-               <td class="cell4"><span id="wb_uid45"> </span></td>
-               <td class="cell4"><span id="wb_uid46"> </span></td>
-               <td class="cell5"><span id="wb_uid47"> </span></td>
-            </tr>
+           
          </table>
          <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
          <input type="tel" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
