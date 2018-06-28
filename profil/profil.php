@@ -1,3 +1,19 @@
+<?php 
+   session_start();
+   if(!empty($_SESSION["id"])) {
+      if(empty($_GET["id"])){
+         $id = $_SESSION["id"];
+         header("location:?id=$id");
+         exit();
+      }else{
+
+      }
+
+   }else{
+      header("location:../index.php");
+      exit();
+   }
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -33,7 +49,7 @@
       <div id="wb_jcrum">
          <ul id="jcrum">
             <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-            <li><a href="./../connexion/connexion.html" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>Connexion</a></li>
+            <li><a href="./../connexion/profil.php" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>Connexion</a></li>
          </ul>
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="divprinc">
