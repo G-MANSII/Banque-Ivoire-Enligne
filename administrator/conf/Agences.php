@@ -115,12 +115,13 @@
          <input type="submit" id="Button2" name="suppri" value="Supprimer">
          <table id="Table1">
             <tr>
-               <td class="cell0"><span id="wb_uid0"> </span></td>
-               <td class="cell0"><span id="wb_uid1"> </span></td>
-               <td class="cell0"><span id="wb_uid2"> </span></td>
-               <td class="cell0"><span id="wb_uid3"> </span></td>
-               <td class="cell0"><span id="wb_uid4"> </span></td>
-               <td class="cell1"><span id="wb_uid5"> </span></td>
+               <td class="cell0"><span id="wb_uid0">nom de l'agence </span></td>
+               <td class="cell0"><span id="wb_uid1">Date de creation </span></td>
+               <td class="cell0"><span id="wb_uid2">Adresse </span></td>
+               <td class="cell0"><span id="wb_uid3">Numero </span></td>
+               <td class="cell0"><span id="wb_uid4">Email </span></td>
+               <td class="cell1"><span id="wb_uid5">mod </span></td>
+               <td class="cell1"><span id="wb_uid5">sup </span></td>
             </tr>
             <?php 
                      $sql2 = "SELECT * FROM sbrhtb013 ";
