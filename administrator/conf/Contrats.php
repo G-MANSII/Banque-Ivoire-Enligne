@@ -1,6 +1,6 @@
 <?php 
 
- ?>
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -75,46 +75,7 @@
                <td class="cell0"><span id="wb_uid16"> </span></td>
                <td class="cell1"><span id="wb_uid17"> </span></td>
             </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid18"> </span></td>
-               <td class="cell0"><span id="wb_uid19"> </span></td>
-               <td class="cell0"><span id="wb_uid20"> </span></td>
-               <td class="cell0"><span id="wb_uid21"> </span></td>
-               <td class="cell0"><span id="wb_uid22"> </span></td>
-               <td class="cell1"><span id="wb_uid23"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell2"><span id="wb_uid24"> </span></td>
-               <td class="cell2"><span id="wb_uid25"> </span></td>
-               <td class="cell2"><span id="wb_uid26"> </span></td>
-               <td class="cell2"><span id="wb_uid27"> </span></td>
-               <td class="cell2"><span id="wb_uid28"> </span></td>
-               <td class="cell3"><span id="wb_uid29"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
-               <td class="cell0"><span id="wb_uid32"> </span></td>
-               <td class="cell0"><span id="wb_uid33"> </span></td>
-               <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid36"> </span></td>
-               <td class="cell0"><span id="wb_uid37"> </span></td>
-               <td class="cell0"><span id="wb_uid38"> </span></td>
-               <td class="cell0"><span id="wb_uid39"> </span></td>
-               <td class="cell0"><span id="wb_uid40"> </span></td>
-               <td class="cell1"><span id="wb_uid41"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell4"><span id="wb_uid42"> </span></td>
-               <td class="cell4"><span id="wb_uid43"> </span></td>
-               <td class="cell4"><span id="wb_uid44"> </span></td>
-               <td class="cell4"><span id="wb_uid45"> </span></td>
-               <td class="cell4"><span id="wb_uid46"> </span></td>
-               <td class="cell5"><span id="wb_uid47"> </span></td>
-            </tr>
+            
          </table>
          <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
          <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">

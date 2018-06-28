@@ -49,7 +49,7 @@
       <div id="wb_jcrum">
          <ul id="jcrum">
             <li><a href="./../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
-            <li><a href="./../connexion/profil.php" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>Connexion</a></li>
+            <li><a href="./../profil/profil.php" title="Connexion"><i class="fa fa-sign-in">&nbsp;</i>profil</a></li>
          </ul>
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="divprinc">
