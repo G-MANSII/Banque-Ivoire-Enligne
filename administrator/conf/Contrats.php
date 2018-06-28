@@ -1,5 +1,35 @@
 <?php 
+   require_once("../../bd/bd.php");
 
+   /*if(!empty($_POST["btnAjouter"]) || $_POST["btnAjouter"] =="Ajouter" ){
+      if(!empty($_POST[""]) && !empty($_POST[""]) &&
+         !empty($_POST[""]) && !empty($_POST[""]) && !empty($_POST[""])
+      ){
+
+         $nom = htmlspecialchars(trim($_POST[""]));
+         $date = htmlspecialchars(trim($_POST[""]));
+         $adress = htmlspecialchars(trim($_POST[""]));
+         $email = htmlspecialchars(trim($_POST[""]));
+         $numero = htmlspecialchars(trim($_POST[""]));
+         
+         $sql = "INSERT INTO sbrhtb(libelleagence,date_creation,adresse,numero,email) VALUES(:,:,:,:,:)";
+               $query = $bd->prepare($sql);
+               $query->execute(
+                  array(
+                     '' => , 
+                     '' => ,
+                     '' => ,
+                     '' => ,
+                     ''  => 
+                  )
+               );
+
+      }else{
+         $erreur = "Veuille remplir tous les champs";
+      }
+
+   } else{
+   }*/
 ?>
 <!doctype html>
 <html lang="fr">
@@ -59,6 +89,9 @@
                <td class="cell0"><span id="wb_uid4"> </span></td>
                <td class="cell1"><span id="wb_uid5"> </span></td>
             </tr>
+            <?php 
+
+            ?>
             <tr>
                <td class="cell0"><span id="wb_uid6"> </span></td>
                <td class="cell0"><span id="wb_uid7"> </span></td>
@@ -66,14 +99,6 @@
                <td class="cell0"><span id="wb_uid9"> </span></td>
                <td class="cell0"><span id="wb_uid10"> </span></td>
                <td class="cell1"><span id="wb_uid11"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid12"> </span></td>
-               <td class="cell0"><span id="wb_uid13"> </span></td>
-               <td class="cell0"><span id="wb_uid14"> </span></td>
-               <td class="cell0"><span id="wb_uid15"> </span></td>
-               <td class="cell0"><span id="wb_uid16"> </span></td>
-               <td class="cell1"><span id="wb_uid17"> </span></td>
             </tr>
             
          </table>
