@@ -200,7 +200,7 @@ body {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
-   height: 106px;
+   height: 52px;
    text-align: left;
    vertical-align: top;
    width: 155px;
@@ -209,43 +209,9 @@ body {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
-   height: 106px;
-   text-align: left;
-   vertical-align: top;
-}
-#Table1 .cell4 {
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
    height: 52px;
    text-align: left;
    vertical-align: top;
-   width: 155px;
-}
-#Table1 .cell5 {
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   height: 52px;
-   text-align: left;
-   vertical-align: top;
-}
-#Button1 {
-   background-color: #D2691E;
-   background-image: none;
-   border: 0px #245580 solid;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: bold;
-}
-#Button1:hover {
-   -moz-transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
-   -webkit-transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
-   background-color: #CD853F;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-   color: #0000FF;
-   transition: box-shadow 300ms linear 0ms, background-color 300ms linear 0ms, color 300ms linear 0ms;
 }
 #Editbox5 {
    background-color: #FFFFFF;
@@ -443,7 +409,7 @@ body {
    text-align: left;
    top: 0px;
    width: 967px;
-   z-index: 23;
+   z-index: 22;
 }
 #wb_uid19 {
    color: #000000;
@@ -472,7 +438,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 16;
+   z-index: 15;
 }
 #Label3 {
    height: 21px;
@@ -481,7 +447,7 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_uid2 {
    color: #000000;
@@ -496,7 +462,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 20;
+   z-index: 19;
 }
 #wb_icosear {
    height: 18px;
@@ -505,7 +471,7 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 18;
+   z-index: 17;
 }
 #Shape2 {
    height: 32px;
@@ -523,13 +489,6 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
-#wb_uid50 {
-   height: 22px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 350px;
-}
 #wb_local {
    height: 17px;
    left: 716px;
@@ -537,7 +496,7 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 19;
+   z-index: 18;
 }
 #wb_uid5 {
    color: #000000;
@@ -552,21 +511,16 @@ body {
    position: absolute;
    top: 99px;
    width: 230px;
-   z-index: 9;
+   z-index: 8;
 }
 #Layer1 {
-   height: 1088px;
+   height: 818px;
    left: 0px;
    position: absolute;
    text-align: left;
    top: 310px;
    width: 968px;
-   z-index: 33;
-}
-#wb_uid51 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
+   z-index: 32;
 }
 #Layer2 {
    height: 32px;
@@ -575,7 +529,7 @@ body {
    text-align: left;
    top: 310px;
    width: 969px;
-   z-index: 35;
+   z-index: 34;
 }
 #wb_uid40 {
    color: #000000;
@@ -590,12 +544,12 @@ body {
    line-height: 24px;
 }
 #Table1 {
-   height: 470px;
+   height: 362px;
    left: 12px;
    position: absolute;
    top: 419px;
    width: 945px;
-   z-index: 10;
+   z-index: 9;
 }
 #wb_logo {
    height: 200px;
@@ -603,7 +557,7 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 22;
+   z-index: 21;
 }
 #band {
    height: 100px;
@@ -636,6 +590,13 @@ body {
    width: 660px;
    z-index: 7;
 }
+#wb_uid42 {
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
+}
 #edit_reche {
    height: 19px;
    left: 729px;
@@ -643,7 +604,7 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 17;
+   z-index: 16;
 }
 #Divi {
    height: 278px;
@@ -652,13 +613,7 @@ body {
    text-align: left;
    top: 0px;
    width: 970px;
-   z-index: 36;
-}
-#wb_uid42 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
+   z-index: 35;
 }
 #wb_uid31 {
    color: #000000;
@@ -679,10 +634,9 @@ body {
    line-height: 24px;
 }
 #wb_uid43 {
-   color: #000000;
+   color: #D3D3D3;
    font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
+   font-size: 15px;
 }
 #wb_uid32 {
    color: #000000;
@@ -709,10 +663,11 @@ body {
    line-height: 24px;
 }
 #wb_uid44 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
+   height: 22px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 350px;
 }
 #wb_uid33 {
    color: #000000;
@@ -742,10 +697,9 @@ body {
    z-index: 4;
 }
 #wb_uid45 {
-   color: #000000;
+   color: #D3D3D3;
    font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
+   font-size: 19px;
 }
 #wb_uid34 {
    color: #000000;
@@ -765,12 +719,6 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
-#wb_uid46 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
-}
 #wb_uid35 {
    color: #000000;
    font-family: Arial;
@@ -784,12 +732,6 @@ body {
    line-height: 24px;
 }
 #wb_uid13 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
-}
-#wb_uid47 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -830,13 +772,6 @@ body {
    text-align: center;
    text-decoration: none;
 }
-#wb_uid48 {
-   height: 16px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 185px;
-}
 #wb_uid37 {
    color: #000000;
    font-family: Arial;
@@ -855,14 +790,6 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
-#Button1 {
-   height: 50px;
-   left: 609px;
-   position: absolute;
-   top: 1029px;
-   width: 150px;
-   z-index: 8;
-}
 #Line2 {
    height: 8px;
    left: 116px;
@@ -877,7 +804,7 @@ body {
    position: absolute;
    top: 215px;
    width: 969px;
-   z-index: 24;
+   z-index: 23;
 }
 #wb_txtacc {
    height: 23px;
@@ -886,12 +813,7 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 21;
-}
-#wb_uid49 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 15px;
+   z-index: 20;
 }
 #wb_uid38 {
    color: #000000;
@@ -923,9 +845,9 @@ body {
    left: 0px;
    position: absolute;
    text-align: center;
-   top: 1400px;
+   top: 1130px;
    width: 970px;
-   z-index: 32;
+   z-index: 31;
 }
 #wb_Shape2 {
    height: 32px;
@@ -933,7 +855,7 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 11;
+   z-index: 10;
 }
 #wb_Breadcrumb2 {
    height: 30px;
@@ -941,7 +863,7 @@ body {
    position: absolute;
    top: 280px;
    width: 970px;
-   z-index: 34;
+   z-index: 33;
 }
 #wb_uid39 {
    color: #000000;

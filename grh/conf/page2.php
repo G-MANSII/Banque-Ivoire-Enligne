@@ -11,7 +11,7 @@
 <link href="../../logo.png" rel="apple-touch-icon" sizes="500x380">
 <link href="../../css/font-awesome.min.css" rel="stylesheet">
 <link href="../../css/BIO_V1.css" rel="stylesheet">
-<link href="../../css/grhassign.css" rel="stylesheet">
+<link href="../../css/page2.css" rel="stylesheet">
 <script src="../../java-script/jquery-1.12.4.min.js"></script>
 <script src="../../java-script/wwb11.min.js"></script>
 <script>   
@@ -147,9 +147,9 @@
                <div id="wb_uid28"><span id="wb_uid29">Lettre de motivation:</span></div>
             </div>
             <input type="file" id="FileUpload4" name="lettre">
+            <input type="text" id="Editbox5" name="service" value="" tabindex="1" placeholder="Service*">
             <input type="text" id="Editbox6" name="fonction" value="" tabindex="1" placeholder="Fonction*">
             <input type="text" id="Editbox7" name="poste" value="" tabindex="1" placeholder="Poste*">
-            <input type="text" id="Editbox5" name="service" value="" tabindex="1" placeholder="Service*">
          </div>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
       </form>
@@ -157,13 +157,13 @@
          <ul id="Breadcrumb2">
             <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
             <li><a href="" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
-            <li><a href="./../admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-            <li class="active"><i class="fa fa-minus-square">&nbsp;</i>Grh assign&#233;</li>
+            <li><a href="./../../administrator/admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
+            <li><a href="./../../administrator/conf/grhassign.php" title="Grh assign&#233;"><i class="fa fa-minus-square">&nbsp;</i>Grh assign&#233;</a></li>
          </ul>
       </div>
       <div id="Layer2">
          <div id="wb_Shape2">
-            <img src="../../images/img0104.png" id="Shape2" alt=""></div>
+            <img src="../../images/img0079.png" id="Shape2" alt=""></div>
          <label for="" id="Label3">GRH assigné</label>
       </div>
       <div id="Divi">
@@ -172,7 +172,7 @@
                <img src="../../images/img0001.png" id="band" alt="Banque Ivoire Online" title="Banque Ivoire Online"></div>
             <input type="text" id="edit_reche" name="search" value="" placeholder="Recherche...">
             <div id="wb_icosear">
-               <a href="./Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
+               <a href="./../../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
                <div id="wb_uid30"><span id="wb_uid31"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>

@@ -109,7 +109,7 @@
                                     } else if (colorVal=="Categoriedeposte"){ 
                                     window.location.href="../administrator/conf/Categorie_de_poste.php";
                                     } else if (colorVal=="Congés"){ 
-                                    window.location.href="../administrator/conf/Congés.php";
+                                    window.location.href="../administrator/conf/Conges.php";
                                     } else if (colorVal=="Contrats"){ 
                                     window.location.href="../administrator/conf/Contrats.php";
                                     } else if (colorVal=="Fonctions"){ 

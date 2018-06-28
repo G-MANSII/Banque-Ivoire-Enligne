@@ -135,8 +135,6 @@
             <div id="wb_Text18">
                <div id="wb_uid28"><span id="wb_uid29">Situation matrimoniale: </span></div>
             </div>
-            <select name="matrimoniale" size="1" id="Combobox5" tabindex="0" autofocus="">
-            </select>
             <input type="file" id="FileUpload1" name="FileUpload1">
             <input type="text" id="Editbox23" name="conjoint" value="" tabindex="2" placeholder="Conjoint(e)">
             <input type="text" id="Editbox35" name="ville" value="" tabindex="1" placeholder="Ville de r&#233;sidence*">
@@ -186,6 +184,15 @@
          </ul>
       </div>
       <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
+      <div id="wb_Text8">
+         <div id="wb_uid42"><span id="wb_uid43">Photo:</span></div>
+      </div>
+      <select name="matrimoniale" size="1" id="Combobox6" tabindex="0" autofocus="">
+         <option value="Célibataire">Célibataire</option>
+         <option value="Marié(e)">Marié(e)</option>
+         <option value="Divorcé(e)">Divorcé(e)</option>
+         <option value="Veuf(ve)">Veuf(ve)</option>
+      </select>
       <div id="Divi">
          <div id="head">
             <div id="wb_band">
@@ -194,12 +201,12 @@
             <div id="wb_icosear">
                <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid42"><span id="wb_uid43"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid44"><span id="wb_uid45"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid44"><span id="wb_uid45"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid46"><span id="wb_uid47"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>

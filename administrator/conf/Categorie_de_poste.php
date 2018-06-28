@@ -60,7 +60,6 @@
             <div id="wb_Heading1">
                <h1 id="Heading1">Liste des Categorie de postes existants</h1></div>
          </div>
-         <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
          <table id="Table1">
             <tr>
                <td class="cell0"><span id="wb_uid0"> </span></td>
@@ -119,8 +118,6 @@
                <td class="cell3"><span id="wb_uid41"> </span></td>
             </tr>
          </table>
-         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
       </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">

@@ -60,7 +60,6 @@
                <h1 id="Heading1">Liste des Services existants</h1></div>
             <hr id="Line1">
          </div>
-         <input type="submit" id="Button1" name="modifier" value="Modifier">
          <table id="Table1">
             <tr>
                <td class="cell0"><span id="wb_uid0"> </span></td>

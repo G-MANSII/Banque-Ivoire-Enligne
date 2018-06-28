@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Contrats</title>
+<title>Congés</title>
 <meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
@@ -11,7 +11,7 @@
 <link href="../../logo.png" rel="apple-touch-icon" sizes="500x380">
 <link href="../../css/font-awesome.min.css" rel="stylesheet">
 <link href="../../css/BIO_V1.css" rel="stylesheet">
-<link href="../../css/Contrats.css" rel="stylesheet">
+<link href="../../css/Conges.css" rel="stylesheet">
 <script src="../../java-script/jquery-1.12.4.min.js"></script>
 <script>   
    $(document).ready(function()
@@ -52,12 +52,12 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
          <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-         <label for="" id="Label2">Base de données - Contrats</label>
+         <label for="" id="Label2">Base de données - Congés</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
          <div id="Layer3">
             <hr id="Line2">
             <div id="wb_Heading1">
-               <h1 id="Heading1">Liste des Contrats existants</h1></div>
+               <h1 id="Heading1">Liste des Congés existants</h1></div>
             <hr id="Line1">
          </div>
          <table id="Table1">
@@ -102,39 +102,30 @@
                <td class="cell1"><span id="wb_uid29"> </span></td>
             </tr>
             <tr>
-               <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
-               <td class="cell0"><span id="wb_uid32"> </span></td>
-               <td class="cell0"><span id="wb_uid33"> </span></td>
-               <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell2"><span id="wb_uid36"> </span></td>
-               <td class="cell2"><span id="wb_uid37"> </span></td>
-               <td class="cell2"><span id="wb_uid38"> </span></td>
-               <td class="cell2"><span id="wb_uid39"> </span></td>
-               <td class="cell2"><span id="wb_uid40"> </span></td>
-               <td class="cell3"><span id="wb_uid41"> </span></td>
+               <td class="cell2"><span id="wb_uid30"> </span></td>
+               <td class="cell2"><span id="wb_uid31"> </span></td>
+               <td class="cell2"><span id="wb_uid32"> </span></td>
+               <td class="cell2"><span id="wb_uid33"> </span></td>
+               <td class="cell2"><span id="wb_uid34"> </span></td>
+               <td class="cell3"><span id="wb_uid35"> </span></td>
             </tr>
          </table>
-         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
+         <input type="date" id="Editbox1" name="datedeb" value="" tabindex="2" placeholder="Date de b&#233;but">
+         <input type="date" id="Editbox2" name="datefin" value="" tabindex="3" placeholder="Date de b&#233;but">
       </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">
             <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
             <li><a href="" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
             <li><a href="./../admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-            <li class="active"><i class="fa fa-sticky-note-o">&nbsp;</i>Contrats</li>
+            <li class="active"><i class="fa fa-street-view">&nbsp;</i>Cong&#233;s</li>
          </ul>
       </div>
       <div id="Layer2">
          <div id="wb_Shape2">
-            <img src="../../images/img0050.png" id="Shape2" alt=""></div>
-         <label for="" id="Label3">Contrats</label>
+            <img src="../../images/img0048.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Congés</label>
       </div>
-      <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
       <div id="Divi">
          <div id="head">
             <div id="wb_band">
@@ -143,12 +134,12 @@
             <div id="wb_icosear">
                <a href="./Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid42"><span id="wb_uid43"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid36"><span id="wb_uid37"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid44"><span id="wb_uid45"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid38"><span id="wb_uid39"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>
