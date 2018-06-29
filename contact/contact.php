@@ -1,3 +1,16 @@
+<?php
+
+
+
+$destination = "alhassaneo@gmail.com";
+
+$erreur = "";
+
+if (empty($nom) || empty($prenom) || empty($numero) || empty($adress) || empty($nom) || empty($email) || empty($sujet) || empty($message) || empty($pays))
+      $erreur = "Les champ ne doit pas etre vide !";
+
+
+?>
 <!doctype html>
 <html lang="fr">
 <head>
