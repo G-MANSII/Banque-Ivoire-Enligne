@@ -1,16 +1,3 @@
-<?php
-
-
-
-$destination = "alhassaneo@gmail.com";
-
-$erreur = "";
-
-if (empty($nom) || empty($prenom) || empty($numero) || empty($adress) || empty($nom) || empty($email) || empty($sujet) || empty($message) || empty($pays))
-      $erreur = "Les champ ne doit pas etre vide !";
-
-
-?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -316,7 +303,7 @@ if (empty($nom) || empty($prenom) || empty($numero) || empty($adress) || empty($
                <input type="email" id="Editbox5" name="email" value="" tabindex="1" placeholder="Email*">
                <textarea name="mesage" id="msg" rows="9" cols="40" placeholder="Votre message*"></textarea>
                <input type="text" id="Editbox6" name="sujet" value="" tabindex="1" placeholder="Sujet*">
-               <input type="button" id="btnvalide" name="envoye" value="Envoyé">
+               <input type="submit" id="btnvalide" name="envoye" value="Envoyé">
             </form>
          </div>
          <label for="" id="obligatoire">*Tous les champs sont obligatoire</label>
