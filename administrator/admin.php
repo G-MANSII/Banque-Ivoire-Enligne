@@ -47,6 +47,10 @@
       })
    });
 </script>
+<!-- Start of biohelp Zendesk Widget script -->
+<script>   /*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","920064d9-b4f5-46ec-b48c-bef256a7e182");/*]]>*/
+</script>
+<!-- End of biohelp Zendesk Widget script -->
 </head>
 <body>
    <div id="container">
@@ -98,57 +102,56 @@
          <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
          <div id="jQueryDatePicker1">
          </div>
-         <script>                     
-                     function selectAdmin() {
-                        var eID = document.getElementById("comboadmin");
-                        var colorVal = eID.options[eID.selectedIndex].value;
-                        var colortxt = eID.options[eID.selectedIndex].text;
-                     
-                       if (colorVal=="Agences") {
-                                    window.location.href="../administrator/conf/Agences.php" ;
-                                    } else if (colorVal=="Categoriedeposte"){ 
-                                    window.location.href="../administrator/conf/Categorie_de_poste.php";
-                                    } else if (colorVal=="Congés"){ 
-                                    window.location.href="../administrator/conf/Conges.php";
-                                    } else if (colorVal=="Contrats"){ 
-                                    window.location.href="../administrator/conf/Contrats.php";
-                                    } else if (colorVal=="Fonctions"){ 
-                                    window.location.href="../administrator/conf/Fonctions.php";
-                                    } else if (colorVal=="Formations"){ 
-                                    window.location.href="../administrator/conf/Formations.php";
-                                    } else if (colorVal=="Pays"){ 
-                                    window.location.href="../administrator/conf/Pays.php";
-                                    } else if (colorVal=="Postes"){ 
-                                    window.location.href="../administrator/conf/Postes.php";
-                                    } else if (colorVal=="Promotions"){ 
-                                    window.location.href="../administrator/conf/Promotions.php";
-                                    } else if (colorVal=="Services"){ 
-                                    window.location.href="../administrator/conf/Services.php";
-                                    } else if (colorVal=="Typedecontrats"){ 
-                                    window.location.href="../administrator/conf/Type_de_contrats.php";
-                                    } else if (colorVal=="Villes"){ 
-                                    window.location.href="../administrator/conf/Villes.php";
-                                    } else if (colorVal=="GRH"){ 
-                                    window.location.href="../administrator/conf/grhassign.php";
-                                    } else if (colorVal=="Categories emplois"){ 
-                                    window.location.href="../administrator/conf/Categories_emplois.php";
-                                    }
-
-                                    else if (colorVal=="Guichets"){ 
-                                    window.location.href="../administrator/conf/guichets.php";
-                                    }else if (colorVal=="Mode reglement"){ 
-                                    window.location.href="../administrator/conf/mode_reglement.php";
-                                    }else if (colorVal=="Type de comptes"){ 
-                                    window.location.href="../administrator/conf/type_de_comptes.php";
-                                    }else if (colorVal=="Type de contrats"){ 
-                                    window.location.href="../administrator/conf/type_de_comtrats.php";
-                                    }else if (colorVal=="Types operation"){ 
-                                    window.location.href="../administrator/conf/type_operation.php";
-                                    }else if (colorVal=="Type de prets"){ 
-                                    window.location.href="../administrator/conf/type_de_prets.php";
-                                    }
-                     }
+         <script>                              
+                              function selectAdmin() {
+                                 var eID = document.getElementById("comboadmin");
+                                 var colorVal = eID.options[eID.selectedIndex].value;
+                                 var colortxt = eID.options[eID.selectedIndex].text;
                               
+                                if (colorVal=="Agences") {
+                                             window.location.href="../administrator/conf/Agences.php" ;
+                                             } else if (colorVal=="Categoriedeposte"){ 
+                                             window.location.href="../administrator/conf/Categorie_de_poste.php";
+                                             } else if (colorVal=="Congés"){ 
+                                             window.location.href="../administrator/conf/Conges.php";
+                                             } else if (colorVal=="Contrats"){ 
+                                             window.location.href="../administrator/conf/Contrats.php";
+                                             } else if (colorVal=="Fonctions"){ 
+                                             window.location.href="../administrator/conf/Fonctions.php";
+                                             } else if (colorVal=="Formations"){ 
+                                             window.location.href="../administrator/conf/Formations.php";
+                                             } else if (colorVal=="Pays"){ 
+                                             window.location.href="../administrator/conf/Pays.php";
+                                             } else if (colorVal=="Postes"){ 
+                                             window.location.href="../administrator/conf/Postes.php";
+                                             } else if (colorVal=="Promotions"){ 
+                                             window.location.href="../administrator/conf/Promotions.php";
+                                             } else if (colorVal=="Services"){ 
+                                             window.location.href="../administrator/conf/Services.php";
+                                             } else if (colorVal=="Typedecontrats"){ 
+                                             window.location.href="../administrator/conf/Type_de_contrats.php";
+                                             } else if (colorVal=="Villes"){ 
+                                             window.location.href="../administrator/conf/Villes.php";
+                                             } else if (colorVal=="GRH"){ 
+                                             window.location.href="../administrator/conf/grhassign.php";
+                                             } else if (colorVal=="Categories emplois"){ 
+                                             window.location.href="../administrator/conf/Categories_emplois.php";
+                                             }
+         
+                                             else if (colorVal=="Guichets"){ 
+                                             window.location.href="../administrator/conf/guichets.php";
+                                             }else if (colorVal=="Mode reglement"){ 
+                                             window.location.href="../administrator/conf/mode_reglement.php";
+                                             }else if (colorVal=="Type de comptes"){ 
+                                             window.location.href="../administrator/conf/type_de_comptes.php";
+                                             }else if (colorVal=="Type de contrats"){ 
+                                             window.location.href="../administrator/conf/type_de_comtrats.php";
+                                             }else if (colorVal=="Types operation"){ 
+                                             window.location.href="../administrator/conf/type_operation.php";
+                                             }else if (colorVal=="Type de prets"){ 
+                                             window.location.href="../administrator/conf/type_de_prets.php";
+                                             }
+                              }
          </script>
          <select name="Comboadmin" size="1" id="comboadmin" onchange="selectAdmin()">
             <option value="Agences">Agences</option>
