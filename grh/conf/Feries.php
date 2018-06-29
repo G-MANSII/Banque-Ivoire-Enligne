@@ -52,7 +52,7 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
          <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom du jour">
-         <label for="" id="Label2">Base de données - Feriés</label>
+         <label for="" id="Label2">GRH - Feriés</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
          <div id="Layer3">
             <hr id="Line2">

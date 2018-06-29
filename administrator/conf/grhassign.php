@@ -147,9 +147,9 @@
                <div id="wb_uid28"><span id="wb_uid29">Lettre de motivation:</span></div>
             </div>
             <input type="file" id="FileUpload4" name="lettre">
-            <input type="text" id="Editbox6" name="fonction" value="" tabindex="1" placeholder="Fonction*">
-            <input type="text" id="Editbox7" name="poste" value="" tabindex="1" placeholder="Poste*">
-            <input type="text" id="Editbox5" name="service" value="" tabindex="1" placeholder="Service*">
+            <input type="text" id="Editbox6" name="fonction" value="Directeur des Resources Humaines" tabindex="1" readonly="" autocomplete="off" placeholder="Fonction*">
+            <input type="text" id="Editbox7" name="poste" value="GRH" tabindex="1" readonly="" autocomplete="off" placeholder="Poste*">
+            <input type="text" id="Editbox5" name="service" value="GRH" tabindex="1" readonly="" autocomplete="off" placeholder="Service*">
          </div>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
       </form>

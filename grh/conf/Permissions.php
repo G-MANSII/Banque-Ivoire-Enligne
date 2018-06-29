@@ -52,7 +52,7 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
          <input type="text" id="edtlogin" name="permission" value="" tabindex="1" placeholder="Permission">
-         <label for="" id="Label2">Base de données - Permissions</label>
+         <label for="" id="Label2">GRH - Permissions</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
          <div id="Layer3">
             <hr id="Line2">
@@ -60,7 +60,6 @@
                <h1 id="Heading1">Liste Permissions</h1></div>
             <hr id="Line1">
          </div>
-         <input type="submit" id="Button1" name="modifier" value="Modifier">
          <input type="email" id="Editbox4" name="typr" value="" tabindex="1" placeholder="TYPE">
          <input type="date" id="Editbox1" name="date1" value="" tabindex="1" placeholder="Date debut">
          <input type="date" id="Editbox3" name="date2" value="" tabindex="1" placeholder="Date fin">
@@ -104,12 +103,12 @@
                <td class="cell1"><span id="wb_uid25"> </span></td>
             </tr>
             <tr>
-               <td class="cell2"><span id="wb_uid26"> </span></td>
-               <td class="cell2"><span id="wb_uid27"> </span></td>
-               <td class="cell2"><span id="wb_uid28"> </span></td>
-               <td class="cell2"><span id="wb_uid29"> </span></td>
-               <td class="cell2"><span id="wb_uid30"> </span></td>
-               <td class="cell3"><span id="wb_uid31"> </span></td>
+               <td class="cell0"><span id="wb_uid26"> </span></td>
+               <td class="cell0"><span id="wb_uid27"> </span></td>
+               <td class="cell0"><span id="wb_uid28"> </span></td>
+               <td class="cell0"><span id="wb_uid29"> </span></td>
+               <td class="cell0"><span id="wb_uid30"> </span></td>
+               <td class="cell1"><span id="wb_uid31"> </span></td>
             </tr>
             <tr>
                <td class="cell0"><span id="wb_uid32"> </span></td>
@@ -120,20 +119,12 @@
                <td class="cell1"><span id="wb_uid37"> </span></td>
             </tr>
             <tr>
-               <td class="cell0"><span id="wb_uid38"> </span></td>
-               <td class="cell0"><span id="wb_uid39"> </span></td>
-               <td class="cell0"><span id="wb_uid40"> </span></td>
-               <td class="cell0"><span id="wb_uid41"> </span></td>
-               <td class="cell0"><span id="wb_uid42"> </span></td>
-               <td class="cell1"><span id="wb_uid43"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell4"><span id="wb_uid44"> </span></td>
-               <td class="cell4"><span id="wb_uid45"> </span></td>
-               <td class="cell4"><span id="wb_uid46"> </span></td>
-               <td class="cell4"><span id="wb_uid47"> </span></td>
-               <td class="cell4"><span id="wb_uid48"> </span></td>
-               <td class="cell5"><span id="wb_uid49"> </span></td>
+               <td class="cell2"><span id="wb_uid38"> </span></td>
+               <td class="cell2"><span id="wb_uid39"> </span></td>
+               <td class="cell2"><span id="wb_uid40"> </span></td>
+               <td class="cell2"><span id="wb_uid41"> </span></td>
+               <td class="cell2"><span id="wb_uid42"> </span></td>
+               <td class="cell3"><span id="wb_uid43"> </span></td>
             </tr>
          </table>
       </form>
@@ -158,12 +149,12 @@
             <div id="wb_icosear">
                <a href="./../../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid50"><span id="wb_uid51"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid44"><span id="wb_uid45"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid52"><span id="wb_uid53"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid46"><span id="wb_uid47"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>

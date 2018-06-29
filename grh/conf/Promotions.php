@@ -51,8 +51,7 @@
          </div>
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-         <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-         <label for="" id="Label2">Base de données - Promotions</label>
+         <label for="" id="Label2">GRH - Promotions</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
          <div id="Layer3">
             <hr id="Line2">
@@ -60,78 +59,73 @@
                <h1 id="Heading1">Liste Promotions</h1></div>
             <hr id="Line1">
          </div>
-         <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
-         <input type="submit" id="Button1" name="modifier" value="Modifier">
-         <input type="submit" id="Button2" name="suppri" value="Supprimer">
+         <div id="wb_Text1">
+            <span id="wb_uid0">Employé:</span></div>
+         <input type="text" id="Editbox5" name="Nom" value="" tabindex="1" placeholder="Nom">
+         <input type="text" id="Editbox4" name="ancienpost" value="" tabindex="1" autocomplete="off" placeholder="Ancien poste">
+         <div id="wb_Text2">
+            <span id="wb_uid1">Raisons:</span></div>
+         <textarea name="TextArea1" id="TextArea1" rows="8" cols="51"></textarea>
          <table id="Table1">
             <tr>
-               <td class="cell0"><span id="wb_uid0"> </span></td>
-               <td class="cell0"><span id="wb_uid1"> </span></td>
                <td class="cell0"><span id="wb_uid2"> </span></td>
                <td class="cell0"><span id="wb_uid3"> </span></td>
                <td class="cell0"><span id="wb_uid4"> </span></td>
-               <td class="cell1"><span id="wb_uid5"> </span></td>
+               <td class="cell0"><span id="wb_uid5"> </span></td>
+               <td class="cell0"><span id="wb_uid6"> </span></td>
+               <td class="cell1"><span id="wb_uid7"> </span></td>
             </tr>
             <tr>
-               <td class="cell0"><span id="wb_uid6"> </span></td>
-               <td class="cell0"><span id="wb_uid7"> </span></td>
                <td class="cell0"><span id="wb_uid8"> </span></td>
                <td class="cell0"><span id="wb_uid9"> </span></td>
                <td class="cell0"><span id="wb_uid10"> </span></td>
-               <td class="cell1"><span id="wb_uid11"> </span></td>
+               <td class="cell0"><span id="wb_uid11"> </span></td>
+               <td class="cell0"><span id="wb_uid12"> </span></td>
+               <td class="cell1"><span id="wb_uid13"> </span></td>
             </tr>
             <tr>
-               <td class="cell0"><span id="wb_uid12"> </span></td>
-               <td class="cell0"><span id="wb_uid13"> </span></td>
                <td class="cell0"><span id="wb_uid14"> </span></td>
                <td class="cell0"><span id="wb_uid15"> </span></td>
                <td class="cell0"><span id="wb_uid16"> </span></td>
-               <td class="cell1"><span id="wb_uid17"> </span></td>
+               <td class="cell0"><span id="wb_uid17"> </span></td>
+               <td class="cell0"><span id="wb_uid18"> </span></td>
+               <td class="cell1"><span id="wb_uid19"> </span></td>
             </tr>
             <tr>
-               <td class="cell0"><span id="wb_uid18"> </span></td>
-               <td class="cell0"><span id="wb_uid19"> </span></td>
                <td class="cell0"><span id="wb_uid20"> </span></td>
                <td class="cell0"><span id="wb_uid21"> </span></td>
                <td class="cell0"><span id="wb_uid22"> </span></td>
-               <td class="cell1"><span id="wb_uid23"> </span></td>
+               <td class="cell0"><span id="wb_uid23"> </span></td>
+               <td class="cell0"><span id="wb_uid24"> </span></td>
+               <td class="cell1"><span id="wb_uid25"> </span></td>
             </tr>
             <tr>
-               <td class="cell2"><span id="wb_uid24"> </span></td>
-               <td class="cell2"><span id="wb_uid25"> </span></td>
-               <td class="cell2"><span id="wb_uid26"> </span></td>
-               <td class="cell2"><span id="wb_uid27"> </span></td>
-               <td class="cell2"><span id="wb_uid28"> </span></td>
-               <td class="cell3"><span id="wb_uid29"> </span></td>
-            </tr>
-            <tr>
+               <td class="cell0"><span id="wb_uid26"> </span></td>
+               <td class="cell0"><span id="wb_uid27"> </span></td>
+               <td class="cell0"><span id="wb_uid28"> </span></td>
+               <td class="cell0"><span id="wb_uid29"> </span></td>
                <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
+               <td class="cell1"><span id="wb_uid31"> </span></td>
+            </tr>
+            <tr>
                <td class="cell0"><span id="wb_uid32"> </span></td>
                <td class="cell0"><span id="wb_uid33"> </span></td>
                <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
+               <td class="cell0"><span id="wb_uid35"> </span></td>
                <td class="cell0"><span id="wb_uid36"> </span></td>
-               <td class="cell0"><span id="wb_uid37"> </span></td>
-               <td class="cell0"><span id="wb_uid38"> </span></td>
-               <td class="cell0"><span id="wb_uid39"> </span></td>
-               <td class="cell0"><span id="wb_uid40"> </span></td>
-               <td class="cell1"><span id="wb_uid41"> </span></td>
+               <td class="cell1"><span id="wb_uid37"> </span></td>
             </tr>
             <tr>
-               <td class="cell4"><span id="wb_uid42"> </span></td>
-               <td class="cell4"><span id="wb_uid43"> </span></td>
-               <td class="cell4"><span id="wb_uid44"> </span></td>
-               <td class="cell4"><span id="wb_uid45"> </span></td>
-               <td class="cell4"><span id="wb_uid46"> </span></td>
-               <td class="cell5"><span id="wb_uid47"> </span></td>
+               <td class="cell2"><span id="wb_uid38"> </span></td>
+               <td class="cell2"><span id="wb_uid39"> </span></td>
+               <td class="cell2"><span id="wb_uid40"> </span></td>
+               <td class="cell2"><span id="wb_uid41"> </span></td>
+               <td class="cell2"><span id="wb_uid42"> </span></td>
+               <td class="cell3"><span id="wb_uid43"> </span></td>
             </tr>
          </table>
-         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
-         <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
+         <input type="text" id="Editbox1" name="newpost" value="" tabindex="1" autocomplete="off" placeholder="Nouveau poste">
+         <input type="date" id="Editbox2" name="date" value="" tabindex="1" autocomplete="off" placeholder="Date de promotion">
       </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">
@@ -154,12 +148,12 @@
             <div id="wb_icosear">
                <a href="./../../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid48"><span id="wb_uid49"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid44"><span id="wb_uid45"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid50"><span id="wb_uid51"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid46"><span id="wb_uid47"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>

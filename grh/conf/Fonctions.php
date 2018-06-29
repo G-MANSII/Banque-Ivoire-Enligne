@@ -52,7 +52,7 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
          <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-         <label for="" id="Label2">Base de données - Fonctions</label>
+         <label for="" id="Label2">GRH - Fonctions</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
          <div id="Layer3">
             <hr id="Line2">
@@ -60,7 +60,6 @@
                <h1 id="Heading1">Liste Fonctions</h1></div>
             <hr id="Line1">
          </div>
-         <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
          <input type="submit" id="Button1" name="modifier" value="Modifier">
          <input type="submit" id="Button2" name="suppri" value="Supprimer">
          <table id="Table1">
@@ -129,8 +128,6 @@
                <td class="cell5"><span id="wb_uid47"> </span></td>
             </tr>
          </table>
-         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
          <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
       </form>
       <div id="wb_Breadcrumb2">

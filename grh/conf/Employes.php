@@ -13,6 +13,7 @@
 <link href="../../css/BIO_V1.css" rel="stylesheet">
 <link href="../../css/Employes.css" rel="stylesheet">
 <script src="../../java-script/jquery-1.12.4.min.js"></script>
+<script src="../../java-script/wwb11.min.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -50,79 +51,6 @@
             </div>
          </div>
       </div>
-      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-         <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
-         <label for="" id="Label2">Base de données - Employes</label>
-         <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
-         <div id="Layer3">
-            <hr id="Line2">
-            <div id="wb_Heading1">
-               <h1 id="Heading1">Liste Employes</h1></div>
-            <hr id="Line1">
-         </div>
-         <input type="text" id="Editbox2" name="Adresse" value="" tabindex="1" placeholder="adresse">
-         <table id="Table1">
-            <tr>
-               <td class="cell0"><span id="wb_uid0"> </span></td>
-               <td class="cell0"><span id="wb_uid1"> </span></td>
-               <td class="cell0"><span id="wb_uid2"> </span></td>
-               <td class="cell0"><span id="wb_uid3"> </span></td>
-               <td class="cell0"><span id="wb_uid4"> </span></td>
-               <td class="cell1"><span id="wb_uid5"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid6"> </span></td>
-               <td class="cell0"><span id="wb_uid7"> </span></td>
-               <td class="cell0"><span id="wb_uid8"> </span></td>
-               <td class="cell0"><span id="wb_uid9"> </span></td>
-               <td class="cell0"><span id="wb_uid10"> </span></td>
-               <td class="cell1"><span id="wb_uid11"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid12"> </span></td>
-               <td class="cell0"><span id="wb_uid13"> </span></td>
-               <td class="cell0"><span id="wb_uid14"> </span></td>
-               <td class="cell0"><span id="wb_uid15"> </span></td>
-               <td class="cell0"><span id="wb_uid16"> </span></td>
-               <td class="cell1"><span id="wb_uid17"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid18"> </span></td>
-               <td class="cell0"><span id="wb_uid19"> </span></td>
-               <td class="cell0"><span id="wb_uid20"> </span></td>
-               <td class="cell0"><span id="wb_uid21"> </span></td>
-               <td class="cell0"><span id="wb_uid22"> </span></td>
-               <td class="cell1"><span id="wb_uid23"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid24"> </span></td>
-               <td class="cell0"><span id="wb_uid25"> </span></td>
-               <td class="cell0"><span id="wb_uid26"> </span></td>
-               <td class="cell0"><span id="wb_uid27"> </span></td>
-               <td class="cell0"><span id="wb_uid28"> </span></td>
-               <td class="cell1"><span id="wb_uid29"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
-               <td class="cell0"><span id="wb_uid32"> </span></td>
-               <td class="cell0"><span id="wb_uid33"> </span></td>
-               <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell2"><span id="wb_uid36"> </span></td>
-               <td class="cell2"><span id="wb_uid37"> </span></td>
-               <td class="cell2"><span id="wb_uid38"> </span></td>
-               <td class="cell2"><span id="wb_uid39"> </span></td>
-               <td class="cell2"><span id="wb_uid40"> </span></td>
-               <td class="cell3"><span id="wb_uid41"> </span></td>
-            </tr>
-         </table>
-         <input type="email" id="Editbox4" name="email" value="" tabindex="1" placeholder="Email">
-         <input type="number" id="Editbox3" name="numero" value="" tabindex="1" placeholder="Numero">
-         <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
-      </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">
             <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
@@ -131,10 +59,100 @@
             <li class="active"><i class="fa fa-odnoklassniki">&nbsp;</i>Employes</li>
          </ul>
       </div>
+      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+         <label for="" id="Label2">GRH - Employés</label>
+         <div id="Layer4">
+            <div id="wb_Text7">
+               <div id="wb_uid0"><span id="wb_uid1">Titre: </span></div>
+            </div>
+            <select name="titre" size="1" id="Combobox3" tabindex="0" autofocus="">
+               <option value="M.">M.*</option>
+               <option value="mme">Mme*</option>
+               <option value="mlle">Mlle*</option>
+               <option value="dr">Dr.*</option>
+               <option value="prof">Prof.*</option>
+            </select>
+            <input type="text" id="Editbox15" name="edtnam" value="" tabindex="1" placeholder="Nom*">
+            <input type="text" id="Editbox16" name="edtprenom" value="" tabindex="2" placeholder="Pr&#233;nom*">
+            <input type="radio" id="RadioButton4" name="Name" value="on" required="">
+            <div id="wb_Text8">
+               <div id="wb_uid2"><span id="wb_uid3">CNI</span></div>
+            </div>
+            <input type="radio" id="RadioButton5" name="Name" value="on">
+            <input type="radio" id="RadioButton6" onmousedown="ShowObject('pieceautre', 1);return false;" name="Name" value="on">
+            <div id="wb_Text9">
+               <div id="wb_uid4"><span id="wb_uid5">Passeport</span></div>
+            </div>
+            <div id="wb_Text10">
+               <div id="wb_uid6"><span id="wb_uid7">Autre</span></div>
+            </div>
+            <input type="text" id="Editbox17" name="titrpiece" value="" tabindex="1" placeholder="Titre*">
+            <input type="text" id="Editbox18" name="numeropiece" value="" tabindex="1" placeholder="N&#176; de pi&#232;ce d&#39;identit&#233;*">
+            <div id="wb_Text11">
+               <div id="wb_uid8"><span id="wb_uid9">Mode identification:</span></div>
+            </div>
+            <input type="date" id="Editbox19" name="naissance" value="" tabindex="5" placeholder="Date de naissance*">
+            <input type="text" id="Editbox20" name="lieu" value="" tabindex="7" placeholder="Lieu de naissance*">
+            <input type="text" id="Editbox21" name="adresspost" value="" tabindex="8" placeholder="Adresse postale">
+            <input type="tel" id="Editbox25" name="tel1" value="" tabindex="1" placeholder="T&#233;l&#233;phone 1*">
+            <input type="tel" id="Editbox26" name="tel2" value="" tabindex="1" placeholder="T&#233;l&#233;phone 2">
+            <input type="tel" id="Editbox27" name="fix" value="" tabindex="1" placeholder="Fix">
+            <div id="wb_Text12">
+               <div id="wb_uid10"><span id="wb_uid11">Sexe: </span></div>
+            </div>
+            <select name="sexe" size="1" id="Combobox4" tabindex="0" autofocus="">
+               <option value="M">M</option>
+               <option value="F">F</option>
+            </select>
+            <input type="text" id="Editbox28" name="nationalite" value="" tabindex="1" placeholder="Nationalit&#233;*">
+            <input type="text" id="Editbox29" name="pays" value="" tabindex="1" placeholder="Pays de r&#233;sidence*">
+            <div id="wb_Text13">
+               <div id="wb_uid12"><span id="wb_uid13"><strong><u>Identification client - Informations personnelles </u></strong></span></div>
+            </div>
+            <div id="wb_Text14">
+               <div id="wb_uid14"><span id="wb_uid15">Situation matrimoniale: </span></div>
+            </div>
+            <select name="matrimoniale" size="1" id="Combobox6" tabindex="0" autofocus="">
+               <option value="Célibataire">Célibataire</option>
+               <option value="Marié(e)">Marié(e)</option>
+               <option value="Divorcé(e)">Divorcé(e)</option>
+               <option value="Veuf(ve)">Veuf(ve)</option>
+            </select>
+            <input type="file" id="FileUpload2" name="FileUpload1">
+            <input type="text" id="Editbox30" name="conjoint" value="" tabindex="2" placeholder="Conjoint(e)">
+            <input type="text" id="Editbox31" name="ville" value="" tabindex="1" placeholder="Ville de r&#233;sidence*">
+            <div id="wb_Text1">
+               <div id="wb_uid16"><span id="wb_uid17">Photo:</span></div>
+            </div>
+            <input type="text" id="Editbox4" name="nommere" value="" tabindex="1" autocomplete="off" placeholder="Nom complet de la m&#232;re*">
+            <input type="text" id="Editbox3" name="nompere" value="" tabindex="1" autocomplete="off" placeholder="Nom complet du p&#232;re*">
+         </div>
+         <div id="Layer6">
+            <div id="wb_Text21">
+               <div id="wb_uid18"><span id="wb_uid19">Pièces d'identification:</span></div>
+            </div>
+            <div id="wb_Text23">
+               <div id="wb_uid20"><span id="wb_uid21"><strong><u>Documents à fournir</u></strong></span></div>
+            </div>
+            <input type="file" id="FileUpload1" name="piece">
+            <input type="file" id="FileUpload3" name="cv">
+            <div id="wb_Text2">
+               <div id="wb_uid22"><span id="wb_uid23">Curriculum Vitae</span></div>
+            </div>
+            <div id="wb_Text19">
+               <div id="wb_uid24"><span id="wb_uid25">Lettre de motivation:</span></div>
+            </div>
+            <input type="file" id="FileUpload4" name="lettre">
+            <input type="text" id="Editbox5" name="service" value="" tabindex="1" placeholder="Service*">
+            <input type="text" id="Editbox6" name="fonction" value="" tabindex="1" placeholder="Fonction*">
+            <input type="text" id="Editbox7" name="poste" value="" tabindex="1" placeholder="Poste*">
+         </div>
+         <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
+      </form>
       <div id="Layer2">
          <div id="wb_Shape2">
-            <img src="../../images/img0085.png" id="Shape2" alt=""></div>
-         <label for="" id="Label3">Employes</label>
+            <img src="../../images/img0068.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Employés</label>
       </div>
       <div id="Divi">
          <div id="head">
@@ -144,12 +162,12 @@
             <div id="wb_icosear">
                <a href="./../../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid42"><span id="wb_uid43"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid26"><span id="wb_uid27"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid44"><span id="wb_uid45"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid28"><span id="wb_uid29"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>
