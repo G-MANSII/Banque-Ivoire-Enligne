@@ -153,25 +153,13 @@
          </script>
          <select name="Combogrh" size="1" id="combogrh" onchange="selectgrh()">
             <option value="Absences">Absences</option>
-            <option value="Certificats">Certificats</option>
-            <option value="Conges">Conges</option>
-            <option value="Contrats">Contrats</option>
-            <option value="Documents">Documents</option>
-            <option value="Domiciliations">Domiciliations</option>
-            <option value="Emplois">Emplois</option>
             <option value="Employes">Employes</option>
-            <option value="Etats">Etats</option>
-            <option value="Feries">Feries</option>
-            <option value="Filiations">Filiations</option>
             <option value="Fonctions">Fonctions</option>
             <option value="Formations">Formations</option>
             <option value="Gestionnaires">Gestionnaires</option>
-            <option value="Motifs">Motifs</option>
             <option value="Permissions">Permissions</option>
-            <option value="Postes">Postes</option>
             <option value="Primes">Primes</option>
             <option value="Promotions">Promotions</option>
-            <option value="Services">Services</option>
          </select>
          <div id="wb_Text5">
             <span id="wb_uid15">Gestion du personnel:</span></div>
