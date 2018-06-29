@@ -297,7 +297,7 @@
                <input type="text" id="Editbox3" name="Numero" value="" tabindex="1" placeholder="Num&#233;ro*">
                <input type="text" id="Editbox4" name="adresse" value="" tabindex="1" placeholder="Adresse*">
                <input type="email" id="Editbox5" name="email" value="" tabindex="1" placeholder="Email*">
-               <textarea name="mesage" id="msg" rows="9" cols="41"></textarea>
+               <textarea name="mesage" id="msg" rows="9" cols="41" placeholder="Votre message*"></textarea>
                <input type="text" id="Editbox6" name="sujet" value="" tabindex="1" placeholder="Sujet*">
                <input type="button" id="btnvalide" name="envoye" value="Envoyé">
             </form>
