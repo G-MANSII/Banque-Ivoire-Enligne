@@ -128,13 +128,25 @@
                                     window.location.href="../administrator/conf/Type_de_contrats.php";
                                     } else if (colorVal=="Villes"){ 
                                     window.location.href="../administrator/conf/Villes.php";
-                                     
-                                     } else if (colorVal=="GRH"){ 
-                                                window.location.href="../administrator/conf/grhassign.php";
-                                      
-                                       } else if (colorVal=="Categories emplois"){ 
-                                                window.location.href="../administrator/conf/Categories_emplois.php";
-                                      } 
+                                    } else if (colorVal=="GRH"){ 
+                                    window.location.href="../administrator/conf/grhassign.php";
+                                    } else if (colorVal=="Categories emplois"){ 
+                                    window.location.href="../administrator/conf/Categories_emplois.php";
+                                    }
+
+                                    else if (colorVal=="Guichets"){ 
+                                    window.location.href="../administrator/conf/guichets.php";
+                                    }else if (colorVal=="Mode reglement"){ 
+                                    window.location.href="../administrator/conf/mode_reglement.php";
+                                    }else if (colorVal=="Type de comptes"){ 
+                                    window.location.href="../administrator/conf/type_de_comptes.php";
+                                    }else if (colorVal=="Type de contrats"){ 
+                                    window.location.href="../administrator/conf/type_de_comtrats.php";
+                                    }else if (colorVal=="Types operation"){ 
+                                    window.location.href="../administrator/conf/type_operation.php";
+                                    }else if (colorVal=="Type de prets"){ 
+                                    window.location.href="../administrator/conf/type_de_prets.php";
+                                    }
                      }
                               
          </script>
@@ -155,6 +167,12 @@
 decontrats">Type 
 de contrats</option>
             <option value="Villes">Villes</option>
+            <option value="Guichets">Guichets</option>
+            <option value="Mode reglement">Mode reglement</option>
+            <option value="Type de comptes">Type de comptes</option>
+            <option value="Type de contrats">Type de contrats</option>
+            <option value="Types operation">Types operation</option>
+            <option value="Type de prets">Type de prets</option>
          </select>
          <div id="wb_Text5">
             <span id="wb_uid15">Gestion de Base de données:</span></div>
