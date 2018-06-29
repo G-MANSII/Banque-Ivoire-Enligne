@@ -6,6 +6,7 @@ div#container {
 }
 body {
    background-color: #FFFFFF;
+   background-image: url(../images/connexion_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-size: 21px;
