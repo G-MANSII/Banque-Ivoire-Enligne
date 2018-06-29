@@ -637,7 +637,7 @@ body {
 }
 #wb_Text5 {
    height: 24px;
-   left: 443px;
+   left: 363px;
    position: absolute;
    text-align: left;
    top: 505px;
@@ -688,10 +688,10 @@ body {
 }
 #comboadmin {
    height: 36px;
-   left: 729px;
+   left: 658px;
    position: absolute;
    top: 499px;
-   width: 191px;
+   width: 251px;
    z-index: 13;
 }
 #wb_uid8 {
