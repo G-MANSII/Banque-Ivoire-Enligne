@@ -5,8 +5,7 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #C0C0C0;
-   background-image: url(../images/mouvements_bkgrnd.png);
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -89,13 +88,17 @@ body {
    vertical-align: middle;
 }
 #photoprofil {
-   border-width: 0;
+   -moz-box-shadow: 0px 0px 10px #000000;
+   -webkit-box-shadow: 0px 0px 10px #000000;
+   border: 0px #FF7F50 solid;
+   box-shadow: 0px 0px 10px #000000;
    height: 100%;
    left: 0;
+   padding: 0px 0px 0px 0px;
    top: 0;
    width: 100%;
 }
-#wb_nom {
+#wb_numcompt {
    background-color: transparent;
    background-image: none;
    border: 0px #000000 solid;
@@ -103,19 +106,7 @@ body {
    padding: 0;
    text-align: left;
 }
-#wb_nom div {
-   text-align: left;
-   white-space: nowrap;
-}
-#wb_agence {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   margin: 0;
-   padding: 0;
-   text-align: left;
-}
-#wb_agence div {
+#wb_numcompt div {
    text-align: left;
    white-space: nowrap;
 }
@@ -318,7 +309,7 @@ body {
    background-color: #FFFFFF;
    background-image: none;
 }
-#Div {
+#Divhead {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
@@ -612,20 +603,20 @@ body {
    text-align: left;
    white-space: nowrap;
 }
-#Table1 {
+#tablaff {
    background-color: transparent;
    background-image: none;
    border: 2px #C0C0C0 solid;
    border-collapse: separate;
    border-spacing: 0px;
 }
-#Table1 td {
+#tablaff td {
    padding: 0px 0px 0px 0px;
 }
-#Table1 td div {
+#tablaff td div {
    white-space: nowrap;
 }
-#Table1 .cell0 {
+#tablaff .cell0 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -634,7 +625,7 @@ body {
    vertical-align: top;
    width: 234px;
 }
-#Table1 .cell1 {
+#tablaff .cell1 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -642,7 +633,7 @@ body {
    text-align: center;
    vertical-align: top;
 }
-#Table1 .cell2 {
+#tablaff .cell2 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -651,7 +642,7 @@ body {
    vertical-align: top;
    width: 234px;
 }
-#Table1 .cell3 {
+#tablaff .cell3 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -659,7 +650,7 @@ body {
    text-align: left;
    vertical-align: top;
 }
-#Table1 .cell4 {
+#tablaff .cell4 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -668,7 +659,7 @@ body {
    vertical-align: top;
    width: 234px;
 }
-#Table1 .cell5 {
+#tablaff .cell5 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -858,6 +849,150 @@ body {
    text-align: left;
    white-space: nowrap;
 }
+#wb_montantsold {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_montantsold div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_nom {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_nom div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdnom {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdnom div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdprenom {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdprenom div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdtypcompt {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdtypcompt div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdnumrocompt {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdnumrocompt div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdiban {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdiban div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdswift {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdswift div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdvillz {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdvillz div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdgestionnaire {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdgestionnaire div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_bdcontac {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_bdcontac div {
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_datesession {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_datesession div {
+   text-align: left;
+   white-space: nowrap;
+}
 #head {
    height: 204px;
    left: 0px;
@@ -865,7 +1000,16 @@ body {
    text-align: left;
    top: 0px;
    width: 967px;
-   z-index: 55;
+   z-index: 71;
+}
+#wb_derniereseesion {
+   height: 24px;
+   left: 19px;
+   position: absolute;
+   text-align: left;
+   top: 413px;
+   width: 186px;
+   z-index: 23;
 }
 #wb_uid19 {
    color: #000000;
@@ -873,32 +1017,32 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
+#wb_bdvillz {
+   height: 24px;
+   left: 101px;
+   position: absolute;
+   text-align: left;
+   top: 335px;
+   width: 139px;
+   z-index: 20;
+}
 #wb_agebce {
    height: 24px;
    left: 19px;
    position: absolute;
    text-align: left;
    top: 335px;
-   width: 250px;
-   z-index: 17;
-}
-#wb_derniereseesion {
-   height: 24px;
-   left: 19px;
-   position: absolute;
-   text-align: left;
-   top: 409px;
-   width: 250px;
+   width: 80px;
    z-index: 15;
 }
 #wb_sold {
    height: 24px;
-   left: 179px;
+   left: 240px;
    position: absolute;
    text-align: left;
-   top: 59px;
-   width: 70px;
-   z-index: 11;
+   top: 36px;
+   width: 60px;
+   z-index: 10;
 }
 #wb_uid1 {
    color: #FFFFFF;
@@ -911,7 +1055,7 @@ body {
    position: absolute;
    top: 39px;
    width: 470px;
-   z-index: 48;
+   z-index: 64;
 }
 #basicdate {
    color: #000000;
@@ -922,14 +1066,23 @@ body {
    text-align: left;
    text-decoration: none;
 }
+#wb_bdcontac {
+   height: 24px;
+   left: 232px;
+   position: absolute;
+   text-align: left;
+   top: 383px;
+   width: 104px;
+   z-index: 22;
+}
 #wb_iban {
    height: 24px;
    left: 19px;
    position: absolute;
    text-align: left;
    top: 275px;
-   width: 250px;
-   z-index: 18;
+   width: 60px;
+   z-index: 16;
 }
 #wb_uid2 {
    color: #FFFFFF;
@@ -943,7 +1096,7 @@ body {
    text-align: center;
    top: 9px;
    width: 30px;
-   z-index: 52;
+   z-index: 68;
 }
 #wb_icosear {
    height: 18px;
@@ -952,17 +1105,49 @@ body {
    text-align: center;
    top: 159px;
    width: 18px;
-   z-index: 50;
+   z-index: 66;
 }
 #wb_uid3 {
    color: #FFFFFF;
    font-family: Arial;
    font-size: 19px;
 }
+#tablaff {
+   height: 557px;
+   left: 35px;
+   position: absolute;
+   top: 120px;
+   width: 476px;
+   z-index: 27;
+}
+#wb_bdnom {
+   height: 24px;
+   left: 125px;
+   position: absolute;
+   text-align: left;
+   top: 173px;
+   width: 185px;
+   z-index: 25;
+}
+#wb_bdiban {
+   height: 24px;
+   left: 82px;
+   position: absolute;
+   text-align: left;
+   top: 275px;
+   width: 158px;
+   z-index: 18;
+}
 #wb_uid4 {
    color: #FFFFFF;
    font-family: Arial;
    font-size: 19px;
+}
+#wb_uid50 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_local {
    height: 17px;
@@ -971,7 +1156,7 @@ body {
    text-align: left;
    top: 15px;
    width: 185px;
-   z-index: 51;
+   z-index: 67;
 }
 #wb_prenom {
    height: 24px;
@@ -979,15 +1164,15 @@ body {
    position: absolute;
    text-align: left;
    top: 359px;
-   width: 250px;
-   z-index: 9;
+   width: 130px;
+   z-index: 8;
 }
 #wb_uid5 {
    color: #FFFFFF;
    font-family: Arial;
    font-size: 19px;
 }
-#wb_uid40 {
+#wb_uid51 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -1000,18 +1185,16 @@ body {
    text-align: left;
    top: 9px;
    width: 458px;
-   z-index: 71;
+   z-index: 87;
 }
-#Table1 {
-   height: 557px;
-   left: 35px;
-   position: absolute;
-   top: 120px;
-   width: 476px;
-   z-index: 19;
+#wb_uid40 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid6 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
@@ -1024,8 +1207,8 @@ body {
    width: 150px;
    z-index: 1;
 }
-#wb_uid41 {
-   color: #000000;
+#wb_uid52 {
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
@@ -1036,11 +1219,17 @@ body {
    position: absolute;
    top: 4px;
    width: 240px;
-   z-index: 54;
+   z-index: 70;
 }
 #band {
    height: 100px;
    width: 470px;
+}
+#wb_uid41 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid30 {
    color: #000000;
@@ -1049,24 +1238,31 @@ body {
    line-height: 24px;
 }
 #wb_photoprofil {
-   height: 150px;
+   height: 154px;
    left: 8px;
    position: absolute;
    top: 9px;
-   width: 160px;
-   z-index: 13;
+   width: 171px;
+   z-index: 12;
 }
 #wb_uid7 {
+   color: #696969;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_uid53 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
 }
 #wb_uid42 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
+   height: 16px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 185px;
 }
 #edit_reche {
    height: 19px;
@@ -1075,13 +1271,31 @@ body {
    position: absolute;
    top: 159px;
    width: 190px;
-   z-index: 49;
+   z-index: 65;
 }
 #wb_uid31 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
+}
+#wb_bdprenom {
+   height: 24px;
+   left: 123px;
+   position: absolute;
+   text-align: left;
+   top: 197px;
+   width: 188px;
+   z-index: 26;
+}
+#wb_datesession {
+   height: 24px;
+   left: 216px;
+   position: absolute;
+   text-align: left;
+   top: 413px;
+   width: 108px;
+   z-index: 24;
 }
 #wb_uid20 {
    color: #000000;
@@ -1090,10 +1304,28 @@ body {
    line-height: 24px;
 }
 #wb_uid8 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
+}
+#wb_numcompt {
+   height: 24px;
+   left: 19px;
+   position: absolute;
+   text-align: left;
+   top: 253px;
+   width: 139px;
+   z-index: 7;
+}
+#wb_nom {
+   height: 24px;
+   left: 59px;
+   position: absolute;
+   text-align: left;
+   top: 590px;
+   width: 61px;
+   z-index: 100;
 }
 #lik {
    height: 8px;
@@ -1101,15 +1333,14 @@ body {
    position: absolute;
    top: 9px;
    width: 428px;
-   z-index: 66;
+   z-index: 82;
+}
+#wb_uid43 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 15px;
 }
 #wb_uid32 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
-}
-#wb_uid21 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -1122,7 +1353,13 @@ body {
    text-align: left;
    top: 129px;
    width: 550px;
-   z-index: 24;
+   z-index: 32;
+}
+#wb_uid21 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_contactgest {
    height: 24px;
@@ -1130,29 +1367,20 @@ body {
    position: absolute;
    text-align: left;
    top: 383px;
-   width: 250px;
-   z-index: 16;
+   width: 205px;
+   z-index: 14;
 }
 #wb_uid10 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
 }
 #wb_uid9 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
-}
-#wb_nom {
-   height: 24px;
-   left: 19px;
-   position: absolute;
-   text-align: left;
-   top: 253px;
-   width: 250px;
-   z-index: 8;
 }
 #bienvenu_ {
    height: 26px;
@@ -1161,7 +1389,7 @@ body {
    position: absolute;
    top: 59px;
    width: 493px;
-   z-index: 20;
+   z-index: 28;
 }
 #vcorp {
    height: 698px;
@@ -1170,7 +1398,7 @@ body {
    text-align: left;
    top: 440px;
    width: 548px;
-   z-index: 82;
+   z-index: 98;
 }
 #wb_d_ {
    height: 40px;
@@ -1179,7 +1407,23 @@ body {
    text-align: center;
    top: 17px;
    width: 440px;
-   z-index: 65;
+   z-index: 81;
+}
+#wb_uid44 {
+   height: 22px;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   width: 350px;
+}
+#Divhead {
+   height: 278px;
+   left: 0px;
+   position: absolute;
+   text-align: left;
+   top: 0px;
+   width: 970px;
+   z-index: 95;
 }
 #ban {
    height: 32px;
@@ -1188,7 +1432,7 @@ body {
    text-align: left;
    top: 310px;
    width: 969px;
-   z-index: 78;
+   z-index: 94;
 }
 #wb_uid33 {
    color: #000000;
@@ -1197,10 +1441,19 @@ body {
    line-height: 24px;
 }
 #wb_uid22 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
+}
+#wb_bdnumrocompt {
+   height: 24px;
+   left: 158px;
+   position: absolute;
+   text-align: left;
+   top: 253px;
+   width: 180px;
+   z-index: 17;
 }
 #wb_uid11 {
    color: #000000;
@@ -1215,14 +1468,18 @@ body {
    text-align: left;
    top: 310px;
    width: 968px;
-   z-index: 77;
+   z-index: 93;
+}
+#wb_uid45 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 19px;
 }
 #wb_uid34 {
-   height: 16px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 185px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid23 {
    color: #000000;
@@ -1231,7 +1488,7 @@ body {
    line-height: 24px;
 }
 #wb_uid12 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
@@ -1242,12 +1499,13 @@ body {
    position: absolute;
    top: 280px;
    width: 970px;
-   z-index: 76;
+   z-index: 92;
 }
-#wb_uid35 {
-   color: #D3D3D3;
+#wb_uid46 {
+   color: #000000;
    font-family: Arial;
-   font-size: 15px;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_oran {
    height: 32px;
@@ -1255,7 +1513,13 @@ body {
    position: absolute;
    top: 0px;
    width: 310px;
-   z-index: 26;
+   z-index: 34;
+}
+#wb_uid35 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid24 {
    color: #000000;
@@ -1263,8 +1527,17 @@ body {
    font-size: 21px;
    line-height: 24px;
 }
+#wb_bdgestionnaire {
+   height: 24px;
+   left: 149px;
+   position: absolute;
+   text-align: left;
+   top: 359px;
+   width: 200px;
+   z-index: 21;
+}
 #wb_uid13 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
@@ -1275,8 +1548,14 @@ body {
    position: absolute;
    text-align: left;
    top: 229px;
-   width: 250px;
-   z-index: 10;
+   width: 160px;
+   z-index: 9;
+}
+#wb_uid47 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #Line1 {
    height: 8px;
@@ -1284,7 +1563,7 @@ body {
    position: absolute;
    top: 9px;
    width: 428px;
-   z-index: 69;
+   z-index: 85;
 }
 #Lie2 {
    height: 8px;
@@ -1292,7 +1571,7 @@ body {
    position: absolute;
    top: 57px;
    width: 428px;
-   z-index: 67;
+   z-index: 83;
 }
 #copyrightnotice {
    color: #FFFFFF;
@@ -1304,11 +1583,10 @@ body {
    text-decoration: none;
 }
 #wb_uid36 {
-   height: 22px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 350px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid25 {
    color: #000000;
@@ -1317,7 +1595,7 @@ body {
    line-height: 24px;
 }
 #wb_uid14 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
@@ -1328,17 +1606,8 @@ body {
    position: absolute;
    text-align: left;
    top: 299px;
-   width: 250px;
-   z-index: 14;
-}
-#wb_agence {
-   height: 24px;
-   left: 19px;
-   position: absolute;
-   text-align: left;
-   top: 170px;
    width: 80px;
-   z-index: 6;
+   z-index: 13;
 }
 #wb_pret {
    height: 50px;
@@ -1348,27 +1617,25 @@ body {
    width: 150px;
    z-index: 0;
 }
+#wb_uid48 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
 #Line2 {
    height: 8px;
    left: 15px;
    position: absolute;
    top: 57px;
    width: 428px;
-   z-index: 70;
+   z-index: 86;
 }
 #wb_uid37 {
-   color: #D3D3D3;
+   color: #000000;
    font-family: Arial;
-   font-size: 19px;
-}
-#Div {
-   height: 278px;
-   left: 0px;
-   position: absolute;
-   text-align: left;
-   top: 0px;
-   width: 970px;
-   z-index: 79;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid26 {
    color: #000000;
@@ -1377,7 +1644,7 @@ body {
    line-height: 24px;
 }
 #wb_uid15 {
-   color: #000000;
+   color: #696969;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
@@ -1389,9 +1656,9 @@ body {
    text-align: left;
    top: 549px;
    width: 368px;
-   z-index: 22;
+   z-index: 30;
 }
-#wb_uid38 {
+#wb_uid49 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -1404,7 +1671,7 @@ body {
    text-align: left;
    top: 460px;
    width: 458px;
-   z-index: 81;
+   z-index: 97;
 }
 #foot_Container {
    margin-left: auto;
@@ -1420,7 +1687,7 @@ body {
    text-align: center;
    top: 1150px;
    width: 970px;
-   z-index: 80;
+   z-index: 96;
 }
 #Nav {
    height: 42px;
@@ -1428,7 +1695,7 @@ body {
    position: absolute;
    top: 215px;
    width: 969px;
-   z-index: 56;
+   z-index: 72;
 }
 #wb_txtacc {
    height: 23px;
@@ -1437,7 +1704,7 @@ body {
    text-align: center;
    top: 149px;
    width: 350px;
-   z-index: 53;
+   z-index: 69;
 }
 #txtprofil {
    height: 21px;
@@ -1446,13 +1713,28 @@ body {
    position: absolute;
    top: 2px;
    width: 222px;
-   z-index: 27;
+   z-index: 35;
+}
+#wb_uid38 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid27 {
    color: #000000;
    font-family: Arial;
    font-size: 21px;
    line-height: 24px;
+}
+#wb_bdswift {
+   height: 24px;
+   left: 94px;
+   position: absolute;
+   text-align: left;
+   top: 299px;
+   width: 180px;
+   z-index: 19;
 }
 #wb_uid16 {
    color: #000000;
@@ -1461,13 +1743,13 @@ body {
    line-height: 24px;
 }
 #info {
-   height: 438px;
+   height: 442px;
    left: 9px;
    position: absolute;
    text-align: left;
-   top: 109px;
+   top: 105px;
    width: 368px;
-   z-index: 23;
+   z-index: 31;
 }
 #wb_Shape1 {
    height: 50px;
@@ -1483,13 +1765,16 @@ body {
    position: absolute;
    top: 69px;
    width: 150px;
-   z-index: 21;
+   z-index: 29;
 }
-#wb_uid39 {
-   color: #000000;
-   font-family: Arial;
-   font-size: 21px;
-   line-height: 24px;
+#wb_bdtypcompt {
+   height: 24px;
+   left: 205px;
+   position: absolute;
+   text-align: left;
+   top: 650px;
+   width: 130px;
+   z-index: 101;
 }
 #wb_JavaScript1 {
    height: 22px;
@@ -1497,7 +1782,13 @@ body {
    position: absolute;
    top: 329px;
    width: 400px;
-   z-index: 64;
+   z-index: 80;
+}
+#wb_uid39 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
 }
 #wb_uid28 {
    color: #000000;
@@ -1513,12 +1804,12 @@ body {
 }
 #wb_cfaa {
    height: 24px;
-   left: 289px;
+   left: 240px;
    position: absolute;
    text-align: left;
-   top: 57px;
+   top: 88px;
    width: 60px;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_btn_connexionp {
    height: 50px;
@@ -1536,13 +1827,22 @@ body {
    width: 150px;
    z-index: 3;
 }
+#wb_montantsold {
+   height: 24px;
+   left: 227px;
+   position: absolute;
+   text-align: left;
+   top: 477px;
+   width: 108px;
+   z-index: 99;
+}
 #vu {
    height: 566px;
    left: 5px;
    position: absolute;
    top: 84px;
    width: 538px;
-   z-index: 72;
+   z-index: 88;
 }
 #wb_Heading1 {
    height: 40px;
@@ -1551,7 +1851,7 @@ body {
    text-align: center;
    top: 17px;
    width: 440px;
-   z-index: 68;
+   z-index: 84;
 }
 #oran {
    height: 32px;
@@ -1563,7 +1863,7 @@ body {
    position: absolute;
    top: 47px;
    width: 160px;
-   z-index: 25;
+   z-index: 33;
 }
 #wb_uid29 {
    color: #000000;
@@ -1583,8 +1883,8 @@ body {
    position: absolute;
    text-align: left;
    top: 194px;
-   width: 250px;
-   z-index: 7;
+   width: 90px;
+   z-index: 6;
 }
 #wb_Shape3 {
    height: 50px;

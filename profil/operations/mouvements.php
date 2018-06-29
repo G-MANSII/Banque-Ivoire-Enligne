@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Rel</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<title>Mouvements</title>
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -41,67 +41,67 @@
          <input type="submit" id="btndeconn" name="btndeconn" value="Deconnexion">
          <div id="btn_act">
             <div id="wb_pret">
-               <a href="./Prets.php"><div id="pret"><div id="pret_text"><span id="wb_uid0"><strong>Prêts</strong></span></div></div></a></div>
+               <a href="./prets.php"><div id="pret"><div id="pret_text"><span id="wb_uid0"><strong>Prêts</strong></span></div></div></a></div>
             <div id="wb_viremen">
                <a href="./monnaies.php"><div id="viremen"><div id="viremen_text"><span id="wb_uid1"><strong>Monnaies</strong></span></div></div></a></div>
             <div id="wb_Shape3">
-               <a href="./cartes.php"><div id="Shape3"><div id="Shape3_text"><span id="wb_uid2"><strong>Mes cartes</strong></span></div></div></a></div>
+               <a href="./Cartes.php"><div id="Shape3"><div id="Shape3_text"><span id="wb_uid2"><strong>Mes cartes</strong></span></div></div></a></div>
             <div id="wb_Shape2">
                <a href="./virements.php"><div id="Shape2"><div id="Shape2_text"><span id="wb_uid3"><strong>Virements</strong></span></div></div></a></div>
             <div id="wb_Shape1">
                <a href="./mouvements.php"><div id="Shape1"><div id="Shape1_text"><span id="wb_uid4"><strong>Mouvements</strong></span></div></div></a></div>
             <div id="wb_btn_connexionp">
-               <a href="./comptes.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid5"><strong>Mes comptes</strong></span></div></div></a></div>
+               <a href="./Comptes.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid5"><strong>Mes comptes</strong></span></div></div></a></div>
          </div>
          <div id="info">
-            <div id="wb_agence">
-               <span id="wb_uid6">Nom:</span></div>
             <div id="wb_numero_compt">
-               <span id="wb_uid7">Prénom:</span></div>
-            <div id="wb_nom">
-               <span id="wb_uid8">N° de compte:</span></div>
+               <span id="wb_uid6">Prénom:</span></div>
+            <div id="wb_numcompt">
+               <span id="wb_uid7">N° de compte:</span></div>
             <div id="wb_prenom">
-               <span id="wb_uid9">Gestionnaire:</span></div>
+               <span id="wb_uid8">Gestionnaire:</span></div>
             <div id="wb_type_de_compte">
-               <span id="wb_uid10">Type de compte:</span></div>
+               <span id="wb_uid9">Type de compte:</span></div>
             <div id="wb_sold">
-               <span id="wb_uid11">Sold: </span></div>
+               <span id="wb_uid10">Sold: </span></div>
             <div id="wb_cfaa">
-               <span id="wb_uid12">Fcfa</span></div>
+               <span id="wb_uid11">Fcfa</span></div>
             <div id="wb_photoprofil">
-               <img src="../../images/img0121.png" id="photoprofil" alt=""></div>
+               <img src="../../images/Me new.jpg" id="photoprofil" alt=""></div>
             <div id="wb_swift">
-               <span id="wb_uid13">SWITF:</span></div>
-            <div id="wb_derniereseesion">
-               <span id="wb_uid14">Dernière connxion:</span></div>
+               <span id="wb_uid12">SWITF:</span></div>
             <div id="wb_contactgest">
-               <span id="wb_uid15">Contact gestionnaire:</span></div>
+               <span id="wb_uid13">Contact gestionnaire:</span></div>
             <div id="wb_agebce">
-               <span id="wb_uid16">Agence:</span></div>
+               <span id="wb_uid14">Agence:</span></div>
             <div id="wb_iban">
-               <span id="wb_uid17">IBAN</span></div>
+               <span id="wb_uid15">IBAN:</span></div>
+            <div id="wb_bdnumrocompt">
+               <span id="wb_uid16">CIAB-BIO-276363</span></div>
+            <div id="wb_bdiban">
+               <span id="wb_uid17">SCICIABIO</span></div>
+            <div id="wb_bdswift">
+               <span id="wb_uid18">CIAB-BIO-276363</span></div>
+            <div id="wb_bdvillz">
+               <span id="wb_uid19">Abidjan</span></div>
+            <div id="wb_bdgestionnaire">
+               <span id="wb_uid20">KOLODJOLOMAN</span></div>
+            <div id="wb_bdcontac">
+               <span id="wb_uid21">43261992</span></div>
+            <div id="wb_derniereseesion">
+               <span id="wb_uid22">Dernière connxion:</span></div>
+            <div id="wb_datesession">
+               <span id="wb_uid23">27/061984</span></div>
+            <div id="wb_bdnom">
+               <span id="wb_uid24">Ouattara</span></div>
+            <div id="wb_bdprenom">
+               <span id="wb_uid25">Zié Alhassane</span></div>
          </div>
          <div id="table">
-            <table id="Table1">
+            <table id="tablaff">
                <tr>
-                  <td class="cell0"><span id="wb_uid18"> Opérations</span></td>
-                  <td class="cell1"><span id="wb_uid19"> Dates</span></td>
-               </tr>
-               <tr>
-                  <td class="cell2"><span id="wb_uid20"> </span></td>
-                  <td class="cell3"><span id="wb_uid21"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell2"><span id="wb_uid22"> </span></td>
-                  <td class="cell3"><span id="wb_uid23"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell2"><span id="wb_uid24"> </span></td>
-                  <td class="cell3"><span id="wb_uid25"> </span></td>
-               </tr>
-               <tr>
-                  <td class="cell2"><span id="wb_uid26"> </span></td>
-                  <td class="cell3"><span id="wb_uid27"> </span></td>
+                  <td class="cell0"><span id="wb_uid26"> Opérations</span></td>
+                  <td class="cell1"><span id="wb_uid27"> Dates</span></td>
                </tr>
                <tr>
                   <td class="cell2"><span id="wb_uid28"> </span></td>
@@ -112,16 +112,32 @@
                   <td class="cell3"><span id="wb_uid31"> </span></td>
                </tr>
                <tr>
-                  <td class="cell4">&nbsp;</td>
-                  <td class="cell5">&nbsp;</td>
+                  <td class="cell2"><span id="wb_uid32"> </span></td>
+                  <td class="cell3"><span id="wb_uid33"> </span></td>
+               </tr>
+               <tr>
+                  <td class="cell2"><span id="wb_uid34"> </span></td>
+                  <td class="cell3"><span id="wb_uid35"> </span></td>
+               </tr>
+               <tr>
+                  <td class="cell2"><span id="wb_uid36"> </span></td>
+                  <td class="cell3"><span id="wb_uid37"> </span></td>
+               </tr>
+               <tr>
+                  <td class="cell2"><span id="wb_uid38"> </span></td>
+                  <td class="cell3"><span id="wb_uid39"> </span></td>
                </tr>
                <tr>
                   <td class="cell4">&nbsp;</td>
                   <td class="cell5">&nbsp;</td>
                </tr>
                <tr>
-                  <td class="cell4"><span id="wb_uid32"> </span></td>
-                  <td class="cell5"><span id="wb_uid33"> </span></td>
+                  <td class="cell4">&nbsp;</td>
+                  <td class="cell5">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="cell4"><span id="wb_uid40"> </span></td>
+                  <td class="cell5"><span id="wb_uid41"> </span></td>
                </tr>
             </table>
          </div>
@@ -145,7 +161,7 @@
             <img src="../../images/img0095.png" id="oran" alt=""></div>
          <label for="" id="txtprofil">Profil</label>
       </div>
-      <div id="Div">
+      <div id="Divhead">
          <div id="head">
             <div id="wb_band">
                <img src="../../images/img0113.png" id="band" alt="Banque Ivoire Online" title="Banque Ivoire Online"></div>
@@ -153,12 +169,12 @@
             <div id="wb_icosear">
                <a href="./../../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid34"><span id="wb_uid35"><a href="./../../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid42"><span id="wb_uid43"><a href="./../../administrator/conf/Categorie_de_poste.php">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid36"><span id="wb_uid37"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid44"><span id="wb_uid45"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>
@@ -209,17 +225,26 @@
          </div>
          <table id="vu">
             <tr>
-               <td class="cell0"><span id="wb_uid38"> Dates</span></td>
-               <td class="cell1"><span id="wb_uid39">Libélés</span></td>
-               <td class="cell2"><span id="wb_uid40"> Montants</span></td>
+               <td class="cell0"><span id="wb_uid46"> Dates</span></td>
+               <td class="cell1"><span id="wb_uid47">Libélés</span></td>
+               <td class="cell2"><span id="wb_uid48"> Montants</span></td>
             </tr>
             <tr>
-               <td class="cell3"><span id="wb_uid41"> </span></td>
+               <td class="cell3"><span id="wb_uid49"> </span></td>
                <td class="cell4">&nbsp;</td>
-               <td class="cell5"><span id="wb_uid42"> </span></td>
+               <td class="cell5"><span id="wb_uid50"> </span></td>
             </tr>
          </table>
       </form>
+      <div id="wb_montantsold">
+         <span id="wb_uid51">9.456.832</span>
+      </div>
+      <div id="wb_nom">
+         <span id="wb_uid52">Nom: </span>
+      </div>
+      <div id="wb_bdtypcompt">
+         <span id="wb_uid53">Courant</span>
+      </div>
    </div>
 </body>
 </html>

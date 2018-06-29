@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Categorie_de_poste</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -60,6 +60,7 @@
             <div id="wb_Heading1">
                <h1 id="Heading1">Liste des Categorie de postes existants</h1></div>
          </div>
+         <input type="date" id="Editbox1" name="date" value="" tabindex="1" autocomplete="off" placeholder="Date de cr&#233;ation">
          <table id="Table1">
             <tr>
                <td class="cell0"><span id="wb_uid0"> </span></td>
@@ -132,7 +133,6 @@
             <img src="../../images/img0002.png" id="Shape2" alt=""></div>
          <label for="" id="Label3">Categorie de poste</label>
       </div>
-      <input type="text" id="Editbox1" name="date" value="" tabindex="1" placeholder="Date de cr&#233;ation">
       <div id="Divi">
          <div id="head">
             <div id="wb_band">

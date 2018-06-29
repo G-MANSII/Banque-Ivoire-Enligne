@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Administrateur</title>
-<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" l'une="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
+<meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
 <meta name="generator" content="CCS - Computer Consulting Services">
@@ -131,6 +131,9 @@
                                      
                                      } else if (colorVal=="GRH"){ 
                                                 window.location.href="../administrator/conf/grhassign.php";
+                                      
+                                       } else if (colorVal=="Categories emplois"){ 
+                                                window.location.href="../administrator/conf/Categories_emplois.php";
                                       } 
                      }
                               
@@ -138,6 +141,7 @@
          <select name="Comboadmin" size="1" id="comboadmin" onchange="selectAdmin()">
             <option value="Agences">Agences</option>
             <option value="Categoriedeposte">Categorie de poste</option>
+            <option value="Categories emplois">Categories emplois</option>
             <option value="Congés">Congés</option>
             <option value="Contrats">Contrats</option>
             <option value="Fonctions">Fonctions</option>

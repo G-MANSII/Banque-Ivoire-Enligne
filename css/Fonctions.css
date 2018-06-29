@@ -5,8 +5,7 @@ div#container {
    width: 970px;
 }
 body {
-   background-color: #C0C0C0;
-   background-image: url(../images/Fonctions_bkgrnd.png);
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-size: 21px;
@@ -464,7 +463,7 @@ body {
 }
 #Editbox1 {
    height: 26px;
-   left: 339px;
+   left: 559px;
    line-height: 26px;
    position: absolute;
    top: 119px;
@@ -751,7 +750,7 @@ body {
 }
 #edtlogin {
    height: 26px;
-   left: 74px;
+   left: 169px;
    line-height: 26px;
    position: absolute;
    top: 119px;
