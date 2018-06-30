@@ -93,6 +93,8 @@ require_once("../../bd/bd.php");
             <tr>
                <td class="cell0"><span id="wb_uid0">nom  </span></td>
                <td class="cell0"><span id="wb_uid1"> date</span></td>
+               <td class="cell0"><span id="wb_uid1"> mod</span></td>
+               <td class="cell0"><span id="wb_uid1">sup </span></td>
             </tr>
             <?php 
                $sql2 = "SELECT * FROM sbrhtb042";
