@@ -108,8 +108,8 @@
                                           
                                   if (colorVal=="Absences") {
                                                                      window.location.href="../grh/conf/Absences.php" ;
-                              } else if (colorVal==""){ 
-                                                                     window.location.href="../grh/conf/Certificats";
+                              } else if (colorVal=="select"){ 
+                                                                     window.location.href="#";
                                                                      
                                } else if (colorVal=="Conges"){ 
                                                                      window.location.href="../grh/conf/Conges.php";
