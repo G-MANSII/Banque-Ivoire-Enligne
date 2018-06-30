@@ -56,12 +56,12 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
          <input type="text" id="edtlogin" name="permission" value="" tabindex="1" placeholder="Permission">
-         <label for="" id="Label2">GRH - Permissions</label>
+         <label for="" id="Label2">GRH - Absences</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
          <div id="Layer3">
             <hr id="Line2">
             <div id="wb_Heading1">
-               <h1 id="Heading1">Liste Permissions</h1></div>
+               <h1 id="Heading1">Liste Absences</h1></div>
             <hr id="Line1">
          </div>
          <input type="date" id="Editbox1" name="date1" value="" tabindex="1" placeholder="Date debut">
@@ -136,13 +136,13 @@
             <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
             <li><a href="./../grh.php" title="Gestions des resources humaines"><i class="fa fa-database">&nbsp;</i>Gestions des resources humaines</a></li>
             <li><a href="./../grh.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-            <li><a href="./Permissions.php" title="Permissions"><i class="fa fa-odnoklassniki">&nbsp;</i>Permissions</a></li>
+            <li class="active"><i class="fa fa-odnoklassniki">&nbsp;</i>Absences</li>
          </ul>
       </div>
       <div id="Layer2">
          <div id="wb_Shape2">
             <img src="../../images/img0092.png" id="Shape2" alt=""></div>
-         <label for="" id="Label3">Permissions</label>
+         <label for="" id="Label3">Absences</label>
       </div>
       <div id="Divi">
          <div id="head">
