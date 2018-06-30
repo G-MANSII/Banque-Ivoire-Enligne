@@ -147,9 +147,15 @@
                <div id="wb_uid24"><span id="wb_uid25">Lettre de motivation:</span></div>
             </div>
             <input type="file" id="FileUpload4" name="lettre">
-            <input type="text" id="Editbox5" name="service" value="" tabindex="1" placeholder="Service*">
-            <input type="text" id="Editbox6" name="fonction" value="" tabindex="1" placeholder="Fonction*">
-            <input type="text" id="Editbox7" name="poste" value="" tabindex="1" placeholder="Poste*">
+            <select name="fonction" size="1" id="ContratsCombobox1">
+               <option selected="" value="Fonction">Fonction</option>
+            </select>
+            <select name="poste" size="1" id="EmployesCombobox1">
+               <option value="Poste">Poste</option>
+            </select>
+            <select name="services" size="1" id="EmployesCombobox2">
+               <option value="Services">Services</option>
+            </select>
          </div>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
       </form>
