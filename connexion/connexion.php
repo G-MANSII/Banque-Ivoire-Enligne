@@ -1,3 +1,68 @@
+<?php 
+   session_start();
+      if(!empty($_SESSION["id"]) || !empty($_SESSION["type_client"]) ){
+         header("location:../profil/profil.php");
+         exit();
+      }
+      if( !empty($_POST) && $_POST["btnconnexion"] == "Connexion" ){
+         
+         $logUser = htmlspecialchars(trim($_POST["editlogin"]));
+         $passUser = htmlspecialchars(trim($_POST["editpass"]));
+         // vérifie si aucun des champs n'est vide
+         if($logUser != "" && $passUser != "" ){
+            
+            // connexion à la base de donnée
+            require_once("../bd/bd.php");
+            $sql = 'SELECT * FROM sbrhtb004 WHERE email = :email AND pass= :pass';
+            $query = $bd->prepare($sql);
+            $query->execute( array( 
+               "email" => $logUser,
+               "pass" =>md5($passUser) ) );
+            $resultat = $query->fetch();
+            $count =$query->rowCount();
+
+            $sql2 ='SELECT * FROM sbrhtb005 WHERE email = :email AND pass = :pass';
+            $query2 = $bd->prepare($sql2);
+            $query2->execute( array( 
+               "email" => $logUser,
+               "pass" =>md5($passUser) ) );
+            $resultat2 = $query2->fetch();
+            $count2 =$query2->rowCount();
+                  //print_r($resultat);
+                  //echo $count;
+
+            if($count != 0){
+               $id = $resultat["id_client_physique"];
+               $_SESSION["id"] = $id;
+               $_SESSION["type_client"] = "physique";
+
+               $location= "../profil/profil.php?id=$id&client=physique";
+
+               header("location:".$location);
+               //header("location:index.php");
+               exit();
+            }else if($count2){
+               $id = $resultat2["id_client_morale"];
+               $_SESSION["id"] = $id;
+               $_SESSION["type_client"] = "morale";
+               
+               header("location:../profil/profil.php?id=$id&client=morale");
+               exit();
+            }else{
+               $erreur = "Login ou Mot de passe incorrect \n Veuillez réessayer SVP";
+            header("location:/Banque-Ivoire-Enligne/profil/profil.php");
+               exit();
+            }
+
+         }else{
+            echo 'videeeeeeeeeeee';
+            $erreur = "Veuillez remplir tous les champs";
+         }   
+      }else{
+         echo "avant dernier if";
+      }
+   
+ ?>
 <!doctype html>
 <html lang="fr">
 <head>

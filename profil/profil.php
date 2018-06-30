@@ -1,8 +1,51 @@
+<?php 
+    session_start();
+   if(!empty($_SESSION["id"]) || !empty($_SESSION["type_client"] )){
+      if(empty($_GET["id"]) || empty($_GET["client"])){
+         $id = $_SESSION["id"];
+         $type_client = $_SESSION["type_client"] ;
+
+         header("location:?id=$id&client=$type_client");
+         exit();
+      }else{
+         require_once("../bd/bd.php");
+         if($_GET["client"] == "physique"){
+            $sql = "SELECT * FROM sbrhtb004 WHERE id_client_physique =:id";
+            $query = $bd->prepare($sql);
+           $query->execute(
+               array(
+                  'id' =>$_SESSION["id"]
+               )
+            );
+            $resultat = $query->fetch(); 
+            echo "blelff";
+            print_r($resultat);
+         }else if($_GET["client"] == "morale"){
+            $sql = "SELECT * FROM sbrhtb005 WHERE id =:id";
+            $query = $bd->prepare($sql);
+            $query->execute(
+               array(
+                  'id' =>$_SESSION["id"]
+               )
+            );
+            $resultat = $query->fetch();
+            
+         }
+         
+      }
+
+   }else{
+      header("location:../index.php");
+      exit();
+   }
+   $title = "";
+
+ ?>
 <!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Profil</title>
+<title>Profile de <?php echo $title; ?>| Banque Ivoire En Ligne</title>
 <meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
@@ -55,7 +98,7 @@
          </div>
          <div id="info">
             <div id="wb_numero_compt">
-               <span id="wb_uid6">Prénom:</span></div>
+               <span id="wb_uid6">Prénom:<?php echo $resultat[1]; ?></span></div>
             <div id="wb_numcompt">
                <span id="wb_uid7">N° de compte:</span></div>
             <div id="wb_prenom">
