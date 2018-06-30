@@ -100,70 +100,76 @@
          <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
          <div id="jQueryDatePicker1">
          </div>
-         <script>                                 
-                                 function selectgrh() {
-                                    var eID = document.getElementById("combogrh");
-                                    var colorVal = eID.options[eID.selectedIndex].value;
-                                    var colortxt = eID.options[eID.selectedIndex].text;
-                                 
-                                  if (colorVal=="Absences") {
-                                                            window.location.href="../grh/conf/Absences.php" ;
-                                                            } else if (colorVal=="Certificats"){ 
-                                                            window.location.href="../grh/conf/Certificats.php";
-                                                            
-                      } else if (colorVal=="Conges"){ 
-                                                            window.location.href="../grh/conf/Conges.php";
-                      } else if (colorVal=="Contrats"){ 
-                                                            window.location.href="../grh/conf/Contrats.php";
-                     
-                      } else if (colorVal=="Documents"){ 
-                                                            window.location.href="../grh/conf/Documents.php";
-                      } else if (colorVal=="Domiciliations"){ 
-                                                            window.location.href="../grh/conf/Domiciliations.php";
-                      } else if (colorVal=="Emplois"){ 
-                                                            window.location.href="../grh/conf/Emplois.php";
-                      } else if (colorVal=="Employes"){ 
-                                                            window.location.href="../grh/conf/Employes.php";
-                      } else if (colorVal=="Etats"){ 
-                                                            window.location.href="../grh/conf/Etats.php";
-                      } else if (colorVal=="Feries"){ 
-                                                            window.location.href="../grh/conf/Feries.php";
-                      } else if (colorVal=="Filiations"){ 
-                                                            window.location.href="../grh/conf/Filiations.php";
-                      } else if (colorVal=="Fonctions"){ 
-                                                            window.location.href="../grh/conf/Fonctions.php";
-                      } else if (colorVal=="Formations"){ 
-                                                            window.location.href="../grh/conf/Formations.php";
-                      } else if (colorVal=="Motifs"){ 
-                                                            window.location.href="../grh/conf/Motifs.php";
-                      } else if (colorVal=="Permissions"){ 
-                                                            window.location.href="../grh/conf/Permissions.php";
-                      } else if (colorVal=="Postes"){ 
-                                                            window.location.href="../grh/conf/Postes.php";
-                      } else if (colorVal=="Primes"){ 
-                                                            window.location.href="../grh/conf/Primes.php";
-                      } else if (colorVal=="Promotions"){ 
-                                                            window.location.href="../grh/conf/Promotions.php";
-                      } else if (colorVal=="Services"){ 
-                                                            window.location.href="../grh/conf/Services.php";
-                      }
-          else if (colorVal=="Gestionnaires"){ 
-                                                window.location.href="../grh/conf/Gestionnaires.php";
-                                      } 
-                                                     
-                      }
+         <script>                                          
+                                          function selectgrh() {
+                                             var eID = document.getElementById("combogrh");
+                                             var colorVal = eID.options[eID.selectedIndex].value;
+                                             var colortxt = eID.options[eID.selectedIndex].text;
                                           
-                     
-         </script>
-         <select name="Combogrh" size="1" id="combogrh" onchange="selectgrh()">
+                                  if (colorVal=="Absences") {
+                                                                     window.location.href="../grh/conf/Absences.php" ;
+                              } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Certificats";
+                                                                     
+                               } else if (colorVal=="Conges"){ 
+                                                                     window.location.href="../grh/conf/Conges.php";
+                               } else if (colorVal=="Contrats"){ 
+                                                                     window.location.href="../grh/conf/Contrats.php";
+                              
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Documents";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Domiciliations";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/";
+                               } else if (colorVal=="Employes"){ 
+                                                                     window.location.href="../grh/conf/Employes.php";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Etats";
+                               } else if (colorVal=="Feries"){ 
+                                                                     window.location.href="../grh/conf/Feries.php";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Fi";
+                               } else if (colorVal=="Fonctions"){ 
+                                                                     window.location.href="../grh/conf/Fonctions.php";
+                               } else if (colorVal=="Formations"){ 
+                                                                     window.location.href="../grh/conf/Formations.php";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Motifs";
+                               } else if (colorVal=="Permissions"){ 
+                                                                     window.location.href="../grh/conf/Permissions.php";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Postes";
+                               } else if (colorVal=="Primes"){ 
+                                                                     window.location.href="../grh/conf/Primes.php";
+                               } else if (colorVal=="Promotions"){ 
+                                                                     window.location.href="../grh/conf/Promotions.php";
+                               } else if (colorVal==""){ 
+                                                                     window.location.href="../grh/conf/Services";
+                               }
+                                 else if (colorVal=="Gestionnaires"){ 
+                                                         window.location.href="../grh/conf/Gestionnaires.php";
+                                  } 
+         
+         
+                                                              
+                      }
+                                                   
+                              
+                  
+         </script><select name="Combogrh" size="1" id="combogrh" onchange="selectgrh()">
+            <option selected="" value="select">Selectionner une action</option>
             <option value="Absences">Absences</option>
+            <option value="Contrats">Contrats</option>
             <option value="Employes">Employes</option>
+            <option value="Fériés">Fériés</option>
             <option value="Fonctions">Fonctions</option>
             <option value="Formations">Formations</option>
             <option value="Gestionnaires">Gestionnaires</option>
             <option value="Permissions">Permissions</option>
             <option value="Primes">Primes</option>
             <option value="Promotions">Promotions</option>
+            <option value="Congés">Congés</option>
          </select>
          <div id="wb_Text5">
             <span id="wb_uid15">Gestion du personnel:</span></div>

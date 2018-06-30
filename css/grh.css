@@ -595,10 +595,10 @@ body {
 }
 #combogrh {
    height: 36px;
-   left: 729px;
+   left: 689px;
    position: absolute;
    top: 499px;
-   width: 191px;
+   width: 260px;
    z-index: 13;
 }
 #wb_Text4 {
@@ -646,7 +646,7 @@ body {
 }
 #wb_Text5 {
    height: 24px;
-   left: 514px;
+   left: 474px;
    position: absolute;
    text-align: left;
    top: 505px;
