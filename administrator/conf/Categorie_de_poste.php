@@ -89,7 +89,7 @@ require_once("../../bd/bd.php");
                <h1 id="Heading1">Liste des Categorie de postes existants</h1></div>
          </div>
          <input type="date" id="Editbox1" name="date" value="" tabindex="1" autocomplete="off" placeholder="Date de cr&#233;ation">
-         <table id="Table1">
+         <table id="Table1" style="text-align:center;">
             <tr>
                <td class="cell0"><span id="wb_uid0">nom  </span></td>
                <td class="cell0"><span id="wb_uid1"> date</span></td>
@@ -97,7 +97,7 @@ require_once("../../bd/bd.php");
                <td class="cell0"><span id="wb_uid1">sup </span></td>
             </tr>
             <?php 
-               $sql2 = "SELECT * FROM sbrhtb042";
+               $sql2 = "SELECT * FROM sbrhtb042 LIMIT 5";
                $query2 = $bd->query($sql2);
                $i=0;
                while($row = $query2->fetch()){
@@ -106,8 +106,8 @@ require_once("../../bd/bd.php");
                   echo "<tr style='background-color:$color'>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
-                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'> </span></td>";
-                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'> </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='' ><i class='fa fa-edit'></i></a> </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='' ><i class='fa fa-trash'></i></a> </span></td>";
                   echo "</tr>";
                } 
             ?>
