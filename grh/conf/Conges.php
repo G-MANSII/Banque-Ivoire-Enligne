@@ -68,10 +68,11 @@
          <input type="date" id="Editbox2" name="datefin" value="" tabindex="3" autocomplete="off" placeholder="Date de b&#233;but">
          <div id="wb_Text1">
             <span id="wb_uid0">Employé:</span></div>
-         <input type="text" id="Editbox3" name="Nom" value="" tabindex="1" placeholder="Nom">
          <div id="wb_Text2">
             <span id="wb_uid1">Raisons:</span></div>
          <textarea name="TextArea1" id="TextArea1" rows="8" cols="51"></textarea>
+         <select name="employer" size="1" id="ContratsCombobox1">
+         </select>
       </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">

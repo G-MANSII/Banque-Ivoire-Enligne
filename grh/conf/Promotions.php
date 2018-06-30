@@ -65,7 +65,6 @@
          </div>
          <div id="wb_Text1">
             <span id="wb_uid0">Employé:</span></div>
-         <input type="text" id="Editbox5" name="Nom" value="" tabindex="1" placeholder="Nom">
          <input type="text" id="Editbox4" name="ancienpost" value="" tabindex="1" autocomplete="off" placeholder="Ancien poste">
          <div id="wb_Text2">
             <span id="wb_uid1">Raisons:</span></div>
@@ -130,6 +129,8 @@
          </table>
          <input type="text" id="Editbox1" name="newpost" value="" tabindex="1" autocomplete="off" placeholder="Nouveau poste">
          <input type="date" id="Editbox2" name="date" value="" tabindex="1" autocomplete="off" placeholder="Date de promotion">
+         <select name="employer" size="1" id="ContratsCombobox1">
+         </select>
       </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">

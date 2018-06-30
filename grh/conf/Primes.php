@@ -74,7 +74,6 @@
          <input type="text" id="Editbox4" name="montant" value="" tabindex="1" autocomplete="off" placeholder="Montant">
          <div id="wb_Text1">
             <span id="wb_uid0">Employé:</span></div>
-         <input type="text" id="Editbox5" name="Nom" value="" tabindex="1" placeholder="Nom">
          <textarea name="TextArea1" id="TextArea1" rows="8" cols="51"></textarea>
          <div id="wb_Text2">
             <span id="wb_uid1">Raisons:</span></div>
@@ -136,6 +135,8 @@
                <td class="cell3"><span id="wb_uid43"> </span></td>
             </tr>
          </table>
+         <select name="employer" size="1" id="ContratsCombobox1">
+         </select>
       </form>
       <div id="Layer4">
          <div id="wb_Shape1">
