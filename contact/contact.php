@@ -56,7 +56,7 @@
       </div>
       <div id="Layer1">
          <div id="wb_Form1">
-            <form name="contact" method="post" action="mailto:alhassaneo@address.com?subject=Contact Information" id="Form1">
+            <form name="contact" method="post" action="" id="Form1">
                <select name="Pays" size="1" id="Combobox1">
                   <option selected="" value="Select">Selectionner votre pays</option>
                   <option value="Afghanistan">Afghanistan</option>
