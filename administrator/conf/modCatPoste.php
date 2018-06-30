@@ -2,10 +2,10 @@
 	require_once("../../bd/bd.php");
 
    if(!empty($_POST["Modifier"])){
-      $sql2 = "UPDATE sbrhtb042 SET nom = :lib  ,date_dajout = :dat WHERE id_categorie_poste = :id ";
+      $sql2 = "UPDATE sbrhtb042 SET Nom = :lib  ,date_dajout = :dat WHERE id_categorie_poste = :id ";
       $query2 = $bd->prepare($sql2);
       $query2->execute(array(
-         'lib'  =>$_POST["nom"],
+         'lib'  =>$_POST["Nom"],
          'dat'  =>$_POST["date"],
          'id'   =>$_GET["id"]
       ));
