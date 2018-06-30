@@ -98,7 +98,7 @@
          </div>
          <div id="info">
             <div id="wb_numero_compt">
-               <span id="wb_uid6">Prénom:<?php echo $resultat[1]; ?></span></div>
+               <span id="wb_uid6">Prénom:</span></div>
             <div id="wb_numcompt">
                <span id="wb_uid7">N° de compte:</span></div>
             <div id="wb_prenom">
@@ -136,9 +136,9 @@
             <div id="wb_datesession">
                <span id="wb_uid23">27/061984</span></div>
             <div id="wb_bdnom">
-               <span id="wb_uid24">Ouattara</span></div>
+               <span id="wb_uid24">Ouattara <?php echo $resultat[1]; ?></span></div>
             <div id="wb_bdprenom">
-               <span id="wb_uid25">Zié Alhassane</span></div>
+               <span id="wb_uid25">Zié <?php echo $resultat[2]; ?></span></div>
          </div>
          <div id="table">
             <table id="tablaff">
