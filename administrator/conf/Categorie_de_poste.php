@@ -1,3 +1,29 @@
+<?php 
+require_once("../../bd/bd.php");
+
+   if( !empty($_POST["Ajouter"])){
+      if(!empty($_POST["Nom"]) && !empty($_POST["date"]))
+      ){ 
+         $nom = htmlspecialchars(trim($_POST["Nom"]));
+         $date = htmlspecialchars(trim($_POST["date"]));
+         
+         $sql = "INSERT INTO sbrhtb (libelleagence,date_creation) VALUES(:lib,:dat)";
+               $query = $bd->prepare($sql);
+               $query->execute(
+                  array(
+                     'lib' =>$nom , 
+                     'dat' =>$date
+                  )
+               );
+
+      }else{
+         $erreur = "Veuille remplir tous les champs";
+      }
+
+   } else{
+
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
