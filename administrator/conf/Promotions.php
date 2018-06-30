@@ -123,6 +123,7 @@
                <td class="cell3"><span id="wb_uid41"> </span></td>
             </tr>
          </table>
+         <input type="date" id="PromotionsEditbox1" name="date" value="" tabindex="1" placeholder="Date promotion">
       </form>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">
