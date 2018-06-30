@@ -313,44 +313,46 @@ body {
    text-align: left;
    vertical-align: top;
 }
-#Editbox5 {
+#ContratsCombobox1 {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #FF7F50 solid;
    -moz-border-radius: 4px;
+   -moz-box-sizing: border-box;
    -webkit-border-radius: 4px;
+   -webkit-box-sizing: border-box;
    border-radius: 4px;
+   box-sizing: border-box;
    color: #808080;
    font-family: Arial;
    font-size: 21px;
    font-weight: normal;
    padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
 }
-#Editbox5:focus {
+#ContratsCombobox1:focus {
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    border-color: #1E90FF;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    outline: 0;
 }
-#Editbox6 {
+#AgencesCombobox1 {
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #FF7F50 solid;
    -moz-border-radius: 4px;
+   -moz-box-sizing: border-box;
    -webkit-border-radius: 4px;
+   -webkit-box-sizing: border-box;
    border-radius: 4px;
+   box-sizing: border-box;
    color: #808080;
    font-family: Arial;
    font-size: 21px;
    font-weight: normal;
    padding: 4px 4px 4px 4px;
-   text-align: center;
-   vertical-align: middle;
 }
-#Editbox6:focus {
+#AgencesCombobox1:focus {
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
    border-color: #1E90FF;
@@ -649,15 +651,6 @@ body {
    width: 185px;
    z-index: 22;
 }
-#Editbox5 {
-   height: 26px;
-   left: 539px;
-   line-height: 26px;
-   position: absolute;
-   top: 279px;
-   width: 230px;
-   z-index: 12;
-}
 #wb_uid5 {
    color: #000000;
 }
@@ -678,15 +671,6 @@ body {
    top: 310px;
    width: 969px;
    z-index: 38;
-}
-#Editbox6 {
-   height: 26px;
-   left: 239px;
-   line-height: 26px;
-   position: absolute;
-   top: 279px;
-   width: 230px;
-   z-index: 13;
 }
 #wb_uid40 {
    color: #000000;
@@ -831,6 +815,14 @@ body {
 #wb_uid13 {
    color: #000000;
 }
+#ContratsCombobox1 {
+   height: 36px;
+   left: 240px;
+   position: absolute;
+   top: 279px;
+   width: 239px;
+   z-index: 12;
+}
 #wb_uid36 {
    color: #000000;
 }
@@ -948,6 +940,14 @@ body {
    top: 329px;
    width: 400px;
    z-index: 0;
+}
+#AgencesCombobox1 {
+   height: 36px;
+   left: 540px;
+   position: absolute;
+   top: 279px;
+   width: 239px;
+   z-index: 13;
 }
 #wb_uid29 {
    color: #000000;
