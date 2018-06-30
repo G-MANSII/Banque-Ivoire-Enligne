@@ -111,14 +111,6 @@ require_once("../../bd/bd.php");
                   echo "</tr>";
                } 
             ?>
-            <tr>
-               <td class="cell0"><span id="wb_uid6"> </span></td>
-               <td class="cell0"><span id="wb_uid7"> </span></td>
-               <td class="cell0"><span id="wb_uid8"> </span></td>
-               <td class="cell0"><span id="wb_uid9"> </span></td>
-               <td class="cell0"><span id="wb_uid10"> </span></td>
-               <td class="cell1"><span id="wb_uid11"> </span></td>
-            </tr>
          </table>
       </form>
       <div id="wb_Breadcrumb2">
