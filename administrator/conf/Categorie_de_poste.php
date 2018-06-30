@@ -1,7 +1,6 @@
 <?php 
 require_once("../../bd/bd.php");
 
-<<<<<<< HEAD
    if( !empty($_POST["Ajouter"]) ||  $_POST["Ajouter"] == "Envoyer"){
       if(!empty($_POST["Nom"]) && !empty($_POST["date"]))
       { 
@@ -17,36 +16,10 @@ require_once("../../bd/bd.php");
                   )
                );
                echo "bla jdnj";
-=======
-if (!empty($_POST["Ajouter"])) {
-      if (!empty($_POST["Nom"]) && !empty($_POST["date"]) &&
-            !empty($_POST["Adresse"]) && !empty($_POST["email"]) && !empty($_POST["numero"])) {
-            echo 'bn bgbgjnbjngjn jgnbgjnjn ';
-            $nom = htmlspecialchars(trim($_POST["Nom"]));
-            $date = htmlspecialchars(trim($_POST["date"]));
-            $adress = htmlspecialchars(trim($_POST["Adresse"]));
-            $email = htmlspecialchars(trim($_POST["email"]));
-            $numero = htmlspecialchars(trim($_POST["numero"]));
-
-            $sql = "INSERT INTO sbrhtb013(libelleagence,date_creation,adresse,numero,email) VALUES(:lib,:dat,:add,:num,:em)";
-            $query = $bd->prepare($sql);
-            $query->execute(
-                  array(
-                        'lib' => $nom,
-                        'dat' => $date,
-                        'add' => $adress,
-                        'num' => $numero,
-                        'em' => $email
-                  )
-            );
->>>>>>> cc3e9167d1339ec4bcf4e04e5ac5aa28f2c1aef8
 
       } else {
             $erreur = "Veuille remplir tous les champs";
       }
-
-} else {
-}
 
 ?>
 
@@ -119,31 +92,21 @@ if (!empty($_POST["Ajouter"])) {
          <input type="date" id="Editbox1" name="date" value="" tabindex="1" autocomplete="off" placeholder="Date de cr&#233;ation">
          <table id="Table1">
             <tr>
-<<<<<<< HEAD
                <td class="cell0"><span id="wb_uid0">nom  </span></td>
                <td class="cell0"><span id="wb_uid1"> date</span></td>
             </tr>
             <?php 
-                     $sql2 = "SELECT * FROM sbrhtb042";
-                     $query2 = $bd->query($sql2);
-                     $i=0;
-                     while($row = $query2->fetch()){
-                        $color = $i%2==0 ? "#1E90FF": "#D2691E";
-                        $i = $i+1;
-                        echo "<tr style='background-color:$color'>";
-                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
-                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
-                        echo "</tr>";
-                     } ?>
-=======
-               <td class="cell0"><span id="wb_uid0"> </span></td>
-               <td class="cell0"><span id="wb_uid1"> </span></td>
-               <td class="cell0"><span id="wb_uid2"> </span></td>
-               <td class="cell0"><span id="wb_uid3"> </span></td>
-               <td class="cell0"><span id="wb_uid4"> </span></td>
-               <td class="cell1"><span id="wb_uid5"> </span></td>
-            </tr>
->>>>>>> cc3e9167d1339ec4bcf4e04e5ac5aa28f2c1aef8
+               $sql2 = "SELECT * FROM sbrhtb042";
+               $query2 = $bd->query($sql2);
+               $i=0;
+               while($row = $query2->fetch()){
+                  $color = $i%2==0 ? "#1E90FF": "#D2691E";
+                  $i = $i+1;
+                  echo "<tr style='background-color:$color'>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
+                  echo "</tr>";
+               } ?>
             <tr>
                <td class="cell0"><span id="wb_uid6"> </span></td>
                <td class="cell0"><span id="wb_uid7"> </span></td>
