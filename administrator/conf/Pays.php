@@ -1,3 +1,28 @@
+<?php 
+   require_once("../../bd/bd.php");
+
+   if(!empty($_POST["Ajouter"]) || $_POST["Ajouter"] == "Envoyer"){
+      if(!empty($_POST["Pays"]) && !empty($_POST["continent"]) && !empty($_POST["nbre"]))
+      { 
+         $pays = htmlspecialchars(trim($_POST["Pays"]));
+         $continent = htmlspecialchars(trim($_POST["continent"]));
+         $nbre = htmlspecialchars(trim($_POST["nbre"]));
+         
+         $sql = "INSERT INTO sbrhtb040 (nom_pays,Continent,nombre_dagence) VALUES(:nom,:cont,:nbre)";
+         $query = $bd->prepare($sql);
+         $query->execute(
+            array(
+               'nom' =>$pays , 
+               'cont' =>$continent,
+               'nbre' =>$nbre
+            )
+         );
+      } else {
+            $erreur = "Veuille remplir tous les champs";
+      }
+   }
+
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -54,7 +79,7 @@
             </div>
          </div>
       </div>
-      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+      <form name="Layer1" method="post" action=""  id="Layer1">
          <input type="text" id="edtlogin" name="Pays" value="" tabindex="1" placeholder="Pays">
          <label for="" id="Label2">Base de données - Pays</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
@@ -68,61 +93,29 @@
          <input type="number" id="Editbox4" name="nbre" value="" tabindex="1" autocomplete="off" placeholder="Nombre d&#39;agences">
          <table id="Table1">
             <tr>
-               <td class="cell0"><span id="wb_uid0"> </span></td>
-               <td class="cell0"><span id="wb_uid1"> </span></td>
-               <td class="cell0"><span id="wb_uid2"> </span></td>
-               <td class="cell0"><span id="wb_uid3"> </span></td>
-               <td class="cell0"><span id="wb_uid4"> </span></td>
-               <td class="cell1"><span id="wb_uid5"> </span></td>
+               <td class="cell0"><span id="wb_uid0">Nom </span></td>
+               <td class="cell0"><span id="wb_uid1">Continent </span></td>
+               <td class="cell0"><span id="wb_uid2"> Nombre Agence</span></td>
+               <td class="cell0"><span id="wb_uid3">Mod </span></td>
+               <td class="cell0"><span id="wb_uid4">Sup </span></td>
             </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid6"> </span></td>
-               <td class="cell0"><span id="wb_uid7"> </span></td>
-               <td class="cell0"><span id="wb_uid8"> </span></td>
-               <td class="cell0"><span id="wb_uid9"> </span></td>
-               <td class="cell0"><span id="wb_uid10"> </span></td>
-               <td class="cell1"><span id="wb_uid11"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid12"> </span></td>
-               <td class="cell0"><span id="wb_uid13"> </span></td>
-               <td class="cell0"><span id="wb_uid14"> </span></td>
-               <td class="cell0"><span id="wb_uid15"> </span></td>
-               <td class="cell0"><span id="wb_uid16"> </span></td>
-               <td class="cell1"><span id="wb_uid17"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid18"> </span></td>
-               <td class="cell0"><span id="wb_uid19"> </span></td>
-               <td class="cell0"><span id="wb_uid20"> </span></td>
-               <td class="cell0"><span id="wb_uid21"> </span></td>
-               <td class="cell0"><span id="wb_uid22"> </span></td>
-               <td class="cell1"><span id="wb_uid23"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid24"> </span></td>
-               <td class="cell0"><span id="wb_uid25"> </span></td>
-               <td class="cell0"><span id="wb_uid26"> </span></td>
-               <td class="cell0"><span id="wb_uid27"> </span></td>
-               <td class="cell0"><span id="wb_uid28"> </span></td>
-               <td class="cell1"><span id="wb_uid29"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
-               <td class="cell0"><span id="wb_uid32"> </span></td>
-               <td class="cell0"><span id="wb_uid33"> </span></td>
-               <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell2"><span id="wb_uid36"> </span></td>
-               <td class="cell2"><span id="wb_uid37"> </span></td>
-               <td class="cell2"><span id="wb_uid38"> </span></td>
-               <td class="cell2"><span id="wb_uid39"> </span></td>
-               <td class="cell2"><span id="wb_uid40"> </span></td>
-               <td class="cell3"><span id="wb_uid41"> </span></td>
-            </tr>
+            <?php 
+               $sql2 = "SELECT * FROM sbrhtb040 ORDER BY id_pays DESC LIMIT 5";
+               $query2 = $bd->query($sql2);
+               $i=0;
+               while($row = $query2->fetch()){
+                  $color = $i%2==0 ? "#1E90FF": "#D2691E";
+                  $i = $i+1;
+                  echo "<tr style='background-color:$color'>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row[1]." </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row[2]." </span></td>";
+                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row[3]." </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='modCatPoste.php?id=$row[0]' ><i class='fa fa-edit'></i></a> </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='supCatPoste.php?id=$row[0]' ><i class='fa fa-trash'></i></a> </span></td>";
+                  echo "</tr>";
+               } 
+            ?>
+           
          </table>
       </form>
       <div id="wb_Breadcrumb2">

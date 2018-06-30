@@ -1,27 +1,25 @@
 <?php 
 	require_once("../../bd/bd.php");
-   if(!empty($_GET["id"])){
-      if(!empty($_POST["Modifier"])){
-         $sql2 = "UPDATE sbrhtb042 SET Nom = :lib  ,date_dajout = :dat WHERE id_categorie_poste = :id ";
-         $query2 = $bd->prepare($sql2);
-         $query2->execute(array(
-            'lib'  =>$_POST["Nom"],
-            'dat'  =>$_POST["date"],
-            'id'   =>$_GET["id"]
-         ));
-         header("location:Categorie_de_poste.php#Layer3");
-         exit();
-      }
-   }else{
+
+   if(!empty($_POST["Modifier"])){
+      $sql2 = "UPDATE sbrhtb042 SET nom_pays = :nom  ,Continent = :cont ,nombre_dagence = :nbre WHERE id_pays = :id ";
+      $query2 = $bd->prepare($sql2);
+      $query2->execute(array(
+         'nom'  =>$_POST["Nom"],
+         'cont'  =>$_POST["date"],
+         'id'   =>$_GET["id"]
+      ));
       header("location:Categorie_de_poste.php#Layer3");
       exit();
    }
+
+
 ?>
 <!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Categorie de poste</title>
+<title>Pays</title>
 <meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
@@ -30,7 +28,7 @@
 <link href="../../logo.png" rel="apple-touch-icon" sizes="500x380">
 <link href="../../css/font-awesome.min.css" rel="stylesheet">
 <link href="../../css/BIO_V1.css" rel="stylesheet">
-<link href="../../css/Categorie_de_poste.css" rel="stylesheet">
+<link href="../../css/Pays.css" rel="stylesheet">
 <script src="../../java-script/jquery-1.12.4.min.js"></script>
 <script>   
    $(document).ready(function()
@@ -52,19 +50,6 @@
 <!-- End of biohelp Zendesk Widget script -->
 </head>
 <body>
-	<?php  
-	   if(!empty($_GET["id"])){
-	      $id = $_GET["id"];
-	      $sql = "SELECT * FROM sbrhtb042 WHERE id_categorie_poste = :id";
-	      $query = $bd->prepare($sql);
-	      $query->execute(array("id"  =>$id));
-	      $resultat = $query->fetch();
-	        
-	   }else{
-	      header("location:Categorie_de_poste.php#Layer3");
-	      exit();
-	   }
-   ?>
    <div id="container">
       <div id="foot">
          <div id="foot_Container">
@@ -86,12 +71,18 @@
             </div>
          </div>
       </div>
-      <form name="Layer1" method="post" action="" id="Layer1">
-         <input type="text" id="edtlogin" name="Nom" value="<?php echo $resultat[1]; ?>" tabindex="1" placeholder="Nom">
-         <label for="" id="Label2">Base de données - Categorie de poste</label>
-         <input type="submit" id="btnconnexion" name="Modifier" value="Modifier">
-   
-         <input type="date" id="Editbox1" name="date" value="<?php echo $resultat[2] ;?>" tabindex="1" autocomplete="off" placeholder="Date de cr&#233;ation">
+      <form name="Layer1" method="post" action=""  id="Layer1">
+         <input type="text" id="edtlogin" name="Pays" value="" tabindex="1" placeholder="Pays">
+         <label for="" id="Label2">Base de données - Pays</label>
+         <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
+         <div id="Layer3">
+            <hr id="Line2">
+            <div id="wb_Heading1">
+               <h1 id="Heading1">Liste des Pays existants</h1></div>
+            <hr id="Line1">
+         </div>
+         <input type="text" id="Editbox1" name="continent" value="" tabindex="1" placeholder="Continent">
+         <input type="number" id="Editbox4" name="nbre" value="" tabindex="1" autocomplete="off" placeholder="Nombre d&#39;agences">
          
       </form>
       <div id="wb_Breadcrumb2">
@@ -99,13 +90,13 @@
             <li><a href="./../../index.php" title="xx"><i class="fa fa-home">&nbsp;</i>Acceuil</a></li>
             <li><a href="" title="Administration"><i class="fa fa-database">&nbsp;</i>Administration</a></li>
             <li><a href="./../admin.php" title="Config"><i class="fa fa-window-restore">&nbsp;</i>Config</a></li>
-            <li class="active"><i class="fa fa-ticket">&nbsp;</i>Categories de poste</li>
+            <li class="active"><i class="fa fa-product-hunt">&nbsp;</i>Pays</li>
          </ul>
       </div>
       <div id="Layer2">
          <div id="wb_Shape2">
-            <img src="../../images/img0002.png" id="Shape2" alt=""></div>
-         <label for="" id="Label3">Categorie de poste</label>
+            <img src="../../images/img0053.png" id="Shape2" alt=""></div>
+         <label for="" id="Label3">Pays</label>
       </div>
       <div id="Divi">
          <div id="head">

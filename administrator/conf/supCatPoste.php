@@ -8,10 +8,10 @@
              'id' =>htmlspecialchars(trim($_GET["id"])) 
           )
        );
-       header("location:Categorie_de_poste.php#txt_pk");
+       header("location:Categorie_de_poste.php");
 	   exit();
 	}else{
-		header("location:Agences.php#txt_pk");
+		header("location:Agences.php#Layer3");
 		exit();
 	}
 
