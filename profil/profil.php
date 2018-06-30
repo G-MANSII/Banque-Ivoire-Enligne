@@ -38,14 +38,12 @@
       header("location:../index.php");
       exit();
    }
-   $title = "";
-
  ?>
 <!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Profile de <?php echo $title; ?>| Banque Ivoire En Ligne</title>
+<title>Profil de <?php echo $resultat[1]." ".$resultat[2]; ?>| Banque Ivoire En Ligne</title>
 <meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
@@ -81,7 +79,7 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="divprinc">
          <label for="" id="bienvenu_">Bienvenue dans le menu de gestion de votre compte</label>
-         <input type="submit" id="btndeconn" name="btndeconn" value="Deconnexion">
+         <a id="btndeconn" style="text-decoration:none;color:#fff;" name="btndeconn" href="logout/logout.php">Deconnexion</a>
          <div id="btn_act">
             <div id="wb_pret">
                <a href="./operations/prets.php"><div id="pret"><div id="pret_text"><span id="wb_uid0"><strong>Prêts</strong></span></div></div></a></div>
