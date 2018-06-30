@@ -106,6 +106,8 @@ require_once("../../bd/bd.php");
                   echo "<tr style='background-color:$color'>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'> </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'> </span></td>";
                   echo "</tr>";
                } 
             ?>
