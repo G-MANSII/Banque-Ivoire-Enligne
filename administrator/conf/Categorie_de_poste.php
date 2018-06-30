@@ -1,25 +1,24 @@
 <?php 
 require_once("../../bd/bd.php");
 
-   if( !empty($_POST["Ajouter"]) ||  $_POST["Ajouter"] == "Envoyer"){
+   if(!empty($_POST["Ajouter"]) || $_POST["Ajouter"] == "Envoyer"){
       if(!empty($_POST["Nom"]) && !empty($_POST["date"]))
       { 
          $nom = htmlspecialchars(trim($_POST["Nom"]));
          $date = htmlspecialchars(trim($_POST["date"]));
          
          $sql = "INSERT INTO sbrhtb042 (Nom,date_dajout) VALUES(:nom,:dat)";
-               $query = $bd->prepare($sql);
-               $query->execute(
-                  array(
-                     'nom' =>$nom , 
-                     'dat' =>$date
-                  )
-               );
-               echo "bla jdnj";
-
+         $query = $bd->prepare($sql);
+         $query->execute(
+            array(
+               'nom' =>$nom , 
+               'dat' =>$date
+            )
+         );
       } else {
             $erreur = "Veuille remplir tous les champs";
       }
+   }
 
 ?>
 
@@ -27,7 +26,7 @@ require_once("../../bd/bd.php");
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Categorie_de_poste</title>
+<title>Categorie de poste</title>
 <meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FRonline bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
@@ -79,7 +78,7 @@ require_once("../../bd/bd.php");
             </div>
          </div>
       </div>
-      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
+      <form name="Layer1" method="post" action="" id="Layer1">
          <input type="text" id="edtlogin" name="Nom" value="" tabindex="1" placeholder="Nom">
          <label for="" id="Label2">Base de données - Categorie de poste</label>
          <input type="submit" id="btnconnexion" name="Ajouter" value="Ajouter">
@@ -106,7 +105,8 @@ require_once("../../bd/bd.php");
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
                   echo "</tr>";
-               } ?>
+               } 
+            ?>
             <tr>
                <td class="cell0"><span id="wb_uid6"> </span></td>
                <td class="cell0"><span id="wb_uid7"> </span></td>
