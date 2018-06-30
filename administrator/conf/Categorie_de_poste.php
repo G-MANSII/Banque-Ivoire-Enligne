@@ -1,20 +1,21 @@
 <?php 
 require_once("../../bd/bd.php");
 
-   if(!empty($_POST["Ajouter"])){
+   if( !empty($_POST["Ajouter"]) ||  $_POST["Ajouter"] == "Envoyer"){
       if(!empty($_POST["Nom"]) && !empty($_POST["date"]))
-      ){ 
+      { 
          $nom = htmlspecialchars(trim($_POST["Nom"]));
          $date = htmlspecialchars(trim($_POST["date"]));
          
-         $sql = "INSERT INTO sbrhtb (libelleagence,date_creation) VALUES(:lib,:dat)";
+         $sql = "INSERT INTO sbrhtb042 (Nom,date_dajout) VALUES(:nom,:dat)";
                $query = $bd->prepare($sql);
                $query->execute(
                   array(
-                     'lib' =>$nom , 
+                     'nom' =>$nom , 
                      'dat' =>$date
                   )
                );
+               echo "bla jdnj";
 
       }else{
          $erreur = "Veuille remplir tous les champs";
@@ -95,21 +96,17 @@ require_once("../../bd/bd.php");
             <tr>
                <td class="cell0"><span id="wb_uid0">nom  </span></td>
                <td class="cell0"><span id="wb_uid1"> date</span></td>
-               <td class="cell0"><span id="wb_uid2"> </span></td>
-               <td class="cell0"><span id="wb_uid3"> </span></td>
-               <td class="cell0"><span id="wb_uid4"> </span></td>
-               <td class="cell1"><span id="wb_uid5"> </span></td>
             </tr>
             <?php 
-                     $sql2 = "SELECT * FROM sbrhtb ";
+                     $sql2 = "SELECT * FROM sbrhtb042";
                      $query2 = $bd->query($sql2);
                      $i=0;
                      while($row = $query2->fetch()){
                         $color = $i%2==0 ? "#1E90FF": "#D2691E";
                         $i = $i+1;
                         echo "<tr style='background-color:$color'>";
-                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['']." </span></td>";
-                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['']." </span></td>";
+                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
+                        echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
                         echo "</tr>";
                      } ?>
             <tr>
@@ -119,46 +116,6 @@ require_once("../../bd/bd.php");
                <td class="cell0"><span id="wb_uid9"> </span></td>
                <td class="cell0"><span id="wb_uid10"> </span></td>
                <td class="cell1"><span id="wb_uid11"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid12"> </span></td>
-               <td class="cell0"><span id="wb_uid13"> </span></td>
-               <td class="cell0"><span id="wb_uid14"> </span></td>
-               <td class="cell0"><span id="wb_uid15"> </span></td>
-               <td class="cell0"><span id="wb_uid16"> </span></td>
-               <td class="cell1"><span id="wb_uid17"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid18"> </span></td>
-               <td class="cell0"><span id="wb_uid19"> </span></td>
-               <td class="cell0"><span id="wb_uid20"> </span></td>
-               <td class="cell0"><span id="wb_uid21"> </span></td>
-               <td class="cell0"><span id="wb_uid22"> </span></td>
-               <td class="cell1"><span id="wb_uid23"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid24"> </span></td>
-               <td class="cell0"><span id="wb_uid25"> </span></td>
-               <td class="cell0"><span id="wb_uid26"> </span></td>
-               <td class="cell0"><span id="wb_uid27"> </span></td>
-               <td class="cell0"><span id="wb_uid28"> </span></td>
-               <td class="cell1"><span id="wb_uid29"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell0"><span id="wb_uid30"> </span></td>
-               <td class="cell0"><span id="wb_uid31"> </span></td>
-               <td class="cell0"><span id="wb_uid32"> </span></td>
-               <td class="cell0"><span id="wb_uid33"> </span></td>
-               <td class="cell0"><span id="wb_uid34"> </span></td>
-               <td class="cell1"><span id="wb_uid35"> </span></td>
-            </tr>
-            <tr>
-               <td class="cell2"><span id="wb_uid36"> </span></td>
-               <td class="cell2"><span id="wb_uid37"> </span></td>
-               <td class="cell2"><span id="wb_uid38"> </span></td>
-               <td class="cell2"><span id="wb_uid39"> </span></td>
-               <td class="cell2"><span id="wb_uid40"> </span></td>
-               <td class="cell3"><span id="wb_uid41"> </span></td>
             </tr>
          </table>
       </form>
