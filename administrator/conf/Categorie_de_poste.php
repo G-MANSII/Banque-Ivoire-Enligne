@@ -97,7 +97,7 @@ require_once("../../bd/bd.php");
                <td class="cell0"><span id="wb_uid1">sup </span></td>
             </tr>
             <?php 
-               $sql2 = "SELECT * FROM sbrhtb042 LIMIT 5";
+               $sql2 = "SELECT * FROM sbrhtb042 ORDER BY id_categorie_poste DESC LIMIT 5";
                $query2 = $bd->query($sql2);
                $i=0;
                while($row = $query2->fetch()){
@@ -106,8 +106,8 @@ require_once("../../bd/bd.php");
                   echo "<tr style='background-color:$color'>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['Nom']." </span></td>";
                   echo "<td class='cell0'><span style='color:white' id='wb_uid4'>".$row['date_dajout']." </span></td>";
-                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='' ><i class='fa fa-edit'></i></a> </span></td>";
-                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='' ><i class='fa fa-trash'></i></a> </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='modCatPoste.php?id=$row[0]' ><i class='fa fa-edit'></i></a> </span></td>";
+                  echo "<td class='cell0'><span style='color:white' id='wb_uid4'><a href='supCatPoste.php?id=$row[0]' ><i class='fa fa-trash'></i></a> </span></td>";
                   echo "</tr>";
                } 
             ?>

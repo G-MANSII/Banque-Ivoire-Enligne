@@ -109,7 +109,7 @@ if (!empty($_POST["Ajouter"])) {
                <td class="cell1"><span id="wb_uid5"> </span></td>
             </tr>
      <?php 
-      $sql2 = "SELECT * FROM sbrhtb013 ORDER BY id_agence DESC ";
+      $sql2 = "SELECT * FROM sbrhtb013 ORDER BY id_agence DESC LIMIT 5 ";
       $query2 = $bd->query($sql2);
       $i = 0;
       while ($row = $query2->fetch()) {
