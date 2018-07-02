@@ -75,7 +75,6 @@
             <div id="wb_Text23">
                <div id="wb_uid2"><span id="wb_uid3"><strong><u>Documents à fournir</u></strong></span></div>
             </div>
-            <input type="file" id="FileUpload2" name="FileUpload1">
             <input type="file" id="FileUpload3" name="FileUpload1">
             <div id="wb_Text7">
                <div id="wb_uid4"><span id="wb_uid5">Facture SODECI ou CIE:</span></div>
@@ -84,6 +83,11 @@
                <div id="wb_uid6"><span id="wb_uid7">Plan de localisation:</span></div>
             </div>
             <input type="file" id="FileUpload4" name="FileUpload1">
+            <input type="file" id="climoralFileUpload1" name="FileUpload1">
+            <div id="wb_Text8">
+               <div id="wb_uid8"><span id="wb_uid9">Photo:</span></div>
+            </div>
+            <input type="file" id="FileUpload2" name="FileUpload1">
          </div>
       </form>
       <input type="submit" id="btnvalide" name="valide" value="Uploadé">
@@ -95,12 +99,12 @@
             <div id="wb_icosear">
                <a href="./../../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid8"><span id="wb_uid9"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid10"><span id="wb_uid11"><a href="./../../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid10"><span id="wb_uid11"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid12"><span id="wb_uid13"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../../index.php"><img src="../../images/logo.png" id="logo" alt=""></a></div>
