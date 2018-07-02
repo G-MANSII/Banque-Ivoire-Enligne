@@ -77,7 +77,7 @@
       </div>
       <div id="divhg">
          <div id="wb_btn_connexacei">
-            <a href="./connexion/connexion.php"><div id="btn_connexacei"><div id="btn_connexacei_text"><span id="wb_uid3"><strong>Connexion</strong></span></div></div></a></div>
+            <a href="./connexion/connexion.html"><div id="btn_connexacei"><div id="btn_connexacei_text"><span id="wb_uid3"><strong>Connexion</strong></span></div></div></a></div>
          <div id="wb_btn_inscriptiacei">
             <a href="./incription/inscription.html"><div id="btn_inscriptiacei"><div id="btn_inscriptiacei_text"><span id="wb_uid4"><strong>Inscription</strong></span></div></div></a></div>
          <div id="wb_txt_AC">
@@ -95,16 +95,15 @@
       <div id="divcenter">
          <div id="wb_Muha3">
             <img src="images/M ali 2.jpg" id="Muha3" alt=""></div>
-         <label for="" id="lba">Le compte Epargne</label>
+         <label for="" id="lba">NOS OFFRE</label>
          <div id="wb_Text1">
-            <div id="wb_uid15"><span id="wb_uid16">En 1967, trois ans après avoir remporté </span></div>
-            <div id="wb_uid17"><span id="wb_uid18">le championnat des poids lourds, il est </span></div>
-            <div id="wb_uid19"><span id="wb_uid20">critiqué pour son refus d'être enrôlé dans </span></div>
-            <div id="wb_uid21"><span id="wb_uid22">l'armée américaine p mondial et de sa </span></div>
-            <div id="wb_uid23"><span id="wb_uid24">licence de boxe. Il ne combat plus </span></div>
-            <div id="wb_uid25"><span id="wb_uid26">pendant près de quatre ans, jusqu'à ce </span></div>
-            <div id="wb_uid27"><span id="wb_uid28">que son appel soit finalement reçu par la </span></div>
-            <div id="wb_uid29"><span id="wb_uid30">cour suprême américaine.</span></div>
+            <div id="wb_uid15"><span id="wb_uid16">&#8226; Ouverture de compte a distance</span></div>
+            <div id="wb_uid17"><span id="wb_uid18">&#8226; Possibilite d'effectuer des Virements</span></div>
+            <div id="wb_uid19"><span id="wb_uid20">&#8226; Consulter le solde de mes differents </span></div>
+            <div id="wb_uid21"><span id="wb_uid22">comptes </span></div>
+            <div id="wb_uid23"><span id="wb_uid24">&#8226; Effectuer des demande de pret </span></div>
+            <div id="wb_uid25"><span id="wb_uid26">&#8226; Consulter mes mouvements</span></div>
+            <div id="wb_uid27"><span id="wb_uid28">&#8226; Convertir des monnaies</span></div>
          </div>
       </div>
       <div id="wb_Breadcrumb2">
@@ -120,16 +119,16 @@
             <hr id="Line1a">
          </div>
          <div id="wb_txt_pkoi">
-            <div id="wb_uid31"><span id="wb_uid32">Banks are supposed to be respected institutions. But what really matters to us, is being respectful. At </span></div>
-            <div id="wb_uid33"><span id="wb_uid34">Santander Bank, we want you to prosper. That’s why we treat you and your money with respect. From </span></div>
-            <div id="wb_uid35"><span id="wb_uid36">how we talk and listen, to how we act and how we care for the person behind the account number. </span></div>
-            <div id="wb_uid37"><span id="wb_uid38">And it’s not just about the big stuff. Every little interaction and connection matters. Because it all adds </span></div>
-            <div id="wb_uid39"><span id="wb_uid40">up to something great.</span></div>
-            <div id="wb_uid41"><span id="wb_uid42">Banks are supposed to be respected institutions. But what really matters to us, is being respectful. At </span></div>
-            <div id="wb_uid43"><span id="wb_uid44">Santander Bank, we want you to prosper. That’s why we treat you and your money with respect. From </span></div>
-            <div id="wb_uid45"><span id="wb_uid46">how we talk and listen, to how we act and how we care for the person behind the account number. </span></div>
-            <div id="wb_uid47"><span id="wb_uid48">And it’s not just about the big stuff. Every little interaction and connection matters. Because it all adds </span></div>
-            <div id="wb_uid49"><span id="wb_uid50">up to something great.</span></div>
+            <div id="wb_uid29"><span id="wb_uid30">Une banque est supposee combler les desirs de ses consommateurs et ce meme a </span></div>
+            <div id="wb_uid31"><span id="wb_uid32">distance.C'estdans cette optique d'etre plus proche de vous qu'est nee la conception de&nbsp;&quot;BANQUE </span></div>
+            <div id="wb_uid33"><span id="wb_uid34">IVOIRE&quot;&nbsp;NOTRE OBJECTIF:</span></div>
+            <div id="wb_uid35"><span id="wb_uid36">*Mesuser la satisfaction de la clientele et mettre en lumiere les leviers d'actions pour une meilleure </span></div>
+            <div id="wb_uid37"><span id="wb_uid38">rentablisation. </span></div>
+            <div id="wb_uid39"><span id="wb_uid40">*Leader sur le marche des utilisateurs a distance.</span></div>
+            <div id="wb_uid41"><span id="wb_uid42">*Nous representerons un potentiel d'acquistion non negligeable pour vos operations. </span></div>
+            <div id="wb_uid43"><span id="wb_uid44">*Un taux d'interet a couper le souffle.</span></div>
+            <div id="wb_uid45"><span id="wb_uid46"><br></span></div>
+            <div id="wb_uid47"><span id="wb_uid48">EN un mot une BANQUE qui fait de sa clientele sa force premiere.</span></div>
          </div>
       </div>
       <div id="Divi">
@@ -140,12 +139,12 @@
             <div id="wb_icosear">
                <a href="./administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid51"><span id="wb_uid52"><a href="./agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid49"><span id="wb_uid50"><a href="./agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid53"><span id="wb_uid54"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid51"><span id="wb_uid52"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./index.php"><img src="images/logo.png" id="logo" alt=""></a></div>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 require_once("../bd/bd.php");
 
@@ -147,6 +148,8 @@ if ( $_POST["valide"] == "Validé") {
 }
 ?>
 
+=======
+>>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
 <!doctype html>
 <html lang="fr">
 <head>
@@ -209,6 +212,7 @@ if ( $_POST["valide"] == "Validé") {
          <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="Layer5">
             <select name="titreagence" size="1" id="Combobox4" tabindex="0">
+<<<<<<< HEAD
              <?php 
             $sql = "SELECT * FROM sbrhtb013 ";
             $query = $bd->query($sql);
@@ -217,6 +221,8 @@ if ( $_POST["valide"] == "Validé") {
             }
 
             ?>
+=======
+>>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
             </select>
             <input type="text" id="Editbox34" name="precisioncompt" value="" tabindex="1" placeholder="Pr&#233;cision*">
             <div id="wb_Text11">
@@ -311,6 +317,7 @@ if ( $_POST["valide"] == "Validé") {
             </select>
          </div>
          <hr id="Line3">
+<<<<<<< HEAD
          <div id="Layer6">
             <div id="wb_Text21">
                <div id="wb_uid32"><span id="wb_uid33">Pièces d'identification:</span></div>
@@ -332,14 +339,26 @@ if ( $_POST["valide"] == "Validé") {
          <div id="Layer7">
             <div id="wb_Text29">
                <div id="wb_uid40"><span id="wb_uid41"><strong><u>Informations de connexion</u></strong></span></div>
+=======
+         <hr id="Line2">
+         <div id="Layer7">
+            <div id="wb_Text29">
+               <div id="wb_uid32"><span id="wb_uid33"><strong><u>Informations de connexion</u></strong></span></div>
+>>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
             </div>
             <input type="text" id="Editbox25" name="login" value="" tabindex="2" placeholder="Login*">
             <input type="password" id="Editbox24" name="motdepasse" value="" tabindex="2" placeholder="Mot de passe*">
             <input type="password" id="Editbox26" name="motdepassconfirmer" value="" tabindex="2" placeholder="Confirmer mot de passe*">
             <div id="wb_Text24">
+<<<<<<< HEAD
                <span id="wb_uid42">Choisir un login. Minimum 4 caractères.</span></div>
             <div id="wb_Text25">
                <span id="wb_uid43">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
+=======
+               <span id="wb_uid34">Choisir un login. Minimum 4 caractères.</span></div>
+            <div id="wb_Text25">
+               <span id="wb_uid35">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
+>>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
          </div>
       </form>
       <div id="Layer4">
@@ -362,12 +381,12 @@ if ( $_POST["valide"] == "Validé") {
             <div id="wb_icosear">
                <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid44"><span id="wb_uid45"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid36"><span id="wb_uid37"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid46"><span id="wb_uid47"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid38"><span id="wb_uid39"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>
