@@ -1,148 +1,3 @@
-<?php 
-   require_once("../bd/bd.php");
-   include("../fonctions/fonctions.php");
-   //echo md5("linda");
-
-   if(!empty($_POST) && $_POST["valide"] =="Validé" ){
-      
-
-         $titre =$_POST["titre"];
-         $sexe = $_POST["sexe"];
-         $nom =$_POST["edtnam"];
-         $prenom =$_POST["edtprenom"];
-         //$matrimoniale = htmlspecialchars(trim($_POST["matrimoniale"]));
-         $conjoint =$_POST["conjoint"];
-         $type_piece =$_POST["Name"];
-         $photo = $_FILES["FileUpload1"]["name"];
-         $numero_piece =$_POST["numeropiece"];
-         $nationalite =$_POST["nationalite"];
-         $naissance =$_POST["naissance"];
-         $ville =$_POST["ville"];
-         $lieu =$_POST["lieu"];
-         $pays =$_POST["pays"];
-         $adress_postale =$_POST["adresspost"];
-         $profession = $_POST["profession"];
-         $tel1 =$_POST["tel1"];
-         $tel2 =$_POST["tel2"];
-         $fix =$_POST["fix"];
-        // $email = htmlspecialchars(trim($_POST["email"]));
-         $type_compte =$_POST["Name1"];
-         //$agence = htmlspecialchars(trim($_POST["titragence"];
-         $document = $_FILES["FileUpload2"]["name"].",".$_FILES["FileUpload3"]["name"].",".$_FILES["FileUpload4"]["name"];
-         $login =$_POST["login"];
-         $pass =$_POST["motdepasse"];
-        //CIAB-BIO-276363  023
-
-         if ( isset($_FILES['FileUpload1'],$_FILES['FileUpload2'],$_FILES['FileUpload3'],$_FILES['FileUpload4']) ){
-               echo "no error";
-
-               $infosfichier1 = pathinfo($_FILES['FileUpload1']['name']);
-               $extension_upload1 = $infosfichier1['extension'];
-
-               $infosfichier2 = pathinfo($_FILES['FileUpload2']['name']);
-               $extension_upload2 = $infosfichier2['extension'];
-
-               $infosfichier3 = pathinfo($_FILES['FileUpload3']['name']);
-               $extension_upload3 = $infosfichier3['extension'];
-
-               $infosfichier4 = pathinfo($_FILES['FileUpload4']['name']);
-               $extension_upload4 = $infosfichier4['extension'];
-
-               $extensions_autorisees = array('jpg', 'jpeg', 'gif','png');
-
-               //upload du fichier 1
-               if(in_array($extension_upload1,$extensions_autorisees)){ 
-                  move_uploaded_file($_FILES['FileUpload1']['tmp_name'], "../users/physique/".basename($_FILES['FileUpload1']['name']));
-               }else{
-                  $aa = "1 ";
-               }
-
-               //upload du fichier 2
-               if(in_array($extension_upload2,$extensions_autorisees)){ 
-                  move_uploaded_file($_FILES['FileUpload2']['tmp_name'], "../users/physique/".basename($_FILES['FileUpload2']['name']));
-               }else{
-                  $aa = $aa." ";
-               }
-
-               //upload du fichier 3
-               if(in_array($extension_upload3,$extensions_autorisees)){ 
-                  move_uploaded_file($_FILES['FileUpload3']['tmp_name'], "../users/physique/".basename($_FILES['FileUpload3']['name']));
-               }else{
-                  $aa = $aa." ";
-               }
-
-               //upload du fichier 4
-               if(in_array($extension_upload4,$extensions_autorisees)){ 
-                  move_uploaded_file($_FILES['FileUpload4']['tmp_name'], "../users/physique/".basename($_FILES['FileUpload4']['name']));
-               }else{
-                  $aa = $aa." ";
-               }
-
-               if(!empty($aa)){
-                  $erreur = "Les fichieers doivent être des images";
-               }
-
-          }else{
-            echo "aucun fichier selection";
-             $erreur = "Erreur lors de l'upload du fichier";
-          }
-
-         if(empty($erreur)){
-            echo "fbhfhf";
-            $sql = "INSERT INTO sbrhtb004(
-            Titre,
-            nom,
-            prenom,
-            sexe,
-            Photo,
-            date_de_naissance,
-            nationnalite,
-            profession,
-            adresse_postale,
-            ville_de_residence,
-            pays_de_residence,
-            numero,
-            nom_du_conjoint,
-            mode_didentification,
-            numero_piece,
-            lieu_de_naissance,
-            type_de_compte,
-            documents_a_fournir,
-            nom_utilisateur,
-            mot_de_passe)
-            VALUES(? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,?)";
-            $query = $bd->prepare($sql);
-            $query->execute(
-               array(
-                  $titre, 
-                  $nom,
-                  $prenom,
-                  $sexe,
-                  $photo,
-                  $naissance, 
-                  $nationalite,
-                  $profession,
-                  $adress_postale,
-                  $ville,
-                  $pays, 
-                  $tel1,
-                  $conjoint,
-                  $type_piece, 
-                  $numero_piece,
-                  $lieu,
-                  $type_compte,
-                  $document, 
-                  $login,
-                  md5($pass)
-               )
-            );
-
-   } else{
-   }
-
-
-
- ?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -200,33 +55,25 @@
             </div>
          </div>
       </div>
-      <form  action="" id="Layer2" enctype="multipart/form-data" method="post">
+      <form name="inscriphysik" method="post" action="" enctype="text/plain" id="Layer2">
          <hr id="Line5">
          <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="Layer5">
             <select name="titreagence" size="1" id="Combobox4" tabindex="0">
-               <?php 
-                  $sql = "SELECT * FROM sbrhtb013 ";
-                  $query = $bd->query($sql);
-                  while ($row = $query->fetch()) {
-                     echo "<option value='$row[0]'>$row[1]</option>";
-                  }
-
-                ?>
             </select>
             <input type="text" id="Editbox34" name="precisioncompt" value="" tabindex="1" placeholder="Pr&#233;cision*">
             <div id="wb_Text11">
                <div id="wb_uid0"><span id="wb_uid1">Autre</span></div>
             </div>
-            <input type="radio" id="RadioButton4" onmousedown="ShowObject('Editbox34', 1);return false;" name="Name1" value="autre">
+            <input type="radio" id="RadioButton4" onmousedown="ShowObject('Editbox34', 1);return false;" name="Name1" value="on">
             <div id="wb_Text12">
                <div id="wb_uid2"><span id="wb_uid3">Epargne</span></div>
             </div>
-            <input type="radio" id="RadioButton5" name="Name1" value="epargne" required="">
+            <input type="radio" id="RadioButton5" name="Name1" value="on" required="">
             <div id="wb_Text13">
                <div id="wb_uid4"><span id="wb_uid5">Courant</span></div>
             </div>
-            <input type="radio" id="RadioButton6" name="Name1" value="courant">
+            <input type="radio" id="RadioButton6" name="Name1" value="on">
             <div id="wb_Text14">
                <div id="wb_uid6"><span id="wb_uid7">Type de compte:</span></div>
             </div>
@@ -295,39 +142,32 @@
             <input type="file" id="FileUpload1" name="FileUpload1">
             <input type="text" id="Editbox23" name="conjoint" value="" tabindex="2" placeholder="Conjoint(e)">
             <input type="text" id="Editbox35" name="ville" value="" tabindex="1" placeholder="Ville de r&#233;sidence*">
+            <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
+            <div id="wb_Text8">
+               <div id="wb_uid30"><span id="wb_uid31">Photo:</span></div>
+            </div>
+            <select name="matrimoniale" size="1" id="Combobox6" tabindex="0" autofocus="">
+               <option value="Célibataire">Célibataire</option>
+               <option value="Marié(e)">Marié(e)</option>
+               <option value="Divorcé(e)">Divorcé(e)</option>
+               <option value="Veuf(ve)">Veuf(ve)</option>
+            </select>
          </div>
          <hr id="Line3">
-         <div id="Layer6">
-            <div id="wb_Text21">
-               <div id="wb_uid30"><span id="wb_uid31">Pièces d'identification:</span></div>
-            </div>
-            <div id="wb_Text23">
-               <div id="wb_uid32"><span id="wb_uid33"><strong><u>Documents à fournir</u></strong></span></div>
-            </div>
-            <input type="file" id="FileUpload2" name="FileUpload2">
-            <input type="file" id="FileUpload3" name="FileUpload3">
-            <div id="wb_Text7">
-               <div id="wb_uid34"><span id="wb_uid35">Facture SODECI ou CIE:</span></div>
-            </div>
-            <div id="wb_Text19">
-               <div id="wb_uid36"><span id="wb_uid37">Plan de localisation:</span></div>
-            </div>
-            <input type="file" id="FileUpload4" name="FileUpload4">
-         </div>
          <hr id="Line2">
          <div id="Layer7">
             <div id="wb_Text29">
-               <div id="wb_uid38"><span id="wb_uid39"><strong><u>Informations de connexion</u></strong></span></div>
+               <div id="wb_uid32"><span id="wb_uid33"><strong><u>Informations de connexion</u></strong></span></div>
             </div>
             <input type="text" id="Editbox25" name="login" value="" tabindex="2" placeholder="Login*">
             <input type="password" id="Editbox24" name="motdepasse" value="" tabindex="2" placeholder="Mot de passe*">
             <input type="password" id="Editbox26" name="motdepassconfirmer" value="" tabindex="2" placeholder="Confirmer mot de passe*">
             <div id="wb_Text24">
-               <span id="wb_uid40">Choisir un login. Minimum 4 caractères.</span></div>
+               <span id="wb_uid34">Choisir un login. Minimum 4 caractères.</span></div>
             <div id="wb_Text25">
-               <span id="wb_uid41">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
+               <span id="wb_uid35">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
          </div>
-       </form>
+      </form>
       <div id="Layer4">
          <div id="wb_Shape2">
             <img src="../images/img0108.png" id="Shape2" alt=""></div>
@@ -340,17 +180,6 @@
             <li class="active"><i class="fa fa-address-card-o">&nbsp;</i> Client physique</li>
          </ul>
       </div>
-      <input type="email" id="Editbox8" name="email" value="" tabindex="1" placeholder="Email">
-      <div id="wb_Text8">
-         <div id="wb_uid42"><span id="wb_uid43">Photo:</span></div>
-      </div>
-      <select name="matrimoniale" size="1" id="Combobox6" tabindex="0" autofocus="">
-         <option value="Célibataire">Célibataire</option>
-         <option value="Marié(e)">Marié(e)</option>
-         <option value="Divorcé(e)">Divorcé(e)</option>
-         <option value="Veuf(ve)">Veuf(ve)</option>
-      </select>
-
       <div id="Divi">
          <div id="head">
             <div id="wb_band">
@@ -359,12 +188,12 @@
             <div id="wb_icosear">
                <a href="./../administrator/conf/Categorie_de_poste.php"><div id="icosear"><i class="fa fa-search">&nbsp;</i></div></a></div>
             <div id="wb_local">
-               <div id="wb_uid44"><span id="wb_uid45"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
+               <div id="wb_uid36"><span id="wb_uid37"><a href="./../agences/">Banque prêt de chez vous&nbsp;!</a></span></div>
             </div>
             <div id="wb_icolocal">
                <div id="icolocal"><i class="fa fa-map-marker">&nbsp;</i></div></div>
             <div id="wb_txtacc">
-               <div id="wb_uid46"><span id="wb_uid47"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
+               <div id="wb_uid38"><span id="wb_uid39"><em>La banque en ligne faite pour vous&nbsp;!</em></span></div>
             </div>
             <div id="wb_logo">
                <a href="./../index.php"><img src="../images/logo.png" id="logo" alt=""></a></div>

@@ -179,7 +179,7 @@ body {
    font-size: 21px;
    font-weight: normal;
    padding: 4px 4px 4px 4px;
-   text-align: left;
+   text-align: center;
    vertical-align: middle;
 }
 #wb_Text1 {
@@ -476,11 +476,11 @@ body {
    z-index: 17;
 }
 #wb_Text1 {
-   height: 192px;
+   height: 168px;
    left: 549px;
    position: absolute;
    text-align: left;
-   top: 79px;
+   top: 69px;
    width: 390px;
    z-index: 8;
 }
@@ -523,6 +523,11 @@ body {
    font-family: Arial;
    font-size: 19px;
 }
+#wb_uid50 {
+   color: #D3D3D3;
+   font-family: Arial;
+   font-size: 15px;
+}
 #wb_local {
    height: 17px;
    left: 716px;
@@ -531,11 +536,6 @@ body {
    top: 15px;
    width: 185px;
    z-index: 20;
-}
-#wb_uid50 {
-   color: #808080;
-   font-family: Arial;
-   font-size: 21px;
 }
 #wb_Headi {
    height: 40px;
@@ -563,11 +563,11 @@ body {
    width: 250px;
 }
 #wb_uid51 {
-   height: 16px;
+   height: 22px;
    left: 0px;
    position: absolute;
    top: 0px;
-   width: 185px;
+   width: 350px;
 }
 #wb_uid40 {
    color: #808080;
@@ -575,11 +575,11 @@ body {
    font-size: 21px;
 }
 #wb_txt_pkoi {
-   height: 242px;
+   height: 240px;
    left: 9px;
    position: absolute;
    text-align: center;
-   top: 134px;
+   top: 137px;
    width: 950px;
    z-index: 16;
 }
@@ -588,7 +588,7 @@ body {
    left: 644px;
    line-height: 26px;
    position: absolute;
-   top: 44px;
+   top: 18px;
    width: 192px;
    z-index: 7;
 }
@@ -617,7 +617,7 @@ body {
 #wb_uid52 {
    color: #D3D3D3;
    font-family: Arial;
-   font-size: 15px;
+   font-size: 19px;
 }
 #band {
    height: 100px;
@@ -627,7 +627,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 120px;
+   top: 144px;
    width: 950px;
 }
 #wb_uid30 {
@@ -641,13 +641,6 @@ body {
    position: absolute;
    top: 24px;
    width: 250px;
-}
-#wb_uid53 {
-   height: 22px;
-   left: 0px;
-   position: absolute;
-   top: 0px;
-   width: 350px;
 }
 #edit_reche {
    height: 19px;
@@ -676,7 +669,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 0px;
+   top: 24px;
    width: 950px;
 }
 #wb_uid20 {
@@ -697,16 +690,11 @@ body {
    width: 150px;
    z-index: 2;
 }
-#wb_uid54 {
-   color: #D3D3D3;
-   font-family: Arial;
-   font-size: 19px;
-}
 #wb_uid43 {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 144px;
+   top: 168px;
    width: 950px;
 }
 #wb_uid32 {
@@ -742,7 +730,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 24px;
+   top: 48px;
    width: 950px;
 }
 #wb_uid22 {
@@ -770,7 +758,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 168px;
+   top: 192px;
    width: 950px;
 }
 #wb_uid34 {
@@ -817,7 +805,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 48px;
+   top: 72px;
    width: 950px;
 }
 #txt_pk {
@@ -845,7 +833,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 192px;
+   top: 216px;
    width: 950px;
 }
 #wb_uid36 {
@@ -883,7 +871,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 72px;
+   top: 96px;
    width: 950px;
 }
 #wb_uid26 {
@@ -924,11 +912,11 @@ body {
    z-index: 22;
 }
 #wb_uid49 {
-   height: 24px;
+   height: 16px;
    left: 0px;
    position: absolute;
-   top: 216px;
-   width: 950px;
+   top: 0px;
+   width: 185px;
 }
 #wb_uid38 {
    color: #808080;
@@ -976,7 +964,7 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 96px;
+   top: 120px;
    width: 950px;
 }
 #wb_Breadcrumb2 {
@@ -1011,8 +999,8 @@ body {
    height: 24px;
    left: 0px;
    position: absolute;
-   top: 168px;
-   width: 390px;
+   top: 0px;
+   width: 950px;
 }
 #wb_uid18 {
    color: #808080;
