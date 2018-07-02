@@ -43,7 +43,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Profil de <?php echo $resultat[1]." ".$resultat[2]; ?>| Banque Ivoire En Ligne</title>
+<title>Profil de <?php echo $resultat[3]." ".$resultat[4]; ?>| Banque Ivoire En Ligne</title>
 <meta name="description" content="" Demandez="" un="" compte="" bancaire="" en="" ligne="" auprès="" de="" la="" banque="" Santander="" et="" profitez="" des="" options="" de="" compte="" en="" ligne="" pratiques="" de="" lune="" des="" meilleures="" banques="" personnelles."lang=" fr-FR" "="">
 <meta name="keywords" content="online bank(s), personal banking, bank account(s), best personal banks, apply for bank account online,banque (s) en ligne, banque personnelle, compte (s) bancaire (s), meilleures banques personnelles, demande de compte bancaire en ligne " lang=" fr-FR">
 <meta name="author" content="CCS - Computer Consulting Services">
@@ -79,7 +79,7 @@
       </div>
       <form name="Layer1" method="post" action="" enctype="text/plain" id="divprinc">
          <label for="" id="bienvenu_">Bienvenue dans le menu de gestion de votre compte</label>
-         <a id="btndeconn" style="text-decoration:none;color:#fff;" name="btndeconn" href="logout/logout.php">Deconnexion</a>
+         <a id="btndeconn" style="text-decoration:none;color:#fff;" name="btndeconn" href="../logout/logout.php">Deconnexion</a>
          <div id="btn_act">
             <div id="wb_pret">
                <a href="./operations/prets.php"><div id="pret"><div id="pret_text"><span id="wb_uid0"><strong>Prêts</strong></span></div></div></a></div>
@@ -118,25 +118,25 @@
             <div id="wb_iban">
                <span id="wb_uid15">IBAN:</span></div>
             <div id="wb_bdnumrocompt">
-               <span id="wb_uid16">CIAB-BIO-276363</span></div>
+               <span id="wb_uid16">CIAB-BIO-276363 <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdiban">
-               <span id="wb_uid17">SCICIABIO</span></div>
+               <span id="wb_uid17">SCICIABIO <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdswift">
-               <span id="wb_uid18">CIAB-BIO-276363</span></div>
+               <span id="wb_uid18">CIAB-BIO-276363 <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdvillz">
-               <span id="wb_uid19">Abidjan</span></div>
+               <span id="wb_uid19">Abidjan <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdgestionnaire">
-               <span id="wb_uid20">KOLODJOLOMAN</span></div>
+               <span id="wb_uid20">KOLODJOLOMAN <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdcontac">
-               <span id="wb_uid21">43261992</span></div>
+               <span id="wb_uid21">43261992 <?php echo $resultat[3]; ?></span></div>
             <div id="wb_derniereseesion">
                <span id="wb_uid22">Dernière connxion:</span></div>
             <div id="wb_datesession">
-               <span id="wb_uid23">27/061984</span></div>
+               <span id="wb_uid23">27/061984 <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdnom">
-               <span id="wb_uid24">Ouattara <?php echo $resultat[1]; ?></span></div>
+               <span id="wb_uid24">Ouattara <?php echo $resultat[3]; ?></span></div>
             <div id="wb_bdprenom">
-               <span id="wb_uid25">Zié <?php echo $resultat[2]; ?></span></div>
+               <span id="wb_uid25">Zié <?php echo $resultat[4]; ?></span></div>
          </div>
          <div id="table">
             <table id="tablaff">
@@ -264,7 +264,7 @@
          <span id="wb_uid47">Nom: </span>
       </div>
       <div id="wb_bdtypcompt">
-         <span id="wb_uid48">Courant</span>
+         <span id="wb_uid48">Courant<?php echo $resultat[20]; ?></span>
       </div>
    </div>
 </body>

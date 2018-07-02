@@ -13,34 +13,51 @@
             
             // connexion à la base de donnée
             require_once("../bd/bd.php");
-            $sql = 'SELECT * FROM sbrhtb004 WHERE email = :email AND pass= :pass';
+
+            //client physique
+            $sql = 'SELECT * FROM sbrhtb004 WHERE mot_de_passe  = :pass AND nom_utilisateur= :login';
             $query = $bd->prepare($sql);
             $query->execute( array( 
-               "email" => $logUser,
+               "login" => $logUser,
                "pass" =>md5($passUser) ) );
             $resultat = $query->fetch();
+            $groupe=$resultat["id_groupe_utilisateur"];
             $count =$query->rowCount();
 
-            $sql2 ='SELECT * FROM sbrhtb005 WHERE email = :email AND pass = :pass';
+
+            //client moral
+            $sql2 ='SELECT * FROM sbrhtb005 WHERE mot_de_passe  = :pass AND nom_utilisateur= :login';;
             $query2 = $bd->prepare($sql2);
             $query2->execute( array( 
-               "email" => $logUser,
+               "login" => $logUser,
                "pass" =>md5($passUser) ) );
             $resultat2 = $query2->fetch();
+            $groupe2=$resultat2["id_groupe_utilisateur"];
             $count2 =$query2->rowCount();
-                  //print_r($resultat);
-                  //echo $count;
+
 
             if($count != 0){
                $id = $resultat["id_client_physique"];
                $_SESSION["id"] = $id;
-               $_SESSION["type_client"] = "physique";
+               $_SESSION["nom"] = $resultat["nom"];
+               $_SESSION["prenom"] = $resultat["prenom"];
 
-               $location= "../profil/profil.php?id=$id&client=physique";
+               $_SESSION["type_client"] = "physique"; echo "hfbf";
 
-               header("location:".$location);
-               //header("location:index.php");
-               exit();
+
+               if($groupe == 1){
+                  header("location:../administrator/admin.php");
+                  exit();
+               }else if($groupe == 2){
+                  header("location:../profil/profil.php?id=$id&client=physique");
+                   exit();
+               }else if($groupe == 3){
+                  header("location:../grh/grh.php");
+                  exit();
+               }else{
+                  header("location:../gestionnaire/gestion.php");
+                  exit();
+               }
             }else if($count2){
                $id = $resultat2["id_client_morale"];
                $_SESSION["id"] = $id;
@@ -50,9 +67,10 @@
                exit();
             }else{
                $erreur = "Login ou Mot de passe incorrect \n Veuillez réessayer SVP";
-            header("location:/Banque-Ivoire-Enligne/profil/profil.php");
+               header("location:/Banque-Ivoire-Enligne/profil/profil.php");
                exit();
             }
+               
 
          }else{
             echo 'videeeeeeeeeeee';
@@ -125,8 +143,8 @@
             <li class="active"><i class="fa fa-sign-in">&nbsp;</i>Connexion</li>
          </ul>
       </div>
-      <form name="Layer1" method="post" action="" enctype="text/plain" id="Layer1">
-         <input type="password" id="edtpass" name="editpass" value="" maxlength="4" tabindex="2" placeholder="Mot de passe">
+      <form name="Layer1" method="post" action="" id="Layer1">
+         <input type="password" id="edtpass" name="editpass" value="" tabindex="2" placeholder="Mot de passe">
          <input type="text" id="edtlogin" name="editlogin" value="" tabindex="1" placeholder="Login">
          <label for="" id="Label2">Renseignez votre login et mot de passe</label>
          <div id="wb_linklogoub">

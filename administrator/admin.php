@@ -1,3 +1,8 @@
+<?php 
+   session_start();
+   require_once("../bd/bd.php");
+
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -91,14 +96,14 @@
             <div id="wb_uid9"><span id="wb_uid10">L'ETERNITE. RIP</span></div>
          </div>
          <div id="wb_Text2">
-            <span id="wb_uid11">Nom:</span></div>
+            <span id="wb_uid11">Nom: <?php echo  strtoupper($_SESSION["nom"]); ?></span></div>
          <div id="wb_Text3">
-            <span id="wb_uid12">Prénom:</span></div>
+            <span id="wb_uid12">Prénom:<?php echo strtoupper($_SESSION["prenom"]); ?></span></div>
          <div id="wb_btn_connexionp">
             <a href="./update_email.php"><div id="btn_connexionp"><div id="btn_connexionp_text"><span id="wb_uid13"><strong>Changer email</strong></span></div></div></a></div>
          <div id="wb_Text4">
-            <span id="wb_uid14">Email:</span></div>
-         <input type="submit" id="Button1" name="btndeconn" value="Deconnexion">
+            <span id="wb_uid14">Email: <?php echo $_SESSION["email"] ?></span></div>
+         <a id="Button1" style="text-decoration: none;" href="../logout/logout.php">Deconnexion</a>
          <input id="jQueryDatePicker1_input" name="jQueryDatePicker1" type="text" value="">
          <div id="jQueryDatePicker1">
          </div>
@@ -183,7 +188,7 @@ de contrats</option>
          </select>
          <div id="wb_Text5">
             <span id="wb_uid15">Gestion de Base de données:</span></div>
-         <input type="submit" id="btndeconn" name="Profil" value="Profil">
+         <a  id="btndeconn" style="text-decoration: none;"  href="../profil/profil.php">Profil</a>
       </div>
       <div id="wb_Breadcrumb2">
          <ul id="Breadcrumb2">

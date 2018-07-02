@@ -1,19 +1,18 @@
 <?php 
 	require_once("../../bd/bd.php");
-
-   if(!empty($_POST["Modifier"])){
-      $sql2 = "UPDATE sbrhtb042 SET nom_pays = :nom  ,Continent = :cont ,nombre_dagence = :nbre WHERE id_pays = :id ";
-      $query2 = $bd->prepare($sql2);
-      $query2->execute(array(
-         'nom'  =>$_POST["Nom"],
-         'cont'  =>$_POST["date"],
-         'id'   =>$_GET["id"]
-      ));
-      header("location:Categorie_de_poste.php#Layer3");
-      exit();
-   }
-
-
+	if(!empty($_GET["id"])){
+	   if(!empty($_POST["Modifier"])){
+	      $sql2 = "UPDATE sbrhtb042 SET nom_pays = :nom  ,Continent = :cont ,nombre_dagence = :nbre WHERE id_pays = :id ";
+	      $query2 = $bd->prepare($sql2);
+	      $query2->execute(array(
+	         'nom'  =>$_POST["Nom"],
+	         'cont'  =>$_POST["date"],
+	         'id'   =>$_GET["id"]
+	      ));
+	      header("location:Pays.php#Layer3");
+	      exit();
+	   }
+	}
 ?>
 <!doctype html>
 <html lang="fr">
