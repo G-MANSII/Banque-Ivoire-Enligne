@@ -154,7 +154,6 @@
             </select>
          </div>
          <hr id="Line3">
-         <hr id="Line2">
          <div id="Layer7">
             <div id="wb_Text29">
                <div id="wb_uid32"><span id="wb_uid33"><strong><u>Informations de connexion</u></strong></span></div>

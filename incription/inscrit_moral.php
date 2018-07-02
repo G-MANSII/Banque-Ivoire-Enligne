@@ -181,7 +181,6 @@
             <div id="wb_Text25">
                <span id="wb_uid35">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
          </div>
-         <hr id="Line2">
          <hr id="Line3">
          <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="wb_Text9">

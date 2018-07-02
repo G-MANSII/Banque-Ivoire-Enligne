@@ -77,7 +77,7 @@
       </div>
       <div id="divhg">
          <div id="wb_btn_connexacei">
-            <a href="./connexion/connexion.html"><div id="btn_connexacei"><div id="btn_connexacei_text"><span id="wb_uid3"><strong>Connexion</strong></span></div></div></a></div>
+            <a href="./connexion/connexion.php"><div id="btn_connexacei"><div id="btn_connexacei_text"><span id="wb_uid3"><strong>Connexion</strong></span></div></div></a></div>
          <div id="wb_btn_inscriptiacei">
             <a href="./incription/inscription.html"><div id="btn_inscriptiacei"><div id="btn_inscriptiacei_text"><span id="wb_uid4"><strong>Inscription</strong></span></div></div></a></div>
          <div id="wb_txt_AC">
