@@ -1,155 +1,3 @@
-<<<<<<< HEAD
-<?php 
-require_once("../bd/bd.php");
-
- 
-if ( $_POST["valide"] == "Validé") {
-
-     
-
-
-      $titre = $_POST["titre"];
-      $sexe = $_POST["sexe"];
-      $nom = $_POST["edtnam"];
-      $prenom = $_POST["edtprenom"];
-         //$matrimoniale = htmlspecialchars(trim($_POST["matrimoniale"]));
-      $conjoint = $_POST["conjoint"];
-      $type_piece = $_POST["Name"];
-      $photo = $_FILES["FileUpload1"]["name"];
-      $numero_piece = $_POST["numeropiece"];
-      $nationalite = $_POST["nationalite"];
-      $naissance = $_POST["naissance"];
-      $ville = $_POST["ville"];
-      $lieu = $_POST["lieu"];
-      $pays = $_POST["pays"];
-      $adress_postale = $_POST["adresspost"];
-      $profession = $_POST["profession"];
-      $tel1 = $_POST["tel1"];
-      $tel2 = $_POST["tel2"];
-      $fix = $_POST["fix"];
-        // $email = htmlspecialchars(trim($_POST["email"]));
-      $type_compte = $_POST["Name1"];
-         //$agence = htmlspecialchars(trim($_POST["titragence"];
-      $document = $_FILES["FileUpload2"]["name"] . "," . $_FILES["FileUpload3"]["name"] . "," . $_FILES["FileUpload4"]["name"];
-      $login = $_POST["login"];
-      $pass = $_POST["motdepasse"];
-        //CIAB-BIO-276363  023
-
-      if (isset($_FILES['FileUpload1'], $_FILES['FileUpload2'], $_FILES['FileUpload3'], $_FILES['FileUpload4'])) {
-            echo "no error";
-
-            $infosfichier1 = pathinfo($_FILES['FileUpload1']['name']);
-            $extension_upload1 = $infosfichier1['extension'];
-
-            $infosfichier2 = pathinfo($_FILES['FileUpload2']['name']);
-            $extension_upload2 = $infosfichier2['extension'];
-
-            $infosfichier3 = pathinfo($_FILES['FileUpload3']['name']);
-            $extension_upload3 = $infosfichier3['extension'];
-
-            $infosfichier4 = pathinfo($_FILES['FileUpload4']['name']);
-            $extension_upload4 = $infosfichier4['extension'];
-
-            $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png');
-
-               //upload du fichier 1
-            if (in_array($extension_upload1, $extensions_autorisees)) {
-                  move_uploaded_file($_FILES['FileUpload1']['tmp_name'], "../users/physique/" . basename($_FILES['FileUpload1']['name']));
-            } else {
-                  $aa = "1 ";
-            }
-
-               //upload du fichier 2
-            if (in_array($extension_upload2, $extensions_autorisees)) {
-                  move_uploaded_file($_FILES['FileUpload2']['tmp_name'], "../users/physique/" . basename($_FILES['FileUpload2']['name']));
-            } else {
-                  $aa = $aa . " ";
-            }
-
-               //upload du fichier 3
-            if (in_array($extension_upload3, $extensions_autorisees)) {
-                  move_uploaded_file($_FILES['FileUpload3']['tmp_name'], "../users/physique/" . basename($_FILES['FileUpload3']['name']));
-            } else {
-                  $aa = $aa . " ";
-            }
-
-               //upload du fichier 4
-            if (in_array($extension_upload4, $extensions_autorisees)) {
-                  move_uploaded_file($_FILES['FileUpload4']['tmp_name'], "../users/physique/" . basename($_FILES['FileUpload4']['name']));
-            } else {
-                  $aa = $aa . " ";
-            }
-
-            if (!empty($aa)) {
-                  $erreur = "Les fichieers doivent être des images";
-            }
-
-      } else {
-            echo "aucun fichier selection";
-            $erreur = "Erreur lors de l'upload du fichier";
-      }
-      
-
-      if (empty($erreur)) {
-            echo "fbhfhf";
-            $sql = "INSERT INTO sbrhtb004(
-            Titre,
-            nom,
-            prenom,
-            sexe,
-            Photo,
-            date_de_naissance,
-            nationnalite,
-            profession,
-            adresse_postale,
-            ville_de_residence,
-            pays_de_residence,
-            numero,
-            nom_du_conjoint,
-            mode_didentification,
-            numero_piece,
-            lieu_de_naissance,
-            type_de_compte,
-            documents_a_fournir,
-            nom_utilisateur,
-            mot_de_passe)
-            VALUES(? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,? ,?)";
-            $query = $bd->prepare($sql);
-            $query->execute(
-                  array(
-                        $titre,
-                        $nom,
-                        $prenom,
-                        $sexe,
-                        $photo,
-                        $naissance,
-                        $nationalite,
-                        $profession,
-                        $adress_postale,
-                        $ville,
-                        $pays,
-                        $tel1,
-                        $conjoint,
-                        $type_piece,
-                        $numero_piece,
-                        $lieu,
-                        $type_compte,
-                        $document,
-                        $login,
-                        md5($pass)
-                  )
-            );
-      } else {
-            $erreur = "Erreur lors de l'ajout à la base de donnée";
-      }
-
-
-} else {
-}
-?>
-
-=======
->>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
 <!doctype html>
 <html lang="fr">
 <head>
@@ -212,17 +60,6 @@ if ( $_POST["valide"] == "Validé") {
          <input type="submit" id="btnvalide" name="valide" value="Validé">
          <div id="Layer5">
             <select name="titreagence" size="1" id="Combobox4" tabindex="0">
-<<<<<<< HEAD
-             <?php 
-            $sql = "SELECT * FROM sbrhtb013 ";
-            $query = $bd->query($sql);
-            while ($row = $query->fetch()) {
-                  echo "<option value='$row[0]'>$row[1]</option>";
-            }
-
-            ?>
-=======
->>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
             </select>
             <input type="text" id="Editbox34" name="precisioncompt" value="" tabindex="1" placeholder="Pr&#233;cision*">
             <div id="wb_Text11">
@@ -317,48 +154,18 @@ if ( $_POST["valide"] == "Validé") {
             </select>
          </div>
          <hr id="Line3">
-<<<<<<< HEAD
-         <div id="Layer6">
-            <div id="wb_Text21">
-               <div id="wb_uid32"><span id="wb_uid33">Pièces d'identification:</span></div>
-            </div>
-            <div id="wb_Text23">
-               <div id="wb_uid34"><span id="wb_uid35"><strong><u>Documents à fournir</u></strong></span></div>
-            </div>
-            <input type="file" id="FileUpload2" name="FileUpload1">
-            <input type="file" id="FileUpload3" name="FileUpload1">
-            <div id="wb_Text7">
-               <div id="wb_uid36"><span id="wb_uid37">Facture SODECI ou CIE:</span></div>
-            </div>
-            <div id="wb_Text19">
-               <div id="wb_uid38"><span id="wb_uid39">Plan de localisation:</span></div>
-            </div>
-            <input type="file" id="FileUpload4" name="FileUpload1">
-         </div>
-         <hr id="Line2">
-         <div id="Layer7">
-            <div id="wb_Text29">
-               <div id="wb_uid40"><span id="wb_uid41"><strong><u>Informations de connexion</u></strong></span></div>
-=======
          <hr id="Line2">
          <div id="Layer7">
             <div id="wb_Text29">
                <div id="wb_uid32"><span id="wb_uid33"><strong><u>Informations de connexion</u></strong></span></div>
->>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
             </div>
             <input type="text" id="Editbox25" name="login" value="" tabindex="2" placeholder="Login*">
             <input type="password" id="Editbox24" name="motdepasse" value="" tabindex="2" placeholder="Mot de passe*">
             <input type="password" id="Editbox26" name="motdepassconfirmer" value="" tabindex="2" placeholder="Confirmer mot de passe*">
             <div id="wb_Text24">
-<<<<<<< HEAD
-               <span id="wb_uid42">Choisir un login. Minimum 4 caractères.</span></div>
-            <div id="wb_Text25">
-               <span id="wb_uid43">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
-=======
                <span id="wb_uid34">Choisir un login. Minimum 4 caractères.</span></div>
             <div id="wb_Text25">
                <span id="wb_uid35">Choisir un mot de passe. Minimum 8 caractères contenant minimum, majuscule, et alphanumérique.</span></div>
->>>>>>> c0f1cb8c2ebfaafba4e538699b0183b0b6073c37
          </div>
       </form>
       <div id="Layer4">
